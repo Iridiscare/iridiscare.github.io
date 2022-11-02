@@ -21,7 +21,6 @@
 # Build settings
 
 url: "https://iridis.care" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: '/'
 permalink: pretty
 title: 'Iridis Care'
 
