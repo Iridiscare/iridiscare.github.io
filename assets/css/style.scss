@@ -1,0 +1,72 @@
+---
+---
+
+// Colors
+$primary: #9B51E0;
+$primary-dark: #9946B4;
+$secondary: #2F80ED;
+$black: #2f2f41;
+$white: #F4E9C7;
+$white-offset: #fff6f8;
+$steel: #5c5a5a;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+// Fonts
+$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: "Playfair Display", serif, -apple-system;
+
+// Footer
+$footer-background-color: darken($white, 15%);
+$footer-text-color: $black;
+$sub-footer-background-color: darken($white, 5%);
+$sub-footer-text-color: $black;
+
+// Bootstrap
+@import "bootstrap-variables";
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/bootstrap-grid";
+// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+
+// Libraries
+@import "libraries/hamburgers/hamburgers";
+
+// Components
+@import "components/type";
+@import "components/page";
+@import "components/header";
+@import "components/footer";
+@import "components/sub-footer";
+@import "components/logo";
+@import "components/main-menu";
+@import "components/main-menu-mobile";
+@import "components/hamburger";
+@import "components/buttons";
+@import "components/call";
+@import "components/title";
+@import "components/content";
+@import "components/intro";
+@import "components/intro-image";
+@import "components/strip";
+@import "components/feature";
+@import "components/social";
+// @import "components/fonts"; // Uncomment this line to self host font
+
+// Pages
+@import "pages/page-home";
+@import "pages/page-teams";
+@import "pages/page-service";
+
+body {
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: $font-family-base;
+  @include media-breakpoint-up(md) {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+}

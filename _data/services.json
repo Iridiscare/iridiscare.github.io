@@ -1,0 +1,20 @@
+[
+  {
+    "title": "🚀 Quick session",
+    "description": "15 minutos",
+    "cta": "Quiero probar",
+    "price": "21€"
+  },
+  {
+    "title": "🌟 La más utilizada",
+    "description": "30 minutos",
+    "cta": "Quiero reducir mi estrés",
+    "price": "29.99€"
+  },
+  {
+    "title": "💪 Power session",
+    "description": "45 minutos",
+    "cta": "Quiero ver resultados",
+    "price": "39€"
+  }
+]

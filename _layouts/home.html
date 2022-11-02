@@ -1,0 +1,117 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="intro">
+    <div class="container-sm">
+      <div class="d-flex justify-content-center">
+        <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+        <h1>Te ayudamos a reducir tu estrés.</h1>
+        <p>Análisis de voz + Terapia de sonido</p>
+        <a class="button button-primary btn-lg" href="{{ "services" | relative_url }}">Quiero reducir mi estrés</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+        <p>La rutina diaria, el trabajo, los problemas personales y la incertidumbre nos hacen estar siempre alerta, 
+          ir acelerados, dar vueltas a la cabeza, nos impide descansar y estar bien con nosotros mismos.</p>
+        <br>
+        <p>Iridis te ofrece un plan personalizado de <b>Reducción de Estrés</b> basado en los últimos conocimientos científicos y 
+          de las antiguas tradiciones contemplativas para que no seas esclavo de tu estrés y estés más saludable y presente.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container-sm pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+        <h2>El estrés no es solo un nudo en el estómago...</h2>
+        <br>
+        <p>Nos hace enfermar debilitando nuestro sistema inmunológico, cambia nuestros comportamientos y reduce nuestra auto estima.</p>
+        <br>
+        <p>Hacer pequeños ejercicios de relajación ayuda a nuestro sistema nervioso volver a la normalidad y evitar problemas físicos y mentales.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+        <h2>Una experiencia sonora para relajarte y reducir tu estrés.</h2>
+        <br>
+        <p>La tecnología de Iridis te ayudará a saber tu nivel de estrés y conseguir un estado de relajación de ondas teta de tu cerebro.</p>
+        <br>
+        <p>Sonidos totalmente personalizados para la frecuencia de tu cuerpo extraidos de tu voz, que son emitidos por nuestra pirámide de sonido.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="service-content">
+          <h2 class="service-title">
+            Análisis de tu voz para determinar tu estrés
+          </h2>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="service-content">
+          <h2 class="service-title">
+            Plan personalizado de sonidos y frecuencias
+          </h2>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="service-content">
+          <h2 class="service-title">
+            Baño de sonido para reducir tu estrés
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if site.data.services %}
+<div class="strip">
+  <div class="container-sm pt-4 pb-4 pt-md-4 pb-md-4">
+    <div class="d-flex justify-content-center">
+      <h2>Si te resuena como podemos ayudarte. Reserva y paga tu sesión.</h2>
+    </div>
+  </div>
+
+  <div class="container-sm pb-6 pb-md-4">
+    
+    <div class="row justify-content-center">
+      {% for service in site.data.services %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if service.image %}
+          <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ service.title }}</h2>
+          <div class="feature-content">{{ service.description }}</div>
+          <h3 class="feature-price">{{ service.price }}</h3>
+          <hr>
+          <a class="button button-primary btn-lg" href="{{ "services" | relative_url }}">{{ service.cta }}</a>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
