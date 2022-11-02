@@ -26,6 +26,8 @@ $footer-text-color: $black;
 $sub-footer-background-color: darken($white, 5%);
 $sub-footer-text-color: $black;
 
+@import "{{ site.theme }}";
+
 // Bootstrap
 @import "bootstrap-variables";
 @import "bootstrap/bootstrap-reboot";
