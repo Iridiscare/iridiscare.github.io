@@ -16,13 +16,13 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-6 pt-md-10 pb-md-10">
+  <div class="container-sm pt-6 pt-md-10 pb-md-10">
     <div class="d-flex justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <p>La rutina diaria, el trabajo, los problemas personales y la incertidumbre nos hacen estar siempre alerta, 
           ir acelerados, dar vueltas a la cabeza, nos impide descansar y estar bien con nosotros mismos.</p>
         <br>
-        <p>Iridis te ofrece un plan personalizado de <b>Reducción de Estrés</b> basado en los últimos conocimientos científicos y 
+        <p>Iridis te ofrece un <b>Plan Personalizado de Reducción de Estrés</b> basado en los últimos conocimientos científicos y 
           de las antiguas tradiciones contemplativas para que no seas esclavo de tu estrés y estés más saludable y presente.</p>
       </div>
     </div>
@@ -31,13 +31,18 @@ bodyClass: "page-home"
 
 <div class="strip">
   <div class="container-sm pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="d-flex justify-content-center">
-      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-6 mb-2">
         <h2>El estrés no es solo un nudo en el estómago...</h2>
         <br>
         <p>Nos hace enfermar debilitando nuestro sistema inmunológico, cambia nuestros comportamientos y reduce nuestra auto estima.</p>
         <br>
-        <p>Ejercicios preventivos de relajación ayudan a nuestro sistema nervioso volver a la normalidad y mejorar nuestra salud física y mental.</p>
+        <p>Ejercicios meditativos con sonidos ayudan a nuestro sistema nervioso volver a la normalidad, mejorar nuestra salud física-mental y evitar la cronificación del estrés.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 mt-10">
+        <div class="feature-image">
+          <img alt="{{ page.title }}" class="img-fluid" width="100%" src="images/illustrations/stress-levels.svg" />
+        </div>
       </div>
     </div>
   </div>
@@ -89,7 +94,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-4 pb-4 pt-md-4 pb-md-4">
     <div class="d-flex justify-content-center">
-      <h2>Si te resuena como podemos ayudarte. Reserva ahora tu sesión.</h2>
+      <h2>Si te resuena lo que hacemos. Reserva ahora tu sesión.</h2>
     </div>
   </div>
 
@@ -103,7 +108,8 @@ bodyClass: "page-home"
           <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
           {% endif %}
           <h2 class="feature-title">{{ service.title }}</h2>
-          <div class="feature-content">{{ service.description }}</div>
+          <div class="feature-content">Análisis de estrés</div>
+          <div class="feature-content">+ Baño de sonido de {{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>
           <a class="button button-primary btn-lg" href="{{ "services" | relative_url }}">{{ service.cta }}</a>
