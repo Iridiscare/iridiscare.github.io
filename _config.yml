@@ -24,9 +24,6 @@ url: "https://iridis.care" # the base hostname & protocol for your site, e.g. ht
 permalink: pretty
 title: 'Iridis Care'
 
-remote_theme: pages-themes/minimal@v0.2.0
-
-
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "50px"
@@ -61,6 +58,7 @@ sass:
   sass_dir: _sass
   style: compressed # possible values: nested expanded compact compressed
 
+remote_theme: jekyll/minima
 plugins:
   - jekyll-environment-variables
   - jekyll-feed
