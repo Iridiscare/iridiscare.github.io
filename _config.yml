@@ -58,7 +58,6 @@ defaults:
       layout: "team"
 
 sass:
-  sass_dir: _sass
   style: compressed # possible values: nested expanded compact compressed
 
 plugins:
