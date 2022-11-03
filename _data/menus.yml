@@ -1,16 +1,13 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "Ciencia"
+    url: "#science"
     weight: 2
-  - name: "Team"
-    url: "/team/"
+  - name: "Tarifas"
+    url: "#prices"
     weight: 3
-  - name: "About"
-    url: "/about/"
+  - name: "Quienes somos"
+    url: "/team/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
 
 footer:
   - name: "Home"

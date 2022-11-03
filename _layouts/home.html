@@ -16,7 +16,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pt-md-10 pb-md-10">
+  <div class="container-sm pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="d-flex justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <p>La rutina diaria, el trabajo, los problemas personales y la incertidumbre nos hacen estar siempre alerta, 
@@ -29,7 +29,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
+<div class="strip" name="science">
   <div class="container-sm pt-6 pb-6 pt-md-10 pb-md-10 px-3">
     <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-lg-6 mb-2">
@@ -64,26 +64,35 @@ bodyClass: "page-home"
 
 <div class="strip-white">
   <div class="container pt-6 pb-6 pt-md-6 pb-md-6 px-3">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="service-content">
-          <h2 class="service-title">
-            Análisis de tu voz para determinar tu estrés
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-4">
+        <div class="feature-content">
+          <h2 class="feature-product-title">
+            Análisis de voz para determinar tu estrés
           </h2>
+          <div class="feature-image pt-4">
+            <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="images/product/analysis.jpg" />
+          </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="service-content">
-          <h2 class="service-title">
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-4">
+        <div class="feature-content">
+          <h2 class="feature-product-title">
             Plan personalizado de sonidos y frecuencias
           </h2>
+          <div class="feature-image pt-4">
+            <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="images/product/analysis.jpg" />
+          </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="service-content">
-          <h2 class="service-title">
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-4">
+        <div class="feature-content">
+          <h2 class="feature-product-title">
             Baño de sonido para reducir tu estrés
           </h2>
+          <div class="feature-image pt-4">
+            <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="images/product/soundbath.jpg" />
+          </div>
         </div>
       </div>
     </div>
@@ -91,7 +100,7 @@ bodyClass: "page-home"
 </div>
 
 {% if site.data.services %}
-<div class="strip">
+<div class="strip" name="prices">
   <div class="container-sm pt-4 pb-4 pt-md-4 pb-md-4 px-3">
     <div class="d-flex justify-content-center">
       <h2>Si te resuena lo que hacemos. Reserva ahora tu sesión.</h2>
@@ -99,7 +108,6 @@ bodyClass: "page-home"
   </div>
 
   <div class="container-sm pb-6 pb-md-4 px-3">
-    
     <div class="row justify-content-center">
       {% for service in site.data.services %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
@@ -121,3 +129,6 @@ bodyClass: "page-home"
   </div>
 </div>
 {% endif %}
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.305390092978!2d-4.024324284409172!3d39.86739679678818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0bac4329fe09%3A0xf306d595bc46d28a!2sTr.%C2%AA%20Cobarrubias%2C%201%2C%2045003%20Toledo!5e0!3m2!1sen!2ses!4v1667471802305!5m2!1sen!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
