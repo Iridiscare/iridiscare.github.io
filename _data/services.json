@@ -3,18 +3,21 @@
     "title": "🚀 Quick session",
     "description": "15 minutos",
     "cta": "Quiero probar",
-    "price": "21€"
+    "price": "21€",
+    "url": "https://calendly.com/iridis-care/session-15"
   },
   {
     "title": "🌟 La más utilizada",
     "description": "30 minutos",
     "cta": "Quiero reducir mi estrés",
-    "price": "29.99€"
+    "price": "29.99€",
+    "url": "https://calendly.com/iridis-care/session-30"
   },
   {
     "title": "💪 Power session",
     "description": "45 minutos",
     "cta": "Quiero ver resultados",
-    "price": "39€"
+    "price": "39€",
+    "url": "https://calendly.com/iridis-care/session-45"
   }
 ]

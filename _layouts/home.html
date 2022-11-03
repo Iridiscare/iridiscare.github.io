@@ -127,7 +127,7 @@ bodyClass: "page-home"
           <div class="feature-content">+ Baño de sonido <br> {{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>
-          <a class="button button-primary btn-lg" href="{{ "services" | relative_url }}">{{ service.cta }}</a>
+          <a class="button button-primary btn-lg" href="{{ service.url | relative_url }}">{{ service.cta }}</a>
         </div>
       </div>
       {% endfor %}
