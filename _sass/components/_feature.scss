@@ -14,6 +14,7 @@
     height: 80px;
     display: flex;
     margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
   }
   img {
@@ -30,5 +31,15 @@
     font-size: 48px;
     color: $primary;
     margin-bottom: 0;
-  }
+  } 
+}
+
+.feature-product{
+  border: 6px solid #FFFFFF;
+  box-shadow: 0px 4px 10px 10px rgba(164, 96, 221, 0.3);
+  border-radius: 40px;
+}
+
+.feature-product-title{
+  text-align: center;
 }
