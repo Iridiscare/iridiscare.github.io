@@ -9,7 +9,7 @@ bodyClass: "page-home"
         <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Te ayudamos a reducir tu estrés.</h1>
         <p>Análisis de voz + Terapia de sonido</p>
-        <a class="button button-primary btn-lg" href="{{ "services" | relative_url }}">Quiero reducir mi estrés</a>
+        <a class="button button-primary btn-lg" href="#prices">Quiero reducir mi estrés</a>
       </div>
     </div>
   </div>
@@ -17,19 +17,26 @@ bodyClass: "page-home"
 
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="d-flex justify-content-center">
-      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6 mb-2">
         <p>La rutina diaria, el trabajo, los problemas personales y la incertidumbre nos hacen estar siempre alerta, 
           ir acelerados, dar vueltas a la cabeza, nos impide descansar y estar bien con nosotros mismos.</p>
         <br>
         <p>Iridis te ofrece un <b>Plan Personalizado de Reducción de Estrés</b> basado en los últimos conocimientos científicos y 
           de las antiguas tradiciones contemplativas para que no seas esclavo de tu estrés y estés más saludable y presente.</p>
       </div>
+      <div class="col-12 col-md-6 col-lg-6 pt-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="feature-product" width="100%" autoplay loop> 
+              <source src="images/iridis-intro.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="strip" name="science">
+<div class="strip" id="science">
   <div class="container-sm pt-6 pb-6 pt-md-10 pb-md-10 px-3">
     <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-lg-6 mb-2">
@@ -100,10 +107,10 @@ bodyClass: "page-home"
 </div>
 
 {% if site.data.services %}
-<div class="strip" name="prices">
-  <div class="container-sm pt-4 pb-4 pt-md-4 pb-md-4 px-3">
-    <div class="d-flex justify-content-center">
-      <h2>Si te resuena lo que hacemos. Reserva ahora tu sesión.</h2>
+<div class="strip" id="prices">
+  <div class="container-sm pt-4 pb-4 pt-md-4 pb-md-4 px-4">
+    <div class="feature-product-title">
+      <h2>Reserva ahora tu sesión.</h2>
     </div>
   </div>
 
@@ -117,7 +124,7 @@ bodyClass: "page-home"
           {% endif %}
           <h2 class="feature-title">{{ service.title }}</h2>
           <div class="feature-content">Análisis de estrés</div>
-          <div class="feature-content">+ Baño de sonido de {{ service.description }}</div>
+          <div class="feature-content">+ Baño de sonido <br> {{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>
           <a class="button button-primary btn-lg" href="{{ "services" | relative_url }}">{{ service.cta }}</a>
@@ -131,4 +138,4 @@ bodyClass: "page-home"
 {% endif %}
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.305390092978!2d-4.024324284409172!3d39.86739679678818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0bac4329fe09%3A0xf306d595bc46d28a!2sTr.%C2%AA%20Cobarrubias%2C%201%2C%2045003%20Toledo!5e0!3m2!1sen!2ses!4v1667471802305!5m2!1sen!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.28867166205!2d-4.025675586679072!3d39.86777133531726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0bf0f4c89bd1%3A0x32731f7863b2e46b!2sSomos%20Humanos%20Toledo!5e0!3m2!1sen!2ses!4v1667484825691!5m2!1sen!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

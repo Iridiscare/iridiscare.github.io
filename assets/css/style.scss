@@ -23,8 +23,8 @@ $font-family-heading: "Playfair Display", serif, -apple-system;
 // Footer
 $footer-background-color: darken($white, 15%);
 $footer-text-color: $black;
-$sub-footer-background-color: darken($white, 5%);
-$sub-footer-text-color: $black;
+$sub-footer-background-color: darken($white, 30%);
+$sub-footer-text-color: $white-offset;
 
 // Bootstrap
 @import "bootstrap-variables";

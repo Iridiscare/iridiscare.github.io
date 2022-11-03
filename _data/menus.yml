@@ -6,7 +6,7 @@ main:
     url: "#prices"
     weight: 3
   - name: "Quienes somos"
-    url: "/team/"
+    url: "/about/"
     weight: 4
 
 footer:
