@@ -1,5 +1,5 @@
 ---
-title: Iridis te ayuda a reducir tu estrés y sentirte mejor
+title: Iridis Care te ayuda a reducir tu estrés y sentirte mejor
 layout: home
 description: Análisis de Voz + Terapia de Sonido
 intro_image: "images/illustrations/stress-levels.svg"
