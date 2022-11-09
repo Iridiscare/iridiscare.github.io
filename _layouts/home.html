@@ -9,7 +9,7 @@ bodyClass: "page-home"
         <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Te ayudamos a reducir tu estrés.</h1>
         <p>Análisis de voz + Terapia de sonido</p>
-        <a class="button button-primary btn-lg" href="#prices">Quiero reducir mi estrés</a>
+        <a class="feature-button button button-primary btn-lg" href="#prices">Quiero reducir mi estrés</a>
       </div>
     </div>
   </div>
@@ -69,7 +69,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+  <div class="container pt-6 pb-4 pt-md-6 pb-md-3 px-3">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-4">
         <div class="feature-content">
@@ -118,6 +118,7 @@ bodyClass: "page-home"
       {% for service in site.data.services %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
+          <hr>
           {% if service.image %}
           <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
           {% endif %}
@@ -126,7 +127,8 @@ bodyClass: "page-home"
           <div class="feature-content">{{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>
-          <a class="button button-primary btn-lg" href="{{ service.url | relative_url }}">{{ service.cta }}</a>
+          <a class="feature-button button button-primary btn-lg" href="{{ service.url | relative_url }}">{{ service.cta }}</a>
+          <hr>
         </div>
       </div>
       {% endfor %}
