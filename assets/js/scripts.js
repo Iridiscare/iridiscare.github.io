@@ -44,11 +44,6 @@ function eraseCookie(name) {
     createCookie(name,"",-1);
 }
 
-if(readCookie('cookie-notice-dismissed')=='true') {
-    {% include google-analytics.html %}
-} else {
-    document.getElementById('cookie-notice').style.display = 'block';
-}
 document.getElementById('cookie-notice-accept').addEventListener("click",function() {
     createCookie('cookie-notice-dismissed','true',31);
     document.getElementById('cookie-notice').style.display = 'none';
