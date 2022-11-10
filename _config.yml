@@ -64,6 +64,7 @@ plugins:
   - jekyll-environment-variables
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
