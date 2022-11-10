@@ -9,6 +9,7 @@
 <div>
   <div id="cookie-notice"><span>🍪 Nos gustaría utilizar cookies y scripts de terceros para mejorar.</span><a id="cookie-notice-accept" class="button button-primary">Aceptar</a><a href="/privacy" class="btn btn-primary btn-sm">Saber más</a></div>
 </div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-34PVM4VRTZ"></script>
 <script>
   function createCookie(name,value,days) {
     var expires = "";
@@ -32,10 +33,14 @@
   function eraseCookie(name) {
       createCookie(name,"",-1);
   }
-
   if(readCookie('cookie-notice-dismissed')=='true') {
-      {%include ga.js%}
+    {% include analytics.html %}
   } else {
       document.getElementById('cookie-notice').style.display = 'block';
   }
+  document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+      createCookie('cookie-notice-dismissed','true',31);
+      document.getElementById('cookie-notice').style.display = 'none';
+      location.reload();
+  });
 </script>
