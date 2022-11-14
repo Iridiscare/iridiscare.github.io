@@ -23,7 +23,7 @@
 url: "https://iridis.care" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 title: 'Iridis Care'
-baseurl: "/"
+baseurl: ""
 
 logo:
   mobile: "/assets/images/logo/logo-mobile.svg"
