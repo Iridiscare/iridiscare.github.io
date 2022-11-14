@@ -1,8 +1,9 @@
 p {
-  line-height: 26px;
+  line-height: 32px;
   color: $steel;
   font-family: $font-family-base;
   margin-bottom: 20px;
+  font-size: 24px;
 }
 h1 {
   font-size: 30px;
@@ -15,12 +16,12 @@ h1 {
   }
 }
 h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-family: $font-family-heading;
   line-height: 1.4;
   margin-bottom: 10px;
   @include media-breakpoint-up(md) {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 1.4;
   }
 }

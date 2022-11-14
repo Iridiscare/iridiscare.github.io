@@ -62,11 +62,11 @@ $sub-footer-text-color: $white-offset;
 @import "pages/page-service";
 
 body {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.6;
   font-family: $font-family-base;
   @include media-breakpoint-up(md) {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.6;
   }
 }

@@ -20,7 +20,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // typing effect
-
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
