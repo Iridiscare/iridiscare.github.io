@@ -1,0 +1,22 @@
+[
+  {
+    "quote": "Relajante, amigable y cómodo. Tengo que hacer esto más.",
+    "author": "Nacho - Opositor",
+    "active": true
+  },
+  {
+    "quote": "Me he relajado sin yo quererlo. Sonido envolvente.",
+    "author": "Lucía - Gerente",
+    "active": false
+  },
+  {
+    "quote": "Momento íntimo conmigo misma y mis pensamientos. Experiencia novedosa.",
+    "author": "Celia - Empresaria",
+    "active": false
+  },
+  {
+    "quote": "Sorprendentemente reconfortante. Una vuelta a la calma.",
+    "author": "Alejandro - Profesor",
+    "active": false
+  }
+]

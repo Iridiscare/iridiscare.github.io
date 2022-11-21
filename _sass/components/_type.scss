@@ -4,6 +4,7 @@ p {
   font-family: $font-family-base;
   margin-bottom: 20px;
   font-size: 24px;
+  font-weight: 400;
 }
 h1 {
   font-size: 30px;
@@ -26,7 +27,7 @@ h2 {
   }
 }
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.4;
   @include media-breakpoint-up(md) {
     font-size: 20px;
