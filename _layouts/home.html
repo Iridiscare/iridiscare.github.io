@@ -187,7 +187,7 @@ bodyClass: "page-home"
           <div class="feature-content">{{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>
-          <a class="feature-button button button-primary btn-lg" href="{{ service.url | relative_url }}">{{ service.cta }}</a>
+          <a class="feature-button button button-primary btn-lg" href="{{ service.url | relative_url }}" onclick="gtag('event', 'click', { event_category: 'Booking Link', event_action: 'Click to Pay', event_label:'{{ service.price }}'})">{{ service.cta }}</a>
           <hr>
         </div>
       </div>
