@@ -9,7 +9,10 @@ bodyClass: "page-home"
         <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Te ayudamos a relajarte y reducir tu estrés</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Análisis de voz + Terapia de sonido</p>
+        <p>A través del análisis de tu voz y terapia de sonido personalizada</p>
+        <p style="line-height: 0"><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Descansa mentalmente</p>
+        <p style="line-height: 0"><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Vuelve a la calma</p>
+        <p style="line-height: 0"><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Prioriza tu cuerpo y mente</p>
         <a class="feature-button button button-primary btn-lg" href="#prices">Quiero reducir mi estrés</a>
       </div>
     </div>
@@ -21,7 +24,7 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pt-2 pb-4">
         <div class="embed-responsive embed-responsive-16by9">
-          <video class="feature-product" width="100%" controls autoplay> 
+          <video class="feature-product" width="100%" controls> 
               <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
           </video>
         </div>
@@ -29,8 +32,8 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 mb-2">
         <!-- <h2>¿Eres una de las 3 de cada 4 personas que ha sufrido estrés en el último mes?</h2>
         <br> -->
-        <p>La rutina diaria, el trabajo, los problemas personales y la incertidumbre nos hacen estar siempre alerta, 
-          ir acelerados, dar vueltas a la cabeza, nos cambia el humor, nos impide descansar, y estar bien con nosotros mismos.</p>
+        <p>El <b class="highlight">77% de las personas sufren estrés</b> por la rutina diaria, el trabajo, los problemas personales y la incertidumbre que nos hacen estar siempre alerta, 
+          ir acelerados, dar vueltas a la cabeza, nos cambian el humor, nos impide descansar y estar bien con nosotros mismos.</p>
         <p>Iridis te ofrece un <b class="highlight">Plan Personalizado de Reducción de Estrés</b> basado en los últimos conocimientos científicos y 
           de las antiguas tradiciones contemplativas para que no seas esclavo de tu estrés. Estando más saludable y presente.</p>
       </div>
@@ -45,7 +48,7 @@ bodyClass: "page-home"
         <h2>El estrés no es solo un nudo en el estómago...</h2>
         <br>
         <p>Día a día, aumenta nuestra carga alostática (nivel de estrés), haciéndonos enfermar, debilitando nuestro sistema inmunológico, cambia nuestros comportamientos y reduce nuestra auto estima.</p>
-        <p>Ejercicios meditativos con sonidos estimulan la segregación de oxitocina. Regulando nuestras emociones, reudiciendo el estrés y mejorando nuestra salud física y mental. Así puedes evitar la cronificación del estrés y 2.8 años de vida que te quita.</p>
+        <p>Ejercicios meditativos con <b class="highlight">sonidos específicos estimulan la segregación de oxitocina</b>. Regulando nuestras emociones, reudiciendo el estrés y mejorando nuestra salud física y mental. Así puedes evitar la cronificación del estrés y 2.8 años de vida que te quita.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-md-6 mt-md-10">
         <div class="feature-image">
@@ -69,8 +72,10 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h2>Una experiencia sonora y meditativa super relajante para reducir tu estrés</h2>
         <br>
-        <p>La tecnología de Iridis te ayudará a saber tu nivel de estrés a partir de tu voz y conseguir más fácilmente un estado meditativo de ondas cerebrales theta.</p>
-        <p>Crearemos sonidos personalizados para las frecuencias de tu cuerpo, que serán emitidos por nuestro innovador sistema de sonido que crea una burbuja sonora envolvente.</p>
+        <p>La tecnología de Iridis te ayudará a:</p>
+        <p><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Conocer tu estrés y tus notas musicales a partir de tu voz</p>
+        <p><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Crear sonidos personalizados para la frecuencia de tu cuerpo</p>
+        <p><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Conseguir un estado meditativo de ondas cerebrales theta</p>
       </div>
     </div>
   </div>
@@ -113,7 +118,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" id="prices">
+<div class="strip">
     <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
       <div class="feature-product-title">
         <h2>Después de esta experiencia</h2>
@@ -128,7 +133,7 @@ bodyClass: "page-home"
         </div>
         <div class="col-12 col-md-6 col-lg-6">
           <p><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Aumentarás tu bienestar</p>
-          <p><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Tendrás un informe personalizado</p>
+          <p><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Habrás parado mentalmente</p>
           <p><i class="fa fa-check" aria-hidden="true" style="color:#219653"></i> Te sentirás mejor</p>
         </div>
       </div>
@@ -147,7 +152,7 @@ bodyClass: "page-home"
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             {% for item in site.data.testimonials %}
-            {% if item.active%}
+            {% if item.active %}
               <div class="carousel-item active">
             {% else %}
               <div class="carousel-item ">
@@ -177,13 +182,15 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       {% for service in site.data.services %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
+        <div class="feature {% if service.highlight %} feature-highlight {% endif %}">
           <hr>
           {% if service.image %}
           <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
           {% endif %}
           <h2 class="feature-title">{{ service.title }}</h2>
-          <div class="feature-content">Análisis de voz</div>
+          <div class="feature-content">🎙️ Análisis de voz</div>
+          <div class="feature-content">📋 Informe estrés</div>
+          <div class="feature-content">🎵 MP3 personal</div>
           <div class="feature-content">{{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>
@@ -205,8 +212,11 @@ bodyClass: "page-home"
           <div class="feature-product-title pb-3">
             <h2>Cómo se realiza la reserva y el pago de tu sesión</h2>
           </div>
-          <p>Primero realizas tu pago, al terminar serás redirigido a nuestra página de reservas, donde podrás elegir tu fecha y hora deseada.</p>
-          <p>En el momento que confirmas tu fecha y hora nos pondremos en contacto contigo vía email confirmando la reserva.</p>
+          <p>💳  Primero realizas tu pago</p>
+          <p>➡️ Eres redirigido a nuestra página de reservas</p>
+          <p>📅 Reservas tu fecha y hora deseada</p>
+          <p>✉️ Te confirmamos la reserva vía email</p>
+          <p>👁️ Como queremos que priorices tu bienestar, podrás cambiar tu reserva tantas veces como quieras, pero no te devolveremos el dinero. Si no vienes es porque priorizas antes tu exterior a ti mismo.</p>
         </div>
       </div>
     </div>
