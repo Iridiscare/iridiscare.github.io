@@ -1,14 +1,14 @@
 [
   {
     "title": "💪 Power session",
-    "description": "🔊 Baño de sonido <br> 45 minutos",
+    "description": "🔊 Baño de sonido <br> ⏲️ 45 minutos",
     "cta": "Quiero ver resultados",
     "price": "39€",
     "url": "https://buy.stripe.com/aEUcQzeVb60O2qc9AG"
   },
   {
     "title": "🚀 Quick session",
-    "description": "🔊 Baño de sonido <br> 30 minutos",
+    "description": "🔊 Baño de sonido <br> ⏲️ 30 minutos",
     "cta": "Quiero reducir mi estrés",
     "price": "29.99€",
     "url": "https://buy.stripe.com/aEU5o728p0Gu2qc005",
@@ -16,7 +16,7 @@
   },
   {
     "title": "🔎 Start session",
-    "description": "15 minutos",
+    "description": "⏲️ 15 minutos",
     "cta": "Conocer mi estrés",
     "price": "21€",
     "url": "https://buy.stripe.com/dR67wf5kB3SGaWIcMQ"
