@@ -3,15 +3,15 @@
     "title": "💪 Power session",
     "description": "🔊 Baño de sonido <br> ⏲️ 45 minutos",
     "cta": "Quiero ver resultados",
-    "price": "39€",
-    "url": "https://buy.stripe.com/aEUcQzeVb60O2qc9AG"
+    "price": "45€",
+    "url": "https://calendly.com/iridis-care/session-45"
   },
   {
     "title": "🚀 Quick session",
     "description": "🔊 Baño de sonido <br> ⏲️ 30 minutos",
     "cta": "Quiero reducir mi estrés",
     "price": "29.99€",
-    "url": "https://buy.stripe.com/aEU5o728p0Gu2qc005",
+    "url": "https://calendly.com/iridis-care/session-30",
     "highlight": true
   },
   {
@@ -19,6 +19,6 @@
     "description": "⏲️ 15 minutos",
     "cta": "Conocer mi estrés",
     "price": "21€",
-    "url": "https://buy.stripe.com/dR67wf5kB3SGaWIcMQ"
+    "url": "https://calendly.com/iridis-care/session-15"
   },
 ]
