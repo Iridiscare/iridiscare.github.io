@@ -194,7 +194,7 @@ bodyClass: "page-home"
           <div class="feature-content">{{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>
-          <a class="feature-button button button-primary btn-lg" href="{{ service.url | relative_url }}" onclick="gtag('event', 'click', { event_category: 'Booking Link', event_action: 'Click to Pay', event_label:'{{ service.price }}'})">{{ service.cta }}</a>
+          <a class="feature-button button button-primary btn-lg" href="{{ service.url.booking | relative_url }}" onclick="gtag('event', 'click', { event_category: 'Booking Link', event_action: 'Click to Pay', event_label:'{{ service.price }}'})">{{ service.cta }}</a>
           <hr>
         </div>
       </div>
@@ -212,9 +212,8 @@ bodyClass: "page-home"
           <div class="feature-product-title pb-3">
             <h2>Cómo se realiza la reserva y el pago de tu sesión</h2>
           </div>
-          <p>💳  Primero realizas tu pago</p>
-          <p>➡️ Eres redirigido a nuestra página de reservas</p>
           <p>📅 Reservas tu fecha y hora deseada</p>
+          <p>💳 Seguidamente realizas tu pago</p>
           <p>✉️ Te confirmamos la reserva vía email</p>
           <p>👁️ Como queremos que priorices tu bienestar y te cuides, podrás cambiar tu reserva tantas veces como quieras, pero no te devolveremos el dinero. Si no vienes es porque no priorizas tu salud.</p>
         </div>
