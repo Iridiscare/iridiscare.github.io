@@ -175,25 +175,26 @@ bodyClass: "page-home"
 
 {% if site.data.services %}
 <div class="strip" id="prices">
+  
   <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
     <div class="feature-product-title">
       <h2>Reserva ahora tu sesión de reducción de estrés</h2>
     </div>
   </div>
 
-  <div class="container-sm pb-6 pb-md-4 px-3">
-    <div class="row justify-content-center">
+  <div class="pb-6 pb-md-4 px-2">
+    <div class="row justify-content-center ">
       {% for service in site.data.services %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
         <div class="feature {% if service.highlight %} feature-highlight {% endif %}">
           <hr>
           {% if service.image %}
           <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
           {% endif %}
           <h2 class="feature-title">{{ service.title }}</h2>
-          <div class="feature-content">🎙️ Análisis de voz</div>
-          <div class="feature-content">📋 Informe de estrés</div>
-          <div class="feature-content">🎵 Audio personal</div>
+          <div class="feature-content">🎙️ Análisis de voz {% if service.multiple %} x4{% endif %}</div>
+          <div class="feature-content">📋 Informe estrés {% if service.multiple %} x4{% endif %}</div>
+          <div class="feature-content">🎵 Audio personal {% if service.multiple %} x4{% endif %}</div>
           <div class="feature-content">{{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>

@@ -1,8 +1,19 @@
 [
   {
+    "title": "👩‍🔬 4 x sessions",
+    "description": "🔊 Baño de sonido x4 <br> ⏲️ 30 minutos x4",
+    "cta": "Quiero ver resultados",
+    "price": "99€",
+    "url": {
+      "payment": "https://buy.stripe.com/cN2bMvbIZ1Ky4ykcMU",
+      "booking": "https://calendly.com/iridis-care/quick-30x4"
+    },
+    "multiple": true,
+  },
+  {
     "title": "💪 Power session",
     "description": "🔊 Baño de sonido <br> ⏲️ 45 minutos",
-    "cta": "Quiero ver resultados",
+    "cta": "Quiero algo intenso",
     "price": "39€",
     "url": {
       "payment": "https://buy.stripe.com/aEUcQzeVb60O2qc9AG",
