@@ -1,0 +1,22 @@
+.top-banner {
+  display: block;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  text-align: center;
+  z-index: 10;
+
+  background-color: white;
+
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.top-banner p {
+  line-height: 1.5;
+  font-weight: 400;
+  color: #9B51E0;
+}
+.top-banner a {
+  text-decoration: underline;
+}
