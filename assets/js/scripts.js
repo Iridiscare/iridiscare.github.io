@@ -30,8 +30,7 @@ let hasBannerBeenClosed = false;
 
 $(document).scroll(function () {
   var y = $(this).scrollTop();
-  
-  if (y > 6500 && !hasBannerBeenClosed) {
+  if (y > 6500) {
     $(".top-banner").slideDown();
   } else {
     $(".top-banner").slideUp();
