@@ -274,10 +274,12 @@ bodyClass: "page-home"
       </div>
 
       {% for data in site.data.faq %}
+      <div class="pb-3">
         <button class="accordion">{{data.question}}   <i class="fa fa-angle-right"></i></button>
         <div class="panel">
           <p>{{data.answer}}</p>
-        </div>      
+        </div>
+      </div>
       {% endfor %}
 
     </div>
