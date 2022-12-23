@@ -36,7 +36,7 @@
 }
 
 .feature-highlight{
-  border: 5px solid rgba(155, 81, 224, 0.9);
+  border: 5px solid rgba(155, 81, 224, 1);
 }
 
 .feature-product{
@@ -53,4 +53,12 @@
   box-shadow: 0px 4px 10px 10px rgba(164, 96, 221, 0.3);
 }
 
-
+.feature-highlight-box {
+  background-color:rgba(155, 81, 224, 1);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  width: 91%;
+  top: 2px;
+}

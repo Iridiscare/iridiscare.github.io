@@ -201,6 +201,7 @@ bodyClass: "page-home"
       {% for service in site.data.services %}
       <div class="col-12 col-md-6 col-lg-3 mb-2">
         <div class="feature {% if service.highlight %} feature-highlight {% endif %}">
+          {% if service.highlight %}<p class="feature-highlight-box">⭐ La más utilizada</p>{% endif %}
           <hr>
           {% if service.image %}
           <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
