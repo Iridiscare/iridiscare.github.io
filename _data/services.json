@@ -1,7 +1,7 @@
 [
   {
     "title": "4 Quick sessions",
-    "description": "🔊 Baño de sonido <br> ⏲️ 4 x 30 minutos",
+    "description": "<i data-feather='volume-2'></i> Baño de sonido <br> <i data-feather='clock'></i> 4 x 30 minutos",
     "cta": "Quiero ver resultados",
     "price": "99€",
     "url": {
@@ -12,7 +12,7 @@
   },
   {
     "title": "Power session",
-    "description": "🔊 Baño de sonido <br> ⏲️ 45 minutos",
+    "description": "<i data-feather='volume-2'></i> Baño de sonido <br> <i data-feather='clock'></i> 45 minutos",
     "cta": "Quiero algo intenso",
     "price": "45€",
     "url": {
@@ -22,7 +22,7 @@
   },
   {
     "title": "Quick session",
-    "description": "🔊 Baño de sonido <br> ⏲️ 30 minutos",
+    "description": "<i data-feather='volume-2'></i> Baño de sonido <br> <i data-feather='clock'></i> 30 minutos",
     "cta": "Quiero reducir mi estrés",
     "price": "29.99€",
     "url": {
@@ -33,7 +33,7 @@
   },
   {
     "title": "Start session",
-    "description": "⏲️ 15 minutos",
+    "description": "<i data-feather='clock'></i> 15 minutos",
     "cta": "Conocer mi estrés",
     "price": "21€",
     "url": {

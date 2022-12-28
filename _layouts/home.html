@@ -207,9 +207,10 @@ bodyClass: "page-home"
           <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
           {% endif %}
           <h2 class="feature-title">{{ service.title }}</h2>
-          <div class="feature-content">🎙️ Análisis de voz<br>
-          📋 Informe de estrés</br>
-          🎵 Audio personal<br>
+          <div class="feature-content">
+            <i data-feather="mic"></i> Análisis de voz<br>
+            <i data-feather="bar-chart-2"></i>  Informe de estrés</br>
+            <i data-feather="headphones"></i>  Audio personal<br>
           {{ service.description }}</div>
           <h3 class="feature-price">{{ service.price }}</h3>
           <hr>
@@ -231,10 +232,10 @@ bodyClass: "page-home"
         <div class="feature-product-title pb-3">
           <h2>Cómo se realiza la reserva y el pago de tu sesión</h2>
         </div>
-        <p>📅 Pulsa sobre la sesión deseada para reservar tu fecha y hora</p>
-        <p>💳 Realiza el pago después de reservar tu sesión</p>
-        <p>✉️ Recibirás un email con la confirmación</p>
-        <p>👁️ <b>Podrás cambiar tu reserva tantas veces como quieras</b>, pero no te devolveremos el dinero porque queremos que te cuides. Te lo ponemos fácil. Si no vienes es porque no priorizas tu salud.</p>
+        <p><i data-feather='calendar'></i> Pulsa sobre la sesión deseada para reservar tu fecha y hora</p>
+        <p><i data-feather='credit-card'></i> Realiza el pago después de reservar tu sesión</p>
+        <p><i data-feather='at-sign'></i> Recibirás un email con la confirmación</p>
+        <p><i data-feather='eye'></i> <b>Podrás cambiar tu reserva tantas veces como quieras</b>, pero no te devolveremos el dinero porque queremos que te cuides. Te lo ponemos fácil. Si no vienes es porque no priorizas tu salud.</p>
         <p>Escríbenos a <a href="mailto:hola@iridis.care?subject=Tengo una duda">hola@iridis.care</a> con cualquier duda que tengas, estaremos encantados de responder.</p>
       </div>
     </div>
