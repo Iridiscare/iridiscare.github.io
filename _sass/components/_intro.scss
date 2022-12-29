@@ -2,8 +2,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   overflow: hidden;
   @include media-breakpoint-up(md) {
     padding-top: 60px;
