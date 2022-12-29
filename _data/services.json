@@ -1,19 +1,21 @@
 [
   {
     "title": "4 Quick sessions",
-    "description": "<i data-feather='volume-2'></i> Baño de sonido <br> <i data-feather='clock'></i> 4 x 30 minutos",
+    "description": "Consigue efectos a largo plazo con lo que recomiendan los estudios científicos",
+    "time": "4 x 30 minutos",
     "cta": "Quiero ver resultados",
     "price": "99€",
     "url": {
       "payment": "https://buy.stripe.com/cN2bMvbIZ1Ky4ykcMU",
       "booking": "https://calendly.com/iridis-care/quick-30x4"
     },
-    "multiple": true,
+    "multiple": true
   },
   {
     "title": "Power session",
-    "description": "<i data-feather='volume-2'></i> Baño de sonido <br> <i data-feather='clock'></i> 45 minutos",
-    "cta": "Quiero algo intenso",
+    "description": "Una experiencia más intensa si el estrés te sobrepasa y estás apunto de estallar",
+    "time": "45 minutos",
+    "cta": "Quiero algo más intenso",
     "price": "45€",
     "url": {
       "payment": "https://buy.stripe.com/aEUcQzeVb60O2qc9AG",
@@ -22,8 +24,9 @@
   },
   {
     "title": "Quick session",
-    "description": "<i data-feather='volume-2'></i> Baño de sonido <br> <i data-feather='clock'></i> 30 minutos",
-    "cta": "Quiero reducir mi estrés",
+    "description": "Conoce tu nivel de estrés y desestresate en menos de 30 minutos en nuestra pirámide",
+    "time": "30 minutos",
+    "cta": "Quiero desestresarme",
     "price": "29.99€",
     "url": {
       "payment": "https://buy.stripe.com/aEU5o728p0Gu2qc005",
@@ -33,12 +36,14 @@
   },
   {
     "title": "Start session",
-    "description": "<i data-feather='clock'></i> 15 minutos",
+    "description": "Conoce tu nivel de estrés y desestresate a tu ritmo en casa con tu audio personalizado",
+    "time": "15 minutos",
     "cta": "Conocer mi estrés",
     "price": "21€",
     "url": {
       "payment": "https://buy.stripe.com/dR67wf5kB3SGaWIcMQ",
       "booking": "https://calendly.com/iridis-care/session-15"
-    }
-  },
+    },
+    "not_bath" : true,
+  }
 ]

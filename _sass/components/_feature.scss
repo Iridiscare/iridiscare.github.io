@@ -30,9 +30,10 @@
     text-align: left;
   }
   .feature-price {
-    font-size: 48px;
+    font-size: 58px;
     color: $primary;
     margin-bottom: 0;
+    margin-top: 20px;
   } 
 }
 
@@ -62,4 +63,29 @@
   position: absolute;
   width: 91%;
   top: 2px;
+}
+
+.feature-icon {
+  color: #9b51e0;
+  background: rgba(155, 81, 224, 0.1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.feature-icon-no {
+  color: #9b51e0;
+  margin-bottom: 5px;
+}
+
+.feature-description {
+  color: grey;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  line-height: 24px;
+  font-weight: 300;
 }
