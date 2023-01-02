@@ -129,7 +129,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
     <div class="feature-product-title">
-      <h4>Te podemos ayudar si el estrés te ha provocado</h4>
+      <h4>La ciencia dice que te podemos ayudar si sufres</h4>
     </div>
   </div>
   <div class="container-sm pb-6 pb-md-4 px-3">
@@ -143,96 +143,6 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Falta de memoria</p>
         <p><i data-feather='check' class="feature-icon"></i> Problemas de sueño</p>
         <p><i data-feather='check' class="feature-icon"></i> Neurodegeneración</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="strip-white">
-  <div class="container pt-6 pb-2 pt-md-6 pb-md-2 px-3">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
-        <div class="feature-content">
-          <h4 class="feature-product-title">
-            Análisis de voz para determinar tu estrés
-          </h4>
-          <div class="feature-image pt-4">
-            <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/voice.webp" />
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
-        <div class="feature-content">
-          <h4 class="feature-product-title">
-            Plan personalizado de sonidos 
-          </h4>
-          <div class="feature-image pt-4">
-            <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
-        <div class="feature-content">
-          <h4 class="feature-product-title">
-            Baño de sonido para reducir tu estrés
-          </h4>
-          <div class="feature-image pt-4">
-            <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip">
-    <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
-      <div class="feature-product-title">
-        <h4>Después de esta experiencia antiestrés</h4>
-      </div>
-    </div>
-    <div class="container-sm pb-6 pb-md-4 px-3">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-6">
-          <p><i data-feather='check' class="feature-icon"></i> Sabrás tu estrés actual</p>
-          <p><i data-feather='check' class="feature-icon"></i> Pararás mentalmente</p>
-          <p><i data-feather='check' class="feature-icon"></i> Reducirás tu angustia</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-6">
-          <p><i data-feather='check' class="feature-icon"></i> Aumentarás tu bienestar</p>
-          <p><i data-feather='check' class="feature-icon"></i> Volverás a la calma</p>
-          <p><i data-feather='check' class="feature-icon"></i> Te sentirás mejor</p>
-        </div>
-      </div>
-    </div>
-</div>
-
-<div class="strip-white pb-8">
-  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-3">
-    <div class="feature-product-title">
-      <h4>La mayoría de nuestros usuarios se van relajados y sorprendidos</h4>
-    </div>
-  </div>
-  <div class="container-sm px-4">
-    <div class="row">
-      <div class="col-12">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            {% for item in site.data.testimonials %}
-            {% if item.active %}
-              <div class="carousel-item active">
-            {% else %}
-              <div class="carousel-item ">
-            {% endif %}
-                <div class="text-center">
-                  <p class="testimonial-quote">"{{item.quote}}"</p>
-                  <h3 class="testimonial-author">{{item.author}}</h3>
-                </div>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
       </div>
     </div>
   </div>
