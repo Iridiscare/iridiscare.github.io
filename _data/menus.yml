@@ -1,6 +1,6 @@
 main:
   - name: "Ciencia"
-    url: "/ciencia-terapia-de-sonido"
+    url: "/ciencia-estres-sonido"
     weight: 2
   - name: "Tarifas"
     url: "#prices"
