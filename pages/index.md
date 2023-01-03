@@ -1,14 +1,19 @@
 ---
+title: Iridis Care te ayuda a reducir tu estrés en 30 minutos
+description: A través del análisis de tu voz y terapia de sonido personalizada para que priorices tu salud.
+intro_image: "images/illustrations/stress-levels.svg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: true
+show_call_box: true
+permalink: /
 layout: default
 bodyClass: "page-home"
 ---
 
-
-
 <div class="intro">
-    <div class="container-sm">
-      <div class="justify-content-center">
-        <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+  <div class="container-sm">
+    <div class="justify-content-center">
+      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Reduce tu estrés en 30 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>A través del análisis de tu voz y un baño de sonido personalizado</p>
@@ -79,14 +84,13 @@ bodyClass: "page-home"
         <h4 class="pb-2 pt-2">
           Un espacio de relajación del que no querrás marchar
         </h4>
-        <p><i data-feather='check' class="feature-icon"></i> Pirámide de meditación</p>
-        <p><i data-feather='check' class="feature-icon"></i> Sonido envolvente</p>
+        <p><i data-feather='check' class="feature-icon"></i> Pirámide de sonido</p>
         <p><i data-feather='check' class="feature-icon"></i> Luz del amanecer</p>
-        <p><i data-feather='check' class="feature-icon"></i> Aromaterapia</p>
+        <p><i data-feather='check' class="feature-icon"></i> Aroma relajante</p>
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <a href="/piramide-meditacion-sonido" style="font-size: 20px">Conocer el espacio <i data-feather='chevron-right' class="feature-icon"></i></a>
+      <a href="/espacio-de-relajacion" style="font-size: 20px">Conocer el espacio <i data-feather='chevron-right' class="feature-icon"></i></a>
     </div>
   </div>
 </div>
@@ -101,7 +105,7 @@ bodyClass: "page-home"
         </div>
         <p>La tecnología de Iridis te ayudará a:</p>
         <p><i data-feather='check' class="feature-icon"></i> <b class="highlight">Conocer tu estrés y las frecuencias de tu cuerpo</b> a partir de tu voz</p>
-        <p><i data-feather='check' class="feature-icon"></i> Crear <b class="highlight">sonidos personalizados</b></sonidos> para la frecuencia de tu cuerpo</p>
+        <p><i data-feather='check' class="feature-icon"></i> Crear <b class="highlight">sonidos personalizados</b> para la frecuencia de tu cuerpo</p>
         <p><i data-feather='check' class="feature-icon"></i> Conseguir un <b class="highlight">estado meditativo</b> relajante</p>
       </div>
     </div>
@@ -198,11 +202,11 @@ bodyClass: "page-home"
 </div>
 
 {% if site.data.services %}
-<div class="strip" id="prices">
+<div class="strip" id="plans">
   
   <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
     <div class="feature-product-title">
-      <h4>Elige la mejor sesión antiestrés para ti </h4>
+      <h4>Elige el mejor plan antiestrés para ti</h4>
     </div>
   </div>
 
@@ -220,7 +224,7 @@ bodyClass: "page-home"
           <p class="feature-description">{{ service.description }}</p>
           <div class="feature-content">
             <i data-feather="mic" class="feature-icon"></i> Análisis de voz<br>
-            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés</br>
+            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés<br>
             <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado<br>
             {% if service.not_bath %}
             <del style='color: lightgrey'><i data-feather='volume-2' class='feature-icon' style='color: lightgrey'></i> Baño de sonido</del> <br>
@@ -292,7 +296,6 @@ bodyClass: "page-home"
       <div class="feature-product-title pb-2">
         <h4>Preguntas frecuentes</h4>
       </div>
-
       {% for data in site.data.faq %}
       <div class="pb-3 accordion-item">
         <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> &emsp;{{data.question}}</button>
@@ -301,10 +304,7 @@ bodyClass: "page-home"
         </div>
       </div>
       {% endfor %}
-
     </div>
 </div>
 
-<a href="https://api.whatsapp.com/send?phone=34686322484&text=Hola, te quería preguntar una cosa." class="float" target="_blank">
-  <i class="fa fa-whatsapp my-float"></i>
-</a>
+

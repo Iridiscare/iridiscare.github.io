@@ -1,19 +1,26 @@
 ---
+title: Nuestro espacio de relajación
+description: No querrás marchar
+intro_image: "images/illustrations/stress-levels.svg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: true
+show_call_box: true
+permalink: /espacio-de-relajacion
 layout: default
 bodyClass: "page-home"
 ---
 
 <div class="intro">
-    <div class="container-sm">
-      <div class="justify-content-center">
-        <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>La ciencia que reduce el estrés a través de la voz y el sonido</h1>
+  <div class="container-sm">
+    <div class="justify-content-center">
+      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+        <h1>Un espacio pensado para la relajación</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Análisis de voz para detectar el estrés, diseño de sonidos que modifican el cerebro y ayudan a reducir el estrés. No es magia, es ciencia.</p>
+        <p>Un espacio donde tu cuerpo-mente se relaja gracias a nuestra pirámide de sonido envolvente, a la luz cálida del amanecer y suaves aromas.</p>
         <div class="animate__animated animate__bounceInLeft">
-          <p class="copies"><i data-feather='mic' class="feature-icon"></i> <i>Analizar la voz</i></p>
-          <p class="copies"><i data-feather='zap' class="feature-icon"></i> <i>Cuantificar el estrés</i></p>
-          <p style="line-height: 0; "><i data-feather='volume-2' class="feature-icon"></i> <i>Diseño de sonidos antiestrés</i></p>
+          <p class="copies"><i data-feather='triangle' class="feature-icon"></i> <i>Pirámide de sonido</i></p>
+          <p class="copies"><i data-feather='sunrise' class="feature-icon"></i> <i>Luz del amanecer</i></p>
+          <p style="line-height: 0; "><i data-feather='wind' class="feature-icon"></i> <i>Aroma relajante</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#prices">Sí, quiero reducir mi estrés</a>
         <br>
@@ -26,123 +33,77 @@ bodyClass: "page-home"
   <div class="container-sm pt-6 pb-2 px-3">
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-4 col-lg-4 mb-4">
-        <h4><i data-feather='zap' class="feature-icon"></i> Ciencia del Estrés</h4>
-        <p>La respuesta de nuestro cuerpo-mente a los riesgos del entorno físico y social.</p>
-        <a href="/ciencia-estres-sonido#stress" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+        <h4><i data-feather='triangle' class="feature-icon"></i> Pirámide sonora</h4>
+        <p>Burbuja de sonido envolvente para hacer vibrar cada célula de tu cuerpo.</p>
+        <a href="{{page.url}}#pyramid" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
-        <h4><i data-feather='mic' class="feature-icon"></i> Análisis de Voz</h4>
-        <p>La voz codifica nuestra conexión cuerpo-mente a través de las emociones.</p>
-        <a href="/ciencia-estres-sonido#voice" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+        <h4><i data-feather='sunrise' class="feature-icon"></i> Luz del amanecer</h4>
+        <p>luminación con toques rosáceos y amarillos cuando el sol abaraza el horizonte.</p>
+        <a href="{{page.url}}#light" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
-        <h4><i data-feather='volume-2' class="feature-icon"></i> Diseño de Sonidos</h4>
-        <p>Vibraciones y frecuencias para estimular y armonizar el cerebro.</p>
-        <a href="/ciencia-estres-sonido#sound" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+        <h4><i data-feather='wind' class="feature-icon"></i> Aroma relajante</h4>
+        <p>Suave fragancia de aceites de sándalo y canela para inducir la relajación.</p>
+        <a href="{{page.url}}#aromas" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="strip" id="stress">
+<div class="strip" id="pyramid">
   <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
     <div class="feature-product-title pb-4">
-      <h4><i data-feather='zap' class="feature-icon"></i> Ciencia del estrés</h4>
+      <h4><i data-feather='triangle' class="feature-icon"></i> Pirámide sonora</h4>
     </div>
-    <div class="row justify-content-center">
+    <div class="row flex-row-reverse justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
-        <p>Niveles altos de glucorticoides sostenidos en el tiempo tienen múltiples efectos patológicos. Activando el sistema nervioso parasimpático, aumentando la inmunodepresión y atrofiando el cerebro.</p>
-        <p>Esto hace que reduzca la capacidad de memoria y concentración. Aumente la probabilidad de enfermedades mentales como depresión, ansiedad, PTSD o adicciones, y físicas como hipertensión, cardiopatías, obesidad y síndrome metabólico, diabetes de tipo II, artritis o problemas gastrointestinale.</p>
-      </div>
-      <div class="col-12 col-md-6 col-lg-6">
-        <div class="feature-image">
-          <img alt="{{ page.title }}" class="img-fluid" width="100%" src="/assets/images/illustrations/stress-levels.svg" />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip-white" id="voice">
-  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
-    <div class="feature-product-title pb-4">
-      <h4><i data-feather='mic' class="feature-icon"></i> Voz y estrés</h4>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-6">
-        <p>Las personas dependemos del habla para comunicarnos, tanto en un contexto personal como profesional, y a menudo en diferentes condiciones de carga física, cognitiva y/o emocional.</p>
-        <p>Dado que la vocalización está totalmente integrada tanto en nuestro sistema nervioso central (SNC) como en nuestro sistema nervioso autónomo (SNA), un número cada vez mayor de estudios ha examinado la relación entre la emisión de la voz y el impacto del estrés.</p>
+        <p>La estructura piramidal con altavoces en cada uno de sus vertices no es aletoria. Permite que seas el centro de la burbuja sonora que se crea. Así sentirás vibrar cada sonido en ti y en tu sistema nervioso gracias a la resonancia simpática.</p>
+        <p>Los altavoces están especialmente diseñados y construidos a mano para que cada sonido que salga de ellos sea de una limpieza impecable. Sentirás como nunca.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
         <div class="feature-image">
-          <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="/assets/images/product/voice_2.webp" />
+          <img alt="{{ page.title }}" class="feature-product  img-fluid" width="100%" src="/assets/images/product/pyramid.webp" />
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="strip" id="voice">
+<div class="strip-white" id="pyramid">
   <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
     <div class="feature-product-title pb-4">
-      <h4><i data-feather='volume-2' class="feature-icon"></i> Sonidos antiestrés</h4>
+      <h4><i data-feather='sunrise' class="feature-icon"></i> Luz del amanecer</h4>
     </div>
-    <div class="row  flex-row-reverse justify-content-center">
+    <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
-        <p>Los sonidos y la música producen respuestas neurofisiológicas en nuestro cuerpo-mente, activandos distintos circuitos neuronales, segregando distintos neurotransmisores cambiando nuestro humor y otras funciones.</p>
-        <p>Los estudios científicos confirman que los sonidos blancos, binaurales y ASMR facilitan la recuperación de la activación simpática tras un factor de estrés psicológico, activado el nervio vago y reduciendo nuestros niveles de glucortisoles.</p>
+        <p>Cuando el sol está bajo en el horizonta, abrazando a la madre tierra, fruto de las gotas de agua y partículas en suspensión se crean esos maravilloso toques rosáceos y amarillos que tanto nos impresionan.</p>
+        <p>El rosa calma y suaviza nuestras emociones, aliviando los sentimientos de ira y agresividad. El amarillo mejora el estado de ánimo y aumenta la alegría y el optimismo. Si quieres sentir. Ven a vernos.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
         <div class="feature-image">
-          <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="/assets/images/product/speaker.webp" />
+          <img alt="{{ page.title }}" class="feature-product  img-fluid" width="100%" src="/assets/images/product/light.webp" />
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="strip-white">
-  <div class="container-sm pt-4 pb-4 px-3">
-    <div class="justify-content-center">
-      <div class="col-12">
-        <div class="feature-product-title pb-4">
-          <h4>La literatura científica que soporta nuestra tecnología</h>
-        </div>
-      </div>
 
-      <div class="row justify-content-center">
-          {% for item in site.data.bib %}
-          <div class="col-12 col-md-4 col-lg-4 mb-4">
-            <div class="feature-product" style="background-color: white; padding: 15px;">
-              <h6>{{item.title}}</h6>
-              <p class="feature-description">{{item.authors}}</p>
-              <a href="{{item.link}}" style="font-size: 16px;" >Leer artículo <i data-feather='chevron-right' class="feature-icon"></i></a>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-    
+<div class="strip" id="pyramid">
+  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+    <div class="feature-product-title pb-4">
+      <h4><i data-feather='wind' class="feature-icon"></i> Aroma relajante</h4>
     </div>
-  </div>
-</div>
-
-<div class="strip">
-  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
-    <div class="feature-product-title">
-      <h4>La ciencia dice que te podemos ayudar si sufres</h4>
-    </div>
-  </div>
-  <div class="container-sm pb-6 pb-md-4 px-3">
-    <div class="row justify-content-center">
+    <div class="row flex-row-reverse justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
-        <p><i data-feather='check' class="feature-icon"></i> Ansiedad</p>
-        <p><i data-feather='check' class="feature-icon"></i> Depresión</p>
-        <p><i data-feather='check' class="feature-icon"></i> Estrés crónico</p>
+        <p>La esencia de canela y sándalo te conecta con tu yo interior, despertando el fuego interno proporcionándote un estado pleno de presencia y quietud. A la nariz es picante y suave con unos toques ligeramente amaderados.</p>
+        <p>El aceite de canela estimula, activa y equilibra el cuerpo-mente. Ayuda a combatir la fatiga mental y a mejorar la concentración. El aceite de sándalo equilibra el sistema nervioso, reduce la ansiedad e incita a la meditación.</p>
       </div>
-      <div class="col-12 col-md-6 col-lg-6">
-        <p><i data-feather='check' class="feature-icon"></i> Falta de memoria</p>
-        <p><i data-feather='check' class="feature-icon"></i> Problemas de sueño</p>
-        <p><i data-feather='check' class="feature-icon"></i> Neurodegeneración</p>
+      <div class="col-12 col-md-6 col-lg-6 pt-2">
+        <div class="feature-image">
+          <img alt="{{ page.title }}" class="feature-product  img-fluid" width="100%" src="/assets/images/product/pyramid-light.webp" />
+        </div>
       </div>
     </div>
   </div>
@@ -183,7 +144,7 @@ bodyClass: "page-home"
   
   <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
     <div class="feature-product-title">
-      <h4>Elige la mejor sesión antiestrés para ti</h4>
+      <h4>Elige el mejor plan antiestrés para ti</h4>
     </div>
   </div>
 
@@ -201,7 +162,7 @@ bodyClass: "page-home"
           <p class="feature-description">{{ service.description }}</p>
           <div class="feature-content">
             <i data-feather="mic" class="feature-icon"></i> Análisis de voz<br>
-            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés</br>
+            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés<br>
             <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado<br>
             {% if service.not_bath %}
             <del style='color: lightgrey'><i data-feather='volume-2' class='feature-icon' style='color: lightgrey'></i> Baño de sonido</del> <br>
@@ -285,7 +246,3 @@ bodyClass: "page-home"
 
     </div>
 </div>
-
-<a href="https://api.whatsapp.com/send?phone=34686322484&text=Hola, te quería preguntar una cosa." class="float" target="_blank">
-  <i class="fa fa-whatsapp my-float"></i>
-</a>

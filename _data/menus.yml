@@ -1,16 +1,19 @@
 main:
   - name: "Ciencia"
     url: "/ciencia-estres-sonido"
-    weight: 2
-  - name: "Tarifas"
-    url: "#prices"
     weight: 3
+  - name: "Espacio"
+    url: "/espacio-de-relajacion"
+    weight: 4
+  - name: "Planes"
+    url: "#plans"
+    weight: 2
   - name: "Quienes somos"
     url: "/about/"
-    weight: 4
+    weight: 5
   - name: "Contáctanos"
     url: "mailto:hola@iridis.care"
-    weight: 5
+    weight: 6
 
 footer:
   - name: "Home"

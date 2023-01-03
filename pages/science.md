@@ -1,0 +1,296 @@
+---
+title: La ciencia de la terapia de sonido
+description: La ciencia que amansa al sistema nervioso
+intro_image: "images/illustrations/stress-levels.svg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: true
+show_call_box: true
+permalink: /ciencia-estres-sonido
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="intro">
+    <div class="container-sm">
+      <div class="justify-content-center">
+        <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+        <h1>La ciencia que reduce el estrés a través de la voz y el sonido</h1>
+        <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
+        <p>Análisis de voz para detectar el estrés, diseño de sonidos que modifican el cerebro y ayudan a reducir el estrés. No es magia, es ciencia.</p>
+        <div class="animate__animated animate__bounceInLeft">
+          <p class="copies"><i data-feather='mic' class="feature-icon"></i> <i>Analizar la voz</i></p>
+          <p class="copies"><i data-feather='zap' class="feature-icon"></i> <i>Cuantificar el estrés</i></p>
+          <p style="line-height: 0; "><i data-feather='volume-2' class="feature-icon"></i> <i>Diseño de sonidos antiestrés</i></p>
+        </div>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#prices">Sí, quiero reducir mi estrés</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-2 px-3">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-md-4 col-lg-4 mb-4">
+        <h4><i data-feather='zap' class="feature-icon"></i> Ciencia del Estrés</h4>
+        <p>La respuesta de nuestro cuerpo-mente a los riesgos del entorno físico y social.</p>
+        <a href="{{page.url}}#stress" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mb-4">
+        <h4><i data-feather='mic' class="feature-icon"></i> Análisis de Voz</h4>
+        <p>La voz codifica nuestra conexión cuerpo-mente a través de las emociones.</p>
+        <a href="{{page.url}}#voice" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mb-4">
+        <h4><i data-feather='volume-2' class="feature-icon"></i> Diseño de Sonidos</h4>
+        <p>Vibraciones y frecuencias para estimular y armonizar el cerebro.</p>
+        <a href="{{page.url}}#sound" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip" id="stress">
+  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+    <div class="feature-product-title pb-4">
+      <h4><i data-feather='zap' class="feature-icon"></i> Ciencia del estrés</h4>
+    </div>
+    <div class="row flex-row-reverse justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6">
+        <p>Niveles altos de glucorticoides sostenidos en el tiempo tienen múltiples efectos patológicos. Activando el sistema nervioso parasimpático, aumentando la inmunodepresión y atrofiando el cerebro.</p>
+        <p>Esto hace que reduzca la capacidad de memoria y concentración. Aumente la probabilidad de enfermedades mentales como depresión, ansiedad, PTSD o adicciones, y físicas como hipertensión, cardiopatías, obesidad y síndrome metabólico, diabetes de tipo II, artritis o problemas gastrointestinale.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="feature-image">
+          <img alt="{{ page.title }}" class="img-fluid" width="100%" src="/assets/images/illustrations/stress-levels.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white" id="voice">
+  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+    <div class="feature-product-title pb-4">
+      <h4><i data-feather='mic' class="feature-icon"></i> Voz y estrés</h4>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6">
+        <p>Las personas dependemos del habla para comunicarnos, tanto en un contexto personal como profesional, y a menudo en diferentes condiciones de carga física, cognitiva y/o emocional.</p>
+        <p>Dado que la vocalización está totalmente integrada tanto en nuestro sistema nervioso central (SNC) como en nuestro sistema nervioso autónomo (SNA), un número cada vez mayor de estudios ha examinado la relación entre la emisión de la voz y el impacto del estrés.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 pt-2">
+        <div class="feature-image">
+          <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="/assets/images/product/voice_2.webp" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip" id="sound">
+  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+    <div class="feature-product-title pb-4">
+      <h4><i data-feather='volume-2' class="feature-icon"></i> Sonidos antiestrés</h4>
+    </div>
+    <div class="row  flex-row-reverse justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6">
+        <p>Los sonidos meditativos producen respuestas neurofisiológicas en nuestro cuerpo-mente, activandos distintos circuitos neuronales, segregando distintos neurotransmisores cambiando nuestro humor y otras funciones.</p>
+        <p>Los estudios científicos confirman que los sonidos blancos, binaurales y ASMR facilitan la recuperación de la activación simpática tras un factor de estrés psicológico, activado el nervio vago y reduciendo nuestros niveles de glucortisoles.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 pt-2">
+        <div class="feature-image">
+          <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="/assets/images/product/speaker.webp" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-4 pb-4 px-3">
+    <div class="justify-content-center">
+      <div class="col-12">
+        <div class="feature-product-title pb-4">
+          <h4>La literatura científica que soporta nuestra tecnología</h4>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+          {% for item in site.data.bib %}
+          <div class="col-12 col-md-4 col-lg-4 mb-3">
+            <div class="feature-product" style="background-color: white; padding: 15px;">
+              <h6>{{item.title}}</h6>
+              <p class="feature-description">{{item.authors}}</p>
+              <a href="{{item.link}}" style="font-size: 16px;" >Leer artículo <i data-feather='chevron-right' class="feature-icon"></i></a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+    <div class="feature-product-title">
+      <h4>La ciencia dice que te podemos ayudar si sufres</h4>
+    </div>
+  </div>
+  <div class="container-sm pb-6 pb-md-4 px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6">
+        <p><i data-feather='check' class="feature-icon"></i> Ansiedad</p>
+        <p><i data-feather='check' class="feature-icon"></i> Depresión</p>
+        <p><i data-feather='check' class="feature-icon"></i> Estrés crónico</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <p><i data-feather='check' class="feature-icon"></i> Falta de memoria</p>
+        <p><i data-feather='check' class="feature-icon"></i> Problemas de sueño</p>
+        <p><i data-feather='check' class="feature-icon"></i> Neurodegeneración</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white pb-8">
+  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-3">
+    <div class="feature-product-title">
+      <h4>La mayoría de nuestros usuarios se van relajados y sorprendidos</h4>
+    </div>
+  </div>
+  <div class="container-sm px-4">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            {% for item in site.data.testimonials %}
+            {% if item.active %}
+              <div class="carousel-item active">
+            {% else %}
+              <div class="carousel-item ">
+            {% endif %}
+                <div class="text-center">
+                  <p class="testimonial-quote">"{{item.quote}}"</p>
+                  <h3 class="testimonial-author">{{item.author}}</h3>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if site.data.services %}
+<div class="strip" id="prices">
+  
+  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+    <div class="feature-product-title">
+      <h4>Elige el mejor plan antiestrés para ti</h4>
+    </div>
+  </div>
+
+  <div class="pb-6 pb-md-4 px-2">
+    <div class="row justify-content-center ">
+      {% for service in site.data.services %}
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
+        <div class="feature {% if service.highlight %}feature-highlight{% endif %}">
+          {% if service.highlight %}<p class="feature-highlight-box">⭐ La recomendación de Iridis</p>{% endif %}
+          <hr>
+          {% if service.image %}
+          <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ service.title }}</h2>
+          <p class="feature-description">{{ service.description }}</p>
+          <div class="feature-content">
+            <i data-feather="mic" class="feature-icon"></i> Análisis de voz<br>
+            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés</br>
+            <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado<br>
+            {% if service.not_bath %}
+            <del style='color: lightgrey'><i data-feather='volume-2' class='feature-icon' style='color: lightgrey'></i> Baño de sonido</del> <br>
+            {% else %}
+            <i data-feather='volume-2' class='feature-icon'></i> Baño de sonido <br> 
+            {% endif %}
+            <i data-feather='clock' class='feature-icon'></i><b style="margin-left: 5px">{{ service.time }}</b>
+          </div>
+          
+          <h3 class="feature-price">{{ service.price }}</h3>
+          <hr>
+          <a class="feature-button button button-primary btn-lg" href="{{ service.url.booking | relative_url }}" onclick="gtag('event', 'click', { event_category: 'Booking Link', event_action: 'Click to Pay', event_label:'{{ service.price }}'})">{{ service.cta }}</a>
+          <hr>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="strip">
+  <div class="container pb-6  pb-md-6">
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+        <div class="feature-product-title pb-3">
+          <h4>Cómo se realiza la reserva y el pago de tu sesión</h4>
+        </div>
+        <p><i data-feather='check' class="feature-icon"></i> Pulsa sobre la sesión deseada para reservar tu fecha y hora</p>
+        <p><i data-feather='check' class="feature-icon"></i> Realiza el pago después de reservar tu sesión</p>
+        <p><i data-feather='check' class="feature-icon"></i> Recibirás un email con la confirmación</p>
+        <p>Escribe a <a href="mailto:hola@iridis.care?subject=Tengo una duda">hola@iridis.care</a> con cualquier duda que tengas, estaremos encantados de responder.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="strip-white">
+  <div class="container-sm pt-4 pb-4 px-3">
+    <div class="feature-product-title pb-1">
+      <h4>Puedes visitarnos en <a href="https://g.page/Psicologos-Toledo?share">Tr.ª Cobarrubias, 1, Toledo</a></h4>
+      <p>Horario: 16:00 - 21:00 (L, M, X, J) y 10:30 - 13:00 (Viernes)</p>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.28867166205!2d-4.025675586679072!3d39.86777133531726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0bf0f4c89bd1%3A0x32731f7863b2e46b!2sSomos%20Humanos%20Toledo!5e0!3m2!1sen!2ses!4v1667484825691!5m2!1sen!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container-sm pt-4 pb-2 px-3">
+    <div class="feature-product-title pb-4">
+      <h4>Los agobios pueden venir en cualquier momento</h4>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 pb-4">
+        <img alt="10 consejos para reducir el estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/advices.webp" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <p>Si vuelven los nudos en el estómago, las ansiedades o las noches donde la cabeza no para, tenemos <b>10 consejos para que aprendas a reducir tu estrés cuando y donde lo necesites</b>. Totalmente GRATIS.</p>
+        {% include form.html %}
+      </div>
+    </div>
+    <br>
+  </div>
+</div>
+
+<div class="strip-white">
+    <div class="container-sm pt-4 pb-4 px-3">
+      <div class="feature-product-title pb-2">
+        <h4>Preguntas frecuentes</h4>
+      </div>
+
+      {% for data in site.data.faq %}
+      <div class="pb-3 accordion-item">
+        <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> &emsp;{{data.question}}</button>
+        <div class="panel">
+          <p>{{data.answer}}</p>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+</div>
+
+
