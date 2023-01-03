@@ -39,7 +39,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='sunrise' class="feature-icon"></i> Luz del amanecer</h4>
-        <p>luminación con toques rosáceos y amarillos cuando el sol abaraza el horizonte.</p>
+        <p>luminación con toques rosáceos y amarillos cuando el sol abraza el horizonte.</p>
         <a href="{{page.url}}#light" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
@@ -139,67 +139,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-{% if site.data.services %}
-<div class="strip" id="prices">
-  
-  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
-    <div class="feature-product-title">
-      <h4>Elige el mejor plan antiestrés para ti</h4>
-    </div>
-  </div>
-
-  <div class="pb-6 pb-md-4 px-2">
-    <div class="row justify-content-center ">
-      {% for service in site.data.services %}
-      <div class="col-12 col-md-6 col-lg-3 mb-2">
-        <div class="feature {% if service.highlight %}feature-highlight{% endif %}">
-          {% if service.highlight %}<p class="feature-highlight-box">⭐ La recomendación de Iridis</p>{% endif %}
-          <hr>
-          {% if service.image %}
-          <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ service.title }}</h2>
-          <p class="feature-description">{{ service.description }}</p>
-          <div class="feature-content">
-            <i data-feather="mic" class="feature-icon"></i> Análisis de voz<br>
-            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés<br>
-            <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado<br>
-            {% if service.not_bath %}
-            <del style='color: lightgrey'><i data-feather='volume-2' class='feature-icon' style='color: lightgrey'></i> Baño de sonido</del> <br>
-            {% else %}
-            <i data-feather='volume-2' class='feature-icon'></i> Baño de sonido <br> 
-            {% endif %}
-            <i data-feather='clock' class='feature-icon'></i><b style="margin-left: 5px">{{ service.time }}</b>
-          </div>
-          
-          <h3 class="feature-price">{{ service.price }}</h3>
-          <hr>
-          <a class="feature-button button button-primary btn-lg" href="{{ service.url.booking | relative_url }}" onclick="gtag('event', 'click', { event_category: 'Booking Link', event_action: 'Click to Pay', event_label:'{{ service.price }}'})">{{ service.cta }}</a>
-          <hr>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}
-
-<div class="strip">
-  <div class="container pb-6  pb-md-6">
-    <div class="d-flex justify-content-center">
-      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <div class="feature-product-title pb-3">
-          <h4>Cómo se realiza la reserva y el pago de tu sesión</h4>
-        </div>
-        <p><i data-feather='check' class="feature-icon"></i> Pulsa sobre la sesión deseada para reservar tu fecha y hora</p>
-        <p><i data-feather='check' class="feature-icon"></i> Realiza el pago después de reservar tu sesión</p>
-        <p><i data-feather='check' class="feature-icon"></i> Recibirás un email con la confirmación</p>
-        <p>Escribe a <a href="mailto:hola@iridis.care?subject=Tengo una duda">hola@iridis.care</a> con cualquier duda que tengas, estaremos encantados de responder.</p>
-      </div>
-    </div>
-  </div>
-</div>
+{% include plans.html %}
   
 <div class="strip-white">
   <div class="container-sm pt-4 pb-4 px-3">

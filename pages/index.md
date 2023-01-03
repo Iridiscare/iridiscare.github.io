@@ -1,6 +1,6 @@
 ---
-title: Iridis Care te ayuda a reducir tu estrés en 30 minutos
-description: A través del análisis de tu voz y terapia de sonido personalizada para que priorices tu salud.
+title: Iridis Care te ayuda a reducir tu estrés en 17 minutos
+description: A través del análisis de tu voz y un baño de sonido. ¡Te regalamos el informe de estrés!
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -14,17 +14,16 @@ bodyClass: "page-home"
   <div class="container-sm">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Reduce tu estrés en 30 minutos</h1>
+        <h1>Reduce tu estrés en 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>A través del análisis de tu voz y un baño de sonido personalizado</p>
+        <p>A través del análisis de tu voz y un baño de sonido. <b>Prueba tu 1ª sesión por 14,99€.</b> ¡Te regalamos el informe de estrés!</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Vuelve a la calma</i></p>
-          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Prioriza tu salud</i></p>
-          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
+          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Resultados en la 1ª sesión</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#prices">Sí, quiero reducir mi estrés</a>
         <br>
-        <a class="gift animate__pulse" href="#prices"><i data-feather='gift' class="feature-icon"></i>Regala una sesión antiestrés</a>
+        <a class="gift animate__pulse" href="#plans"><i data-feather='gift' class="feature-icon"></i>Regala una sesión antiestrés</a>
       </div>
     </div>
   </div>
@@ -200,68 +199,8 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-
-{% if site.data.services %}
-<div class="strip" id="plans">
-  
-  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
-    <div class="feature-product-title">
-      <h4>Elige el mejor plan antiestrés para ti</h4>
-    </div>
-  </div>
-
-  <div class="pb-6 pb-md-4 px-2">
-    <div class="row justify-content-center ">
-      {% for service in site.data.services %}
-      <div class="col-12 col-md-6 col-lg-3 mb-2">
-        <div class="feature {% if service.highlight %}feature-highlight{% endif %}">
-          {% if service.highlight %}<p class="feature-highlight-box">⭐ La recomendación de Iridis</p>{% endif %}
-          <hr>
-          {% if service.image %}
-          <div class="feature-image"><img alt="{{ services.title }} logo" src="{{ service.image.url | relative_url }}" width="{{ service.image.width }}" height="{{ service.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ service.title }}</h2>
-          <p class="feature-description">{{ service.description }}</p>
-          <div class="feature-content">
-            <i data-feather="mic" class="feature-icon"></i> Análisis de voz<br>
-            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés<br>
-            <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado<br>
-            {% if service.not_bath %}
-            <del style='color: lightgrey'><i data-feather='volume-2' class='feature-icon' style='color: lightgrey'></i> Baño de sonido</del> <br>
-            {% else %}
-            <i data-feather='volume-2' class='feature-icon'></i> Baño de sonido <br> 
-            {% endif %}
-            <i data-feather='clock' class='feature-icon'></i><b style="margin-left: 5px">{{ service.time }}</b>
-          </div>
-          
-          <h3 class="feature-price">{{ service.price }}</h3>
-          <hr>
-          <a class="feature-button button button-primary btn-lg" href="{{ service.url.booking | relative_url }}" onclick="gtag('event', 'click', { event_category: 'Booking Link', event_action: 'Click to Pay', event_label:'{{ service.price }}'})">{{ service.cta }}</a>
-          <hr>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}
-
-<div class="strip">
-  <div class="container pb-6  pb-md-6">
-    <div class="d-flex justify-content-center">
-      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <div class="feature-product-title pb-3">
-          <h4>Cómo se realiza la reserva y el pago de tu sesión</h4>
-        </div>
-        <p><i data-feather='check' class="feature-icon"></i> Pulsa sobre la sesión deseada para reservar tu fecha y hora</p>
-        <p><i data-feather='check' class="feature-icon"></i> Realiza el pago después de reservar tu sesión</p>
-        <p><i data-feather='check' class="feature-icon"></i> Recibirás un email con la confirmación</p>
-        <p>Escribe a <a href="mailto:hola@iridis.care?subject=Tengo una duda">hola@iridis.care</a> con cualquier duda que tengas, estaremos encantados de responder.</p>
-      </div>
-    </div>
-  </div>
-</div>
+ 
+{% include plans.html %}
   
 <div class="strip-white">
   <div class="container-sm pt-4 pb-4 px-3">
