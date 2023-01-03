@@ -1,6 +1,6 @@
 [
   {
-    "title": "4 Quick sessions",
+    "title": "Bono 4 sesiones",
     "description": "Consigue efectos a largo plazo con lo que recomiendan los estudios científicos",
     "time": "4 x 30 minutos",
     "cta": "Quiero ver resultados",
@@ -12,7 +12,7 @@
     "multiple": true
   },
   {
-    "title": "Power session",
+    "title": "Sesión de 45 minutos",
     "description": "Una experiencia más intensa si el estrés te sobrepasa y estás apunto de estallar",
     "time": "45 minutos",
     "cta": "Quiero algo más intenso",
@@ -23,7 +23,7 @@
     }
   },
   {
-    "title": "Quick session",
+    "title": "Sesión de 30 minutos",
     "description": "Conoce tu nivel de estrés y desestrésate en menos de 30 minutos en nuestra espacio",
     "time": "30 minutos",
     "cta": "Quiero desestresarme",
@@ -35,7 +35,7 @@
     "highlight": true
   },
   {
-    "title": "Start session",
+    "title": "Análisis de estrés",
     "description": "Conoce tu nivel de estrés y desestrésate a tu ritmo en casa con tu audio personalizado",
     "time": "15 minutos",
     "cta": "Conocer mi estrés",
