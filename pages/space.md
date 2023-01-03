@@ -1,6 +1,6 @@
 ---
-title: Nuestro espacio de relajación
-description: No querrás marchar
+title: El espacio de relajación de Iridis
+description: No querrás marchar. Sonido envolvente, luz y aroma antiestrés.
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true

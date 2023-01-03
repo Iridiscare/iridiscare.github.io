@@ -1,6 +1,6 @@
 ---
-title: La ciencia de la terapia de sonido
-description: La ciencia que amansa al sistema nervioso
+title: La ciencia antiestrés de Iridis
+description: El sonido que amansa tu sistema nervioso a través de la voz y el sonido.
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
