@@ -1,6 +1,6 @@
 ---
 title: Iridis Care te ayuda a reducir tu estrés en 17 minutos
-description: A través del análisis de tu voz y un baño de sonido. ¡Te regalamos el informe de estrés!
+description: A través del análisis de tu voz y un baño de sonido antiestrés. ¡Te regalamos el informe de estrés!
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -16,7 +16,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Reduce tu estrés en 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>A través del análisis de tu voz y un baño de sonido. <b>Prueba tu 1ª sesión por 14,99€.</b> ¡Te regalamos el informe de estrés!</p>
+        <p>A través del análisis de tu voz y un baño de sonido antiestrés. <b>Prueba tu 1ª sesión por 14,99€.</b> ¡Te regalamos el informe de estrés!</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Vuelve a la calma</i></p>
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Resultados en la 1ª sesión</i></p>
