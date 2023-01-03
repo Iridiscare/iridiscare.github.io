@@ -208,7 +208,7 @@ bodyClass: "page-home"
           <p class="feature-description">{{ service.description }}</p>
           <div class="feature-content">
             <i data-feather="mic" class="feature-icon"></i> Análisis de voz<br>
-            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés</br>
+            <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés<br>
             <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado<br>
             {% if service.not_bath %}
             <del style='color: lightgrey'><i data-feather='volume-2' class='feature-icon' style='color: lightgrey'></i> Baño de sonido</del> <br>
