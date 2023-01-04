@@ -10,19 +10,22 @@ layout: default
 bodyClass: "page-home"
 ---
 
+{% include sticky-cta.html %}
+
+
 <div class="intro">
-    <div class="container-sm">
-      <div class="justify-content-center">
-        <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+  <div class="container-sm">
+    <div class="justify-content-center">
+      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>La ciencia que reduce el estrés a través de la voz y el sonido</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Análisis de voz para detectar el estrés, diseño de sonidos que modifican el cerebro y ayudan a reducir el estrés. No es magia, es ciencia.</p>
+        <p>Análisis de voz para detectar el estrés, más sonidos que modifican el cerebro y ayudan a reducir el estrés. No es magia, es ciencia.</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='mic' class="feature-icon"></i> <i>Analizar la voz</i></p>
           <p class="copies"><i data-feather='zap' class="feature-icon"></i> <i>Cuantificar el estrés</i></p>
           <p style="line-height: 0; "><i data-feather='volume-2' class="feature-icon"></i> <i>Diseño de sonidos antiestrés</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#prices">Sí, quiero reducir mi estrés</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi estrés</a>
         <br>
       </div>
     </div>

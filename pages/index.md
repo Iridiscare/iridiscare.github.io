@@ -10,18 +10,20 @@ layout: default
 bodyClass: "page-home"
 ---
 
+{% include sticky-cta.html %}
+
 <div class="intro">
   <div class="container-sm">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Reduce tu estrés en 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>A través del análisis de tu voz y un baño de sonido antiestrés. <b>Prueba tu 1ª sesión por 14,99€.</b> ¡Te regalamos el informe de estrés!</p>
+        <p>A través del análisis de tu voz y un baño de sonido antiestrés. <b>Prueba tu 1ª sesión por 14,99€.</b> ¡Te regalamos un informe de estrés!</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Vuelve a la calma</i></p>
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Resultados en la 1ª sesión</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#prices">Sí, quiero reducir mi estrés</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi estrés</a>
         <br>
         <a class="gift animate__pulse" href="#plans"><i data-feather='gift' class="feature-icon"></i>Regala una sesión antiestrés</a>
       </div>
@@ -32,7 +34,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-6 pt-2 pb-4">
+      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-4">
         <div class="embed-responsive embed-responsive-16by9">
           <video class="feature-product" width="100%" controls> 
               <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
@@ -68,7 +70,9 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <a href="/ciencia-estres-sonido" style="font-size: 20px">Saber sobre estrés y sonido <i data-feather='chevron-right' class="feature-icon"></i></a>
+      <a href="/ciencia-estres-sonido" style="font-size: 20px">
+        Saber sobre estrés y sonido <i data-feather='chevron-right' class="feature-icon"></i>
+      </a>
     </div>
   </div>
 </div>
@@ -245,5 +249,7 @@ bodyClass: "page-home"
       {% endfor %}
     </div>
 </div>
+
+
 
 

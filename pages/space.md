@@ -10,6 +10,8 @@ layout: default
 bodyClass: "page-home"
 ---
 
+{% include sticky-cta.html %}
+
 <div class="intro">
   <div class="container-sm">
     <div class="justify-content-center">
@@ -22,7 +24,7 @@ bodyClass: "page-home"
           <p class="copies"><i data-feather='sunrise' class="feature-icon"></i> <i>Luz del amanecer</i></p>
           <p style="line-height: 0; "><i data-feather='wind' class="feature-icon"></i> <i>Aroma relajante</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#prices">Sí, quiero reducir mi estrés</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi estrés</a>
         <br>
       </div>
     </div>

@@ -1,21 +1,32 @@
 .top-banner {
-  display: block;
+  display: none;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
   padding: 10px;
   text-align: center;
-  z-index: 10;
+  z-index: 1;
 
-  background-color: white;
+  bottom: 0px;
+
+  background-color: #9B51E0;
 
   position: fixed;
   width: 100%
 }
 
 .top-banner p {
-  line-height: 1.5;
   font-weight: 400;
-  color: #9B51E0;
+  color: white;
+  margin-bottom: 0px;
+  font-size: 22px;
 }
-.top-banner a {
-  text-decoration: underline;
+
+.top-banner banner-icon {
+  color: white;
+  background: rgba(155, 81, 224, 0.1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }

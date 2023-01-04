@@ -6,10 +6,10 @@ main:
     url: "/espacio-de-relajacion"
     weight: 4
   - name: "Planes"
-    url: "#plans"
+    url: "/planes"
     weight: 2
   - name: "Quienes somos"
-    url: "/about/"
+    url: "/about"
     weight: 5
   - name: "Contáctanos"
     url: "mailto:hola@iridis.care"
