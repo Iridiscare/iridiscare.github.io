@@ -20,7 +20,7 @@ bodyClass: "page-home"
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>A través del análisis de tu voz y un baño de sonido antiestrés. <b>Prueba tu 1ª sesión por 14,99€.</b> ¡Te regalamos un informe de estrés!</p>
         <div class="animate__animated animate__bounceInLeft">
-          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Vuelve a la calma</i></p>
+          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Resultados en la 1ª sesión</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi estrés</a>
