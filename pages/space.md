@@ -149,7 +149,7 @@ bodyClass: "page-home"
       <h4>Puedes visitarnos en <a href="https://g.page/Psicologos-Toledo?share">Tr.ª Cobarrubias, 1, Toledo</a></h4>
       <p>Horario: 16:00 - 21:00 (L, M, X, J) y 10:30 - 13:00 (Viernes)</p>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.28867166205!2d-4.025675586679072!3d39.86777133531726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0bf0f4c89bd1%3A0x32731f7863b2e46b!2sSomos%20Humanos%20Toledo!5e0!3m2!1sen!2ses!4v1667484825691!5m2!1sen!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12249.149997078619!2d-4.0236003!3d39.8677976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ed1e1af21569dac!2sIridis%20Care%20-%20Reduce%20tu%20estr%C3%A9s!5e0!3m2!1ses!2ses!4v1672861399929!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
 
