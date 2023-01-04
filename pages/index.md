@@ -1,6 +1,6 @@
 ---
-title: Iridis Care te ayuda a reducir tu estrés en 17 minutos
-description: A través del análisis de tu voz y un baño de sonido antiestrés. ¡Te regalamos el informe de estrés!
+title: "Iridis Care: Reduce tu estrés en 17 minutos"
+description: Terapia de sonido antiestrés con nuestra tecnología de análisis de voz y un baño de sonido digital antiestrés. ¡Te regalamos un informe de estrés!
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
