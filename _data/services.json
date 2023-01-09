@@ -13,7 +13,8 @@
       "payment": "https://buy.stripe.com/00g6sb28pah41m828j",
       "booking": "https://calendly.com/iridis-care/quick-30x4"
     },
-    "multiple": true
+    "multiple": true,
+    "link": "bono"
   },
   {
     "title": "Bono de 4 sesiones de 30 minutos",
@@ -37,12 +38,13 @@
     "time": "1 x 30 minutos",
     "cta": "Quiero desestresarme",
     "price": {
-      "price": "29.99€"
+      "price": "29,99€"
     },
     "url": {
       "payment": "https://buy.stripe.com/aEU5o728p0Gu2qc005",
       "booking": "https://calendly.com/iridis-care/session-30"
-    }
+    },
+    "link": "session"
   },
   {
     "title": "Bono de 4 sesiones de 30 minutos al mes",
@@ -59,7 +61,8 @@
       "booking": "https://calendly.com/iridis-care/quick-30x4"
     },
     "multiple": true,
-    "highlight": true
+    "highlight": true,
+    "link": "monthly"
   },
   {
     "title": "Bono de 2 sesiones de 30 minutos al mes",

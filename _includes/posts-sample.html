@@ -1,0 +1,28 @@
+<div class="strip">
+  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+    <div class="feature-product-title">
+      <h4>Últimos artículos de nuestro blog sobre estrés</h4>
+    </div>
+  </div>
+  
+  <div class="container-sm pb-6 pb-md-4 px-2">
+    <div class="row justify-content-center ">
+    {% for post in site.posts limit:3 %}
+    <div class="col-12 col-md-4 col-lg-4 mb-4">
+      <a href="{{post.url}}"  style="text-decoration: none;" >
+        <div class="feature-product" style="background-color: white; overflow: hidden;">
+          <img alt="{{post.title}}" class="img-fluid" width="100%" style="margin-top: 0px; margin-bottom: 0px; object-fit: cover;
+        height: 200px;" src="{{post.image}}" />
+          <div style="padding: 15px;">
+            <h5 style="color: black;">{{post.title}}</h5>
+            <a href="{{post.url}}" style="font-size: 16px;" >Leer artículo <i data-feather='chevron-right' class="feature-icon"></i></a>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="row justify-content-center">
+    <a href="/blog" style="font-size: 20px">Ver todos <i data-feather='chevron-right' class="feature-icon"></i></a>
+  </div>
+</div>

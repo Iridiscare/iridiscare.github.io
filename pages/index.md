@@ -53,7 +53,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" id="science">
+<div class="strip">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title pb-4">
       <h4>El estrés no es solo un nudo en el estómago</h4>
@@ -249,6 +249,7 @@ bodyClass: "page-home"
     </div>
 </div>
 
+{% include posts-sample.html %}
 
 
 
