@@ -3,7 +3,7 @@ layout: page
 title:  10 Beneficios de un baño de sonido
 date:   2022-10-31 18:04:14 +0100
 categories: baño sonido
-description: Aquí podrás conocer los beneficios de un baño de sonido
+description: En este artículo podrás conocer como ayuda a tu cuerpo y mente
 image: /assets/images/posts/synthwave-nebulosa-futurista-mujer-en-una-terapia-de-sonido.webp
 ---
 
