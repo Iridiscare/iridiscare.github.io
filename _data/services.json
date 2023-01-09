@@ -1,10 +1,30 @@
 [
   {
-    "title": "Bono 4 sesiones",
-    "description": "Consigue efectos a largo plazo con lo que recomiendan los estudios científicos",
+    "title": "Bono de 8 sesiones de 30 minutos",
+    "description": "Relájate a tu ritmo y consigue resultados a largo plazo con nuestro bono de 8 sesiones",
+    "time": "8 x 30 minutos",
+    "cta": "Quiero ver resultados",
+    "price": {
+      "price": "150€",
+      "session": "18,75€",
+      "discount": "37%"
+    },
+    "url": {
+      "payment": "https://buy.stripe.com/00g6sb28pah41m828j",
+      "booking": "https://calendly.com/iridis-care/quick-30x4"
+    },
+    "multiple": true
+  },
+  {
+    "title": "Bono de 4 sesiones de 30 minutos",
+    "description": "Relájate a tu ritmo y consigue resultados a largo plazo con nuetro bono de 4 sesiones",
     "time": "4 x 30 minutos",
     "cta": "Quiero ver resultados",
-    "price": "99€",
+    "price": {
+      "price": "99€",
+      "session": "24,75€",
+      "discount": "17%"
+    },
     "url": {
       "payment": "https://buy.stripe.com/cN2bMvbIZ1Ky4ykcMU",
       "booking": "https://calendly.com/iridis-care/quick-30x4"
@@ -12,34 +32,61 @@
     "multiple": true
   },
   {
-    "title": "Sesión de 45 minutos",
-    "description": "Una experiencia más intensa si el estrés te sobrepasa y estás apunto de estallar",
-    "time": "45 minutos",
-    "cta": "Quiero algo más intenso",
-    "price": "45€",
-    "url": {
-      "payment": "https://buy.stripe.com/aEUcQzeVb60O2qc9AG",
-      "booking": "https://calendly.com/iridis-care/session-45"
-    }
-  },
-  {
-    "title": "Sesión de 30 minutos",
+    "title": "Bono de 1 sesión de 30 minutos",
     "description": "Conoce tu nivel de estrés y desestrésate en menos de 30 minutos en nuestro espacio",
-    "time": "30 minutos",
+    "time": "1 x 30 minutos",
     "cta": "Quiero desestresarme",
-    "price": "29.99€",
+    "price": {
+      "price": "29.99€"
+    },
     "url": {
       "payment": "https://buy.stripe.com/aEU5o728p0Gu2qc005",
       "booking": "https://calendly.com/iridis-care/session-30"
+    }
+  },
+  {
+    "title": "Bono de 4 sesiones de 30 minutos al mes",
+    "description": "Consigue efectos a largo plazo con 4 sesiones al mes + Contenido exclusivo por ser socio",
+    "time": "4 x 30 mins / mes",
+    "cta": "Quiero hacerme socio",
+    "price": {
+      "price": "45,99€",
+      "session": "11,50€",
+      "discount": "62%"
     },
+    "url": {
+      "payment": "https://buy.stripe.com/dR6aIr28pfBo8OAfZ8",
+      "booking": "https://calendly.com/iridis-care/quick-30x4"
+    },
+    "multiple": true,
     "highlight": true
   },
   {
-    "title": "Análisis de estrés",
+    "title": "Bono de 2 sesiones de 30 minutos al mes",
+    "description": "Consigue efectos a largo plazo con 2 sesiones al mes + Contenido exclusivo por ser socio",
+    "time": "2 x 30 mins / mes",
+    "cta": "Quiero hacerme socio",
+    "price": {
+      "price": "24,99€",
+      "session": "12,50€",
+      "discount": "58%"
+    },
+    "url": {
+      "payment": "https://buy.stripe.com/8wM2bV14ldtg6Gs14d",
+      "booking": "https://calendly.com/iridis-care/quick-30x4"
+    },
+    "multiple": true
+  },
+  
+  
+  {
+    "title": "Bono de 1 sesión de Análisis de estrés",
     "description": "Conoce tu nivel de estrés y desestrésate a tu ritmo en casa con tu audio personalizado",
-    "time": "15 minutos",
+    "time": "1 x 15 minutos",
     "cta": "Conocer mi estrés",
-    "price": "21€",
+    "price": {
+      "price": "21€",
+    },
     "url": {
       "payment": "https://buy.stripe.com/dR67wf5kB3SGaWIcMQ",
       "booking": "https://calendly.com/iridis-care/session-15"

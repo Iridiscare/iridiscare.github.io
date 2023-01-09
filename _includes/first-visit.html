@@ -1,0 +1,88 @@
+{% if site.data.services %}
+<div class="strip" id="plans">
+  
+  <div class="container pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+    <div class="feature-product-title">
+      <h4>Elige el mejor plan antiestrés para ti</h4>
+    </div>
+  </div>
+
+  <div class="pb-6 pb-md-4 px-2">
+    <div class="container-sm">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4 mb-2">
+          <div class="feature">
+            <h2 class="feature-title pt-2">Sesión antiestrés</h2>
+            <p class="feature-description">Conoce tu nivel de estrés y desestrésate en menos de 30 minutos en nuestro espacio</p>
+            <div class="feature-content">
+              <h4 class="mb-2">
+                Cada sesión incluye
+              </h4>
+              <i data-feather="mic" class="feature-icon"></i> Análisis de voz<br>
+              <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés<br>
+              <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado<br>
+              <i data-feather='volume-2' class='feature-icon'></i> Baño de sonido <br> 
+              <i data-feather='clock' class='feature-icon'></i><b style="margin-left: 5px">30 o 45 minutos</b>
+            </div>
+            <a href="/assets/sample_stress_voice_report.pdf" class="mt-2" style="font-size: 16px">
+              Ejemplo de informe de estrés <i data-feather='download' class="feature-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 mb-2">
+          <div class="feature feature-highlight">
+            <p class="feature-highlight-box">⭐ 1ª sesión de 30 mins por 14,99€</p>
+            <!-- <h5 class="pt-3">
+              Conviértete en socio
+            </h5>
+            <p><i data-feather='check' class="feature-icon"></i> 2 sesiones al mes</p>
+            <p><i data-feather='check' class="feature-icon"></i> 4 sesiones al mes</p> -->
+            
+            <div class="feature-content pb-2">
+              <h4 class="pt-3">
+                Conviértete en socio
+              </h4>
+              <i data-feather='repeat' class="feature-icon"></i> 2 sesiones al mes<br>
+              <i data-feather='repeat' class="feature-icon"></i> 4 sesiones al mes<br>
+              <h4 class="pt-1">
+                Bonos de sesiones
+              </h4>
+              <i data-feather="check" class="feature-icon"></i> 1 sesión<br>
+              <i data-feather="check" class="feature-icon"></i> 4 sesiones<br>
+              <i data-feather="check" class="feature-icon"></i> 8 sesiones<br>
+            </div>
+            <a class="feature-button button button-primary btn-lg" 
+                href="https://calendly.com/iridis-care/1a-sesion-antiestres" 
+                onclick="gtag('event', 'first_visit', { event_category: 'Booking Link', event_action: 'Click to Pay', event_label:'{{ site.data.services[2].price.price }}'})">
+              Probar 1ª sesión de 30 mins
+            </a>
+            <p class="feature-description mt-1 mb-0">¡Te regalamos el informe de estrés!</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <a href="/planes" style="font-size: 20px">
+          Ver todos los planes <i data-feather='chevron-right' class="feature-icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pb-6  pb-md-6">
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+        <div class="feature-product-title pb-3">
+          <h4>Cómo se realiza la reserva y el pago de tu sesión</h4>
+        </div>
+        <p><i data-feather='check' class="feature-icon"></i> Elige tu fecha y hora deseada</p>
+        <p><i data-feather='check' class="feature-icon"></i> Realiza el pago para reservar tu sesión</p>
+        <p><i data-feather='check' class="feature-icon"></i> Recibirás un email con la confirmación</p>
+        <p>Escribe a <a href="mailto:hola@iridis.care?subject=Tengo una duda">hola@iridis.care</a> con cualquier duda que tengas, estaremos encantados de responder.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

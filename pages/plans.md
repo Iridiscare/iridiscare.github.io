@@ -1,6 +1,6 @@
 ---
 title: Planes antiestrés de Iridis
-description: Elige el mejor plan antiestrés para ti desde 14,99€
+description: Elige el mejor plan antiestrés para ti con informe de estrés y baño de sonido desde 21€
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -16,7 +16,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Planes antiestrés de Iridis</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Elige el mejor plan antiestrés para ti desde 14,99€</p>
+        <p>Elige el mejor plan antiestrés para ti desde 21€</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='zap' class="feature-icon"></i> <i>Sesiones antiestrés</i></p>
           <p class="copies"><i data-feather='list' class="feature-icon"></i> <i>Bonos de sesiones</i></p>
@@ -51,5 +51,5 @@ bodyClass: "page-home"
   </div>
 </div>
 
-{% include pricing.html%}
+{% include plans.html%}
 

@@ -98,7 +98,6 @@ bodyClass: "page-home"
   </div>
 </div>
 
-
 <div class="strip">
   <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
     <div class="d-flex justify-content-center">
@@ -153,25 +152,25 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip">
-    <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
-      <div class="feature-product-title">
-        <h4>Después de esta experiencia antiestrés</h4>
+  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+    <div class="feature-product-title">
+      <h4>Después de esta experiencia antiestrés</h4>
+    </div>
+  </div>
+  <div class="container-sm pb-6 pb-md-4 px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6">
+        <p><i data-feather='check' class="feature-icon"></i> Sabrás tu estrés actual</p>
+        <p><i data-feather='check' class="feature-icon"></i> Pararás mentalmente</p>
+        <p><i data-feather='check' class="feature-icon"></i> Reducirás tu angustia</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <p><i data-feather='check' class="feature-icon"></i> Aumentarás tu bienestar</p>
+        <p><i data-feather='check' class="feature-icon"></i> Volverás a la calma</p>
+        <p><i data-feather='check' class="feature-icon"></i> Te sentirás mejor</p>
       </div>
     </div>
-    <div class="container-sm pb-6 pb-md-4 px-3">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-6">
-          <p><i data-feather='check' class="feature-icon"></i> Sabrás tu estrés actual</p>
-          <p><i data-feather='check' class="feature-icon"></i> Pararás mentalmente</p>
-          <p><i data-feather='check' class="feature-icon"></i> Reducirás tu angustia</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-6">
-          <p><i data-feather='check' class="feature-icon"></i> Aumentarás tu bienestar</p>
-          <p><i data-feather='check' class="feature-icon"></i> Volverás a la calma</p>
-          <p><i data-feather='check' class="feature-icon"></i> Te sentirás mejor</p>
-        </div>
-      </div>
-    </div>
+  </div>
 </div>
 
 <div class="strip-white pb-8">
@@ -204,7 +203,7 @@ bodyClass: "page-home"
   </div>
 </div>
  
-{% include plans.html %}
+{% include first-visit.html %}
   
 <div class="strip-white">
   <div class="container-sm pt-4 pb-4 px-3">

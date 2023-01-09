@@ -141,7 +141,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-{% include plans.html %}
+{% include first-visit.html %}
   
 <div class="strip-white">
   <div class="container-sm pt-4 pb-4 px-3">
