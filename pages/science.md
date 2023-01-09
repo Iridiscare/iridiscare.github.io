@@ -119,18 +119,17 @@ bodyClass: "page-home"
           <h4>La literatura científica que soporta nuestra tecnología</h4>
         </div>
       </div>
-
       <div class="row justify-content-center">
-          {% for item in site.data.bib %}
-          <div class="col-12 col-md-4 col-lg-4 mb-3">
-            <div class="feature-product" style="background-color: white; padding: 15px;">
-              <h6>{{item.title}}</h6>
-              <p class="feature-description">{{item.authors}}</p>
-              <a href="{{item.link}}" style="font-size: 16px;" >Leer artículo <i data-feather='chevron-right' class="feature-icon"></i></a>
-            </div>
+        {% for item in site.data.bib %}
+        <div class="col-12 col-md-4 col-lg-4 mb-3">
+          <div class="feature-product" style="background-color: white; padding: 15px;">
+            <h6>{{item.title}}</h6>
+            <p class="feature-description">{{item.authors}}</p>
+            <a href="{{item.link}}" style="font-size: 16px;" >Leer artículo <i data-feather='chevron-right' class="feature-icon"></i></a>
           </div>
-          {% endfor %}
         </div>
+        {% endfor %}
+      </div>
     
     </div>
   </div>

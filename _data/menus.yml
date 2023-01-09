@@ -8,6 +8,9 @@ main:
   - name: "Planes"
     url: "/planes"
     weight: 2
+  - name: "Blog"
+    url: "/blog"
+    weight: 5
   - name: "Quienes somos"
     url: "/about"
     weight: 5

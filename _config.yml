@@ -25,6 +25,9 @@ permalink: pretty
 title: 'Iridis Care'
 baseurl: ""
 
+permalink: /blog/:title
+
+
 logo:
   mobile: "/assets/images/logo/logo-mobile.svg"
   mobile_height: "50px"

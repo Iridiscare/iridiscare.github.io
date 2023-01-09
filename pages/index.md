@@ -37,7 +37,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-4">
         <div class="embed-responsive embed-responsive-16by9">
           <video class="feature-product" width="100%" controls> 
-              <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
+            <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
           </video>
         </div>
       </div>
