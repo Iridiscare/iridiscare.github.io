@@ -2,7 +2,7 @@
 layout: page
 bodyClass: "page-basic"
 title: El blog sobre reducción de estrés y terapia de sonido
-description: Hablamos sobre estrés, ansiedad, terapia de sonido y cómo conectar el cuerpo y mente.
+description: Hablamos sobre estrés, ansiedad, terapia de sonido y cómo conectar el cuerpo y la mente.
 permalink: /blog/
 ---
 
