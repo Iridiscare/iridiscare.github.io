@@ -11,7 +11,7 @@ image: /assets/images/posts/cerebro-sonido.webp
   <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="{{page.image}}" />
 </div>
 
-## __¿Alguna vez has escuchado hablar sobre la terapia del sonido? __
+## __¿Alguna vez has escuchado hablar sobre la terapia del sonido?__
 
 Esta práctica creciente está usada cada vez más para ayudar a las personas a relajarse y a conseguir un estado de bienestar mental. 
 
