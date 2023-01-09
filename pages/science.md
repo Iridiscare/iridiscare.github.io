@@ -222,7 +222,6 @@ bodyClass: "page-home"
       <div class="feature-product-title pb-2">
         <h4>Preguntas frecuentes</h4>
       </div>
-
       {% for data in site.data.faq %}
       <div class="pb-3 accordion-item">
         <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> &emsp;{{data.question}}</button>
@@ -231,8 +230,10 @@ bodyClass: "page-home"
         </div>
       </div>
       {% endfor %}
-
     </div>
 </div>
+
+
+{% include posts-sample.html %}
 
 
