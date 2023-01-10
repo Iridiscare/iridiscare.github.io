@@ -249,7 +249,7 @@ bodyClass: "page-home"
     </div>
 </div>
 
-{% include posts-sample.html %}
+{% include posts-latest.html %}
 
 
 

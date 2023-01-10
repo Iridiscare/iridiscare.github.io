@@ -21,7 +21,6 @@ Esta condición puede ser muy difícil de lidiar, y muchas personas se sienten a
 
 No hay duda de que la ansiedad es un desafío diario. Si tú o alguien que conoces padece de ansiedad, entonces sabrás lo difícil que puede ser. 
 
-
 ## __Síntomas de la ansiedad__
 
 Los síntomas de la ansiedad pueden variar dependiendo del individuo, pero algunos de los más comunes incluyen:

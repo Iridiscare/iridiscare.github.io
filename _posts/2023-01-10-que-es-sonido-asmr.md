@@ -60,7 +60,9 @@ Estos sonidos se crean al combinar dos canales de audio, cada uno con un tono li
 
 Estos sonidos ayudan a estimular respuestas relajantes en el sistema nervioso, y se ha demostrado que pueden ser beneficiosos para reducir el estrés, mejorar la calidad del sueño y mejorar el estado de ánimo. 
 
-Además, los estudios también han demostrado que los sonidos binaurales pueden ayudar a mejorar la memoria a corto plazo y la creatividad. Estos resultados sugieren que los sonidos binaurales pueden ser una herramienta útil para mejorar la salud mental y el bienestar.
+Además, los estudios también han demostrado que los sonidos binaurales pueden ayudar a mejorar la memoria a corto plazo y la creatividad. 
+
+Estos resultados sugieren que los sonidos binaurales pueden ser una herramienta útil para mejorar la salud mental y el bienestar.
 
 ## __Los sonidos ASMR son una forma increíblemente relajante de aliviar el estrés y la ansiedad__
 
