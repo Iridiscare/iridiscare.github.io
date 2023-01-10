@@ -27,7 +27,13 @@
       {
         "@type": "ListItem",
         "position": 4,
-        "name": "Sobre Nosotros",
+        "name": "Equipo de Iridis",
+        "item": "https://iridis.care/about"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Artículos sobre Estrés",
         "item": "https://iridis.care/about"
       }]
     }
@@ -55,12 +61,21 @@
 
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="{{ site.url }}"/>
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {% else %}
   <meta property="og:image" content="{{ site.data.seo.meta_image | absolute_url }}"/>
+  {% endif %}
+  
 
   <meta name="twitter:card" content="summary"/>
   {% if site.data.seo.meta_twitter_site %}<meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}"/>{% endif %}
   {% if site.data.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}"/>{% endif %}
+  {% if page.image %}
+  <meta property="twitter:image" content="{{ page.image | absolute_url }}">
+  {% else %}
   <meta property="twitter:image" content="{{ site.data.seo.meta_image | absolute_url }}">
+  {% endif %}
 </head>
 
 <body class='page {{layout.bodyClass}}'>
