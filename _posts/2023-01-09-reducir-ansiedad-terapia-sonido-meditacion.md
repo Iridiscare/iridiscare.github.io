@@ -7,7 +7,7 @@ description: En este artículo podrás aprender cómo reducir tu ansiedad con te
 image: /assets/images/posts/mujer-luz-cielo.webp
 ---
 
-<div class="feature-image mb-2">
+<div class="feature-image mb-2 mt-2">
   <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="{{page.image}}" />
 </div>
 

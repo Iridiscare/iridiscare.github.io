@@ -7,7 +7,7 @@ description: En este artículo aprenderás cómo afecta la terapia de sonido al 
 image: /assets/images/posts/cerebro-sonido.webp
 ---
 
-<div class="feature-image mb-2">
+<div class="feature-image mb-2 mt-2">
   <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="{{page.image}}" />
 </div>
 
