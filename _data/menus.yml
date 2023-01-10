@@ -11,8 +11,8 @@ main:
   - name: "Blog"
     url: "/blog"
     weight: 5
-  - name: "Quienes somos"
-    url: "/about"
+  - name: "Equipo"
+    url: "/equipo"
     weight: 5
   - name: "Contáctanos"
     url: "mailto:hola@iridis.care"

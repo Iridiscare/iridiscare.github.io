@@ -1,15 +1,11 @@
 ---
-layout: page
+layout: post
 title:  ¿Qué es el Sonido ASMR?
 date:   2023-01-09 10:04:14 +0100
 categories: baño sonido
 description: En este artículo podrás aprender que son exactamente los sonidos ASMR
 image: /assets/images/posts/mujer-vibrando.webp
 ---
-
-<div class="feature-image mb-2 mt-2">
-  <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="{{page.image}}" />
-</div>
 
 ## __¿Alguna vez has sentido una oleada de calma y tranquilidad al escuchar algunos sonidos?__ 
 

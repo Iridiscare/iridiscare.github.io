@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sobre nosotros
-permalink: /about/
+title: Equipo de Iridis Care
+permalink: /equipo/
 ---
 
 # Contexto
