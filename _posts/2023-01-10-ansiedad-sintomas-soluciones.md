@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Ansiedad: Síntomas y 17 técnicas para combatirla"
+title:  "Ansiedad: Síntomas y 17 Técnicas para Combatirla"
 date:   2023-01-09 10:04:14 +0100
 categories: baño sonido
 description: En este artículo podrás aprender en detalle los síntomas de la ansiedad y cómo controlarla
@@ -47,7 +47,9 @@ Pero hay formas de tratar y manejar la ansiedad, y eso es algo en lo que queremo
 
 En primer lugar, es importante entender que la ansiedad es normal y puede ser una parte normal de la vida. 
 
-Muchas veces, la ansiedad es causada por el estrés y la presión que sentimos en nuestras vidas. Esto puede ser aún más difícil de lidiar cuando somos jóvenes y estamos tratando de encontrar nuestro lugar en el mundo. 
+Muchas veces, la ansiedad es causada por el estrés y la presión que sentimos en nuestras vidas. 
+
+Esto puede ser aún más difícil de lidiar cuando somos jóvenes y estamos tratando de encontrar nuestro lugar en el mundo. 
 
 Por esta razón, hay una variedad de estrategias y herramientas disponibles para ayudar a las personas con ansiedad a controlar sus síntomas y, al mismo tiempo, desarrollar habilidades para ayudarles a vivir una vida plena. 
 
