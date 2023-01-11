@@ -1,0 +1,18 @@
+---
+layout: default
+bodyClass: "page-basic"
+---
+
+<div class="intro">
+    <div class="container-sm">
+        <div class="justify-content-center">
+            <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+                <h1 class="title">{{page.title}}</h1>
+                <p>{{page.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{content}}
+
+{% include posts-latest.html %}
