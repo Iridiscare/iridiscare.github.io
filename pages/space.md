@@ -5,7 +5,7 @@ intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
-permalink: /espacio-de-relajacion
+permalink: /espacio-relajacion
 layout: default
 bodyClass: "page-home"
 ---

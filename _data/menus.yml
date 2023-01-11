@@ -3,7 +3,7 @@ main:
     url: "/ciencia-estres-sonido"
     weight: 3
   - name: "Espacio"
-    url: "/espacio-de-relajacion"
+    url: "/espacio-relajacion"
     weight: 4
   - name: "Planes"
     url: "/planes"

@@ -93,7 +93,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <a href="/espacio-de-relajacion" style="font-size: 20px">Conocer el espacio <i data-feather='chevron-right' class="feature-icon"></i></a>
+      <a href="/espacio-relajacion" style="font-size: 20px">Conocer el espacio <i data-feather='chevron-right' class="feature-icon"></i></a>
     </div>
   </div>
 </div>
