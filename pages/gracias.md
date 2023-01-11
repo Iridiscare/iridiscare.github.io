@@ -1,7 +1,6 @@
 ---
 layout: confirmation
-title: Sesión reservada
-description: Nos vemos pronto
+title: Confirmación reserva
 permalink: /confirmacion
 ---
 
@@ -10,7 +9,7 @@ permalink: /confirmacion
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1 class="title" id="title"></h1>
-        <p>{{page.description}}</p>
+        <p>Nos vemos pronto. Revisa tu email para verla.</p>
         <!-- <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Leer artículos antiestrés</a> -->
       </div>
     </div>
