@@ -11,7 +11,7 @@
     },
     "url": {
       "payment": "https://buy.stripe.com/00g6sb28pah41m828j",
-      "booking": "https://calendly.com/iridis-care/quick-30x4"
+      "booking": "https://calendly.com/iridis-care/session-30"
     },
     "multiple": true,
     "link": "bono"
@@ -28,7 +28,7 @@
     },
     "url": {
       "payment": "https://buy.stripe.com/cN2bMvbIZ1Ky4ykcMU",
-      "booking": "https://calendly.com/iridis-care/quick-30x4"
+      "booking": "https://calendly.com/iridis-care/session-30"
     },
     "multiple": true
   },
@@ -58,7 +58,7 @@
     },
     "url": {
       "payment": "https://buy.stripe.com/dR6aIr28pfBo8OAfZ8",
-      "booking": "https://calendly.com/iridis-care/quick-30x4"
+      "booking": "https://calendly.com/iridis-care/session-30"
     },
     "multiple": true,
     "highlight": true,
@@ -76,7 +76,7 @@
     },
     "url": {
       "payment": "https://buy.stripe.com/8wM2bV14ldtg6Gs14d",
-      "booking": "https://calendly.com/iridis-care/quick-30x4"
+      "booking": "https://calendly.com/iridis-care/session-30"
     },
     "multiple": true
   },
