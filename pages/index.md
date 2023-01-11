@@ -1,6 +1,6 @@
 ---
 title: "Iridis Care: Reduce tu estrés en 17 minutos"
-description: Prueba tu 1ª sesión de terapia digital de sonido. ¡Te regalamos un informe de estrés!
+description: Prueba tu 1ª sesión de terapia de sonido digital. ¡Te regalamos un informe de estrés!
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
