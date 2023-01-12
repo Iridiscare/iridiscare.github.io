@@ -18,7 +18,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Reduce tu estrés en 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>A través del análisis de tu voz y un baño de sonido antiestrés. <b>Prueba tu 1ª sesión por 14,99€.</b> ¡Te regalamos un informe de estrés!</p>
+        <p>Con el análisis de tu voz y un baño de sonido antiestrés. <b>Prueba tu 1ª sesión por solo {{site.data.seo.first_session_price}}€.</b> ¡Te regalamos un informe de estrés!</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Resultados en la 1ª sesión</i></p>
