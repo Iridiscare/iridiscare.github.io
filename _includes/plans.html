@@ -37,7 +37,7 @@
           {% else %}
           <hr>
           {% endif %}
-          <a class="feature-button button button-primary btn-lg" href="{{ service.url.payment | relative_url }}" onclick="gtag('event', 'begin_checkout', { event_category: 'Stripe Link', event_action: 'Click to Pay', value:'{{ service.price.price }}'})">{{ service.cta }}</a>
+          <a class="feature-button button button-primary btn-lg" href="{{ service.url.payment | relative_url }}" onclick="gtag('event', 'start_checkout', { event_category: 'Stripe Link', event_action: 'Click to Pay', value:'{{ service.price.price }}'})">{{ service.cta }}</a>
           <hr>
         </div>
       </div>
