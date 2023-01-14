@@ -39,8 +39,8 @@ bodyClass: "page-home"
         <a href="{{page.url}}#tech" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
-        <h4><i data-feather='zap' class="feature-icon"></i> Relajación</h4>
-        <p>Experimentarás una sorprendente relajación.</p>
+        <h4><i data-feather='sun' class="feature-icon"></i> Relajación</h4>
+        <p>Experimentarás unas sensaciones sorprendentes.</p>
         <a href="{{page.url}}#space" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
@@ -55,7 +55,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h2>Te ayudamos a que no te vuelvas Tucu Tucu por tu ansiedad</h2>
+      <h2>Te ayudamos a que pares un ratito por tu salud y no te vuelvas Tucu Tucu</h2>
     </div>
   </div>
 </div>
