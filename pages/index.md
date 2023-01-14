@@ -18,15 +18,44 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Reduce tu Estrés y Ansiedad en 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Con el análisis de tu voz y un baño de sonido personalizado. <b>Prueba tu 1ª sesión por solo {{site.data.seo.first_session_price}}€.</b> ¡Te regalamos un informe de estrés!</p>
+        <p>Relájate con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b> ¡Un informe de regalo para que conozcas tu nivel estrés!</p>
         <div class="animate__animated animate__bounceInLeft">
-          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
-          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Resultados en la 1ª sesión</i></p>
+          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Vuelve a tu centro</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi estrés</a>
         <br>
         <a class="gift animate__pulse" href="#plans"><i data-feather='gift' class="feature-icon"></i>Regala una sesión antiestrés</a>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-2 px-3">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-md-4 col-lg-4 mb-4">
+        <h4><i data-feather='volume-2' class="feature-icon"></i> Sonidos</h4>
+        <p>Diseñaremos un baño sonido para ti a partir de tu voz.</p>
+        <a href="{{page.url}}#tech" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mb-4">
+        <h4><i data-feather='zap' class="feature-icon"></i> Relajación</h4>
+        <p>Experimentarás una sorprendente relajación.</p>
+        <a href="{{page.url}}#space" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mb-4">
+        <h4><i data-feather='smile' class="feature-icon"></i> Resultados</h4>
+        <p>Reducirás tu ansiedad y pararás tu mente.</p>
+        <a href="{{page.url}}#results" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container-sm pt-6 pb-6 px-3">
+    <div class="feature-product-title">
+      <h2>Te ayudamos a que no te vuelvas Tucu Tucu por tu ansiedad</h2>
     </div>
   </div>
 </div>
@@ -77,7 +106,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip-white">
+<div class="strip-white" id="space">
   <div class="container pt-6 pb-6 pt-md-6 pb-md-6 px-3">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
@@ -98,7 +127,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
+<div class="strip" id="experience">
   <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
     <div class="d-flex justify-content-center">
       <div class="col-12 col-md-10 col-lg-10">
@@ -114,7 +143,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip-white">
+<div class="strip-white" id="tech">
   <div class="container pt-6 pb-2 pt-md-6 pb-md-2 px-3">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
@@ -151,7 +180,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
+<div class="strip" id="results">
   <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
     <div class="feature-product-title">
       <h4>Después de esta experiencia antiestrés</h4>
