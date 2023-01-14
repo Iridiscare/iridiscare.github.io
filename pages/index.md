@@ -75,8 +75,8 @@ bodyClass: "page-home"
         <br> -->
         <p>¿Te estresas fácilmente y <b class="highlight"> quieres dejar de dar vueltas a la cabeza, no sufrir, tener mejor humor y descansar?</b> 
           No estás sola o solo. El 77% de las personas sufren estrés por la rutina, los problemas personales, la incertidumbre o los miedos.</p>
-        <p>Por esta razón, en Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado Antiestrés</b>
-          basado en los últimos avances científicos y tradiciones contemplativas<b class="highlight">, para que reduzcas tus niveles estrés.</b></p>
+        <p>Por esta razón, en Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado</b>
+          basado en los últimos avances científicos y tradiciones contemplativas, <b class="highlight"> para que reduzcas tus niveles estrés.</b></p>
       </div>
     </div>
   </div>
