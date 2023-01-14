@@ -35,17 +35,17 @@ bodyClass: "page-home"
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='volume-2' class="feature-icon"></i> Sonidos</h4>
-        <p>Diseñaremos un baño sonido para ti a partir de tu voz.</p>
+        <p>Diseñaremos un <b>baño de sonido a partir de tu voz</b>.</p>
         <a href="{{page.url}}#tech" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='sun' class="feature-icon"></i> Relajación</h4>
-        <p>Experimentarás unas sensaciones sorprendentes.</p>
+        <p>Sentirás unas <b>sensaciones sorprendentes</b>.</p>
         <a href="{{page.url}}#space" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='smile' class="feature-icon"></i> Resultados</h4>
-        <p>Reducirás tu ansiedad y pararás tu mente.</p>
+        <p>Pararás tu mente y <b>reducirás tu ansiedad</b>.</p>
         <a href="{{page.url}}#results" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
     </div>
