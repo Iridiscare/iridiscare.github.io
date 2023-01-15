@@ -1,7 +1,7 @@
 {% if site.data.services %}
 <div class="strip" id="plans">
   
-  <div class="container pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+  <div class="container pt-6 pb-4px-4">
     <div class="feature-product-title">
       <h4>Elige el mejor plan antiestrés para ti</h4>
     </div>
@@ -71,18 +71,32 @@
 </div>
 
 <div class="strip">
-  <div class="container pb-6  pb-md-6">
-    <div class="d-flex justify-content-center">
-      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <div class="feature-product-title pb-3">
-          <h4>Cómo se realiza la reserva y el pago de tu sesión</h4>
-        </div>
-        <p><i data-feather='check' class="feature-icon"></i> Elige tu fecha y hora deseada</p>
-        <p><i data-feather='check' class="feature-icon"></i> Realiza el pago para reservar tu sesión</p>
-        <p><i data-feather='check' class="feature-icon"></i> Recibirás un email con la confirmación</p>
-        <p>Escribe a <a href="mailto:hola@iridis.care?subject=Tengo una duda">hola@iridis.care</a> con cualquier duda que tengas, estaremos encantados de responder.</p>
-      </div>
+  <div class="container px-4">
+    <div class="feature-product-title">
+      <h4>¿Tienes dudas? Las resuelvo y te ayudo a reservar tu 1ª sesión</h4>
     </div>
   </div>
+  <div class="container-sm pt-2 pb-6 px-3">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-6 pb-4">
+          <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" src="/assets/images/product/david.webp" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <p>Hola, querido usuario.</p>
+          <p>Soy David, fundador de Iridis. Soy artista, científico, ingeniero y emprendedor. Mi próposito en la vida es ayudar a abrir corazones y el estrés los encierra.</p>
+          <p>Estoy aquí para:</p>
+          <p><i data-feather='check' class="feature-icon"></i> Resolver tus dudas</p>
+          <p><i data-feather='check' class="feature-icon"></i> Reservar tu 1ª sesión</p>
+            <div class="row justify-content-center pt-1">
+                <a class="button button-primary btn-lg animate__animated animate__pulse" style="background-color: #00a884" 
+                href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, te quería preguntar una cosa.">
+                <i class="fa fa-whatsapp "></i> Escribir a David via Whatsapp</a>    
+                <a href="mailto:david@iridis.care?subject=Pregunta via web" style="font-size: 20px" class="pt-2">
+                  Escribir a david@iridis.care <i data-feather='chevron-right' class="feature-icon"></i>
+                </a>
+              </div>
+        </div>
+      </div>
+    </div>
 </div>
 {% endif %}

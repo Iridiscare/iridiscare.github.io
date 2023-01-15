@@ -71,12 +71,9 @@ bodyClass: "page-home"
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <!-- <h2>¿Eres una de las 3 de cada 4 personas que ha sufrido estrés en el último mes?</h2>
-        <br> -->
         <p>¿Te estresas fácilmente y <b class="highlight"> quieres dejar de dar vueltas a la cabeza, no sufrir, tener mejor humor y descansar?</b> 
-          No estás sola o solo. El 77% de las personas sufren estrés por la rutina, los problemas personales, la incertidumbre o los miedos.</p>
-        <p>Por esta razón, en Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado</b>
-          basado en los últimos avances científicos y tradiciones contemplativas, <b class="highlight"> para que reduzcas tus niveles estrés.</b></p>
+          El 77% de las personas sufren estrés por la rutina, los problemas personales, la incertidumbre o los miedos.</p>
+        <p>En Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado para que reduzcas tus niveles estrés.</b></p>
       </div>
     </div>
   </div>
@@ -107,13 +104,13 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white" id="space">
-  <div class="container pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+  <div class="container pt-6 pb-6 px-3">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
         <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" src="/assets/images/product/pyramid.webp" />
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <h4 class="pb-2 pt-2">
+        <h4 class="pb-2">
           Un espacio de relajación del que no querrás marchar
         </h4>
         <p><i data-feather='check' class="feature-icon"></i> Pirámide de sonido</p>
@@ -121,14 +118,14 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Aroma relajante</p>
       </div>
     </div>
-    <div class="row justify-content-center pt-4">
-      <a href="/espacio-relajacion" style="font-size: 20px">Conocer el espacio <i data-feather='chevron-right' class="feature-icon"></i></a>
+    <div class="row justify-content-center pt-2">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Quiero conocer el espacio</a>
     </div>
   </div>
 </div>
 
 <div class="strip" id="experience">
-  <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
+  <div class="container pt-6 pb-6">
     <div class="d-flex justify-content-center">
       <div class="col-12 col-md-10 col-lg-10">
         <div class="feature-product-title pb-4">
@@ -139,6 +136,9 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Crear <b class="highlight">sonidos personalizados</b> para la frecuencia de tu cuerpo</p>
         <p><i data-feather='check' class="feature-icon"></i> Conseguir un <b class="highlight">estado meditativo</b> relajante</p>
       </div>
+    </div>
+    <div class="row justify-content-center pt-2">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Si, Quiero desestresarme</a>
     </div>
   </div>
 </div>
@@ -177,16 +177,19 @@ bodyClass: "page-home"
         </div>
       </div>
     </div>
+    <div class="row justify-content-center pb-4">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar un baño de sonido</a>
+    </div>
   </div>
 </div>
 
 <div class="strip" id="results">
-  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+  <div class="container-sm pt-6 pb-4 px-4">
     <div class="feature-product-title">
       <h4>Después de esta experiencia antiestrés</h4>
     </div>
   </div>
-  <div class="container-sm pb-6 pb-md-4 px-3">
+  <div class="container-sm pb-2 px-3">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
         <p><i data-feather='check' class="feature-icon"></i> Sabrás tu estrés actual</p>
@@ -200,10 +203,13 @@ bodyClass: "page-home"
       </div>
     </div>
   </div>
+  <div class="row justify-content-center pb-6">
+    <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, me quiero sentir mejor</a>
+  </div>
 </div>
 
-<div class="strip-white pb-8">
-  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-3">
+<div class="strip-white pb-6 pt-2">
+  <div class="container-sm pt-4 pb-4 px-3">
     <div class="feature-product-title">
       <h4>La mayoría de nuestros usuarios se van relajados y sorprendidos</h4>
     </div>
@@ -229,13 +235,16 @@ bodyClass: "page-home"
         </div>
       </div>
     </div>
+    <div class="row justify-content-center pt-4">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Quiero experimentar lo mismo </a>
+    </div>
   </div>
 </div>
  
 {% include first-visit.html %}
   
 <div class="strip-white">
-  <div class="container-sm pt-4 pb-4 px-3">
+  <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title pb-1">
       <h4>Puedes visitarnos en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
       <p>Horario: 16:00 - 21:00 (L, M, X, J) y 10:30 - 13:00 (Viernes)</p>
@@ -263,7 +272,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-    <div class="container-sm pt-4 pb-4 px-3">
+    <div class="container-sm pt-6 pb-6 px-3">
       <div class="feature-product-title pb-2">
         <h4>Preguntas frecuentes</h4>
       </div>
