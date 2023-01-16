@@ -16,25 +16,76 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <h1>¿Cómo quieres reservar?</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Si lo necesitas lo hacemos por ti.</p>
+        <p>Te ayudamos si lo necesitas.</p>
         <div class="animate__animated animate__bounceInLeft">
-          <p class="copies"><i data-feather='mail' class="feature-icon"></i> <i>Por email</i></p>
-          <p class="copies"><i data-feather='message-circle' class="feature-icon"></i> <i>Por whatsapp</i></p>
-          <p style="line-height: 0; "><i data-feather='phone' class="feature-icon"></i> <i>Por teléfono</i></p>
+          <p class="copies"><i data-feather='mail' class="feature-icon"></i> <i>Por Email</i></p>
+          <p style="line-height: 0; " class="copies"><i data-feather='message-circle' class="feature-icon"></i> <i>Por Whatsapp</i></p>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-6">
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" 
-          href="https://calendly.com/iridis-care/1a-sesion-antiestres" 
-          onclick="gtag('event', 'book_scheduling', { event_category: 'Booking', event_action: 'Email', value: '{{site.data.seo.first_session_price}}'})">Reservar por Email</a>
-          <br>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" 
-          href="https://calendly.com/iridis-care/1a-sesion-antiestres" 
-          onclick="gtag('event', 'book_scheduling', { event_category: 'Booking', event_action: 'Whatsapp', value: '{{site.data.seo.first_session_price}}'})">Reservar por Whatsapp</a>
-        <br>
+      <div class="col-12 col-md-6 col-lg-6 pt-2">
+        <h2 style="width: 100%" >Elige cómo reservar tu 1ª sesión por solo 24,99€</h2>
+        <a href="https://calendly.com/iridis-care/1a-sesion-antiestres"  style="text-decoration: none; position: relative" 
+          onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
+          <div class="feature-product mb-3" style="background-color: white; padding: 10px">
+            <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1ª sesión vía Email </h6>
+            <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Informe de estrés de regalo!</p>
+            <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
+          </div>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, quiero reservar mi primera sesión."  style="text-decoration: none; position: relative" 
+           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Whatsapp', value: '{{site.data.seo.first_session_price}}'})">
+          <div class="feature-product mb-3" style="background-color: white; padding: 10px">
+            <h6 style="color: black;"><i data-feather='message-circle' class="feature-icon"></i> 1ª sesión vía Whatsapp </h6>
+            <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Ayuda en reserva + Informe!</p>
+            <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
+          </div>
+        </a>
+        <a href="https://calendly.com/iridis-care/session-30"  style="text-decoration: none; position: relative" 
+          onclick="gtag('event', 'book_session_multiple', { event_category: 'Booking', event_action: 'Calendly'})">
+          <div class="feature-product mb-3" style="background-color: white; padding: 10px">
+            <h6 style="color: black;"><i data-feather='repeat' class="feature-icon"></i> Reservas Bonos y Planes </h6>
+            <p style="color: black; margin-bottom: 15px; line-height: 0px">Ya has venido a vernos</p>
+            <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
+          </div>
+        </a>      
+        <div class="row justify-content-center">
+          <a href="/planes" style="font-size: 20px">
+            Comprar bonos y planes <i data-feather='chevron-right' class="feature-icon"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>
+</div>
+
+<div class="strip-white">
+  <div class="container pb-2 pt-4 px-4">
+    <div class="feature-product-title">
+      <h4>¿Tienes dudas? Te ayudo a resolverlas y a reservar tu sesión</h4>
+    </div>
+  </div>
+  <div class="container-sm pt-2 pb-6 px-3">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-6 pb-4">
+          <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" src="/assets/images/product/david.webp" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <p>Hola, soy David, fundador de Iridis Care.</p>
+          <p>Mi próposito en la vida es ayudar a abrir corazones y el estrés los encierra.</p>
+          <p>Te ayudo a:</p>
+          <p><i data-feather='check' class="feature-icon"></i> Resolver tus dudas</p>
+          <p><i data-feather='check' class="feature-icon"></i> Reservar tu 1ª sesión</p>
+            <div class="row justify-content-center pt-1">
+                <a class="button button-primary btn-lg animate__animated animate__pulse" style="background-color: #00a884" 
+                href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, te quería preguntar una cosa.">
+                <i class="fa fa-whatsapp "></i> Escribir a David via Whatsapp</a>    
+                <a href="mailto:david@iridis.care?subject=Pregunta via web" style="font-size: 20px" class="pt-2">
+                  Escribir a david@iridis.care <i data-feather='chevron-right' class="feature-icon"></i>
+                </a>
+              </div>
+        </div>
+      </div>
+    </div>
 </div>
 
 

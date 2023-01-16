@@ -20,7 +20,7 @@ bodyClass: "page-home"
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Relájate con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b> ¡Un informe de regalo para que conozcas tu nivel estrés!</p>
         <div class="animate__animated animate__bounceInLeft">
-          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Vuelve a tu centro</i></p>
+          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi estrés</a>
         <br>
@@ -118,8 +118,10 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Aroma relajante</p>
       </div>
     </div>
-    <div class="row justify-content-center pt-2">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Quiero conocer el espacio</a>
+    <div class="row justify-content-center pt-4">
+      <a href="/espacio-relajacion" style="font-size: 20px">
+        Conocer el espacio <i data-feather='chevron-right' class="feature-icon"></i>
+      </a>
     </div>
   </div>
 </div>
@@ -184,7 +186,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip" id="results">
-  <div class="container-sm pt-6 pb-4 px-4">
+  <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
       <h4>Después de esta experiencia antiestrés</h4>
     </div>
@@ -202,19 +204,19 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Te sentirás mejor</p>
       </div>
     </div>
-  </div>
-  <div class="row justify-content-center pb-6">
-    <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, me quiero sentir mejor</a>
+    <div class="row justify-content-center pb-6">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, me quiero sentir mejor</a>
+    </div>
   </div>
 </div>
 
-<div class="strip-white pb-6 pt-2">
-  <div class="container-sm pt-4 pb-4 px-3">
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
       <h4>La mayoría de nuestros usuarios se van relajados y sorprendidos</h4>
     </div>
   </div>
-  <div class="container-sm px-4">
+  <div class="container-sm pb-6 px-">
     <div class="row">
       <div class="col-12">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -223,7 +225,7 @@ bodyClass: "page-home"
             {% if item.active %}
               <div class="carousel-item active">
             {% else %}
-              <div class="carousel-item ">
+              <div class="carousel-item">
             {% endif %}
                 <div class="text-center">
                   <p class="testimonial-quote">"{{item.quote}}"</p>
