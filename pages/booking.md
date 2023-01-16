@@ -27,7 +27,7 @@ bodyClass: "page-home"
         <a href="https://calendly.com/iridis-care/1a-sesion-antiestres"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1ª sesión vía Email </h6>
+            <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1ª Sesión vía Email </h6>
             <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Informe de Estrés de Regalo!</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
@@ -35,7 +35,7 @@ bodyClass: "page-home"
         <a href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, quiero reservar mi primera sesión."  style="text-decoration: none; position: relative" 
            onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Whatsapp', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='message-circle' class="feature-icon"></i> 1ª sesión vía Whatsapp </h6>
+            <h6 style="color: black;"><i data-feather='message-circle' class="feature-icon"></i> 1ª Sesión vía Whatsapp </h6>
             <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Ayuda en Reserva + Informe!</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
@@ -43,7 +43,7 @@ bodyClass: "page-home"
         <a href="https://calendly.com/iridis-care/session-30"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session_multiple', { event_category: 'Booking', event_action: 'Calendly'})">
           <div class="feature-product mb-3" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='repeat' class="feature-icon"></i> Reservas Bonos y Planes </h6>
+            <h6 style="color: black;"><i data-feather='repeat' class="feature-icon"></i> Reservar Bonos y Planes </h6>
             <p style="color: black; margin-bottom: 15px; line-height: 0px">Ya has venido a vernos</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
