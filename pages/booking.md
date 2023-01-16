@@ -16,7 +16,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <h1>¿Cómo quieres reservar?</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Te ayudamos si lo necesitas.</p>
+        <p>Te ayudamos sin compromiso.</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='mail' class="feature-icon"></i> <i>Por Email</i></p>
           <p style="line-height: 0; " class="copies"><i data-feather='message-circle' class="feature-icon"></i> <i>Por Whatsapp</i></p>
@@ -28,7 +28,7 @@ bodyClass: "page-home"
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3" style="background-color: white; padding: 10px">
             <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1ª sesión vía Email </h6>
-            <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Informe de estrés de regalo!</p>
+            <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Informe de Estrés de Regalo!</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
         </a>
@@ -36,7 +36,7 @@ bodyClass: "page-home"
            onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Whatsapp', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3" style="background-color: white; padding: 10px">
             <h6 style="color: black;"><i data-feather='message-circle' class="feature-icon"></i> 1ª sesión vía Whatsapp </h6>
-            <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Ayuda en reserva + Informe!</p>
+            <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Ayuda en Reserva + Informe!</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
         </a>
