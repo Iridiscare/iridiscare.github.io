@@ -17,10 +17,16 @@ bodyClass: "page-basic"
 </div>
 <div class="strip-white">
   <div class="container-sm pt-2 pb-6 px-3">
-    <div class="feature-image mb-2 mt-2">
-      <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="{{page.image}}" />
+    <div class="row">
+      <div class="col-12 col-md-2 col-lg-2"></div>
+      <div class="col-12 col-md-8 col-lg-8">
+        <div class="feature-image mb-2 mt-2">
+          <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="{{page.image}}" />
+        </div>
+        <div class="content">{{content}}</div>
+      </div>
     </div>
-    <div class="content">{{content}}</div>
+    
   </div>
 </div>
 
