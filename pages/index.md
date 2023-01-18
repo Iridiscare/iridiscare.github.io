@@ -1,5 +1,5 @@
 ---
-title: "Iridis Care: Reduce tu Estrés y Ansiedad en 17 minutos"
+title: "Iridis Care: Reduce tu Ansiedad en 17 minutos"
 description: Prueba tu 1ª sesión de terapia de sonido digital. ¡Te regalamos un informe de estrés!
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
@@ -16,7 +16,7 @@ bodyClass: "page-home"
   <div class="container-sm">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Reduce tu Estrés y Ansiedad en 17 minutos</h1>
+        <h1>Reduce tu Ansiedad en 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Relájate con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b> ¡Un informe de regalo para que conozcas tu nivel estrés!</p>
         <div class="animate__animated animate__bounceInLeft">
