@@ -71,7 +71,7 @@ bodyClass: "page-home"
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <p>¿Te estresas fácilmente y <b class="highlight"> quieres dejar de dar vueltas a la cabeza, no sufrir, tener mejor humor y descansar?</b> 
+        <p>¿La ansiedad te agobia y <b class="highlight"> quieres dejar de dar vueltas a la cabeza, no sufrir, tener mejor humor y descansar?</b> 
           El 77% de las personas sufren estrés por la rutina, los problemas personales, la incertidumbre o los miedos.</p>
         <p>En Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado para que reduzcas tus niveles estrés.</b></p>
       </div>
@@ -82,7 +82,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title pb-4">
-      <h4>El estrés no es solo un nudo en el estómago</h4>
+      <h4>La ansiedad no es solo un nudo en el estómago</h4>
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
