@@ -1,5 +1,5 @@
 ---
-title: "Alivia a Ansiedad en 17 minutos"
+title: "Alivia la Ansiedad en 17 minutos"
 description: Baño de Sonido Antriestrés
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
