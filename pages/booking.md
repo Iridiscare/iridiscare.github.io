@@ -23,7 +23,7 @@ bodyClass: "page-home"
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
-        <h2 style="width: 100%" >Elige cómo reservar tu 1ª Baño de Sonido por solo 24,99€</h2>
+        <h2 style="width: 100%" >Elige cómo reservar tu 1º Baño de Sonido por solo 24,99€</h2>
         <a href="https://calendly.com/iridis-care/1a-sesion-antiestres"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
