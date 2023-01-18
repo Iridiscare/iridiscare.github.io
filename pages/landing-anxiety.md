@@ -21,7 +21,7 @@ bodyClass: "page-home"
         <img alt="10 consejos para reducir el estrés" class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/product/anxiety.webp" />
       </div>
       <div class="col-12 col-md-7 col-lg-7 animate__animated animate__bounceInRight">
-        <p style="font-size: 19px">Consigue <b>10 técnicas antiestrés para reducir tu ansiedad</b> donde y cuando lo necesites. Las técnicas son ejercicios respiratorios, de gestión emocional y de meditación. Además están <b>probadas científicamente que reducen la ansiedad</b>.</p>
+        <p style="font-size: 19px">Consigue <b>10 técnicas antiestrés para reducir tu ansiedad</b> donde y cuando lo necesites. Las técnicas son ejercicios respiratorios, de gestión emocional y de meditación. <b>Probadas científicamente que reducen la ansiedad</b>.</p>
         <p style="font-size: 19px">Escribe tu email abajo y <b>recibe en tu buzón las 10 técnicas de relajación</b> GRATIS. Si reservas tu 1ᵉʳ Baño de Sonido <b>te regalamos el Informe de Estrés</b>. Estamos en Toledo ciudad. Más detalles en el email.</p>
         <div class="pb-2">
           <p class="copy" style="font-size: 19px"><i data-feather='check' class="feature-icon"></i> <i>Consigue <b>claridad mental y control emocional</b></i></p>
