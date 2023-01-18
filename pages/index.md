@@ -13,18 +13,20 @@ bodyClass: "page-home"
 {% include sticky-cta.html %}
 
 <div class="intro">
-  <div class="container-sm">
+  <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Reduce tu Ansiedad en 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Relájate con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b> ¡Un informe de regalo para que conozcas tu nivel de estrés!</p>
+        <p>Con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b></p>
         <div class="animate__animated animate__bounceInLeft">
-          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
+          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
+          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Reduce tu estrés</i></p>
+          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Controla tus emociones</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi ansiedad</a>
-        <br>
-        <a class="gift animate__pulse" href="#plans"><i data-feather='gift' class="feature-icon"></i>Regala una sesión antiestrés</a>
+        <!-- <br>
+        <a class="gift animate__pulse" href="#plans"><i data-feather='gift' class="feature-icon"></i>Regala una sesión antiestrés</a> -->
       </div>
     </div>
   </div>
@@ -61,7 +63,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-3">
+  <div class="container-sm pt-6 pb-2 px-3">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-4">
         <div class="embed-responsive embed-responsive-16by9">
@@ -70,7 +72,7 @@ bodyClass: "page-home"
           </video>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-6">
+      <div class="col-12 col-md-6 col-lg-6 pb-4">
         <p>¿La ansiedad te agobia y <b class="highlight"> quieres dejar de dar vueltas a la cabeza, no sufrir, tener mejor humor y descansar?</b> 
           El 77% de las personas sufren estrés por la rutina, los problemas personales, la incertidumbre o los miedos.</p>
         <p>En Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado para que reduzcas tu ansiedad y tus niveles estrés.</b></p>
@@ -248,7 +250,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title pb-1">
-      <h4>Puedes visitarnos en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
+      <h4>Estamos en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
       <p>Horario: 16:00 - 21:00 (L, M, X, J) y 10:30 - 13:00 (Viernes)</p>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12249.149997078619!2d-4.0236003!3d39.8677976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ed1e1af21569dac!2sIridis%20Care%20-%20Reduce%20tu%20estr%C3%A9s!5e0!3m2!1ses!2ses!4v1672861399929!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -21,8 +21,8 @@ bodyClass: "page-home"
         <img alt="10 consejos para reducir el estrés" class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/product/anxiety.webp" />
       </div>
       <div class="col-12 col-md-7 col-lg-7 animate__animated animate__bounceInRight">
-        <p style="font-size: 19px">Consigue <b>10 técnicas antiestrés para reducir tu ansiedad</b> donde y cuando lo necesites. Las técnicas son ejercicios respiratorios, de gestión emocional y meditación. Además están <b>probadas científicamente que reducen la ansiedad</b>.</p>
-        <p style="font-size: 19px">Escribe tu email abajo y <b>recibe en tu buzón las 10 técnicas de relajación</b> GRATIS. Si reservas tu 1ᵉʳ Baño de Sonido <b>te regalamos el Informe de Estrés</b>. Estamos en Toledo. Más detalles en el email.</p>
+        <p style="font-size: 19px">Consigue <b>10 técnicas antiestrés para reducir tu ansiedad</b> donde y cuando lo necesites. Las técnicas son ejercicios respiratorios, de gestión emocional y de meditación. Además están <b>probadas científicamente que reducen la ansiedad</b>.</p>
+        <p style="font-size: 19px">Escribe tu email abajo y <b>recibe en tu buzón las 10 técnicas de relajación</b> GRATIS. Si reservas tu 1ᵉʳ Baño de Sonido <b>te regalamos el Informe de Estrés</b>. Estamos en Toledo ciudad. Más detalles en el email.</p>
         <div class="pb-2">
           <p class="copy" style="font-size: 19px"><i data-feather='check' class="feature-icon"></i> <i>Consigue <b>claridad mental y control emocional</b></i></p>
           <p class="copy" style="font-size: 19px"><i data-feather='check' class="feature-icon"></i> <i>Di <b>adiós a la ansiedad</b> sin efectos secundarios</i></p>
@@ -32,15 +32,5 @@ bodyClass: "page-home"
       </div>
     </div>
     <br>
-  </div>
-</div>
-
-<div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-3">
-    <div class="feature-product-title pb-1">
-      <h4>Estamos en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
-      <p>Horario: 16:00 - 21:00 (L, M, X, J) y 10:30 - 13:00 (Viernes)</p>
-    </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12249.149997078619!2d-4.0236003!3d39.8677976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ed1e1af21569dac!2sIridis%20Care%20-%20Reduce%20tu%20estr%C3%A9s!5e0!3m2!1ses!2ses!4v1672861399929!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
