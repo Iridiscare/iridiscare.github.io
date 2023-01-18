@@ -22,7 +22,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-7 col-lg-7 animate__animated animate__bounceInRight">
         <p style="font-size: 19px">Consigue <b>10 técnicas antiestrés para reducir tu ansiedad</b> donde y cuando lo necesites. Prueba tu 1ᵉʳ <b>Baño de Sonido para reducir la ansiedad en 17 minutos</b> y consigue un <b>Informe de Estrés GRATIS.</b> ¡No te preocupes no romperás la máquina!</p>
-        <p style="font-size: 19px">Escribe tu email abajo y <b>recibe en tu buzón las 10 técnicas relajación</b>.  Si vienes a probar un Baño de Sonido <b>te regalamos el Informe de Estrés</b>. Más detalles en el email.</p>
+        <p style="font-size: 19px">Escribe tu email abajo y <b>recibe en tu buzón las 10 técnicas de relajación</b>.  Si vienes a probar un Baño de Sonido <b>te regalamos el Informe de Estrés</b>. Más detalles en el email.</p>
         <div class="pb-2">
           <p class="copy" style="font-size: 19px"><i data-feather='check' class="feature-icon"></i> <i>Consigue <b>claridad mental y control emocional</b></i></p>
           <p class="copy" style="font-size: 19px"><i data-feather='check' class="feature-icon"></i> <i>Di <b>adiós a la ansiedad</b> sin efectos secundarios</i></p>
