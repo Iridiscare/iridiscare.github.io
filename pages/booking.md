@@ -16,14 +16,14 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <h1>¿Cómo quieres reservar?</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Si no te relajas y te sorprendes. Te devolvemos el dinero.</p>
+        <p>Si no te relajas. Te devolvemos el dinero. Te recibimos mañana mismo.</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='mail' class="feature-icon"></i> <i>Por Email</i></p>
           <p style="line-height: 0; " class="copies"><i data-feather='message-circle' class="feature-icon"></i> <i>Por Whatsapp</i></p>
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
-        <h2 style="width: 100%" >Elige cómo reservar tu 1º Baño de Sonido por solo 24,99€</h2>
+        <h2 style="width: 100%" >Elige abajo cómo reservar tu Baño de Sonido por solo 24,99€</h2>
         <a href="https://calendly.com/iridis-care/1a-sesion-antiestres"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
