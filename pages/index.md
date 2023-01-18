@@ -22,7 +22,7 @@ bodyClass: "page-home"
         <div class="animate__animated animate__bounceInLeft">
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi estrés</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi ansiedad</a>
         <br>
         <a class="gift animate__pulse" href="#plans"><i data-feather='gift' class="feature-icon"></i>Regala una sesión antiestrés</a>
       </div>
