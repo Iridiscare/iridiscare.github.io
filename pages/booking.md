@@ -23,7 +23,7 @@ bodyClass: "page-home"
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
-        <h2 style="width: 100%" >Elige abajo cómo reservar tu Baño de Sonido por solo 24,99€</h2>
+        <h2 style="width: 100%" >Elige abajo cómo reservar tu 1ᵉʳ Baño de Sonido por solo 24,99€</h2>
         <a href="https://calendly.com/iridis-care/1a-sesion-antiestres"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
@@ -59,12 +59,12 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container pb-2 pt-4 px-4">
+  <div class="container pt-4 px-4">
     <div class="feature-product-title">
       <h4>¿Tienes dudas? Te ayudo a resolverlas y a reservar tu sesión</h4>
     </div>
   </div>
-  <div class="container-sm pt-2 pb-6 px-3">
+  <div class="container-sm pt-2 pb-4 px-3">
       <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-lg-6 pb-4">
           <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" src="/assets/images/product/david.webp" />
