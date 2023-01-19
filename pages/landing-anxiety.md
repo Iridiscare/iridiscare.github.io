@@ -22,7 +22,7 @@ bodyClass: "page-home"
         <img alt="Guía para la ansiedad y el estrés. Terapias, técnicas y trucos para épocas complicadas y tener claridad mental." class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/ebook.png" />
       </div>
       <div class="col-12 col-md-7 col-lg-7 animate__animated animate__bounceInRight">
-        <p style="font-size: 18px">Controla la ansiedad y reduce el estrés, con <b>técnicas y trucos que puedes hacer en menos de 5 minutos donde y cuando lo necesites</b>, más terapias para mirarte al espejo y tener paz mental de por vida.</p>
+        <p style="font-size: 18px">Controla la ansiedad y reduce el estrés con <b>técnicas y trucos que puedes hacer en menos de 5 minutos donde y cuando lo necesites</b>, más terapias para mirarte al espejo y tener paz mental de por vida.</p>
         <p style="font-size: 18px">Escribe <b>tu email abajo y recibe una copia en PDF</b>.</p>
         <div class="pb-2">
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Di adiós a la ansiedad</b> sin efectos secundarios</i></p>
