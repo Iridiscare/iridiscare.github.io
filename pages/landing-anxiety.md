@@ -1,6 +1,6 @@
 ---
-title: "Alivia la Ansiedad en 17 minutos"
-description: Baño de Sonido Antriestrés
+title: "Guía para superar la ansiedad y el estrés"
+description: Conoce las terapias, técnicas y trucos para tener claridad mental en épocas complicadas de cambio
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
