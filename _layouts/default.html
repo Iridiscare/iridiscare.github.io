@@ -41,18 +41,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="theme-color" content="#F4E9C7">
-
   <link rel="icon" type="image/png" href="{{ '/assets/images/favicon-32x32.svg' | relative_url }}">
-  <!-- Google Fonts CDN -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Self host font -->
-  <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
-  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/feather-icons"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
   
@@ -76,6 +65,19 @@
   {% else %}
   <meta property="twitter:image" content="{{ site.data.seo.meta_image | absolute_url }}">
   {% endif %}
+  
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TDBCNKR"></script>
+  
 </head>
 
 <body class='page {{layout.bodyClass}}'>
