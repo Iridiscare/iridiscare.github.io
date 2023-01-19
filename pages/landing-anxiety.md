@@ -14,19 +14,20 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-2 px-3">
     <div class="feature-product-title pb-2">
-      <h4 class="animate__animated animate__pulse">Controla tu Ansiedad incluso en una mala racha con 10 Técnicas Antiestrés, un Baño de Sonido y una Prueba de Estrés GRATIS</h4>
+      <p class="animate__animated animate__pulse">CONSIGUE TU COPIA GRATIS</p>
+      <h4 class="animate__animated animate__pulse">Guía para la ansiedad y el estrés. Terapias, técnicas y trucos para épocas complicadas y tener claridad mental.</h4>
     </div>
     <div class="row">
       <div class="col-12 col-md-5 col-lg-5 pb-4">
-        <img alt="10 consejos para reducir el estrés" class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/product/anxiety.webp" />
+        <img alt="Guía para la ansiedad y el estrés. Terapias, técnicas y trucos para épocas complicadas y tener claridad mental." class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/ebook.png" />
       </div>
       <div class="col-12 col-md-7 col-lg-7 animate__animated animate__bounceInRight">
-        <p style="font-size: 19px">Consigue <b>10 técnicas antiestrés para controlar tu ansiedad</b> donde y cuando lo necesites. Las técnicas son ejercicios respiratorios, de gestión emocional y de meditación para controlar los síntomas de la ansiedad. <b>Científicamente probadas que reducen la ansiedad y el estrés</b>.</p>
-        <p style="font-size: 19px">Escribe tu email abajo y <b>recibe en tu buzón las 10 técnicas para relajar la mente</b> GRATIS. Reserva tu 1ᵉʳ Baño de Sonido y <b>te regalamos la Prueba de Estrés</b>. Estamos en Toledo ciudad. Más detalles cuando recibas las técnicas antiansiedad.</p>
+        <p style="font-size: 18px">Controla la ansiedad y reduce el estrés, con <b>técnicas y trucos que puedes hacer en menos de 5 minutos donde y cuando lo necesites</b>, más terapias para mirarte al espejo y tener paz mental de por vida.</p>
+        <p style="font-size: 18px">Escribe <b>tu email abajo y recibe una copia en PDF</b>.</p>
         <div class="pb-2">
-          <p class="copy" style="font-size: 19px"><i data-feather='check' class="feature-icon"></i> <i>Consigue <b>claridad mental y control emocional</b></i></p>
-          <p class="copy" style="font-size: 19px"><i data-feather='check' class="feature-icon"></i> <i>Di <b>adiós a la ansiedad</b> sin efectos secundarios</i></p>
-          <p class="copy" style="font-size: 19px"><i data-feather='check' class="feature-icon"></i> <i><b>Libérate de la ansiedad sin esperar cita</b> para ir al psicólogo</i></p>
+          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Di adiós a la ansiedad</b> sin efectos secundarios</i></p>
+          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Entiende qué está pasando</b> en tu cuerpo y mente</i></p>
+          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Descubre <b>cómo hacer frente al cambio</b></i></p>
         </div>
         {% include form.html %}
       </div>
