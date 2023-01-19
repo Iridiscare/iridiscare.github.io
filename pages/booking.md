@@ -16,7 +16,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <h1>¿Cómo quieres reservar?</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Si no te relajas. Te devolvemos el dinero. Te recibimos mañana mismo.</p>
+        <p>Si no te relajas. Te devolvemos el dinero. 100% Garantizado.</p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='mail' class="feature-icon"></i> <i>Por Email</i></p>
           <p style="line-height: 0; " class="copies"><i data-feather='message-circle' class="feature-icon"></i> <i>Por Whatsapp</i></p>
