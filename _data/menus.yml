@@ -1,4 +1,7 @@
 main:
+  - name: "Ebook"
+    url: "/ansiedad"
+    weight: 1
   - name: "Reservas"
     url: "/reservas"
     weight: 1
@@ -13,9 +16,6 @@ main:
     weight: 2
   - name: "Blog"
     url: "/blog"
-    weight: 5
-  - name: "Equipo"
-    url: "/equipo"
     weight: 5
 
 footer:
