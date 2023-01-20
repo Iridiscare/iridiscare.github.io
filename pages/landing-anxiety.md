@@ -14,8 +14,8 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-2 px-3">
     <div class="feature-product-title pb-2">
-      <p class="animate__animated animate__pulse">CONSIGUE TU COPIA GRATIS</p>
-      <h4 class="animate__animated animate__pulse">Guía para superar la ansiedad y el estrés con terapias, técnicas y trucos para tener claridad mental en épocas complicadas</h4>
+      <h6 class="animate__animated animate__pulse">CONSIGUE TU COPIA GRATIS</h6>
+      <h4 class="animate__animated animate__pulse">Guía para controlar la ansiedad y el estrés con terapias, técnicas y trucos para tener claridad mental en épocas complicadas</h4>
     </div>
     <div class="row">
       <div class="col-12 col-md-5 col-lg-5 pb-4">
