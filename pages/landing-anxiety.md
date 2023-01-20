@@ -14,7 +14,6 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-2 px-3">
     <div class="feature-product-title pb-2">
-      <h6 class="animate__animated animate__pulse">CONSIGUE TU COPIA GRATIS</h6>
       <h4 class="animate__animated animate__pulse">Cómo controlar definitivamente la ansiedad y el estrés con terapias, técnicas y trucos</h4>
     </div>
     <div class="row">
