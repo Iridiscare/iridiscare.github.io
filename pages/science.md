@@ -189,36 +189,18 @@ bodyClass: "page-home"
 
 {% include first-visit.html %}
   
-<div class="strip-white">
-  <div class="container-sm pt-4 pb-4 px-3">
+<div class="strip">
+  <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title pb-1">
-      <h4>Puedes visitarnos en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
+      <h4>Estamos en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
       <p>Horario: 16:00 - 21:00 (L, M, X, J) y 10:30 - 13:00 (Viernes)</p>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12249.149997078619!2d-4.0236003!3d39.8677976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ed1e1af21569dac!2sIridis%20Care%20-%20Reduce%20tu%20estr%C3%A9s!5e0!3m2!1ses!2ses!4v1672861399929!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
 
-<div class="strip">
-  <div class="container-sm pt-4 pb-2 px-3">
-    <div class="feature-product-title pb-4">
-      <h4>Los agobios pueden venir en cualquier momento</h4>
-    </div>
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-6 pb-4">
-        <img alt="10 consejos para reducir el estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/advices.webp" />
-      </div>
-      <div class="col-12 col-md-6 col-lg-6">
-        <p>Si vuelven los nudos en el estómago, las ansiedades o las noches donde la cabeza no para, tenemos <b>10 consejos para que aprendas a reducir tu estrés cuando y donde lo necesites</b>. Totalmente GRATIS.</p>
-        {% include form.html %}
-      </div>
-    </div>
-    <br>
-  </div>
-</div>
-
 <div class="strip-white">
-    <div class="container-sm pt-4 pb-4 px-3">
+    <div class="container-sm pt-6 pb-6 px-3">
       <div class="feature-product-title pb-2">
         <h4>Preguntas frecuentes</h4>
       </div>
