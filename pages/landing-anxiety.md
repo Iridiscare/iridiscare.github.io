@@ -1,5 +1,5 @@
 ---
-title: "Guía para superar la ansiedad y el estrés"
+title: "Guía para controlar la ansiedad y el estrés"
 description: Conoce las terapias, técnicas y trucos para tener claridad mental en épocas complicadas de cambio
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
