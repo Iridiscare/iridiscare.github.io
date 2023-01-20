@@ -15,14 +15,14 @@ bodyClass: "page-home"
   <div class="container-sm pt-2 px-3">
     <div class="feature-product-title pb-2">
       <h6 class="animate__animated animate__pulse">CONSIGUE TU COPIA GRATIS</h6>
-      <h4 class="animate__animated animate__pulse">Guía para controlar la ansiedad y el estrés con terapias, técnicas y trucos</h4>
+      <h4 class="animate__animated animate__pulse">Cómo controlar definitivamente la ansiedad y el estrés con terapias, técnicas y trucos</h4>
     </div>
     <div class="row">
       <div class="col-12 col-md-5 col-lg-5 pb-4">
         <img alt="Guía para la ansiedad y el estrés. Terapias, técnicas y trucos para épocas complicadas y tener claridad mental." class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/ebook.png" />
       </div>
       <div class="col-12 col-md-7 col-lg-7 animate__animated animate__bounceInRight">
-        <p style="font-size: 18px">Controla la ansiedad y reduce el estrés con <b>técnicas y trucos que puedes hacer en menos de 5 minutos donde y cuando lo necesites</b>, más terapias para mirarte al espejo y tener paz mental de por vida.</p>
+        <p style="font-size: 18px">Consigue la guía para controlar la ansiedad y reducir el estrés con <b>técnicas y trucos que puedes hacer en menos de 5 minutos donde y cuando lo necesites</b>, más terapias para mirarte al espejo y tener paz mental de por vida.</p>
         <p style="font-size: 18px">Escribe <b>tu email abajo y recibe una copia en PDF</b>.</p>
         <div class="pb-2">
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Di adiós a la ansiedad</b> sin efectos secundarios</i></p>
