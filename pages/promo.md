@@ -21,7 +21,7 @@ bodyClass: "page-home"
         <img alt="" class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/promo.webp" />
       </div>
       <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInRight">
-        <p style="font-size: 18px">Si te has encontrado un flyer en la calle y quieres disfrutar d una <b>sesión de relajación con sonido gratis</b>. Es super sencillo.</p>
+        <p style="font-size: 18px">Si te has encontrado un flyer en la calle y quieres disfrutar de una <b>baño de sonido personalizado + una prueba de estrés gratis</b>. Es super sencillo.</p>
         <p style="font-size: 18px">Haz una <b>foto de tu flyer, compártela en Instagram</b> mencionándo nuestra cuenta, @iridiscare, y te regalamos un baño de sonido para que te relajes y por ayudarnos a darnos a conocer.</p>
         <p style="font-size: 18px">Así de fácil.</p>
         <div>
