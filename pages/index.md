@@ -225,7 +225,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>La mayoría de nuestros usuarios se van relajados y sorprendidos</h4>
+      <h4>Humanos como tú se van relajados y sorprendidos</h4>
     </div>
   </div>
   <div class="container-sm pb-6 px-">
