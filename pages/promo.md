@@ -14,7 +14,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-2 px-3">
     <div class="feature-product-title pb-2">
-      <h3 class="animate__animated animate__pulse">Comparte en Instagram tu flyer y te regalamos un baño de sonido GRATIS</h3>
+      <h3 class="animate__animated animate__pulse">Comparte en Instagram tu flyer y te regalamos un Baño de Sonido GRATIS</h3>
     </div>
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
