@@ -21,7 +21,9 @@ bodyClass: "page-home"
         <img alt="" class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/promo.png" />
       </div>
       <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInRight">
-        <p style="font-size: 18px">Super sencillo. Haz una foto de tu flyer, compártela en Instagram mencionándo nuestra cuenta, @iridiscare, y te regalamos un baño de sonido para relajarte. Así de fácil.</p>
+        <p style="font-size: 18px">Super sencillo.</p>
+        <p style="font-size: 18px">Haz una foto de tu flyer, compártela en Instagram mencionándo nuestra cuenta, @iridiscare, y te regalamos un baño de sonido para relajarte.</p>
+        <p style="font-size: 18px">Así de fácil.</p>
         <div class="pb-2">
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Haz una foto del flyer</i></p>
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Súbela a Instagram</i></p>
