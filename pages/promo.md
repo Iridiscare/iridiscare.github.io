@@ -18,7 +18,7 @@ bodyClass: "page-home"
     </div>
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
-        <img alt="" class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/promo.png" />
+        <img alt="" class="animate__animated animate__bounceInLeft feature-product img-fluid" width="100%" src="/assets/images/promo.webp" />
       </div>
       <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInRight">
         <p style="font-size: 18px">Si te has encontrado un flyer en la calle y quieres conseguir una sesión de relajación. Es super sencillo.</p>
