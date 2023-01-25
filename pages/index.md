@@ -9,7 +9,6 @@ permalink: /
 layout: default
 bodyClass: "page-home"
 ---
-
 {% include sticky-cta.html %}
 
 <div class="intro">
@@ -25,9 +24,36 @@ bodyClass: "page-home"
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Controla tus emociones</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi ansiedad</a>
-        <!-- <br>
-        <a class="gift animate__pulse" href="#plans"><i data-feather='gift' class="feature-icon"></i>Regala una sesión antiestrés</a> -->
+        <br>
+        <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Baño de Sonido GRATIS con tu FLYER</a>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-2 px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="feature-product" width="100%" controls> 
+            <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 pb-4">
+        <p>¿La ansiedad te agobia y <b class="highlight"> quieres dejar de dar vueltas a la cabeza, no sufrir, tener mejor humor y descansar?</b> 
+          El 77% de las personas sufren estrés por la rutina, los problemas personales, la incertidumbre o los miedos.</p>
+        <p>En Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado para que reduzcas tu ansiedad y tus niveles estrés.</b></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container-sm pt-6 pb-6 px-3">
+    <div class="feature-product-title">
+      <h2>Te ayudamos a que pares un ratito por tu salud y consigas la tan deseada claridad mental</h2>
     </div>
   </div>
 </div>
@@ -49,33 +75,6 @@ bodyClass: "page-home"
         <h4><i data-feather='smile' class="feature-icon"></i> Resultados</h4>
         <p>Pararás tu mente y <b>reducirás tu ansiedad</b>.</p>
         <a href="{{page.url}}#results" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip">
-  <div class="container-sm pt-6 pb-6 px-3">
-    <div class="feature-product-title">
-      <h2>Te ayudamos a que pares un ratito por tu salud y consigas la tan deseada claridad mental</h2>
-    </div>
-  </div>
-</div>
-
-<div class="strip-white">
-  <div class="container-sm pt-6 pb-2 px-3">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-4">
-        <div class="embed-responsive embed-responsive-16by9">
-          <video class="feature-product" width="100%" controls> 
-            <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-6 pb-4">
-        <p>¿La ansiedad te agobia y <b class="highlight"> quieres dejar de dar vueltas a la cabeza, no sufrir, tener mejor humor y descansar?</b> 
-          El 77% de las personas sufren estrés por la rutina, los problemas personales, la incertidumbre o los miedos.</p>
-        <p>En Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado para que reduzcas tu ansiedad y tus niveles estrés.</b></p>
       </div>
     </div>
   </div>
