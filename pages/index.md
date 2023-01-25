@@ -1,5 +1,5 @@
 ---
-title: "Iridis Care: Reduce tu Ansiedad en 17 minutos"
+title: "Iridis Care: Reduce tu Estrés en 17 minutos"
 description: Prueba tu 1ª sesión de terapia de sonido digital. ¡Te regalamos un informe de estrés!
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
@@ -11,11 +11,22 @@ bodyClass: "page-home"
 ---
 {% include sticky-cta.html %}
 
+<div class="strip" style="background: #9B51E0">
+  <a class="gift animate__pulse" href="/promo">
+    <div class="container-sm pt-2 pb-1 px-3">
+      <div class="feature-product-title">
+        <h4 style="color: white">🎁 Te regalamos un Baño de Sonido Antiestrés con tu Flyer </h4>
+        <h5 style="color: white">Pulsa para descubrirlo <i data-feather='chevron-right'></i></h5>
+      </div>
+    </div>
+  </a>
+</div>
+
 <div class="intro">
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Reduce tu Ansiedad en 17 minutos</h1>
+        <h1>Reduce tu Estrés en 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b></p>
         <div class="animate__animated animate__bounceInLeft">
@@ -24,8 +35,8 @@ bodyClass: "page-home"
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Controla tus emociones</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi ansiedad</a>
-        <br>
-        <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Sesión GRATIS con tu FLYER</a>
+        <!-- <br>
+        <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Sesión GRATIS con tu FLYER</a> -->
       </div>
     </div>
   </div>

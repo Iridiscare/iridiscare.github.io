@@ -24,11 +24,12 @@ bodyClass: "page-home"
         <p style="font-size: 18px">Si te has encontrado un flyer en la calle y quieres conseguir una sesión de relajación. Es super sencillo.</p>
         <p style="font-size: 18px">Haz una foto de tu flyer, compártela en Instagram mencionándo nuestra cuenta, @iridiscare, y te regalamos un baño de sonido para relajarte.</p>
         <p style="font-size: 18px">Así de fácil.</p>
-        <div class="pb-2">
+        <div>
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Haz una foto del flyer</i></p>
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Súbela a Instagram</i></p>
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Te contactamos por DM</i></p>
         </div>
+        <p style="font-size: 18px">Solo las primeras 10 personas.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://www.instagram.com/iridiscare"><i data-feather='instagram'></i> Compartir en Instagram</a>
       </div>
     </div>
