@@ -25,8 +25,8 @@ bodyClass: "page-home"
         <p style="font-size: 18px">Haz una foto de tu flyer, compártela en Instagram mencionándo y siguiendo nuestra cuenta, @iridiscare. Te regalamos un baño de sonido para que te relajes y por ayudarnos a darnos a conocer.</p>
         <p style="font-size: 18px">Así de fácil.</p>
         <div>
-          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Haz una foto del flyer</i></p>
-          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Súbela a Instagram</i></p>
+          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Haz una <b>foto del flyer</b></i></p>
+          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Súbela a Instagram</b></i></p>
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Te contactamos por DM</i></p>
         </div>
         <p style="font-size: 18px">Solo las primeras 10 personas.</p>
