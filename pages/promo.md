@@ -22,7 +22,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInRight">
         <p style="font-size: 18px">Si te has encontrado un flyer en la calle y quieres conseguir una sesión de relajación. Es super sencillo.</p>
-        <p style="font-size: 18px">Haz una foto de tu flyer, compártela en Instagram mencionándo nuestra cuenta, @iridiscare, y te regalamos un baño de sonido para relajarte.</p>
+        <p style="font-size: 18px">Haz una foto de tu flyer, compártela en Instagram mencionándo y siguiendo nuestra cuenta, @iridiscare. Te regalamos un baño de sonido para que relajes y por ayudarnos a darnos a conocer.</p>
         <p style="font-size: 18px">Así de fácil.</p>
         <div>
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Haz una foto del flyer</i></p>
