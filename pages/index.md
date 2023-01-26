@@ -12,11 +12,10 @@ bodyClass: "page-home"
 {% include sticky-cta.html %}
 
 <div class="strip" style="background: #9B51E0">
-  <a class="gift animate__pulse" href="/promo">
+  <a class="gift animate__pulse" href="/ansiedad">
     <div class="container-sm pt-2 pb-1 px-3">
       <div class="feature-product-title">
-        <h4 style="color: white">🎁 Te regalamos un Baño de Sonido Antiestrés con tu Flyer </h4>
-        <h5 style="color: white">Pulsa para descubrirlo <i data-feather='chevron-right'></i></h5>
+        <h4 style="color: white">📚 Guía para aliviar el estrés <i data-feather='chevron-right'></i></h4>
       </div>
     </div>
   </a>
@@ -26,15 +25,15 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Reduce tu Estrés en 17 minutos</h1>
+        <h1>Relajate profundamente en menos de 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b></p>
         <div class="animate__animated animate__bounceInLeft">
-          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Para tu mente</i></p>
-          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Reduce tu estrés</i></p>
-          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Controla tus emociones</i></p>
+          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma tu mente</i></p>
+          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
+          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Refuerza tu sistema inmune</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi ansiedad</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero calmar mis nervios</a>
         <!-- <br>
         <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Sesión GRATIS con tu FLYER</a> -->
       </div>
@@ -53,9 +52,8 @@ bodyClass: "page-home"
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pb-4">
-        <p>¿La ansiedad te agobia y <b class="highlight"> quieres dejar de dar vueltas a la cabeza, no sufrir, tener mejor humor y descansar?</b> 
-          El 77% de las personas sufren estrés por la rutina, los problemas personales, la incertidumbre o los miedos.</p>
-        <p>En Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado para que reduzcas tu ansiedad y tus niveles estrés.</b></p>
+        <p>¿El estrés te está pasando factura y <b class="highlight">quieres dejar de dar vueltas a la cabeza, tener buen humor, dormir y sentirte mejor?</b></p>
+        <p>En Iridis te ofrecemos un innovador <b class="highlight">Baño de Sonido Personalizado para que combatas el estrés.</b></p>
       </div>
     </div>
   </div>
@@ -64,7 +62,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h2>Te ayudamos a que pares un ratito por tu salud y consigas la tan deseada claridad mental</h2>
+      <h2>No recurras al lexatin y prueba sumergirte en nuestra experiencia sonora</h2>
     </div>
   </div>
 </div>
@@ -79,12 +77,12 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='sun' class="feature-icon"></i> Relajación</h4>
-        <p>Sentirás unas <b>sensaciones sorprendentes</b>.</p>
+        <p>Sentirás una <b>relajación sorprendente</b>.</p>
         <a href="{{page.url}}#space" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='smile' class="feature-icon"></i> Resultados</h4>
-        <p>Pararás tu mente y <b>reducirás tu ansiedad</b>.</p>
+        <p>Equilibrás tu <b>cuerpo y mente</b>.</p>
         <a href="{{page.url}}#results" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
     </div>
@@ -98,8 +96,8 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
-        <p>Si no pones remedio, día a día los niveles de cortisoles aumentan y el estrés <b class="highlight">debilita el sistema inmunológico</b>, cambia la forma de actuar y <b class="highlight"> reduce la autoestima</b>.</p>
-        <p>La relajación meditativa con <b class="highlight">sonidos ASMR y binaurales estimulan la segregación de oxitocina</b>, creando un orgasmo cerebral que reduce el estrés y mejora la salud cuerpo-mente.</p>
+        <p>El <b class="highlight">estrés debilita el sistema inmunológico</b>, cambia la forma de actuar y <b class="highlight"> reduce la autoestima</b>.</p>
+        <p>La <b class="highlight">relajación profunda con sonidos estimula la segregación de oxitocina</b>, reduciendo el estrés y mejora la salud cuerpo-mente.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature-image">
@@ -145,10 +143,10 @@ bodyClass: "page-home"
         <div class="feature-product-title pb-4">
           <h4>Una experiencia envolvente super relajante para que te desestreses</h4>
         </div>
-        <p>La tecnología de Iridis te ayudará a:</p>
-        <p><i data-feather='check' class="feature-icon"></i> <b class="highlight">Conocer tu estrés y las frecuencias de tu cuerpo</b> a partir de tu voz</p>
-        <p><i data-feather='check' class="feature-icon"></i> Crear <b class="highlight">sonidos personalizados</b> para la frecuencia de tu cuerpo</p>
-        <p><i data-feather='check' class="feature-icon"></i> Conseguir un <b class="highlight">estado meditativo</b> relajante</p>
+        <p>Los baños de sonido de Iridis te ayudararán a:</p>
+        <p><i data-feather='check' class="feature-icon"></i> Conseguir un <b class="highlight">estado de relajación profunda</b></p>
+        <p><i data-feather='check' class="feature-icon"></i> <b>Incrementar la fuerza mental</b>, el enfoque y la productividad</p>
+        <p><i data-feather='check' class="feature-icon"></i> Reducir tu ritmo cardiaco y <b>potenciar tu energía interior</b></p>
       </div>
     </div>
     <div class="row justify-content-center pt-2">
@@ -198,25 +196,25 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip" id="results">
-  <div class="container-sm pt-6 pb-4 px-3">
+  <div class="container-sm pt-4 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Después de esta experiencia antiestrés</h4>
+      <h4>Después de un baño de sonido</h4>
     </div>
   </div>
   <div class="container-sm pb-2 px-3">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
-        <p><i data-feather='check' class="feature-icon"></i> Sabrás tu estrés actual</p>
-        <p><i data-feather='check' class="feature-icon"></i> Pararás mentalmente</p>
-        <p><i data-feather='check' class="feature-icon"></i> Reducirás tu angustia</p>
+        <p><i data-feather='check' class="feature-icon"></i> Pararás la mente</p>
+        <p><i data-feather='check' class="feature-icon"></i> Reducirás el estrés</p>
+        <p><i data-feather='check' class="feature-icon"></i> Calmarás la ansiedad</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <p><i data-feather='check' class="feature-icon"></i> Aumentarás tu bienestar</p>
-        <p><i data-feather='check' class="feature-icon"></i> Volverás a la calma</p>
+        <p><i data-feather='check' class="feature-icon"></i> Eliminarás toxinas</p>
+        <p><i data-feather='check' class="feature-icon"></i> Mejorarás la memoria</p>
         <p><i data-feather='check' class="feature-icon"></i> Te sentirás mejor</p>
       </div>
     </div>
-    <div class="row justify-content-center pb-6">
+    <div class="row justify-content-center pt-4 pb-4">
       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, me quiero sentir mejor</a>
     </div>
   </div>
