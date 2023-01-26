@@ -25,7 +25,7 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Relajate profundamente en menos de 17 minutos</h1>
+        <h1>Relájate profundamente en menos de 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b></p>
         <div class="animate__animated animate__bounceInLeft">
