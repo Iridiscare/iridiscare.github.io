@@ -17,7 +17,9 @@ Estos sonidos son producidos por una variedad de instrumentos musicales, como c�
 
 Estos sonidos se combinan con técnicas de respiración profunda y prácticas de mindfulness para entregar los beneficios curativos del baño de sonido. 
 
-Los beneficios del baño de sonido son muchos. Esta terapia se ha demostrado que reduce el estrés y la ansiedad, mejora la calidad del sueño, aumenta la claridad mental, mejora la memoria y la concentración, y refuerza el sistema inmune. 
+Los beneficios del baño de sonido son muchos. 
+
+Esta terapia se ha demostrado que reduce el estrés y la ansiedad, mejora la calidad del sueño, aumenta la claridad mental, mejora la memoria y la concentración, y refuerza el sistema inmune. 
 
 También se ha demostrado que el baño de sonido puede ser una gran ayuda para el tratamiento de enfermedades crónicas, como la fibromialgia, el síndrome de fatiga crónica, la depresión y el insomnio. 
 
@@ -103,7 +105,9 @@ Esto puede ser útil para aquellos que se sienten cansados ​​y sin energía.
 
  __10. Mejora de la felicidad__ 
 
-Los sonidos del baño de sonido ayudan a liberar la energía bloqueada y a calmar la mente. Esto ayuda a aumentar la felicidad y a mejorar la sensación general de bienestar. Como puede ver, hay numerosos beneficios de los baños de sonido. 
+Los sonidos del baño de sonido ayudan a liberar la energía bloqueada y a calmar la mente. Esto ayuda a aumentar la felicidad y a mejorar la sensación general de bienestar. 
+
+Como puedes ver, hay numerosos beneficios de los baños de sonido. 
 
 Esta terapia puede ayudarte a relajarte, mejorar tu concentración, equilibrar tus emociones, liberar emociones profundas, mejorar tu creatividad, mejorar tu salud física y aumentar tu felicidad. 
 

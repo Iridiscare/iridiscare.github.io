@@ -160,7 +160,7 @@ bodyClass: "page-home"
 <div class="strip-white pb-8">
   <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-3">
     <div class="feature-product-title">
-      <h4>La mayoría de nuestros usuarios se van relajados y sorprendidos</h4>
+      <h4>Nuestros usuarios se van relajados y sorprendidos</h4>
     </div>
   </div>
   <div class="container-sm px-4">

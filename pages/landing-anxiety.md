@@ -14,7 +14,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-2 px-3">
     <div class="feature-product-title pb-2">
-      <h4 class="animate__animated animate__pulse">Cómo controlar para siempre la ansiedad y el estrés con terapias, técnicas y trucos que te relajan en minutos</h4>
+      <h4 class="animate__animated animate__pulse">Controla para siempre la Ansiedad y el Estrés con terapias, técnicas y trucos que te relajan en minutos</h4>
     </div>
     <div class="row">
       <div class="col-12 col-md-5 col-lg-5 pb-4">
