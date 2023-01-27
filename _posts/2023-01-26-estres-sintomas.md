@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cómo Saber si Tienes Estrés
+title:  Cómo Saber si Tienes Estrés en 8 pasos
 date:   2023-01-26 10:04:14 +0100
 categories: baño sonido
 description: Aprende en este artículo a reconocer los síntomas del estrés y si tienes alguno de ellos
