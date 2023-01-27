@@ -77,12 +77,12 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='sun' class="feature-icon"></i> Relajación</h4>
-        <p>Sentirás una <b>relajación sorprendente</b>.</p>
+        <p>Sentirás una <b>sensación sorprendente</b>.</p>
         <a href="{{page.url}}#space" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='smile' class="feature-icon"></i> Resultados</h4>
-        <p>Equilibrás tu <b>cuerpo y mente</b>.</p>
+        <p>Equilibrarás tu <b>cuerpo y mente</b>.</p>
         <a href="{{page.url}}#results" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
     </div>
