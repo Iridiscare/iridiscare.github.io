@@ -3,8 +3,9 @@ layout: post
 title:  Cómo Relajarse y Reducir el Estrés con Sonidos Binaurales
 date:   2023-01-12 10:04:14 +0100
 categories: baño sonido
-description: En este artículo podrás aprender cómo relajarte con sonidos binaurales
+description: En este artículo podrás aprender cómo relajarte con sonidos binaurales.
 image: /assets/images/posts/sonidos-binaurales.webp
+toc: true
 ---
 
 En este artículo vamos a hablar sobre la relación entre sonido binaural, relajación, terapia de sonido y el estrés. 

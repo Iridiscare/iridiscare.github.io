@@ -3,8 +3,9 @@ layout: post
 title:  ¿Qué es la Terapia de Sonido Digital?
 date:   2023-01-09 10:04:14 +0100
 categories: baño sonido
-description: En este artículo podrás aprender que es exactamente la terapia de sonido digital
+description: En este artículo podrás aprender que es exactamente la terapia de sonido digital.
 image: /assets/images/posts/terapia-sonido-digital.webp
+toc: true
 ---
 
 ## __¿Alguna vez has escuchado hablar de la terapia de sonido digital?__ 

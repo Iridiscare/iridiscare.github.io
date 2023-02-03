@@ -3,8 +3,9 @@ layout: post
 title:  "Ansiedad: Síntomas y 17 Técnicas para Combatirla"
 date:   2023-01-09 10:04:14 +0100
 categories: baño sonido
-description: En este artículo podrás aprender en detalle los síntomas de la ansiedad y cómo controlarla
+description: En este artículo podrás aprender en detalle los síntomas de la ansiedad y cómo controlarla.
 image: /assets/images/posts/mujer-ansiedad-mente.webp
+toc: true
 ---
 
 ## __¿Qué es la ansiedad? ¿Cómo la experimentamos? ¿Cómo podemos controlarla?__ 

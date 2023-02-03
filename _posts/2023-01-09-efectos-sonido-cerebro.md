@@ -3,8 +3,9 @@ layout: post
 title:  Los Efectos de la Terapia de Sonido sobre el Cerebro
 date:   2023-01-09 10:04:14 +0100
 categories: baño sonido
-description: En este artículo aprenderás cómo afecta la terapia de sonido al cerebro
+description: En este artículo aprenderás cómo afecta la terapia de sonido al cerebro.
 image: /assets/images/posts/cerebro-sonido.webp
+toc: true
 ---
 
 ## __¿Alguna vez has escuchado hablar sobre la terapia del sonido?__

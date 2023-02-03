@@ -3,8 +3,9 @@ layout: post
 title:  Reducción de Estrés, Sonidos y Ondas Cerebrales Theta
 date:   2023-01-12 10:04:14 +0100
 categories: baño sonido
-description: En este artículo podrás aprender que son las ondas cerebrales theta y como ayudan a reducir el estrés
+description: En este artículo podrás aprender que son las ondas cerebrales theta y como ayudan a reducir el estrés.
 image: /assets/images/posts/ataque-panico.webp
+toc: true
 ---
 
 ## __El estrés un problema de todos__

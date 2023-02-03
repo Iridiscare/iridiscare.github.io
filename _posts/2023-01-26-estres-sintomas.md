@@ -3,10 +3,10 @@ layout: post
 title:  Cómo Saber si Tienes Estrés en 8 pasos
 date:   2023-01-26 10:04:14 +0100
 categories: baño sonido
-description: Aprende en este artículo a reconocer los síntomas del estrés y si tienes alguno de ellos
+description: Aprende en este artículo a reconocer los síntomas del estrés y si tienes alguno de ellos.
 image: /assets/images/posts/mujer-estres.webp
+toc: true
 ---
-
 
 La vida moderna puede ser agotadora y llena de estrés. 
 
@@ -59,11 +59,11 @@ Si está experimentando dolores de cabeza, dolores de estómago o náuseas, est�
 
 Si tiene problemas para dormir, también puede indicar que está estresado. 
 
-## __Cuídate__
+## __Cómo evitar los síntomas__
 
 Si estás experimentando alguno de estos síntomas, es importante buscar ayuda para aliviar el estrés. 
 
-Puedes comenzar con algunos cambios simples en su estilo de vida, como hacer ejercicio regularmente, comer saludablemente y hacer tiempo para relajarse. 
+Puedes comenzar con algunos cambios simples en tu estilo de vida, como hacer ejercicio regularmente, comer saludablemente y hacer tiempo para relajarse. 
 
 Si estos cambios no ayudan, es recomendable hablar con un profesional de la salud mental para obtener ayuda. 
 

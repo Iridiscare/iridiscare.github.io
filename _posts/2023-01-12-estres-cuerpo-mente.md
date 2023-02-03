@@ -3,8 +3,9 @@ layout: post
 title:  Mecanismos del Estrés en Nuestro Cuerpo y Mente
 date:   2023-01-12 10:04:14 +0100
 categories: baño sonido
-description: En este artículo podrás aprender cómo funciona el estrés en nuestro cerebro y como nos afecta
+description: En este artículo podrás aprender cómo funciona el estrés en nuestro cerebro y como nos afecta.
 image: /assets/images/posts/redes-sociales-estres.webp
+toc: true
 ---
 
 El estrés es una respuesta biológica natural que nos permite enfrentarnos a situaciones difíciles y preservar nuestra salud física y mental. 

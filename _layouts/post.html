@@ -6,11 +6,19 @@ bodyClass: "page-basic"
 {% include sticky-cta-blog.html %}
 
 <div class="intro">
-  <div class="container-sm">
-    <div class="justify-content-center">
-      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
+  <div class="container-sm px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-2 col-lg-2"></div>
+      <div class="col-12 col-md-8 col-lg-10">
         <h1 class="title">{{page.title}}</h1>
-        <p>{{page.description}}</p>
+        <p class="post-meta">
+            {% assign mes_index = page.date | date: "%-m" | minus: 1 %}
+            {% assign mes = site.data.spanish.meses[mes_index] %}
+            Actualizado: 
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%-d" }} de {{ mes }} de {{ page.date | date: "%Y" }}
+            </time>
+        </p>
       </div>
     </div>
   </div>
@@ -20,7 +28,9 @@ bodyClass: "page-basic"
     <div class="row">
       <div class="col-12 col-md-2 col-lg-2"></div>
       <div class="col-12 col-md-8 col-lg-8">
-        <div class="feature-image mb-4 mt-2">
+        <p>{{page.description}}</p>
+        {% toc %}
+        <div class="feature-image mb-4 mt-4">
           <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="{{page.image}}" />
         </div>
         <div class="content">{{content}}</div>

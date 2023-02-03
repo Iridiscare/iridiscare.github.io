@@ -3,8 +3,9 @@ layout: post
 title:  Reducir la Ansiedad con Terapia de Sonido y Meditación
 date:   2023-01-09 10:04:14 +0100
 categories: baño sonido
-description: En este artículo podrás aprender cómo reducir tu ansiedad con terapia de sonido
+description: En este artículo podrás aprender cómo reducir tu ansiedad con terapia de sonido.
 image: /assets/images/posts/mujer-luz-cielo.webp
+toc: true
 ---
 
 ## __¿Ansiedad?__

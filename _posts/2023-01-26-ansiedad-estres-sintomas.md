@@ -5,6 +5,7 @@ date:   2023-01-26 10:04:14 +0100
 categories: baño sonido
 description: En este artículo podrás aprender la relación entre la ansiedad, el estrés y nuestra salud mental. 
 image: /assets/images/posts/ansiedad-estres.webp
+toc: true
 ---
 
 En este artículo vamos a hablar sobre la relación entre la ansiedad, el estrés, nuestra salud mental y como identificiar sus síntomas.
@@ -49,7 +50,7 @@ El estrés puede desencadenar sentimientos de ansiedad, y la ansiedad puede dese
 
 Esta relación de retroalimentación negativa puede ser perjudicial para la salud, ya que puede conducir a una mayor ansiedad y estrés que pueden llevar a problemas de salud más graves.
 
-## __Cuáles son los síntomas de la ansiedad de los que tienes que ser consciente si o si__
+## __Cuáles son los síntomas de la ansiedad__
 
 Ser consciente de los síntomas físicos y mentales de la ansiedad nos ayuda identificar nuestro estado emocional.
 

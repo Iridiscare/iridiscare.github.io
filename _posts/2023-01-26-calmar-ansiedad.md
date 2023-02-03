@@ -3,8 +3,9 @@ layout: post
 title:  Cómo Calmar la Ansiedad en Cualquier Lugar
 date:   2023-01-26 10:04:14 +0100
 categories: baño sonido
-description: Aprende cómo calmar tu ansiedad con 11 técnicas super efectivas
+description: Aprende cómo calmar tu ansiedad con 11 técnicas super efectivas.
 image: /assets/images/posts/ansiedad-calmar.webp
+toc: true
 ---
 
 A veces necesitamos aliviar nuestra ansiedad, sigue leyendo, porque te vamos a enseñar las 11 técnicas que necesitas conocer para poder calmar tu ansiedad y tus niveles de estrés cuando lo necesites. 

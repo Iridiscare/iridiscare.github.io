@@ -63,11 +63,20 @@ sass:
   style: compressed # possible values: nested expanded compact compressed
 
 theme: minima
+
 plugins:
   - jekyll-environment-variables
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-toc
+
+toc:
+  min_level: 1
+  max_level: 3
+  list_class: toc
+  list_class: toc__list
+  sublist_class: toc__sublist
 
 exclude:
   - Gemfile
