@@ -7,35 +7,12 @@
   border: 2px solid #eee;
   border-radius: 4px;
   line-height: 1.8rem;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   list-style-type: decimal;
   font-size: 18px;
 }
- 
-.toc__sublist li {
-  padding-left: 1.25rem;
-  list-style-type: inherit;
-  font-size: 18px;
-}
 
-.toc-h2 {
-  font-size: 18px;
-}
-
-.toc-h2 li {
-  padding-bottom: 12px;  
-}
- 
-.toc-h2:first-child {
-  margin-top: 1rem;
-} 
-
-#toc a {
-  padding-bottom: 24px;
-  font-size: 18px;
-}
-
-ul li {
+ol li {
   margin-left: 22px;
   // list-style-type: none;
 }

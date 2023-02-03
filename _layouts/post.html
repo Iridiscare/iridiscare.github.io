@@ -23,12 +23,18 @@ bodyClass: "page-basic"
     </div>
   </div>
 </div>
+
 <div class="strip-white">
   <div class="container-sm pt-2 pb-2 px-3">
     <div class="row">
       <div class="col-12 col-md-2 col-lg-2"></div>
       <div class="col-12 col-md-8 col-lg-8">
         <p>{{page.description}}</p>
+        {% if page.toc %}
+        <div class="toc__list">
+          {% include toc.html html=content ordered=true h_min=2 h_max=3 %}
+        </div>
+        {% endif %}
         <div class="feature-image mb-4 mt-4">
           <img alt="{{ page.title }}" class="feature-product img-fluid" width="100%" src="{{page.image}}" />
         </div>

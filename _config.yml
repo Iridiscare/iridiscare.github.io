@@ -69,7 +69,6 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
-  - jekyll-toc
 
 toc:
   min_level: 1

@@ -10,7 +10,7 @@ toc: true
 
 En este artículo vamos a hablar sobre la relación entre la ansiedad, el estrés, nuestra salud mental y como identificiar sus síntomas.
 
-## __Qué es la ansiedad y por qué nos impide tener la tan deseada claridad mental__
+## __Qué es la ansiedad__
 
 La ansiedad es una respuesta natural a estímulos estresantes o amenazantes. 
 
@@ -19,6 +19,8 @@ Es una reacción emocional normal para ayudar a enfrentar situaciones desafiante
 Sin embargo, cuando la ansiedad se vuelve excesiva, intensa y persistente, puede convertirse en un trastorno de ansiedad. 
 
 Esto puede dificultar el pensamiento claro y la toma de decisiones. 
+
+## __Por qué la ansiedad nos impide tener claridad mental__
 
 La ansiedad puede crear una sensación de desorientación y confusión, haciendo que sea difícil concentrarse y recordar información. 
 
