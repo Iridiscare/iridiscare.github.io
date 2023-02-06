@@ -35,6 +35,9 @@ logo:
   desktop: "/assets/images/logo/logo.svg"
   desktop_height: "32px"
   desktop_width: "120px"
+  desktop-vertical: "/assets/images/logo/logo-vertical.svg"
+  desktop_height-vertical: "32px"
+  desktop_width-vertical: "120px"
 
 home: 
   limit_services: 6

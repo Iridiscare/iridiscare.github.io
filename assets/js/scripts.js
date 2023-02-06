@@ -1,5 +1,7 @@
 // header menu
 
+feather.replace();
+
 var body = document.querySelector('body')
 var menuTrigger = document.querySelector('#toggle-main-menu-mobile');
 var menuContainer = document.querySelector('#main-menu-mobile');
@@ -49,5 +51,3 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
-feather.replace()

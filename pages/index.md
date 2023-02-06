@@ -11,7 +11,7 @@ bodyClass: "page-home"
 ---
 {% include sticky-cta.html %}
 
-<div class="strip" style="background: #9B51E0">
+<!-- <div class="strip" style="background: #9B51E0">
   <a class="gift animate__pulse" href="/ansiedad">
     <div class="container-sm pt-2 pb-1 px-3">
       <div class="feature-product-title">
@@ -19,7 +19,7 @@ bodyClass: "page-home"
       </div>
     </div>
   </a>
-</div>
+</div> -->
 
 <div class="intro">
   <div class="container-sm pb-2">
@@ -27,7 +27,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Relájate profundamente en menos de 17 minutos</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Con un baño de sonido personalizado. <b>Prueba tu 1ª sesión.</b></p>
+        <p>Con un baño de sonido personalizado antiestrés. <b>Prueba tu 1ª sesión Gratis.</b></p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma tu mente</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
@@ -41,7 +41,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip-white">
+<!-- <div class="strip-white">
   <div class="container-sm pt-6 pb-2 px-3">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-4">
@@ -65,7 +65,7 @@ bodyClass: "page-home"
       <h2>No recurras al lexatin y prueba sumergirte en nuestra experiencia sonora</h2>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="strip-white">
   <div class="container-sm pt-6 pb-2 px-3">
@@ -266,19 +266,19 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-    <div class="container-sm pt-6 pb-6 px-3">
-      <div class="feature-product-title pb-2">
-        <h4>Preguntas frecuentes</h4>
-      </div>
-      {% for data in site.data.faq %}
-      <div class="pb-3 accordion-item">
-        <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> &emsp;{{data.question}}</button>
-        <div class="panel">
-          <p>{{data.answer}}</p>
-        </div>
-      </div>
-      {% endfor %}
+  <div class="container-sm pt-6 pb-6 px-3">
+    <div class="feature-product-title pb-2">
+      <h4>Preguntas frecuentes</h4>
     </div>
+    {% for data in site.data.faq %}
+    <div class="pb-3 accordion-item">
+      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> &emsp;{{data.question}}</button>
+      <div class="panel">
+        <p>{{data.answer}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
 
 {% include posts-latest.html %}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Sesiones Antiestrés",
+        "item": "https://iridis.care/planes"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Espacio de Relajación",
+        "item": "https://iridis.care/espacio-relajacion"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Ciencia del Estrés y Terapia de Sonido",
+        "item": "https://iridis.care/ciencia-estres-sonido"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Equipo de Iridis",
+        "item": "https://iridis.care/equipo"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Artículos sobre Estrés",
+        "item": "https://iridis.care/blog"
+      }]
+    }
+  </script>
+  {% if page.date %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url  }}"
+    },
+    "headline": "{{page.title}}",
+    "description": "{{page.description}}",
+    "image": "{{page.image | absolute_url }}",  
+    "datePublished": "{{page.date}}",
+  }
+  </script>
+  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="#F4E9C7">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon-32x32.svg' | relative_url }}">
+
+  {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+  
+  {% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
+  {% if page.description %}<meta property="og:description" content="{{ page.description }}"/>{% endif %}
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="{{ site.url }}"/>
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {% else %}
+  <meta property="og:image" content="{{ site.data.seo.meta_image | absolute_url }}"/>
+  {% endif %}
+  
+
+  <meta name="twitter:card" content="summary"/>
+  {% if site.data.seo.meta_twitter_site %}<meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}"/>{% endif %}
+  {% if site.data.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}"/>{% endif %}
+  {% if page.image %}
+  <meta property="twitter:image" content="{{ page.image | absolute_url }}">
+  {% else %}
+  <meta property="twitter:image" content="{{ site.data.seo.meta_image | absolute_url }}">
+  {% endif %}
+  
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TDBCNKR"></script>
+
+</head>
+
+<body class='page {{layout.bodyClass}}'>
+  <div class="container px-3 pt-2">
+    <div class="row pl-1">
+      <img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" />
+    </div>
+  </div>
+  <div id="wrapper" class="wrapper">
+    {{content}}
+  </div>
+  <div class="col-12 pb-4">
+    <div class="row justify-content-center">
+      <a href="/">
+        <img width="{{ site.logo.desktop_width-vertical }}" height="{{ site.logo-vertical.desktop_height-vertical }}" alt="{{ site.title }}" src="{{ site.logo.desktop-vertical | relative_url }}" />
+      </a>
+    </div>
+  </div>
+  {% include sub-footer.html %}
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  {% include cookie-consent.html %}
+</body>
+</html>
