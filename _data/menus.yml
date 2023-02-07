@@ -1,4 +1,7 @@
 main:
+  - name: "Planes"
+    url: "/planes"
+    weight: 1
   - name: "Reservas"
     url: "/reservas"
     weight: 1

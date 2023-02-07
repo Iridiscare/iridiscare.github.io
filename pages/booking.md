@@ -23,7 +23,7 @@ bodyClass: "page-home"
         </div> -->
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
-        <h2 style="width: 100%" >Elige abajo cómo reservar tu 1ᵉʳ Baño de Sonido por solo 24,99€</h2>
+        <h2 style="width: 100%" >Elige abajo cómo reservar tu 1ᵉʳ Baño de Sonido por solo 29,99€</h2>
         <a href="https://calendly.com/iridis-care/1a-sesion-antiestres"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
@@ -43,14 +43,14 @@ bodyClass: "page-home"
         <a href="https://calendly.com/iridis-care/session-30"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session_multiple', { event_category: 'Booking', event_action: 'Calendly'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='repeat' class="feature-icon"></i> Reservar Bonos y Planes </h6>
+            <h6 style="color: black;"><i data-feather='repeat' class="feature-icon"></i> Reservar planes </h6>
             <p style="color: black; margin-bottom: 15px; line-height: 0px">Ya has venido a vernos</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
         </a>      
         <div class="row justify-content-center">
           <a href="/planes" style="font-size: 20px">
-            Comprar bonos y planes <i data-feather='chevron-right' class="feature-icon"></i>
+            Ver planes <i data-feather='chevron-right' class="feature-icon"></i>
           </a>
         </div>
       </div>

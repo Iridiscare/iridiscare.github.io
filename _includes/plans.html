@@ -20,13 +20,21 @@
           <h2 class="feature-title">{{ service.title }}</h2>
           <p class="feature-description">{{ service.description }}</p>
           <div class="feature-content">
+            {% if service.highlight %}
+            <i data-feather="user" class="feature-icon"></i> Seguimiento personal<br>
+            <i data-feather="book-open" class="feature-icon"></i> Plan de acción<br>
+            <i data-feather="zap" class="feature-icon"></i>  4 x Pruebas de estrés<br>
+            <i data-feather='volume-2' class='feature-icon'></i> 4 x Baños de sonidos <br> 
+            {% else %}
             <i data-feather="mic" class="feature-icon"></i> Análisis de voz<br>
             <i data-feather="bar-chart-2" class="feature-icon"></i>  Informe de estrés<br>
-            <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado<br>
-            {% if service.not_bath %}
-            <del style='color: lightgrey'><i data-feather='volume-2' class='feature-icon' style='color: lightgrey'></i> Baño de sonido</del> <br>
-            {% else %}
-            <i data-feather='volume-2' class='feature-icon'></i> Baño de sonido <br> 
+              {% if service.not_bath %}
+              <del style='color: lightgrey'><i data-feather="headphones" class="feature-icon" style='color: lightgrey'></i>  Audio personalizado</del><br>
+              <del style='color: lightgrey'><i data-feather='volume-2' class='feature-icon' style='color: lightgrey'></i> Baño de sonido</del> <br>
+              {% else %}
+              <i data-feather="headphones" class="feature-icon"></i>  Audio personalizado <br>
+              <i data-feather='volume-2' class='feature-icon'></i> Baño de sonido <br> 
+              {% endif %}
             {% endif %}
             <i data-feather='clock' class='feature-icon'></i><b style="margin-left: 5px">{{ service.time }}</b>
           </div>
