@@ -1,6 +1,6 @@
 ---
-title: "Iridis Care: Reduce tu Estrés en 17 minutos"
-description: Prueba tu 1ª sesión de terapia de sonido digital. ¡Te regalamos un informe de estrés!
+title: "Iridis Care: Plan Personalizado Antiestrés de 4 Semanas"
+description: Prueba tu 1ª sesión gratis de terapia de sonido. ¡Te regalamos nuestra guía para controlar la ansiedad y reducir el estrés!
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -25,9 +25,9 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Relájate profundamente en menos de 17 minutos</h1>
+        <h1>Plan Personalizado Antiestrés de 4 Semanas</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Con un baño de sonido personalizado antiestrés. <b>Prueba tu 1ª sesión Gratis.</b></p>
+        <p>Con terapia de sonido y seguimiento individual. <b>Prueba tu 1ª sesión Gratis.</b></p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma tu mente</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
@@ -72,12 +72,12 @@ bodyClass: "page-home"
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='volume-2' class="feature-icon"></i> Sonidos</h4>
-        <p>Diseñaremos un <b>baño de sonido a partir de tu voz</b>.</p>
+        <p>Diseñaremos <b>baños de sonidos a partir de tu voz</b>.</p>
         <a href="{{page.url}}#tech" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='sun' class="feature-icon"></i> Relajación</h4>
-        <p>Sentirás una <b>sensación sorprendente</b>.</p>
+        <p>Te relajarás y <b>reducirás tus niveles de estrés</b>.</p>
         <a href="{{page.url}}#space" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
@@ -171,7 +171,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
         <div class="feature-content">
           <h4 class="feature-product-title">
-            Plan personalizado de sonidos 
+            Plan personalizado para reducir tu estrés
           </h4>
           <div class="feature-image pt-4">
             <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
@@ -181,7 +181,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
         <div class="feature-content">
           <h4 class="feature-product-title">
-            Baño de sonido para reducir tu estrés
+            Baños de sonido para reducir tu estrés
           </h4>
           <div class="feature-image pt-4">
             <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
@@ -190,7 +190,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pb-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar un baño de sonido</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar tu 1ª sesión</a>
     </div>
   </div>
 </div>
@@ -198,7 +198,7 @@ bodyClass: "page-home"
 <div class="strip" id="results">
   <div class="container-sm pt-4 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Después de un baño de sonido</h4>
+      <h4>Después de las 4 semanas de tu plan personalizado antiestrés</h4>
     </div>
   </div>
   <div class="container-sm pb-2 px-3">
