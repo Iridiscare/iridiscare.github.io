@@ -96,15 +96,15 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" id="experience">
-  <div class="conetainer-sm px-3 pt-4 pb-6">
+<div class="strip">
+  <div class="container-sm px-3 pb-4 pt-4">
     <div class="feature-product-title pb-2">
       <h4>Qué vas a obtener al agendar tu sesión gratis...</h4>
     </div>
     <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-6">
+      <div class="col-12 col-md-6 col-lg-6 pb-4">
         <p>Una Sesión 1 a 1 gratis valorada en 129 € donde:</p>
-        <p><i data-feather='check' class="feature-icon"></i> Analizaremos tu estrés y tu voz de forma profunda y te enseñaremos todas las áreas que puedes mejorar desde hoy mismo.</p>
+        <p><i data-feather='check' class="feature-icon"></i> Analizaremos tu estrés de forma profunda y te enseñaremos cómo puedes controlar tu ansiedad desde hoy mismo.</p>
         <p><i data-feather='check' class="feature-icon"></i> Te diremos exactamente tu nivel de estrés y las frecuencias que le faltan a tu sistema nervioso.</p>
         <p><i data-feather='check' class="feature-icon"></i>Te explicaremos que técnicas de relajación y mindfulness se adaptan mejor a ti.</p>
         <p><i data-feather='check' class="feature-icon"></i> Y, una vez definidos estos dos factores, cómo implementar nuestro programa antiestrés de 4 semanas.</p>
@@ -112,7 +112,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature">
           <h2 class="feature-title pt-2">Sesión antiestrés gratis</h2>
-          <p class="feature-description">Conoce tu nivel de estrés y desestrésate en menos de 30 minutos en nuestro espacio</p>
+          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra terapia de sonido y desestrésate en nuestro espacio</p>
           <div class="feature-content">
             <h4 class="mb-2">
               La sesión incluye
