@@ -56,7 +56,7 @@ bodyClass: "page-home"
         <h5>2) Sabemos lo que hacemos</h5>
         <p>Somos científicos y nuestra tecnología antiestrés está basada en los últimos avances neurocientíficos y tradiciones contemplativas.</p>
         <h5>3) Garantizamos resultados</h5>
-        <p>Somos los únicos que garantizamos resultados a todos nuestros clientes con nuestro sistema de terapia de sonido.</p>
+        <p>Somos los únicos que garantizamos reducir los niveles de estrés con nuestro sistema de terapia de sonido.</p>
       </div>
     </div>
   </div>
