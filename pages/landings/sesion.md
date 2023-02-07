@@ -54,7 +54,7 @@ bodyClass: "page-home"
         <h5>1) Mira nuestro resultados</h5>
         <p>Con este sistema conseguimos que te relajes en 17 minutos y, según nuestro datos, 9 de cada 10 personas se relajan.</p>
         <h5>2) Sabemos lo que hacemos</h5>
-        <p>Nosotros desarrollamos nuestra propia tecnología antiestrés basada en los últimos avances neurocientíficos y tradiciones contemplativas.</p>
+        <p>Somos científicos y nuestra tecnología antiestrés está basada en los últimos avances neurocientíficos y tradiciones contemplativas.</p>
         <h5>3) Garantizamos resultados</h5>
         <p>Somos los únicos que garantizamos resultados a todos nuestros clientes con nuestro sistema de terapia de sonido.</p>
       </div>
