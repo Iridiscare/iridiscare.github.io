@@ -56,7 +56,7 @@ bodyClass: "page-home"
         <h5>2) Sabemos lo que hacemos</h5>
         <p>Somos científicos, nos hemos trabajado psicológicamente y nuestra tecnología está basada en los últimos avances neurocientíficos, tradiciones contemplativas y experiencia personal.</p>
         <h5>3) Garantizamos resultados</h5>
-        <p>Somos los únicos que garantizamos reducir tu estrés con nuestro Plan de 4 semanas con terapia de sonido y seguimiento personalizado.</p>
+        <p>Somos los únicos en Toledo que garantizamos reducir tu estrés con nuestro Plan de 4 semanas con terapia de sonido y seguimiento personalizado.</p>
       </div>
     </div>
   </div>
