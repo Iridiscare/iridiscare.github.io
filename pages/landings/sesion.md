@@ -14,8 +14,8 @@ bodyClass: "page-home"
   <div class="container-sm px-3 pt-4">
     <div class="col-12">
       <div class="row justify-content-center pb-2" >
-        <p class="animate__animated animate__pulse" style="text-align: center;">¡Solo para Personas Estresadas que Quieren Superar la Ansiedad y que Necesitan Relajarse en Toledo!</p>
-        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo reducir el estrés y controlar la ansiedad en 4 semanas con nuestro Plan Antiestrés basado en Terapia de Sonido y seguimiento personalizado</h4>
+        <p class="animate__animated animate__pulse" style="text-align: center;">¡Solo para Personas Estresadas que Necesitan Relajarse en Toledo!</p>
+        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo reducir el estrés y superar la ansiedad en 4 semanas con Terapia de Sonido y seguimiento personalizado</h4>
         <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInLeft pb-2">
           <div class="embed-responsive embed-responsive-16by9">
             <video class="feature-product" width="100%" controls> 
@@ -23,15 +23,15 @@ bodyClass: "page-home"
             </video>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInRight">
+        <!-- <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInRight">
           <div>
             <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin depender de ansiolíticos con los efectos secundarios que conllevan.</p>
             <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin tener que recurrir a psicólogos y esperar a que te den cita.</p>
             <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin tener que hacer complicadas meditaciones, técnicas de relajación, yoga o leer libros de autoayuda.</p>
             <p class="copy" style="font-size: 18px"><b>Con un sistema con el que te Garantizamos que reducirás tus niveles de estrés.</b></p>
           </div>
-        </div>
-        <p class="animate__animated animate__pulse" style="color: red; font-size: 18px; text-align: center;">MIRA EL VÍDEO AL COMPLETO de solo 1 min. y después haz scroll para agendar tu Sesión de relajación personalizada Gratis donde te haremos una prueba de estrés y te daremos las claves pare reducir tu estrés a niveles saludables.</p>
+        </div> -->
+        <p class="animate__animated animate__pulse" style="color: red; font-size: 18px; text-align: center;">MIRA EL VÍDEO AL COMPLETO de solo 1 min. y después sigue leyendo para agendar tu Sesión de relajación personalizada Gratis donde te haremos una prueba de estrés y te daremos las claves pare reducir tu estrés a niveles saludables.</p>
         
       </div>
     </div>
@@ -52,11 +52,11 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <p>Soy David, doctor, experto en comportamiento humano, salud digital, autor del libro "Viviendo en una sociedad enferma" y he batido al estrés.</p>
         <h5>1) Mira nuestro resultados</h5>
-        <p>Con este sistema conseguimos que te relajes en 17 minutos y, según nuestro datos, 9 de cada 10 personas se relajan.</p>
+        <p>Con este sistema conseguimos que te relajes profundamente y, según nuestro datos, 9 de cada 10 personas se relajan.</p>
         <h5>2) Sabemos lo que hacemos</h5>
-        <p>Somos científicos y nuestra tecnología antiestrés está basada en los últimos avances neurocientíficos y tradiciones contemplativas.</p>
+        <p>Somos científicos, nos hemos trabajado psicológicamente y nuestra tecnología está basada en los últimos avances neurocientíficos, tradiciones contemplativas y experiencia personal.</p>
         <h5>3) Garantizamos resultados</h5>
-        <p>Somos los únicos que garantizamos reducir los niveles de estrés con nuestro sistema de terapia de sonido.</p>
+        <p>Somos los únicos que garantizamos reducir tu estrés con nuestro Plan de 4 semanas con terapia de sonido y seguimiento personalizado.</p>
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@ bodyClass: "page-home"
         <p>Hemos ayudado a más de 100 personas a reducir su estrés y controlar su ansiedad.</p>
         <p>Mientras otros no te garantizan ningún tipo de resultado, nosotros sí que lo hacemos.</p>
         <p>Y te mostraremos según tu caso específico exactamente el plan antiestrés y las técnicas de relajación que necesitas para llegar lo antes posible a controlar tu ansiedad y reducir tu estrés.</p>
-        <p style="color: green; font-size: 18px">Si esto te parece interesante haz 'scroll' y agenda tu sesión.</p>
+        <p style="color: green; font-size: 18px">Si esto te parece interesante sigue leyendo y agenda tu 1ª sesión Gratis.</p>
       </div>
     </div>
   </div>
