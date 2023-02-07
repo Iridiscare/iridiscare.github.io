@@ -15,7 +15,7 @@ bodyClass: "page-home"
     <div class="col-12">
       <div class="row justify-content-center pb-2" >
         <p class="animate__animated animate__pulse" style="text-align: center;">¡Solo para Personas Estresadas que Quieren Superar la Ansiedad y que Necesitan Relajarse en Toledo!</p>
-        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo relajarte fácilmente en 17 minutos con nuestro Sistema Antiestrés basado en Terapia de Sonido</h4>
+        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo reducir el estrés y controlar la ansiedad en 4 semanas con nuestro Plan Antiestrés basado en Terapia de Sonido y seguimiento personalizado</h4>
         <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInLeft pb-2">
           <div class="embed-responsive embed-responsive-16by9">
             <video class="feature-product" width="100%" controls> 
@@ -28,7 +28,7 @@ bodyClass: "page-home"
             <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin depender de ansiolíticos con los efectos secundarios que conllevan.</p>
             <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin tener que recurrir a psicólogos y esperar a que te den cita.</p>
             <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin tener que hacer complicadas meditaciones, técnicas de relajación, yoga o leer libros de autoayuda.</p>
-            <p class="copy" style="font-size: 18px"><b>Con un sistema con el que te Garantizamos que te Relajarás.</b></p>
+            <p class="copy" style="font-size: 18px"><b>Con un sistema con el que te Garantizamos que reducirás tus niveles de estrés.</b></p>
           </div>
         </div>
         <p class="animate__animated animate__pulse" style="color: red; font-size: 18px; text-align: center;">MIRA EL VÍDEO AL COMPLETO de solo 1 min. y después haz scroll para agendar tu Sesión de relajación personalizada Gratis donde te haremos una prueba de estrés y te daremos las claves pare reducir tu estrés a niveles saludables.</p>
