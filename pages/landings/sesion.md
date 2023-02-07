@@ -14,7 +14,7 @@ bodyClass: "page-home"
   <div class="container-sm px-3 pt-4">
     <div class="col-12">
       <div class="row justify-content-center pb-2" >
-        <p class="animate__animated animate__pulse" style="text-align: center;">¡Solo para Personas Estresadas, con Ansiedad y que Necesitan Relajarse en Toledo!</p>
+        <p class="animate__animated animate__pulse" style="text-align: center;">¡Solo para Personas Estresadas que Quieren Superar la Ansiedad y que Necesitan Relajarse en Toledo!</p>
         <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo relajarte fácilmente en 17 minutos con nuestro Sistema Antiestrés basado en Terapia de Sonido</h4>
         <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInLeft pb-2">
           <div class="embed-responsive embed-responsive-16by9">
