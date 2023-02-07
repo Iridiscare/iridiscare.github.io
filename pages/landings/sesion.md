@@ -104,7 +104,7 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
         <p>Una Sesión 1 a 1 gratis valorada en 129 € donde:</p>
-        <p><i data-feather='check' class="feature-icon"></i> Analizaremos tu estrés de forma profunda y te enseñaremos cómo puedes controlar tu ansiedad desde hoy mismo.</p>
+        <p><i data-feather='check' class="feature-icon"></i> Analizaremos tu estrés de forma profunda y te enseñaremos cómo puedes superar la ansiedad desde hoy mismo.</p>
         <p><i data-feather='check' class="feature-icon"></i> Te diremos exactamente tu nivel de estrés y las frecuencias que le faltan a tu sistema nervioso.</p>
         <p><i data-feather='check' class="feature-icon"></i>Te explicaremos que técnicas de relajación y mindfulness se adaptan mejor a ti.</p>
         <p><i data-feather='check' class="feature-icon"></i> Y, una vez definidos estos dos factores, cómo implementar nuestro programa antiestrés de 4 semanas.</p>
