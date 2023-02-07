@@ -13,14 +13,26 @@ bodyClass: "page-home"
 <div class="stripe">
   <div class="container-sm px-3 pt-4">
     <div class="col-12">
-      <div class="row justify-content-center pb-2" style="text-align: center;">
-        <h4 class="animate__animated animate__pulse pb-1">Cómo relajarte fácilmente en 17 minutos con nuestro Sistema Antiestrés basado en Terapia de Sonido</h4>
-        <div class="embed-responsive embed-responsive-16by9 pt-2">
-          <video class="feature-product" width="100%" controls> 
-            <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
-          </video>
+      <div class="row justify-content-center pb-2" >
+        <p class="animate__animated animate__pulse" style="text-align: center;">¡Solo para Personas Estresadas, con Ansiedad y que Necesitan Relajarse en Toledo!</p>
+        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo relajarte fácilmente en 17 minutos con nuestro Sistema Antiestrés basado en Terapia de Sonido</h4>
+        <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInLeft pb-2">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video class="feature-product" width="100%" controls> 
+              <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
-        <p class="animate__animated animate__pulse pt-2" style="color: red; font-size: 18px">MIRA EL VÍDEO AL COMPLETO de solo 1 min. y después haz scroll para agendar tu Sesión de relajación personalizada Gratis donde te haremos una prueba de estrés y te daremos las claves pare reducir tu estrés a niveles saludables.</p>
+        <div class="col-12 col-md-6 col-lg-6 animate__animated animate__bounceInRight">
+          <div>
+            <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin depender de ansiolíticos con los efectos secundarios que conllevan.</p>
+            <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin tener que recurrir a psicólogos y esperar a que te den cita.</p>
+            <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sin tener que hacer complicadas meditaciones, técnicas de relajación, yoga o leer libros de autoayuda.</p>
+            <p class="copy" style="font-size: 18px"><b>Con un sistema con el que te Garantizamos que te Relajarás.</b></p>
+          </div>
+        </div>
+        <p class="animate__animated animate__pulse" style="color: red; font-size: 18px; text-align: center;">MIRA EL VÍDEO AL COMPLETO de solo 1 min. y después haz scroll para agendar tu Sesión de relajación personalizada Gratis donde te haremos una prueba de estrés y te daremos las claves pare reducir tu estrés a niveles saludables.</p>
+        
       </div>
     </div>
   </div>
@@ -85,16 +97,16 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip" id="experience">
-  <div class="conetainer px-3 pt-4 pb-6">
+  <div class="conetainer-sm px-3 pt-4 pb-6">
     <div class="feature-product-title pb-2">
       <h4>Qué vas a obtener al agendar tu sesión gratis...</h4>
     </div>
-    <div class="row d-flex justify-content-center">
+    <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
         <p>Una Sesión 1 a 1 gratis valorada en 129 € donde:</p>
         <p><i data-feather='check' class="feature-icon"></i> Analizaremos tu estrés y tu voz de forma profunda y te enseñaremos todas las áreas que puedes mejorar desde hoy mismo.</p>
         <p><i data-feather='check' class="feature-icon"></i> Te diremos exactamente tu nivel de estrés y las frecuencias que le faltan a tu sistema nervioso.</p>
-        <p><i data-feather='check' class="feature-icon"></i>Te explicaremos que técnicas de relajación se adaptan mejor a ti.</p>
+        <p><i data-feather='check' class="feature-icon"></i>Te explicaremos que técnicas de relajación y mindfulness se adaptan mejor a ti.</p>
         <p><i data-feather='check' class="feature-icon"></i> Y, una vez definidos estos dos factores, cómo implementar nuestro programa antiestrés de 4 semanas.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
