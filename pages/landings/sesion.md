@@ -15,7 +15,7 @@ bodyClass: "page-home"
     <div class="col-12">
       <div class="row justify-content-center pb-2" >
         <p class="animate__animated animate__pulse" style="text-align: center;">¡Solo para Personas Estresadas que Necesitan Relajarse en Toledo!</p>
-        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo reducir el estrés y superar la ansiedad en 4 semanas con Terapia de Sonido y seguimiento personalizado</h4>
+        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo tratar el estrés y superar la ansiedad en 4 semanas con Terapia de Sonido y seguimiento personalizado</h4>
         <div class="col-12 col-md-12 col-lg-12 animate__animated animate__pulse pb-2">
           <div class="embed-responsive embed-responsive-16by9">
             <video class="feature-product" width="100%" controls> 
