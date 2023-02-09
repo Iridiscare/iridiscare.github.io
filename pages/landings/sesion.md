@@ -15,7 +15,7 @@ bodyClass: "page-home"
     <div class="col-12">
       <div class="row justify-content-center pb-2" >
         <p class="animate__animated animate__pulse" style="text-align: center;">¡Solo para Personas Estresadas que Necesitan Relajarse en Toledo!</p>
-        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo tratar el estrés y superar la ansiedad en 4 semanas con Terapia de Sonido y seguimiento personalizado</h4>
+        <h4 class="animate__animated animate__pulse pb-2" style="text-align: center;">Cómo tratar el estrés y superar la ansiedad en 4 semanas con Baños de Sonido y seguimiento personalizado</h4>
         <div class="col-12 col-md-12 col-lg-12 animate__animated animate__pulse pb-2">
           <div class="embed-responsive embed-responsive-16by9">
             <video class="feature-product" width="100%" controls> 
@@ -56,7 +56,7 @@ bodyClass: "page-home"
         <h5>2) Sabemos lo que hacemos</h5>
         <p>Somos científicos, nos hemos trabajado psicológicamente y nuestra tecnología está basada en los últimos avances neurocientíficos, tradiciones contemplativas y experiencia personal.</p>
         <h5>3) Garantizamos resultados</h5>
-        <p>Somos los únicos en Toledo que garantizamos reducir tu estrés con nuestro Plan de 4 semanas con terapia de sonido y seguimiento personalizado.</p>
+        <p>Somos los únicos en Toledo que garantizamos reducir tu estrés con nuestro Plan de 4 semanas con análisis del estrés, baños de sonido y seguimiento personalizado.</p>
       </div>
     </div>
   </div>
@@ -112,7 +112,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature">
           <h2 class="feature-title pt-2">Sesión antiestrés gratis</h2>
-          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra terapia de sonido y desestrésate en nuestro espacio</p>
+          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestros baños de sonido y desestrésate en nuestro espacio</p>
           <div class="feature-content">
             <h4 class="mb-2">
               La sesión incluye
@@ -136,7 +136,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm px-3 pb-4 pt-4">
     <div class="feature-product-title pb-2">
-      <h4>Conoce los beneficios de la terapia de sonido</h4>
+      <h4>Conoce los beneficios de los baños de sonido</h4>
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
