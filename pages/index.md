@@ -27,7 +27,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Plan Personalizado Antiestrés de 4 Semanas</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Con terapia de sonido y seguimiento individual. <b>Prueba tu 1ª sesión Gratis.</b></p>
+        <p>Con análisis de voz y baños de sonido. <b>Prueba tu 1ª sesión Gratis.</b></p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma tu mente</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
