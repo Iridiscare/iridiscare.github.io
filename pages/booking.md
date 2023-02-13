@@ -27,8 +27,8 @@ bodyClass: "page-home"
         <a href="https://calendly.com/iridis-care/sesion-antiestres-30"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='volume-2' class="feature-icon"></i> Sesión antiestrés</h6>
-            <p style="color: black; margin-bottom: 15px; line-height: 0px">30 mins. Baño de sonido. 29,99€</p>
+            <h6 style="color: black;"><i data-feather='volume-2' class="feature-icon"></i> Sesión antiestrés 30 mins</h6>
+            <p style="color: black; margin-bottom: 15px; line-height: 0px">Baño de sonido. 29,99€</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
         </a>
