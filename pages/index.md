@@ -23,7 +23,7 @@ bodyClass: "page-home"
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Refuerza tu sistema inmune</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero calmar mis nervios</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mis estrés</a>
         <!-- <br>
         <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Sesión GRATIS con tu FLYER</a> -->
       </div>
@@ -62,7 +62,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Plan Antiestrés de 4 Semanas para Personas que...</h4>
+      <h4>Plan Antiestrés Personalizado para Personas que...</h4>
     </div>
     <div class="row pt-2">
       <div class="col-12 col-md-2 col-lg-2"></div>
@@ -145,7 +145,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <h4 class="pb-2">
-          Un espacio de relajación del que no querrás marchar
+          Un espacio diseñado para la relajación
         </h4>
         <p><i data-feather='check' class="feature-icon"></i> Pirámide de sonido</p>
         <p><i data-feather='check' class="feature-icon"></i> Luz del amanecer</p>
