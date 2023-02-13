@@ -2,6 +2,7 @@
 layout: confirmation
 title: Confirmación reserva
 permalink: /confirmacion
+sitemap: false
 ---
 
 <div class="intro">

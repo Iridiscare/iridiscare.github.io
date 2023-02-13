@@ -8,6 +8,7 @@ show_call_box: true
 permalink: /promo
 layout: default
 bodyClass: "page-home"
+sitemap: false
 ---
 
 

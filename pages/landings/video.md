@@ -8,6 +8,7 @@ show_call_box: true
 permalink: /video
 layout: landing
 bodyClass: "page-home"
+sitemap: false
 ---
 
 <div class="intro">

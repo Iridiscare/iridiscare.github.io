@@ -1,6 +1,6 @@
 ---
-title: "Iridis Care: Plan Personalizado Antiestrés de 4 Semanas"
-description: Prueba tu 1ª sesión gratis de terapia de sonido. ¡Te regalamos nuestra guía para controlar la ansiedad y reducir el estrés!
+title: "Iridis Care: Reduce tu estrés en 4 seamnas"
+description: A través del análisis de tu voz y baños de sonido personalizados. Prueba tu 1ª sesión Gratis.
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -11,23 +11,13 @@ bodyClass: "page-home"
 ---
 {% include sticky-cta.html %}
 
-<!-- <div class="strip" style="background: #9B51E0">
-  <a class="gift animate__pulse" href="/ansiedad">
-    <div class="container-sm pt-2 pb-1 px-3">
-      <div class="feature-product-title">
-        <h4 style="color: white">📚 Guía para aliviar el estrés <i data-feather='chevron-right'></i></h4>
-      </div>
-    </div>
-  </a>
-</div> -->
-
 <div class="intro">
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Plan Personalizado Antiestrés de 4 Semanas</h1>
+        <h1>Reduce tu Estrés en 4 Semanas</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Con análisis de voz y baños de sonido. <b>Prueba tu 1ª sesión Gratis.</b></p>
+        <p>A través del análisis de tu voz y baños de sonido personalizados. <b>Prueba tu 1ª sesión Gratis.</b></p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma tu mente</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
@@ -39,6 +29,16 @@ bodyClass: "page-home"
       </div>
     </div>
   </div>
+</div>
+
+<div class="strip" style="background: #9B51E0">
+  <a class="gift animate__pulse" href="#guia">
+    <div class="container-sm pt-2 pb-1 px-2">
+      <div class="feature-product-title">
+        <h4 style="color: white">📚 Guía Gratuita para Aliviar el Estrés<i data-feather='chevron-right'></i></h4>
+      </div>
+    </div>
+  </a>
 </div>
 
 <!-- <div class="strip-white">
@@ -57,18 +57,42 @@ bodyClass: "page-home"
       </div>
     </div>
   </div>
-</div>
+</div>-->
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-4 px-3">
+    <div class="feature-product-title">
+      <h4>Plan Antiestrés de 4 Semanas para Personas que...</h4>
+    </div>
+    <div class="row pt-2">
+      <div class="col-12 col-md-2 col-lg-2"></div>
+      <div class="col-12 col-md-4 col-lg-4">
+        <p><i data-feather='check' class="feature-icon"></i> Se agobian fácilmente</p>
+        <p><i data-feather='check' class="feature-icon"></i> Sufren de ansiedad</p>
+        <p><i data-feather='check' class="feature-icon"></i> Desean estar plenas</p>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4">
+        <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
+        <p><i data-feather='check' class="feature-icon"></i> No saben meditar</p>
+        <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-2">
+       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">QUIERO saber más</a>
+    </div>
+  </div>
+</div> 
 
 <div class="strip">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h2>No recurras al lexatin y prueba sumergirte en nuestra experiencia sonora</h2>
+      <h2>Si has probado de todo, no sabes como controlar tu estrés y no quieres ser un vegetal. Te podemos ayudar.</h2>
     </div>
   </div>
-</div> -->
+</div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-2 px-3">
+  <div class="container-sm pb-2 pt-6 px-3">
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='volume-2' class="feature-icon"></i> Sonidos</h4>
@@ -171,7 +195,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
         <div class="feature-content">
           <h4 class="feature-product-title">
-            Plan personalizado para reducir tu estrés
+            Plan personalizado de sonidos
           </h4>
           <div class="feature-image pt-4">
             <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
@@ -284,4 +308,25 @@ bodyClass: "page-home"
 {% include posts-latest.html %}
 
 
-
+<div class="strip-white" id="guia">
+  <div class="container-sm pt-6 pb-2 px-3">
+      <div class="feature-product-title pb-2">
+      <h4 class="animate__animated animate__pulse">Cómo controlar la ansiedad y el estrés fácilmente</h4>
+      </div>
+      <div class="row">
+      <div class="col-12 col-md-5 col-lg-5 pb-4">
+          <img alt="Guía para la ansiedad y el estrés. Terapias, técnicas y trucos para épocas complicadas y tener claridad mental." class="animate__animated animate__bounceInLeft img-fluid" width="100%" src="/assets/images/ebook.png" />
+      </div>
+      <div class="col-12 col-md-7 col-lg-7 animate__animated animate__bounceInRight">
+          <p style="font-size: 18px">Guía gratuita de 40 páginas en PDF para controlar la ansiedad y reducir el estrés con <b>técnicas y trucos que puedes hacer en menos de 5 minutos donde y cuando lo necesites con ejercicios respiratorios y relajaciones</b>, más ejercicios de autoconocimiento para mirarte al espejo y comenzar el camino de la paz mental.</p>
+          <p style="font-size: 18px">Escribe <b>tu email abajo y recibe una copia en PDF</b>.</p>
+          <div class="pb-2">
+              <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Di adiós a la ansiedad</b> sin efectos secundarios</i></p>
+              <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Entiende qué está pasando</b> en tu cuerpo y mente</i></p>
+              <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Descubre <b>cómo hacer frente al cambio</b></i></p>
+          </div>
+          {% include form.html cta="Recibir gratis mi guía" %}
+      </div>
+      </div>
+  </div>
+</div>
