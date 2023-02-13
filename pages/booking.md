@@ -27,7 +27,7 @@ bodyClass: "page-home"
         <a href="https://calendly.com/iridis-care/sesion-antiestres-30"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1 Sesión Antiestrés 30 mins </h6>
+            <h6 style="color: black;"><i data-feather='volume-2' class="feature-icon"></i> 1 Sesión Antiestrés 30 mins </h6>
             <p style="color: black; margin-bottom: 15px; line-height: 0px">Prueba de estrés + Baño de sonido. 29,99€</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
@@ -35,7 +35,7 @@ bodyClass: "page-home"
         <a href="https://calendly.com/iridis-care/sesion-antiestres-gratuita-60mins"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1ª Sesión Plan Antiéstrés 60 mins </h6>
+            <h6 style="color: black;"><i data-feather='thermometer' class="feature-icon"></i> 1ª Sesión Plan Antiéstrés 60 mins </h6>
             <p style="color: black; margin-bottom: 15px; line-height: 0px">Sesión informativa + prueba. 199€ </p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
