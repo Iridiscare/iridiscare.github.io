@@ -14,7 +14,7 @@ bodyClass: "page-home"
   <div class="container-sm px-3">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
-        <h1>¿Cómo quieres reservar?</h1>
+        <h1>¿Qué te interesa?</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Si no te relajas. Te devolvemos el dinero. 100% Garantizado.</p>
         <!-- <div class="animate__animated animate__bounceInLeft">
@@ -23,27 +23,27 @@ bodyClass: "page-home"
         </div> -->
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
-        <h2 style="width: 100%" >Elige abajo cómo reservar tu 1ᵉʳ Baño de Sonido por solo 29,99€</h2>
-        <a href="https://calendly.com/iridis-care/1a-sesion-antiestres"  style="text-decoration: none; position: relative" 
+        <h2 style="width: 100%" >Reserva abajo lo que más te interese</h2>
+        <a href="https://calendly.com/iridis-care/sesion-antiestres-30"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1ª Sesión vía Email </h6>
-            <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Informe de Estrés de Regalo!</p>
+            <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1 Sesión Antiestrés 30 mins </h6>
+            <p style="color: black; margin-bottom: 15px; line-height: 0px">Prueba de estrés + Baño de sonido. 29,99€</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
         </a>
-        <a href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, quiero reservar mi primera sesión."  style="text-decoration: none; position: relative" 
-           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Whatsapp', value: '{{site.data.seo.first_session_price}}'})">
+        <a href="https://calendly.com/iridis-care/sesion-antiestres-gratuita-60mins"  style="text-decoration: none; position: relative" 
+          onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='message-circle' class="feature-icon"></i> 1ª Sesión vía Whatsapp </h6>
-            <p style="color: black; margin-bottom: 15px; line-height: 0px">¡Ayuda en Reserva + Informe!</p>
+            <h6 style="color: black;"><i data-feather='mail' class="feature-icon"></i> 1ª Sesión Plan Antiéstrés 60 mins </h6>
+            <p style="color: black; margin-bottom: 15px; line-height: 0px">Sesión informativa + prueba. 199€ </p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
         </a>
-        <a href="https://calendly.com/iridis-care/session-30"  style="text-decoration: none; position: relative" 
+        <a href="https://calendly.com/iridis-care/session-60"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session_multiple', { event_category: 'Booking', event_action: 'Calendly'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
-            <h6 style="color: black;"><i data-feather='repeat' class="feature-icon"></i> Reservar planes </h6>
+            <h6 style="color: black;"><i data-feather='repeat' class="feature-icon"></i> Reservar sesiones plan 4 semanas </h6>
             <p style="color: black; margin-bottom: 15px; line-height: 0px">Ya has venido a vernos</p>
             <i data-feather='chevron-right' style="position: absolute; right: 12; bottom: 30;"></i> 
           </div>
