@@ -31,15 +31,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" style="background: #9B51E0">
-  <a class="gift animate__pulse" href="#guia">
-    <div class="container-sm pt-2 pb-1 px-2">
-      <div class="feature-product-title">
-        <h4 style="color: white">📚 Guía Gratuita para Aliviar el Estrés<i data-feather='chevron-right'></i></h4>
-      </div>
-    </div>
-  </a>
-</div>
+
 
 <!-- <div class="strip-white">
   <div class="container-sm pt-6 pb-2 px-3">
@@ -58,6 +50,16 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>-->
+
+<div class="strip" style="background: #9B51E0">
+  <a class="gift animate__pulse" href="#guia">
+    <div class="container-sm pt-2 pb-1 px-2">
+      <div class="feature-product-title">
+        <h4 style="color: white">📚 Guía Gratuita para Aliviar el Estrés<i data-feather='chevron-right'></i></h4>
+      </div>
+    </div>
+  </a>
+</div>
 
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
@@ -275,6 +277,17 @@ bodyClass: "page-home"
       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Quiero experimentar lo mismo </a>
     </div>
   </div>
+</div>
+
+<div class="strip" style="background: #E9E9E9">
+  <a class="gift animate__pulse" href="#guia">
+    <div class="container-sm pt-2 pb-2 px-3">
+      <div class="row justify-content-center">
+        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="30" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
+        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="32" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
+      </div>
+    </div>
+  </a>
 </div>
  
 {% include first-visit.html %}

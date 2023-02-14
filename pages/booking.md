@@ -23,7 +23,7 @@ bodyClass: "page-home"
         </div> -->
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
-        <h2 style="width: 100%" >Reserva abajo lo que más te interese</h2>
+        <h2 style="width: 100%" >Elije abajo la mejor opción para desestresarte</h2>
         <a href="https://calendly.com/iridis-care/sesion-antiestres-30"  style="text-decoration: none; position: relative" 
           onclick="gtag('event', 'book_session', { event_category: 'Booking', event_action: 'Calendly', value: '{{site.data.seo.first_session_price}}'})">
           <div class="feature-product mb-3 animate__animated animate__pulse" style="background-color: white; padding: 10px">
@@ -61,7 +61,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container pt-4 px-4">
     <div class="feature-product-title">
-      <h4>¿Tienes dudas? Te ayudo a resolverlas y a reservar tu sesión</h4>
+      <h4>¿Tienes dudas? Te ayudo a resolverlas y reservar tu sesión</h4>
     </div>
   </div>
   <div class="container-sm pt-2 pb-4 px-3">
