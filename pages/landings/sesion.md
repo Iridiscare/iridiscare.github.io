@@ -117,13 +117,13 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <p>Un baño de sonido personalizado te permite:</p>
-        <p><i data-feather='check' class="feature-icon"></i> Equilibrar cuerpo y mente </p>
         <p><i data-feather='check' class="feature-icon"></i> Calmar la mente</p>
         <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
         <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
         <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
-        <p><i data-feather='check' class="feature-icon"></i> Mejorar el sistema inmune </p>
         <p><i data-feather='check' class="feature-icon"></i> Reducir el dolor </p>
+        <p><i data-feather='check' class="feature-icon"></i> Mejorar el sistema inmune </p>
+        <p><i data-feather='check' class="feature-icon"></i> Equilibrar cuerpo y mente </p>
         <div class="row justify-content-center pt-2">
           <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar 1ª sesión y sentirme mejor</a>
         </div>
