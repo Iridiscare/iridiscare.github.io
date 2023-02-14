@@ -1,5 +1,5 @@
 ---
-title: "Iridis Care: Reduce tu estrés en 4 seamnas"
+title: "Iridis Care: Reduce tu estrés en 4 semanas"
 description: A través del análisis de tu voz y baños de sonido personalizados. Prueba tu 1ª sesión Gratis.
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true

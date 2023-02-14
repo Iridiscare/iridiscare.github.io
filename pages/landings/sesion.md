@@ -47,13 +47,13 @@ bodyClass: "page-home"
     <div class="row pt-4">
       <div class="col-12 col-md-2 col-lg-2"></div>
       <div class="col-12 col-md-4 col-lg-4">
+        <p><i data-feather='check' class="feature-icon"></i> Plan personalizado</p>
         <p><i data-feather='check' class="feature-icon"></i> Evidencia científica</p>
         <p><i data-feather='check' class="feature-icon"></i> Garantizamos resultados</p>
-        <p><i data-feather='check' class="feature-icon"></i> Plan personalizado</p>
       </div>
       <div class="col-12 col-md-4 col-lg-4">
-        <p><i data-feather='check' class="feature-icon"></i> Más de 100 clientes</p>
         <p><i data-feather='check' class="feature-icon"></i> Sin medicación</p>
+        <p><i data-feather='check' class="feature-icon"></i> Más de 100 clientes</p>
         <p><i data-feather='check' class="feature-icon"></i> Sabemos que es colapsar</p>
       </div>
     </div>
@@ -155,7 +155,7 @@ bodyClass: "page-home"
     <div class="col-12">
       <div class="feature-product-title">
         <h4>Reserva cuando te gustaría tener tu sesión antiestrés gratuita</h4>
-         <p class="pt-2" style="color: red; font-size: 18px">¡IMPORTANTE! Solemos tener la agenda llena. Si no tienes tiempo, por favor, no selecciones y deja hueco a personas que realmente lo necesiten.</p>
+         <p class="pt-2" style="color: red; font-size: 18px">¡IMPORTANTE! Solemos tener la agenda llena. Si no tienes tiempo, por favor, no reserves y deja hueco a personas que realmente lo necesiten.</p>
       </div>
       <div class="row justify-content-center " style="text-align: center;">
         <div class="calendly-inline-widget" data-url="https://calendly.com/iridis-care/sesion-antiestres-gratuita-60mins?hide_gdpr_banner=1&primary_color=9b51e0" style="min-width:100%;height:830px;"></div>
