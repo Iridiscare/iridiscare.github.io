@@ -1,6 +1,6 @@
 ---
-title: "Cómo controlar la ansiedad y el estrés"
-description: Conoce las terapias, técnicas y trucos para tener claridad mental en épocas complicadas de cambio
+title: "Cómo parar la mente y sentirte mejor en 17 minutos"
+description: Aprende como puedes conseguir una sesión antiestrés gratuita
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -13,7 +13,7 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container-sm px-2">
     <div class="row justify-content-center px-1">
-      <h1 style="text-align: center;">Cómo parar la mente, reducir el estrés y sentirte mejor en 4 semanas</h1>
+      <h1 style="text-align: center;">Cómo parar la mente y sentirte mejor en 17 minutos si has tenido un mal día</h1>
     </div>
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-8 col-lg-8">
