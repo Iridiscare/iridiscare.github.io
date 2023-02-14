@@ -13,7 +13,7 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container-sm px-2">
     <div class="row justify-content-center px-1">
-      <h1 style="text-align: center;">Cómo parar tu mente, reducir tu estrés y sentirte mejor con terapia de sonido</h1>
+      <h1 style="text-align: center;">Cómo parar la mente, reducir el estrés y sentirte mejor en 4 semanas</h1>
     </div>
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-8 col-lg-8">
@@ -30,28 +30,30 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<!-- <div class="strip" style="background: lightgrey">
+<div class="strip" style="background: #E9E9E9">
   <a class="gift animate__pulse" href="#guia">
-    <div class="container-sm pt-2 pb-1 px-2">
-      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" width="40%" src="/assets/images/logo/abc-logo.png" />
-      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" width="40%" src="/assets/images/logo/espanol-logo.svg" />
+    <div class="container-sm pt-2 pb-2 px-3">
+      <div class="row justify-content-center">
+        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="30" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
+        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="32" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
+      </div>
     </div>
   </a>
-</div> -->
+</div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-3">
+  <div class="container-sm pt-4 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>¿Por qué agendar una sesión antiestrés con baño de sonido?</h4>
+      <h4>¿Por qué agendar una sesión con nosotros?</h4>
     </div>
     <div class="row pt-4">
-      <div class="col-12 col-md-2 col-lg-2"></div>
-      <div class="col-12 col-md-4 col-lg-4">
-        <p><i data-feather='check' class="feature-icon"></i> Plan personalizado</p>
+      <div class="col-12 col-md-1 col-lg-1"></div>
+      <div class="col-12 col-md-5 col-lg-5">
+        <p><i data-feather='check' class="feature-icon"></i> Plan antiestrés único</p>
         <p><i data-feather='check' class="feature-icon"></i> Evidencia científica</p>
         <p><i data-feather='check' class="feature-icon"></i> Garantizamos resultados</p>
       </div>
-      <div class="col-12 col-md-4 col-lg-4">
+      <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> Sin medicación</p>
         <p><i data-feather='check' class="feature-icon"></i> Más de 100 clientes</p>
         <p><i data-feather='check' class="feature-icon"></i> Sabemos que es colapsar</p>
@@ -64,14 +66,14 @@ bodyClass: "page-home"
 </div> 
 
 <div class="strip">
-  <div class="container-sm px-2 pb-6 pt-6">
+  <div class="container-sm px-3 pb-6 pt-6">
     <div class="feature-product-title pb-4">
       <h4>¿Qué vas a obtener al agendar tu sesión?</h4>
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
         <p>Sesión gratuita valorada en 129€ donde:</p>
-        <p><i data-feather='check' class="feature-icon"></i> Nos conoceremos y evaluaremos tu caso personal.</p>
+        <p><i data-feather='check' class="feature-icon"></i> Nos conoceremos y <b>evaluaremos tu caso personal.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> Te haremos una <b>prueba de estrés para saber tu estado actual.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Analizaremos tu voz para saber las frecuencias</b> que le faltan a tu sistema nervioso.</p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Recibirás un baño de sonido de 17 minutos</b> y experimentes si te funciona.</p>
@@ -79,8 +81,8 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature">
-          <h2 class="feature-title pt-2">Sesión antiestrés gratis</h2>
-          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestros baños de sonido, desestrésate en 17 minutos y decide si es para ti. Sin compromiso.</p>
+          <h2 class="feature-title pt-2">Sesión Antiestrés Gratuita</h2>
+          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra tecnología de baños de sonido, desestrésate en 17 minutos y decide si es para ti. Sin compromiso. 0€</p>
           <div class="feature-content pb-2">
             <h4 class="mb-2">
               La sesión incluye

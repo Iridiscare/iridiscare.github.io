@@ -60,7 +60,7 @@ bodyClass: "page-home"
 </div>-->
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-4 px-3">
+  <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
       <h4>Plan Antiestrés Personalizado para Personas que...</h4>
     </div>
@@ -73,8 +73,8 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-4 col-lg-4">
         <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
-        <p><i data-feather='check' class="feature-icon"></i> No saben meditar</p>
         <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
+        <p><i data-feather='check' class="feature-icon"></i> Han probado de todo</p>
       </div>
     </div>
     <div class="row justify-content-center pt-2">
