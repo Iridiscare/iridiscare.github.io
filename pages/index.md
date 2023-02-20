@@ -15,9 +15,9 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Reduce tu Estrés en 4 Semanas</h1>
+        <h1>Calma tu mente y reduce tu estrés en 4 Semanas</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>A través del análisis de tu voz y baños de sonido personalizados. <b>Prueba tu 1ª sesión Gratis.</b></p>
+        <p>A través del análisis de tu voz, baños de sonido personalizados y la gestión de emociones. <b>Prueba tu 1ª sesión Gratis.</b></p>
         <div class="animate__animated animate__bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma tu mente</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
@@ -64,7 +64,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>Plan Antiestrés Personalizado para Personas que...</h4>
+      <h4>Programa Antiestrés para Personas que...</h4>
     </div>
     <div class="row pt-2">
       <div class="col-12 col-md-2 col-lg-2"></div>
@@ -98,17 +98,17 @@ bodyClass: "page-home"
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='volume-2' class="feature-icon"></i> Sonidos</h4>
-        <p>Diseñaremos <b>baños de sonidos a partir de tu voz</b>.</p>
+        <p>Diseñaremos <b>baños de sonidos a partir de tu voz</b> para que pares la mente.</p>
         <a href="{{page.url}}#tech" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
-        <h4><i data-feather='sun' class="feature-icon"></i> Relajación</h4>
-        <p>Te relajarás y <b>reducirás tus niveles de estrés</b>.</p>
+        <h4><i data-feather='search' class="feature-icon"></i> Conócete</h4>
+        <p><b>Aprenderás a gestionar el estrés</b> para liberarlo de tu cuerpo y mente.</p>
         <a href="{{page.url}}#space" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='smile' class="feature-icon"></i> Resultados</h4>
-        <p>Equilibrarás tu <b>cuerpo y mente</b>.</p>
+        <p><b>Equilibrarás tu cuerpo y mente</b> reduciendo tus niveles de estrés.</p>
         <a href="{{page.url}}#results" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
     </div>
