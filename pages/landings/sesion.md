@@ -13,7 +13,7 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container-sm px-2">
     <div class="row justify-content-center px-1">
-      <h1 style="text-align: center;">Cómo parar la mente y sentirte mejor en 17 minutos si has tenido un mal día</h1>
+      <h4 style="text-align: center;">Cómo reducir el estrés al menos un 32%, calmando tu mente y liberando carga emocional durante 30 días</h4>
     </div>
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-8 col-lg-8">
@@ -49,14 +49,14 @@ bodyClass: "page-home"
     <div class="row pt-4">
       <div class="col-12 col-md-1 col-lg-1"></div>
       <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Plan antiestrés único</p>
-        <p><i data-feather='check' class="feature-icon"></i> Evidencia científica</p>
+        <p><i data-feather='check' class="feature-icon"></i> Método antiestrés único</p>
         <p><i data-feather='check' class="feature-icon"></i> Garantizamos resultados</p>
+        <p><i data-feather='check' class="feature-icon"></i> Evidencia científica</p>
       </div>
       <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> Sin medicación</p>
-        <p><i data-feather='check' class="feature-icon"></i> Más de 100 clientes</p>
-        <p><i data-feather='check' class="feature-icon"></i> Sabemos que es colapsar</p>
+        <p><i data-feather='check' class="feature-icon"></i> Hemos sufrido estrés</p>
+        <p><i data-feather='check' class="feature-icon"></i> Más de 500 clientes</p>
       </div>
     </div>
     <div class="row justify-content-center pt-2">
@@ -76,13 +76,13 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Nos conoceremos y <b>evaluaremos tu caso personal.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> Te haremos una <b>prueba de estrés para saber tu estado actual.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Analizaremos tu voz para saber las frecuencias</b> que le faltan a tu sistema nervioso.</p>
-        <p><i data-feather='check' class="feature-icon"></i> <b>Recibirás un baño de sonido de 17 minutos</b> y experimentes si te funciona.</p>
-        <p><i data-feather='check' class="feature-icon"></i> Definiremos un <b>plan antiestrés de 4 semanas totalmente personalizado</b>.</p>
+        <p><i data-feather='check' class="feature-icon"></i> <b>Crearemos un baño de sonido personalizado de 17 minutos</b> para que pruebes.</p>
+        <p><i data-feather='check' class="feature-icon"></i> Si te podemos ayudar definiremos tu <b>plan personalizado antiestrés de 30 días</b>.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature">
-          <h2 class="feature-title pt-2">Sesión Antiestrés Gratuita</h2>
-          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra tecnología de baños de sonido, desestrésate en 17 minutos y decide si es para ti. Sin compromiso. 0€</p>
+          <h2 class="feature-title pt-2">Sesión Gratuita</h2>
+          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra tecnología de terapia de sonido, desestrésate en 17 minutos y decide si es para ti. Sin compromiso. 0€</p>
           <div class="feature-content pb-2">
             <h4 class="mb-2">
               La sesión incluye
@@ -153,15 +153,22 @@ bodyClass: "page-home"
 
 
 <div class="strip-white" id="plans">
-  <div class="container-sm px-3 pb-2 pt-6">
+  <div class="container-sm pb-6 pt-6">
     <div class="col-12">
-      <div class="feature-product-title">
-        <h4>Reserva cuando te gustaría tener tu sesión antiestrés gratuita</h4>
-         <p class="pt-2" style="color: red; font-size: 18px">¡IMPORTANTE! Solemos tener la agenda llena. Si no tienes tiempo, por favor, no reserves y deja hueco a personas que realmente lo necesiten.</p>
+      <div class="feature-product-title pb-2">
+        <h4>Mira el vídeo y reserva cuando te gustaría tener tu sesión gratuita</h4>
+        <p style="color: red; font-size: 18px">¡IMPORTANTE! Solemos tener la agenda llena. Si no tienes tiempo, por favor, no reserves y deja hueco a personas que realmente lo necesiten.</p>
       </div>
-      <div class="row justify-content-center " style="text-align: center;">
-        <div class="calendly-inline-widget" data-url="https://calendly.com/iridis-care/sesion-antiestres-gratuita-60mins?hide_gdpr_banner=1&primary_color=9b51e0" style="min-width:100%;height:830px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <div class="row justify-content-center pb-4" style="text-align: center;">
+        <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/iridis-care/sesion-antiestres-gratuita-60mins?hide_gdpr_banner=1&primary_color=9b51e0" style="min-width:100%;height:830px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
+        <iframe src="https://www.videoask.com/ffbic5yxl"
+          allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
+          width="100%"
+          height="600px"
+          style="border: none; border-radius: 24px; box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.1);"
+          >
+        </iframe>
       </div>
     </div>
    <div class="row justify-content-center">
@@ -170,7 +177,6 @@ bodyClass: "page-home"
         <div> <a class="button button-primary btn-lg animate__animated animate__pulse" style="background-color: #00a884" 
         href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, te quería preguntar una cosa.">
         <i class="fa fa-whatsapp "></i> Escribe a David via Whatsapp</a> </div>
-          
         <a href="mailto:david@iridis.care?subject=Pregunta via web" style="font-size: 20px" class="pt-2">
           Escribe a david@iridis.care <i data-feather='chevron-right' class="feature-icon"></i>
         </a>

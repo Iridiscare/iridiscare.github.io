@@ -1,19 +1,13 @@
 main:
-  - name: "Planes"
-    url: "/planes"
+  - name: "El método"
+    url: "/registro"
     weight: 1
   - name: "Reservas"
     url: "/reservas"
-    weight: 1
-  - name: "Ciencia"
-    url: "/ciencia-estres-sonido"
-    weight: 3
-  - name: "Espacio"
-    url: "/espacio-relajacion"
-    weight: 4
+    weight: 2
   - name: "Blog"
     url: "/blog"
-    weight: 5
+    weight: 2
 
 footer:
   - name: "Home"
