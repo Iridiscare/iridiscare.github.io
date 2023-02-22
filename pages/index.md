@@ -76,7 +76,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container pt-6 pb-6 px-3">
+  <div class="container pt-6 pb-6 px-2">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
         <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
