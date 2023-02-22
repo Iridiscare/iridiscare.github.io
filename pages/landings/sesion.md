@@ -184,3 +184,19 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
+
+<div class="strip-white">
+  <div class="container-sm pb-6 px-3">
+    <div class="feature-product-title pb-2">
+      <h4>Preguntas frecuentes</h4>
+    </div>
+    {% for data in site.data.faq %}
+    <div class="pb-3 accordion-item">
+      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> &emsp;{{data.question}}</button>
+      <div class="panel">
+        <p>{{data.answer}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
