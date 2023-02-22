@@ -81,7 +81,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
         <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
       </div>
-      <div class="col-12 col-md-6 col-lg-6 pt-md-10 pt-4">
+      <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
         <div class="feature-product-title">
           <h4 class="pb-2">
             Aprende los tres factores más importantes para:
@@ -99,18 +99,18 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-3">
+  <div class="container-sm pt-6 pb-6 px-2">
     <div class="feature-product-title">
       <h4>El método para personas que...</h4>
     </div>
     <div class="row pt-2">
-      <div class="col-12 col-md-2 col-lg-2"></div>
-      <div class="col-12 col-md-4 col-lg-4">
+      <div class="col-12 col-md-1 col-lg-2"></div>
+      <div class="col-12 col-md-5 col-lg-4">
         <p><i data-feather='check' class="feature-icon"></i> Se agobian fácilmente</p>
         <p><i data-feather='check' class="feature-icon"></i> Sufren de ansiedad</p>
         <p><i data-feather='check' class="feature-icon"></i> Quieren sentirse mejor</p>
       </div>
-      <div class="col-12 col-md-4 col-lg-4">
+      <div class="col-12 col-md-5 col-lg-4">
         <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
         <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
         <p><i data-feather='check' class="feature-icon"></i> No consiguen relajarse</p>
