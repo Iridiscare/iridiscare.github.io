@@ -44,7 +44,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-4 pb-6 px-3">
+  <div class="container-sm pt-4 pb-6 px-2">
     <div class="feature-product-title">
       <h4>¿Por qué agendar una sesión con nosotros?</h4>
     </div>
