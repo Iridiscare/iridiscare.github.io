@@ -52,7 +52,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-1 col-lg-1"></div>
       <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> Método antiestrés único</p>
-        <p><i data-feather='check' class="feature-icon"></i> Garantizamos resultados</p>
+        <p><i data-feather='check' class="feature-icon"></i> Resultados garantizados</p>
         <p><i data-feather='check' class="feature-icon"></i> Evidencia científica</p>
       </div>
       <div class="col-12 col-md-5 col-lg-5">
