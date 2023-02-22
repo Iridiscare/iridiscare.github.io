@@ -104,13 +104,13 @@ bodyClass: "page-home"
       <h4>El método para personas que...</h4>
     </div>
     <div class="row pt-2">
-      <div class="col-12 col-md-1 col-lg-2"></div>
-      <div class="col-12 col-md-5 col-lg-4">
+      <div class="col-12 col-md-1 col-lg-1"></div>
+      <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> Se agobian fácilmente</p>
         <p><i data-feather='check' class="feature-icon"></i> Sufren de ansiedad</p>
         <p><i data-feather='check' class="feature-icon"></i> Quieren sentirse mejor</p>
       </div>
-      <div class="col-12 col-md-5 col-lg-4">
+      <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
         <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
         <p><i data-feather='check' class="feature-icon"></i> No consiguen relajarse</p>
