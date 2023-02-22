@@ -45,7 +45,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Conoce a los humanos que ya ha probado el método de Iridis Care</h4>
+      <h4>Conoce a los humanos que ya han probado el método de Iridis Care</h4>
     </div>
   </div>
   <div class="container-sm pb-6 px-">

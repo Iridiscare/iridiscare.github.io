@@ -43,9 +43,9 @@ sitemap: false
       <div class="col-12">
         <p class="animate__animated animate__pulse"  style="font-size: 18px; text-align: center; color: gray"><u>Presentado por David Martín-Corral, fundador de Iridis Care, ha superado el estrés, es doctor en comportamiento humano y autor del libro "Viviendo en una sociedad enferma".</u></p>
       </div>
-       <div class="row justify-content-center pt-2">
-        <a href="#" class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver vídeo para saber más</a>
-      </div>
+    </div>
+    <div class="row justify-content-center pt-2">
+      <a href="#" class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver vídeo para saber más</a>
     </div>
   </div>
 </div>
