@@ -1,6 +1,6 @@
 ---
-title: "Cómo parar la mente y sentirte mejor en 17 minutos"
-description: Aprende como puedes conseguir una sesión antiestrés gratuita
+title: "Cómo reducir el estrés al menos un 32%"
+description: Aprende como calmar la mente y liberar carga emocional durante 30 días
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true

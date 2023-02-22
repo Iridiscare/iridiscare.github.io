@@ -1,6 +1,6 @@
 ---
-title: "Cómo controlar la ansiedad y el estrés"
-description: Conoce las terapias, técnicas y trucos para tener claridad mental en épocas complicadas de cambio
+title: "Vídeo sobre cómo reducir el estrés y la ansiedad al menos un 32%"
+description: Con terapia de sonido personalizada y ejercicios de autoconocimiento
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -15,7 +15,7 @@ sitemap: false
   <div class="container-sm px-4">
     <div class="col-12">
       <div class="row justify-content-center" style="text-align: center;">
-         <h4 class="animate__animated animate__pulse pb-1">Cómo reducir el estrés al menos un 32%, calmando tu mente y liberando carga emocional durante 30 días</h4>
+         <h4 class="animate__animated animate__pulse pb-1">Cómo reducir el estrés y la ansiedad al menos un 32%, calmando tu mente y liberando carga emocional durante 30 días</h4>
         <p class="animate__animated animate__pulse">Con terapia de sonido personalizada para sincronizar tu cerebro y ejercicios de autoconocimiento para hacer fluir las emociones</p>
       </div>
       <div class="row justify-content-center pt-2 pb-2" style="text-align: center;">
