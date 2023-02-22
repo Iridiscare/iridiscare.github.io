@@ -1,5 +1,5 @@
 ---
-title: "Vídeo sobre cómo reducir el estrés y la ansiedad al menos un 32%"
+title: "Vídeo sobre cómo reducir el estrés y la ansiedad como mínimo un 32%"
 description: Con terapia de sonido personalizada y ejercicios de autoconocimiento
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
@@ -34,13 +34,13 @@ sitemap: false
         <div class="pb-2">
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> Crearemos un <b>plan personalizado</b> a tus necesidades para resincronizar tu sistema nervioso. <b>Sin medicaciones que nos dejan como un vegetal.</b></p>
           <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <b>Sin tener que hacer complicados ejercicios</b>, meditaciones, técnicas de relajación o leer libros de autoayuda que no te han servido de nada.</p>
-          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <b>Verás resultados aunque hayas probado técnicas de mindfulness que no te han funcionado</b> o  dispongas de poco tiempo. Desde casa o nuestro centro. Tu decides.</p>
+          <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <b>Verás resultados aunque hayas probado técnicas de mindfulness que no te han funcionado</b> o  dispongas de poco tiempo. Desde casa o nuestro centro. Tú decides.</p>
         </div>
       </div>
     </div>
     <div class="col-12">
       <div class="row justify-content-center">
-        <p class="animate__animated animate__pulse"  style="font-size: 18px; text-align: center; color: gray"><u>Presentado por David Martín-Corral, fundador de Iridis Care, doctor en comportamiento humano que ha superado el estrés y autor del libro "Viviendo en una sociedad enferma".</u></p>
+        <p class="animate__animated animate__pulse"  style="font-size: 18px; text-align: center; color: gray"><u>Presentado por David Martín-Corral, fundador de Iridis Care, ha superado el estrés, es doctor en comportamiento humano y autor del libro "Viviendo en una sociedad enferma".</u></p>
       </div>
        <div class="row justify-content-center pt-2">
         <a href="#" class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver vídeo para saber más</a>

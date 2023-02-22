@@ -157,7 +157,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
         <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
-        <p><i data-feather='check' class="feature-icon"></i> Gestionar las emociones</p>
+        <p><i data-feather='check' class="feature-icon"></i> Liberar las emociones</p>
       </div>
     </div>
     <div class="row justify-content-center pt-4 pb-4">
