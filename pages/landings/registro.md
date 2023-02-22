@@ -12,7 +12,7 @@ sitemap: false
 ---
 
 <div class="intro">
-  <div class="container-sm px-4">
+  <div class="container-sm">
     <div class="col-12">
       <div class="row justify-content-center" style="text-align: center;">
          <h4 class="animate__animated animate__pulse pb-1">Cómo reducir el estrés como mínimo un 32%, calmando tu mente y liberando carga emocional durante 30 días</h4>

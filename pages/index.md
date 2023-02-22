@@ -18,10 +18,10 @@ bodyClass: "page-home"
         <h1>El método para relajarse, reducir el estrés y calmar la mente en 30 días</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Conoce en este vídeo cómo conseguimos reducir el estrés en un 88% de los casos</p>
-        <div class="animate__animated animate__bounceInLeft">
-          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Para los pensamientos negativos</i></p>
+        <div class="animate__animated animate__git bounceInLeft">
+          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Relájate sin esfuerzo</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
-          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Refuerza tu sistema inmune</i></p>
+          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Calma el vacío interior</i></p>
         </div>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="registro">Ver vídeo gratis para saber más</a>
         <!-- <br>
@@ -45,7 +45,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Conoce a los humanos que ya ha ayudado Iridis Care</h4>
+      <h4>Conoce a los humanos que ya ha probado el método de Iridis Care</h4>
     </div>
   </div>
   <div class="container-sm pb-6 px-">
