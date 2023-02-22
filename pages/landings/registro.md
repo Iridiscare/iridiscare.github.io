@@ -15,7 +15,7 @@ sitemap: false
   <div class="container-sm">
     <div class="col-12">
       <div class="row justify-content-center" style="text-align: center;">
-         <h4 class="animate__animated animate__pulse pb-1">Cómo reducir el estrés como mínimo un 32%, calmando tu mente y liberando carga emocional durante 30 días</h4>
+         <h4 class="animate__animated animate__pulse pb-1">Cómo reducir el estrés al menos un 32%, calmando tu mente y liberando carga emocional durante 30 días</h4>
         <p class="animate__animated animate__pulse">Con terapia de sonido personalizada para sincronizar tu cerebro y ejercicios de autoconocimiento para hacer fluir las emociones</p>
       </div>
       <div class="row justify-content-center pt-2 pb-2" style="text-align: center;">
@@ -24,6 +24,7 @@ sitemap: false
     </div>
   </div>
 </div>
+
 <div class="strip-white">
   <div class="container-sm px-3 pt-6 pb-6">
     <div class="row">
@@ -38,8 +39,8 @@ sitemap: false
         </div>
       </div>
     </div>
-    <div class="col-12">
-      <div class="row justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-12">
         <p class="animate__animated animate__pulse"  style="font-size: 18px; text-align: center; color: gray"><u>Presentado por David Martín-Corral, fundador de Iridis Care, ha superado el estrés, es doctor en comportamiento humano y autor del libro "Viviendo en una sociedad enferma".</u></p>
       </div>
        <div class="row justify-content-center pt-2">
@@ -48,6 +49,8 @@ sitemap: false
     </div>
   </div>
 </div>
+
+
 <div class="form-popup" id="myForm">
     <div class="form-popup-button" onclick="closeForm()"><i data-feather='x' class="feature-icon"></i></div>
     <h4 style="text-align: center;" class="pt-2">¡Introduce tu email y obtén acceso inmediato al vídeo!</h4>
