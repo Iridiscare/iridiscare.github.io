@@ -101,7 +101,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-2">
     <div class="feature-product-title">
-      <h4>El método para personas que...</h4>
+      <h4>El método para personas estresadas que...</h4>
     </div>
     <div class="row pt-2">
       <div class="col-12 col-md-1 col-lg-1"></div>
