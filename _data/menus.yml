@@ -1,9 +1,12 @@
 main:
   - name: "El método"
-    url: "/registro"
+    url: "/soundmind/registro"
     weight: 1
-  - name: "Reservas"
-    url: "/reservas"
+  - name: "Ciencia"
+    url: "/ciencia-estres-sonido"
+    weight: 2
+  - name: "Espacio"
+    url: "/espacio-relajacion"
     weight: 2
   - name: "Blog"
     url: "/blog"

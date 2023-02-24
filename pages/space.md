@@ -31,17 +31,6 @@ bodyClass: "page-home"
   </div>
 </div>
 
-
-<div class="strip" style="background: #9B51E0">
-  <a class="gift animate__pulse" href="#guia">
-    <div class="container-sm pt-2 pb-1 px-2">
-      <div class="feature-product-title">
-        <h4 style="color: white">📚 Guía Gratuita para Aliviar el Estrés<i data-feather='chevron-right'></i></h4>
-      </div>
-    </div>
-  </a>
-</div>
-
 <div class="strip-white">
   <div class="container-sm pt-6 pb-2 px-3">
     <div class="row d-flex justify-content-center">
@@ -102,7 +91,6 @@ bodyClass: "page-home"
   </div>
 </div>
 
-
 <div class="strip" id="pyramid">
   <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
     <div class="feature-product-title pb-4">
@@ -149,60 +137,6 @@ bodyClass: "page-home"
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-{% include first-visit.html %}
-  
-<div class="strip">
-  <div class="container-sm pt-6 pb-6 px-3">
-    <div class="feature-product-title pb-1">
-      <h4>Estamos en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
-      <p>Horario: 16:00 - 21:00 (L, M, X, J) y 10:30 - 13:00 (Viernes)</p>
-    </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12249.149997078619!2d-4.0236003!3d39.8677976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ed1e1af21569dac!2sIridis%20Care%20-%20Reduce%20tu%20estr%C3%A9s!5e0!3m2!1ses!2ses!4v1672861399929!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-</div>
-
-<div class="strip-white">
-    <div class="container-sm pt-6 pb-6 px-3">
-      <div class="feature-product-title pb-2">
-        <h4>Preguntas frecuentes</h4>
-      </div>
-      {% for data in site.data.faq %}
-      <div class="pb-3 accordion-item">
-        <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> &emsp;{{data.question}}</button>
-        <div class="panel">
-          <p>{{data.answer}}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-</div>
-
-{% include posts-latest.html %}
-
-
-<div class="strip-white" id="guia">
-  <div class="container-sm pt-6 pb-2 px-3">
-      <div class="feature-product-title pb-2">
-      <h4 class="animate__animated animate__pulse">Cómo controlar la ansiedad y el estrés fácilmente</h4>
-      </div>
-      <div class="row">
-      <div class="col-12 col-md-5 col-lg-5 pb-4">
-          <img alt="Guía para la ansiedad y el estrés. Terapias, técnicas y trucos para épocas complicadas y tener claridad mental." class="animate__animated animate__bounceInLeft img-fluid" width="100%" src="/assets/images/ebook.png" />
-      </div>
-      <div class="col-12 col-md-7 col-lg-7 animate__animated animate__bounceInRight">
-          <p style="font-size: 18px">Guía gratuita de 40 páginas en PDF para controlar la ansiedad y reducir el estrés con <b>técnicas y trucos que puedes hacer en menos de 5 minutos donde y cuando lo necesites con ejercicios respiratorios y relajaciones</b>, más ejercicios de autoconocimiento para mirarte al espejo y comenzar el camino de la paz mental.</p>
-          <p style="font-size: 18px">Escribe <b>tu email abajo y recibe una copia en PDF</b>.</p>
-          <div class="pb-2">
-              <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Di adiós a la ansiedad</b> sin efectos secundarios</i></p>
-              <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i><b>Entiende qué está pasando</b> en tu cuerpo y mente</i></p>
-              <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <i>Descubre <b>cómo hacer frente al cambio</b></i></p>
-          </div>
-          {% include form.html cta="Recibir gratis mi guía" %}
-      </div>
-      </div>
   </div>
 </div>
 

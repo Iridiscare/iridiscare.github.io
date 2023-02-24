@@ -38,7 +38,7 @@ bodyClass: "page-home"
             <h4>99€</h4>
             <p style="color: gray; font-size: 12px;">7 días de garantía de devolución</p>
             <div class="row px-1">
-              <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="#plans" style=" text-align: center">Apuntarme</a>
+              <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="https://buy.stripe.com/4gw3fZ00hgFs9SE9AM" style=" text-align: center">Apuntarme</a>
             </div>
           </div>
         </div>
@@ -133,10 +133,12 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pb-4">
        <h4>Aprende de la mano de un doctor en comportamiento humano que ha batido al estrés</h4>
        <p>¡y en un formato pensado para personas sin tiempo!</p>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/registro">Ver clase gratis</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Ver clase gratis</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-       <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/clase-gratis.png" onclick="openForm()" />
+        <a href="#plans">
+          <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/clase-gratis.png"  />
+        </a>
       </div>
     </div>
   </div>
@@ -193,29 +195,18 @@ bodyClass: "page-home"
   <div class="container-sm pb-6 pt-6">
     <div class="col-12">
       <div class="feature-product-title pb-2">
-        <h4>Apúntate y comienza a gestionar tus emociones</h4>
-        <p>Te prometemos que no es el tipo curso de autoconocimiento</p>
+        <h4>Accede a tu clase gratis y comienza a gestionar tus emociones</h4>
+        <p>Curso por 99€ y 7 días de garantía (sin preguntas)</p>
       </div>
       <div class="row justify-content-center pb-4" style="text-align: center;">
-        <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/iridis-care/sesion-antiestres-gratuita-60mins?hide_gdpr_banner=1&primary_color=9b51e0" style="min-width:100%;height:830px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
-        <iframe src="https://www.videoask.com/ffbic5yxl"
-          allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
-          width="100%"
-          height="600px"
-          style="border: none; border-radius: 24px; box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.1);"
-          >
-        </iframe>
+       <iframe data-tally-src="https://tally.so/embed/meMrlx?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="80%" height="184" frameborder="0" marginheight="0" marginwidth="0" title="null"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
       </div>
     </div>
    <div class="row justify-content-center">
       <div class="col-12 text-center">
         <p>¿Tienes dudas?</p>
-        <div> <a class="button button-primary btn-lg animate__animated animate__pulse" style="background-color: #00a884" 
-        href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, te quería preguntar una cosa.">
-        <i class="fa fa-whatsapp "></i> Escribe a David via Whatsapp</a> </div>
-        <a href="mailto:david@iridis.care?subject=Pregunta via web" style="font-size: 20px" class="pt-2">
-          Escribe a david@iridis.care <i data-feather='chevron-right' class="feature-icon"></i>
+        <a href="mailto:david@iridis.care?subject=Pregunta via web" style="font-size: 20px">
+          Escribe a hola@iridis.care <i data-feather='chevron-right' class="feature-icon"></i>
         </a>
       </div>
     </div>
