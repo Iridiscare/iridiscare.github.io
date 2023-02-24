@@ -24,7 +24,7 @@ sitemap: false
         </h4>
         <p id="date"><i data-feather='calendar' class="feature-icon"></i> Fecha: </p>
         <p id="time"><i data-feather='clock' class="feature-icon"></i> Hora: </p>
-        <p><i data-feather='map-pin' class="feature-icon"></i> Lugar: Tr. Cobarrubias 1</p>
+        <p><i data-feather='map-pin' class="feature-icon"></i> Lugar: Revisa el email que te hemos enviado</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-2">
         <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" src="/assets/images/product/pyramid.webp" />
