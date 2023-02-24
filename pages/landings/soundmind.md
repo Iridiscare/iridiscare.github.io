@@ -9,7 +9,6 @@ permalink: /soundmind
 layout: default
 bodyClass: "page-home"
 ---
-{% include sticky-cta.html %}
 
 <div class="intro">
   <div class="container-sm pb-2">
@@ -23,7 +22,7 @@ bodyClass: "page-home"
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Calma el vacío interior</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="registro">Ver vídeo gratis para saber más</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
         <!-- <br>
         <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Sesión GRATIS con tu FLYER</a> -->
       </div>
@@ -32,14 +31,12 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip" style="background: #E9E9E9">
-  <a class="gift animate__pulse" href="#guia">
-    <div class="container-sm pt-2 pb-2 px-3">
-      <div class="row justify-content-center">
-        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="30" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
-        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="32" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
-      </div>
+  <div class="container-sm pt-2 pb-2 px-3">
+    <div class="row justify-content-center">
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="30" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="32" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
     </div>
-  </a>
+  </div>
 </div>
 
 <div class="strip-white">
@@ -70,7 +67,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/registro">Ver vídeo gratis para saber más</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
     </div>
   </div>
 </div>
@@ -90,7 +87,7 @@ bodyClass: "page-home"
           <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
           <p><i data-feather='check' class="feature-icon"></i> Conocerte mejor</p>
           <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/registro">Ver vídeo gratis para saber más</a>
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
           </div>
         </div>
       </div>
@@ -117,7 +114,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-2">
-       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/registro">Ver vídeo gratis para saber más</a>
+       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
     </div>
   </div>
 </div> 
@@ -129,7 +126,7 @@ bodyClass: "page-home"
         <div class="feature-product-title">
           <h4>Descubre cómo superó nuestro fundador sus problemas de salud mental</h4>
           <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/registro">Ver vídeo gratis para saber más</a>
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
           </div>
         </div>
       </div>
@@ -161,7 +158,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4 pb-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/registro">Ver vídeo gratis para saber más</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
     </div>
   </div>
 </div>

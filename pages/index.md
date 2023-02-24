@@ -18,21 +18,19 @@ bodyClass: "page-home"
         <h1>Calma la mente y reduce el estrés para alcanzar la paz interior.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Ayudamos a personas estresadas mediante el autoconocimiento, la gestión emocional y nuestra tecnología de terapia de sonido.</p>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Conoce nuestro método</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind">Conoce nuestro método</a>
       </div>
     </div>
   </div>
 </div>
 
 <div class="strip" style="background: #E9E9E9">
-  <a class="gift animate__pulse" href="#guia">
-    <div class="container-sm pt-2 pb-2 px-3">
-      <div class="row justify-content-center">
-        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="30" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
-        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="32" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
-      </div>
+  <div class="container-sm pt-2 pb-2 px-3">
+    <div class="row justify-content-center">
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="30" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="32" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
     </div>
-  </a>
+  </div>
 </div>
 
 <div class="strip-white">

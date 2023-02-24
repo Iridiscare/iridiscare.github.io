@@ -1,7 +1,7 @@
 ---
 title: "Vídeo sobre cómo reducir el estrés y la ansiedad como mínimo un 32%"
 description: Con terapia de sonido personalizada y ejercicios de autoconocimiento
-permalink: /registro
+permalink: /soundmind/registro
 layout: landing
 bodyClass: "page-basic"
 sitemap: false

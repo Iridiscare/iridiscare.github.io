@@ -32,17 +32,6 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" style="background: #E9E9E9">
-  <a class="gift animate__pulse" href="#guia">
-    <div class="container-sm pt-2 pb-2 px-3">
-      <div class="row justify-content-center">
-        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="30" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
-        <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="32" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
-      </div>
-    </div>
-  </a>
-</div>
-
 <div class="strip-white">
   <div class="container-sm pt-4 pb-6 px-2">
     <div class="feature-product-title">
