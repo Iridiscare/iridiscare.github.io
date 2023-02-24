@@ -67,7 +67,7 @@ bodyClass: "page-home"
         <a href="/soundmind" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
             <h4>SoundMind30</h4>
-            <p>El método para calmar la mente y reducir el estrés en 30 días.</p>
+            <p>El programa para calmar la mente y reducir el estrés en 30 días.</p>
             <a href="/soundmind" style="font-size: 20px">
               Saber más <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
