@@ -14,7 +14,7 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center px-1">
       <h1 style="text-align: center;">
-        Cómo reducir el estrés al menos un 32%, calmando la mente y liberando carga emocional durante 30 días
+        Cómo reducir el estrés como mínimo un 32%, calmando la mente y liberando carga emocional durante 30 días
       </h1>
     </div>
     <div class="row d-flex justify-content-center">

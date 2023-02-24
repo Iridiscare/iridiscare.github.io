@@ -43,11 +43,9 @@ home:
   limit_services: 6
 
 collections:
-  services:
+  knowthyself:
     output: true
-    sort_by: weight
-  team:
-    output: true
+    permalink: /knowthyself/:name
 
 defaults:
   - scope:

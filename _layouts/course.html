@@ -1,0 +1,21 @@
+---
+layout: landing
+bodyClass: "page-basic"
+---
+
+<div class="intro">
+  <div class="container-sm">
+    <div class="col-12">
+      <div class="row justify-content-center" style="text-align: center;">
+          {% if page.module %}
+            <p>Módulo {{page.module}}</p>
+          {% endif %}
+         <h1 class="pb-2">{{page.title}}</h1>
+          {{content}}
+      </div>
+      <!-- <div class="row justify-content-center pt-2 pb-2" style="text-align: center;">
+        <a href="#" class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver vídeo Gratis para saber más</a>
+      </div> -->
+    </div>
+  </div>
+</div>

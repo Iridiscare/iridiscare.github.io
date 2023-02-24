@@ -11,7 +11,7 @@ sitemap: false
   <div class="container-sm">
     <div class="col-12">
       <div class="row justify-content-center" style="text-align: center;">
-         <h1 class="animate__animated animate__pulse pb-1">Cómo reducir el estrés al menos un 32%, calmando la mente y liberando carga emocional durante 30 días</h1>
+         <h1 class="animate__animated animate__pulse pb-1">Cómo reducir el estrés como mínimo un 32%, calmando la mente y liberando carga emocional durante 30 días</h1>
         <p class="animate__animated animate__pulse">Con terapia de sonido personalizada para sincronizar tu cerebro y ejercicios de autoconocimiento para hacer fluir las emociones</p>
       </div>
       <div class="row justify-content-center pt-2 pb-2" style="text-align: center;">
@@ -25,7 +25,7 @@ sitemap: false
   <div class="container-sm px-3 pt-6 pb-6">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
-        <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/video.png" onclick="openForm()" />
+        <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/video-gratis.png" onclick="openForm()" />
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> Crearemos un <b>plan personalizado</b> a tus necesidades para resincronizar tu sistema nervioso. <b>Sin medicaciones que nos dejan como un vegetal.</b></p>
