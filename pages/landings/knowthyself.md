@@ -78,7 +78,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> En crecimiento personal</p>
-        <p><i data-feather='check' class="feature-icon"></i> Emprendedores nobeles</p>
+        <p><i data-feather='check' class="feature-icon"></i> Emprendedores</p>
         <p><i data-feather='check' class="feature-icon"></i> Líderes de todo tipo</p>
       </div>
     </div>
