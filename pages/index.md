@@ -103,7 +103,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
         <div class="feature-content">
           <h4 class="feature-product-title">
-            Plan y seguimiento personalizado.
+            Plan de seguimiento personalizado.
           </h4>
           <div class="feature-image pt-4">
             <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
