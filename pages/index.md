@@ -18,7 +18,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Calma la mente y reduce el estrés para alcanzar la paz interior.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Ayudamos a personas estresadas <b>mediante el autoconocimiento, la gestión emocional y terapia de sonido.</b></p>
+        <p>Ayudamos a personas estresadas <b>mediante el autoconocimiento, la gestión emocional y la terapia de sonido personalizada.</b></p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind">Conoce nuestro método</a>
       </div>
     </div>
