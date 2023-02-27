@@ -1,10 +1,7 @@
 ---
-title: "KnowThyself el curso de autoconocimiento y gestión de emociones pare reducir el estrés"
-description: Aprenderás los conceptos y herramientas básicos para no ser esclavo del estrés tu emociones.
-intro_image: "images/illustrations/stress-levels.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
-show_call_box: true
+title: "KnowThyself - El curso online de autoconocimiento y gestión de emociones pare reducir el estrés"
+description: Aprenderás los conceptos y herramientas básicas para no ser esclavo del estrés y tus emociones.
+image: /assets/images/landings/knowthyself.png
 permalink: /knowthyself
 layout: default
 bodyClass: "page-home"

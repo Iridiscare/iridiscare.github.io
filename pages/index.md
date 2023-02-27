@@ -1,10 +1,6 @@
 ---
 title: "Iridis Care - Primer centro de reducción de estrés con terapia de sonido"
 description: Ayudamos a personas estresadas mediante el autoconocimiento, la gestión emocional y terapia de sonido.
-intro_image: "images/illustrations/stress-levels.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
-show_call_box: true
 permalink: /
 layout: default
 bodyClass: "page-home"
