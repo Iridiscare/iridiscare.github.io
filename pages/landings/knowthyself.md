@@ -15,7 +15,7 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6">
         <h5>Curso KnowThyself</h5>
-        <h1 style="font-size: 34px">El curso que te ayuda a observar y conocer tus emociones</h1>
+        <h1 style="font-size: 34px">El curso que te ayuda a observar y conocer tus emociones.</h1>
         <p>
           <b>El curso de autoconocimiento y gestión emocional</b> que te da una visión de cómo funcionan tu cuerpo-mente y <b>aprenderás las técnicas y conceptos básicos</b> que vas a empezar a aplicar para observarte desde el primer día.
         </p>
