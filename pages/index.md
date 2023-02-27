@@ -14,7 +14,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Calma la mente y reduce el estrés para alcanzar la paz interior.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Ayudamos a personas estresadas <b>mediante el autoconocimiento, la gestión emocional y la terapia de sonido personalizada.</b></p>
+        <p>Ayudamos a personas estresadas <b>gracias al autoconocimiento, la gestión emocional y la terapia de sonido personalizada.</b></p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind">Conoce nuestro método</a>
       </div>
     </div>
@@ -31,7 +31,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-8 pb-4 px-3">
+  <div class="container-sm pt-8 pb-6 px-3">
     <div class="feature-product-title">
       <h4>3 servicios para tu salud mental y física.</h4>
     </div>
@@ -42,7 +42,7 @@ bodyClass: "page-home"
         <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
             <h5 class="align-middle"><span class="dot-1"></span> SoundBaths</h5>
-            <p>Baños de sonido personalizados diseñados con nuestra teconología.</p>
+            <p>Baños de sonido personalizados para <b>relajarte en minutos.</b> </p>
             <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="font-size: 20px">
               Reservar sesión <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
@@ -53,7 +53,7 @@ bodyClass: "page-home"
         <a href="/knowthyself" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
             <h5><span class="dot-2"></span>  KnowThyself</h5>
-            <p>El curso online para aprender a observar las emociones y reducir el estrés.</p>
+            <p>Curso online para <b>aprender a observar las emociones</b>.</p>
             <a href="/knowthyself" style="font-size: 20px">
               Saber más <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
@@ -64,7 +64,7 @@ bodyClass: "page-home"
         <a href="/soundmind" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
             <h5><span class="dot-3"></span>  SoundMind30</h5>
-            <p>El programa único para calmar la mente y reducir el estrés en 30 días.</p>
+            <p>Programa de 30 días para <b>calmar la mente y reducir el estrés</b>.</p>
             <a href="/soundmind" style="font-size: 20px">
               Saber más <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
@@ -158,7 +158,7 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-10 pb-6">
         <h4>David Martín-Corral</h4>
-        <p>38 años conciéndose y luchando con su mente. Doctor en comportamiento humano. Fundador de Iridis Care.</p>
+        <p>38 años esculpiendo su mente. Ingeniero. Doctor en comportamiento humano. Fundador de Iridis.</p>
         <p><a href="https://www.linkedin.com/in/davidmartincorralcalvo/">Linkedin.</a></p>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">

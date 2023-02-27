@@ -157,31 +157,46 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip-white pb-8">
-  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-3">
+<div class="strip-white" id="plans">
+  <div class="container-sm pt-8 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>Nuestros usuarios se van relajados y sorprendidos</h4>
+      <h4>3 servicios para tu salud mental y física.</h4>
     </div>
   </div>
-  <div class="container-sm px-4">
+  <div class="container-sm pb-6 px-3">
     <div class="row">
-      <div class="col-12">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            {% for item in site.data.testimonials %}
-            {% if item.active %}
-              <div class="carousel-item active">
-            {% else %}
-              <div class="carousel-item ">
-            {% endif %}
-                <div class="text-center">
-                  <p class="testimonial-quote">"{{item.quote}}"</p>
-                  <h3 class="testimonial-author">{{item.author}}</h3>
-                </div>
-              </div>
-            {% endfor %}
+      <div class="col-12 col-md-4 col-lg-4">
+        <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="text-decoration: none;">
+          <div class="feature-product p-3 mb-4">
+            <h5 class="align-middle"><span class="dot-1"></span> SoundBaths</h5>
+            <p>Baños de sonido personalizados para <b>relajarte en minutos.</b> </p>
+            <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="font-size: 20px">
+              Reservar sesión <i data-feather='chevron-right' class="feature-icon"></i>
+            </a>
           </div>
-        </div>
+        </a>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4">
+        <a href="/knowthyself" style="text-decoration: none;">
+          <div class="feature-product p-3 mb-4">
+            <h5><span class="dot-2"></span>  KnowThyself</h5>
+            <p>Curso online para <b>aprender a observar las emociones</b>.</p>
+            <a href="/knowthyself" style="font-size: 20px">
+              Saber más <i data-feather='chevron-right' class="feature-icon"></i>
+            </a>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4">
+        <a href="/soundmind" style="text-decoration: none;">
+          <div class="feature-product p-3 mb-4">
+            <h5><span class="dot-3"></span>  SoundMind30</h5>
+            <p>Programa de 30 días para <b>calmar la mente y reducir el estrés</b>.</p>
+            <a href="/soundmind" style="font-size: 20px">
+              Saber más <i data-feather='chevron-right' class="feature-icon"></i>
+            </a>
+          </div>
+        </a>
       </div>
     </div>
   </div>
