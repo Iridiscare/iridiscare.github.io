@@ -18,7 +18,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>Calma la mente y reduce el estrés para alcanzar la paz interior.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Ayudamos a personas estresadas mediante el autoconocimiento, la gestión emocional y nuestra tecnología de terapia de sonido.</p>
+        <p>Ayudamos a personas estresadas <b>mediante el autoconocimiento, la gestión emocional y terapia de sonido.</b></p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind">Conoce nuestro método</a>
       </div>
     </div>
@@ -35,9 +35,9 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-4 px-3">
+  <div class="container-sm pt-8 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>3 servicios para tu salud mental.</h4>
+      <h4>3 servicios para tu salud mental y física.</h4>
     </div>
   </div>
   <div class="container-sm pb-6 px-3">
@@ -82,7 +82,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>Ayudamos a calmar la mente, gestionar las emociones y reducir el estrés.</h4>
+      <h4>Te ayudamos a alcanzar la <b style="color: #9B51E0">paz mental aunque no sepas meditar y sin medicamentos.</b></h4>
     </div>
   </div>
 </div>
@@ -127,7 +127,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>Creamos planes personalizados para reducir el estrés y equilibrar el cuerpo-mente con terapia de sonido.</h4>
+      <h4>Creamos tu <b style="color: #9B51E0">plan personalizado para reducir el estrés y equilibrar el cuerpo-mente</b> con terapia de sonido.</h4>
     </div>
   </div>
 </div>
@@ -138,6 +138,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pt-md-10 pb-6">
         <h4>David Martín-Corral</h4>
         <p>38 años conciéndose y luchando con su mente. Doctor en comportamiento humano. Fundador de Iridis Care.</p>
+        <p><a href="https://www.linkedin.com/in/davidmartincorralcalvo/">Linkedin.</a></p>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
         <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" 
@@ -146,6 +147,27 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
+
+<div class="strip-white" id="space">
+  <div class="container pt-6 pb-6 px-3">
+    <div class="row">
+      <div class="col-12 col-md-1 col-lg-1"></div>
+      <div class="col-12 col-md-10 col-lg-10">
+      <h4>¿Necesitas ayuda?</h4>
+        <iframe data-tally-src="https://tally.so/embed/meMrlx?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="648" frameborder="0" marginheight="0" marginwidth="0" title="null"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
