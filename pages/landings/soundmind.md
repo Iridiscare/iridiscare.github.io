@@ -132,7 +132,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
         <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" 
-        src="/assets/images/product/david.webp" />
+        src="/assets/images/landings/david.webp" />
       </div>
     </div>
   </div>
