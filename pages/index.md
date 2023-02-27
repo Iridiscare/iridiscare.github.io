@@ -127,7 +127,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>Creamos tu <b style="color: #9B51E0">plan personalizado para reducir el estrés y equilibrar el cuerpo-mente</b> con terapia de sonido.</h4>
+      <h4>Creamos tu <b style="color: #9B51E0">plan personalizado para reducir el estrés y equilibrar tu cuerpo-mente</b> con terapia de sonido.</h4>
     </div>
   </div>
 </div>
