@@ -133,10 +133,10 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pb-4">
        <h4>Aprende de la mano de un doctor en comportamiento humano que ha batido al estrés</h4>
        <p>¡y en un formato pensado para personas sin tiempo!</p>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Ver clase gratis</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver clase gratis ahora</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <a href="#plans">
+        <a onclick="openForm()">
           <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/clase-gratis.png"  />
         </a>
       </div>
@@ -192,24 +192,34 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white" id="plans">
-  <div class="container-sm pb-6 pt-6">
+  <div class="container-sm pb-6 pt-6 px-3">
+    <div class="row">
     <div class="col-12">
-      <div class="feature-product-title pb-2">
-        <h4>Accede a tu clase gratis y comienza a gestionar tus emociones</h4>
-        <p>Curso por 99€ y 7 días de garantía (sin preguntas)</p>
+      <div class="feature-product-title pb-4">
+        <h4>Comienza a gestionar tus emociones ahora</h4>
       </div>
-      <div class="row justify-content-center pb-4" style="text-align: center;">
-       <iframe data-tally-src="https://tally.so/embed/meMrlx?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="80%" height="184" frameborder="0" marginheight="0" marginwidth="0" title="null"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
       </div>
-    </div>
-   <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <p>¿Tienes dudas?</p>
-        <a href="mailto:david@iridis.care?subject=Pregunta via web" style="font-size: 20px">
-          Escribe a hola@iridis.care <i data-feather='chevron-right' class="feature-icon"></i>
-        </a>
+      <div class="col-12 col-md-6 col-lg-6 pb-4">  
+        <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/clase-gratis.png"  onclick="openForm()"/>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <p><i data-feather='check' class="feature-icon"></i> Lecciones de 15 minutos</p>  
+        <p><i data-feather='check' class="feature-icon"></i> 1 ejercicio diario</p>  
+        <p><i data-feather='check' class="feature-icon"></i> 30 minutos al día</p> 
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver clase gratis ahora</a>
       </div>
     </div>
   </div>
-</div>
+</div> 
 
+
+<div class="form-popup" id="myForm">
+  <div class="form-popup-button" onclick="closeForm()"><i data-feather='x' class="feature-icon"></i></div>
+  <h4 style="text-align: center;" class="pt-2">¡Introduce tu email y obtén acceso inmediato a la clase gratis!</h4>
+  <!-- <a href="https://iridis-care.notion.site/Privacy-policy-fc763c0497f745d1866bcf75b422ed70"> <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 5px">Lea la información detallada sobre protección y tratamiento de datos.</p></a> -->
+  <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 40px">Al inscribirte, de darás de alta en nuestra newsletter.</p>
+  {% include 
+    form.html cta='Inscribirme y ver clase gratis'
+    list='https://4267f462.sibforms.com/serve/MUIEAAuoPL-D7Gvugg_sUMmJG7_H60G08x-22ykJG_hZzpN0TlGS71pDiJ07k9EWC8E3YAg1qLjkCdo_8AggEaB80q--HZ7wLH0BEhiZAfK0Bll2xho1V7ZSAXKX_vT53YPGDwvOrDFS3wfIAOcgvgcnDulfGjFCkkVJOTgCjvFBKT5kN3gtYewfLzaa_duRQIOhHcvj-0HO2hIv'
+  %}
+</div>

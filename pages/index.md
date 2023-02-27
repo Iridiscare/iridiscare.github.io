@@ -9,6 +9,7 @@ permalink: /
 layout: default
 bodyClass: "page-home"
 ---
+
 {% include sticky-cta.html %}
 
 <div class="intro">
@@ -44,7 +45,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h4>SoundBaths</h4>
+            <h5 class="align-middle"><span class="dot-1"></span> SoundBaths</h5>
             <p>Baños de sonido personalizados en nuestra pirámide de meditación.</p>
             <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="font-size: 20px">
               Reservar sesión <i data-feather='chevron-right' class="feature-icon"></i>
@@ -55,8 +56,8 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="/knowthyself" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h4>KnowThyself</h4>
-            <p>El curso online que te enseña a observar tus emociones.</p>
+            <h5><span class="dot-2"></span>  KnowThyself</h5>
+            <p>El curso online para aprender a observar las emociones y reducir el estrés.</p>
             <a href="/knowthyself" style="font-size: 20px">
               Saber más <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
@@ -66,7 +67,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="/soundmind" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h4>SoundMind30</h4>
+            <h5><span class="dot-3"></span>  SoundMind30</h5>
             <p>El programa para calmar la mente y reducir el estrés en 30 días.</p>
             <a href="/soundmind" style="font-size: 20px">
               Saber más <i data-feather='chevron-right' class="feature-icon"></i>
@@ -81,7 +82,52 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>Hemos sufrido problemas de salud mental y ayudamos a abrir corazones con nuestra experiencia.</h4>
+      <h4>Ayudamos a calmar la mente, gestionar las emociones y reducir el estrés.</h4>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white" id="tech">
+  <div class="container pt-6 pb-2 pt-md-6 pb-md-2 px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
+        <div class="feature-content">
+          <h4 class="feature-product-title">
+            Análisis de voz para cuantificar estrés
+          </h4>
+          <div class="feature-image pt-4">
+            <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/voice.webp" />
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
+        <div class="feature-content">
+          <h4 class="feature-product-title">
+            Seguimiento individualizado
+          </h4>
+          <div class="feature-image pt-4">
+            <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
+        <div class="feature-content">
+          <h4 class="feature-product-title">
+            Baños de sonido personalizados
+          </h4>
+          <div class="feature-image pt-4">
+            <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-6 px-3">
+    <div class="feature-product-title">
+      <h4>Creamos planes personalizados para reducir el estrés y equilibrar el cuerpo-mente con terapia de sonido.</h4>
     </div>
   </div>
 </div>
