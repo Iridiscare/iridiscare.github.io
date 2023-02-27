@@ -103,7 +103,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
         <div class="feature-content">
           <h4 class="feature-product-title">
-            Seguimiento individualizado
+            Plan y seguimiento individualizado
           </h4>
           <div class="feature-image pt-4">
             <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
@@ -125,31 +125,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-3">
-    <div class="feature-product-title">
-      <h4>Creamos tu <b style="color: #9B51E0">plan personalizado para reducir tu estrés y equilibrar tu cuerpo-mente</b> con terapia de sonido.</h4>
-    </div>
-  </div>
-</div>
-
-<div class="strip-white" id="space">
-  <div class="container pt-6 pb-6 px-3">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-6 pt-md-10 pb-6">
-        <h4>David Martín-Corral</h4>
-        <p>38 años conciéndose y luchando con su mente. Doctor en comportamiento humano. Fundador de Iridis Care.</p>
-        <p><a href="https://www.linkedin.com/in/davidmartincorralcalvo/">Linkedin.</a></p>
-      </div>
-      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
-        <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" 
-        src="/assets/images/product/david.webp" />
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip-white">
-  <div class="container-sm pt-6 pb-4 px-3">
+  <div class="container-sm pt-6 pb-2 px-3">
     <div class="feature-product-title">
       <h4>Conoce a los humanos que ya han probado el método de Iridis.</h4>
     </div>
@@ -177,6 +153,30 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center pt-4">
       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind">Conoce el método de Iridis</a>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white" id="space">
+  <div class="container pt-6 pb-6 px-3">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 pt-md-10 pb-6">
+        <h4>David Martín-Corral</h4>
+        <p>38 años conciéndose y luchando con su mente. Doctor en comportamiento humano. Fundador de Iridis Care.</p>
+        <p><a href="https://www.linkedin.com/in/davidmartincorralcalvo/">Linkedin.</a></p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
+        <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" 
+        src="/assets/images/product/david.webp" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-6 px-3">
+    <div class="feature-product-title">
+      <h4>Creamos tu <b style="color: #9B51E0">plan personalizado para equilibrar tu cuerpo-mente y reducir tu estrés</b> con terapia de sonido.</h4>
     </div>
   </div>
 </div>
