@@ -46,7 +46,7 @@ bodyClass: "page-home"
         <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
             <h5 class="align-middle"><span class="dot-1"></span> SoundBaths</h5>
-            <p>Baños de sonido personalizados en nuestra pirámide de meditación.</p>
+            <p>Baños de sonido personalizados diseñados con nuestra teconología.</p>
             <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="font-size: 20px">
               Reservar sesión <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
@@ -68,7 +68,7 @@ bodyClass: "page-home"
         <a href="/soundmind" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
             <h5><span class="dot-3"></span>  SoundMind30</h5>
-            <p>El programa para calmar la mente y reducir el estrés en 30 días.</p>
+            <p>El programa único para calmar la mente y reducir el estrés en 30 días.</p>
             <a href="/soundmind" style="font-size: 20px">
               Saber más <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
