@@ -176,7 +176,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Conoce el método de Iridis</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind">Conoce el método de Iridis</a>
     </div>
   </div>
 </div>
@@ -192,15 +192,6 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
 
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
