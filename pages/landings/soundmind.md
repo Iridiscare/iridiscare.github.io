@@ -42,7 +42,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Conoce a los humanos que ya han probado el método de Iridis Care</h4>
+      <h4>Conoce a los humanos que ya han probado el método de Iridis.</h4>
     </div>
   </div>
   <div class="container-sm pb-6 px-">
@@ -124,7 +124,7 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-10 pb-6">
         <div class="feature-product-title">
-          <h4>Descubre cómo superó nuestro fundador sus problemas de salud mental</h4>
+          <h4>Descubre cómo superó nuestro fundador sus problemas de salud mental.</h4>
           <div class="pt-2">
             <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
           </div>
