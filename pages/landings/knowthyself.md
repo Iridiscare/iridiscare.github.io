@@ -27,8 +27,8 @@ bodyClass: "page-home"
             <h5>KnowThyself</h5>
             <div class="row">
               <div class="col-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='video' class="feature-icon-alt"></i> 8 lecciones</p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> 20 ejercicios</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='video' class="feature-icon-alt"></i> 4 horas</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
               </div>
               <div class="col-6">
                 <p style="font-size: 15px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> 30 mins/día </p>
@@ -204,7 +204,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <p><i data-feather='check' class="feature-icon"></i> Lecciones de 15 minutos</p>  
-        <p><i data-feather='check' class="feature-icon"></i> 1 ejercicio diario</p>  
+        <p><i data-feather='check' class="feature-icon"></i> Ejercicios prácticos</p>  
         <p><i data-feather='check' class="feature-icon"></i> 30 minutos al día</p> 
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver clase gratis ahora</a>
       </div>
