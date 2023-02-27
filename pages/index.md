@@ -127,7 +127,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>Creamos tu <b style="color: #9B51E0">plan personalizado para reducir el estrés y equilibrar tu cuerpo-mente</b> con terapia de sonido.</h4>
+      <h4>Creamos tu <b style="color: #9B51E0">plan personalizado para reducir tu estrés y equilibrar tu cuerpo-mente</b> con terapia de sonido.</h4>
     </div>
   </div>
 </div>
@@ -144,6 +144,39 @@ bodyClass: "page-home"
         <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" 
         src="/assets/images/product/david.webp" />
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-4 px-3">
+    <div class="feature-product-title">
+      <h4>Conoce a los humanos que ya han probado el método de Iridis.</h4>
+    </div>
+  </div>
+  <div class="container-sm pb-6 px-">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            {% for item in site.data.testimonials %}
+            {% if item.active %}
+              <div class="carousel-item active">
+            {% else %}
+              <div class="carousel-item">
+            {% endif %}
+                <div class="text-center">
+                  <p class="testimonial-quote">"{{item.quote}}"</p>
+                  <h3 class="testimonial-author">{{item.author}}</h3>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-4">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Conoce el método de Iridis</a>
     </div>
   </div>
 </div>
