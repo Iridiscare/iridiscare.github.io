@@ -84,40 +84,40 @@ bodyClass: "page-home"
 
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
-    <h4>Conoce todos los contenidos del curso</h4>
+    <h4>Conoce todos los contenidos del curso.</h4>
     <div class="pt-2 pb-3 accordion-item">
-      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo I - Aceptar el cambio y nuestros estados emocionales &emsp; </button>
+      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo I - Aceptar el cambio y nuestros estados emocionales. &emsp; </button>
       <div class="panel pt-2">
-        <h5>1.1. Camino hacia la liberación del estrés</h5>
+        <h5>1.1. Camino hacia la liberación del estrés.</h5>
         <p>Vamos a ver los tres conceptos básicos a tener en cuenta y practicar según la teoría de la mente para aceptar el cambio, reducir los niveles de estrés y aceptar nuestras emociones.</p>
-        <h5>1.2. Cómo afecta el estrés al biocomputador que es nuestro cuerpo</h5>
+        <h5>1.2. Cómo afecta el estrés al biocomputador que es nuestro cuerpo.</h5>
         <p>Entenderás cómo procesa la información nuestro cuerpo-mente al interactuar con el entorno y  cómo afecta a nuestra salud física, mental y emocional.</p>
       </div>
     </div>
     <div class="pb-3 accordion-item">
-      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo II - Entender cómo el estrés afecta a nuestras emociones</button>
+      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo II - Entender cómo el estrés afecta a nuestras emociones.</button>
       <div class="panel pt-2">
-        <h5>2.1. El sufrimiento es una realidad que nos hace temblar</h5>
+        <h5>2.1. El sufrimiento es una realidad que nos hace temblar.</h5>
         <p>Veremos tres nuevos conceptos básicos que debemos practicar si queremos liberarnos del sufrimiento interno generado por nuestras emociones.</p>
-        <h5>2.2 Cómo nuestra emociones se quedan guardadas en nuestro cuerpo</h5>
+        <h5>2.2 Cómo nuestra emociones se quedan guardadas en nuestro cuerpo.</h5>
         <p>Conocerás el funcionamiento básico del sustrato biológico de la emociones, como estás modifican nuestro ADN mediante la epigenética y se quedan guardadas en nuestro cuerpo.</p>
       </div>
     </div>
     <div class="pb-3 accordion-item">
-      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo III - Descubrir que no somos lo que pensamos &emsp; </button>
+      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo III - Descubrir que no somos lo que pensamos. &emsp; </button>
       <div class="panel pt-2">
-        <h5>3.1. Los tres venenos de la mente</h5>
+        <h5>3.1. Los tres venenos de la mente.</h5>
         <p>Veremos los tres venenos que crea nuestra mente para mantenernos atrapados en el sufrimiento, con miedo y estresados.</p>
-        <h5>3.2. No somos lo que pensamos y podemos cambiarlo</h5>
+        <h5>3.2. No somos lo que pensamos y podemos cambiarlo.</h5>
         <p>Conocerás el funcionamiento de la red neuronal por defecto, donde reside el ego con nuestra identidad, historia biográfica, la gestión de emociones, la interacción con el exterior y el pensamiento pasado y futuro. Además de cómo modificar la red neuronal por defecto para crear la identidad que deseamos ser.</p>
       </div>
     </div>
     <div class="pb-3 accordion-item">
-      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo IV - Implementar un plan para liberar la carga emocional &emsp; </button>
+      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo IV - Implementar un plan para liberar la carga emocional. &emsp; </button>
       <div class="panel pt-2">
-        <h5>4.1. El cuerpo es una base de datos con todas nuestras experiencias vividas</h5>
+        <h5>4.1. El cuerpo es una base de datos con todas nuestras experiencias vividas.</h5>
         <p>Conocerás el modelo más innovador de la consciencia humana, el sistema de experiencias condensadas, a que tipo de contenidos emocionales se pueden acceder para liberarlos del holograma interno para morir en vida a través de la disolución del ego.</p>
-        <h5>4.2. Cómo moldear el cerebro y liberar experiencias pasadas emocionalmente estresantes</h5>
+        <h5>4.2. Cómo moldear el cerebro y liberar experiencias pasadas emocionalmente estresantes.</h5>
         <p>Aprenderás las técnicas regresivas experienciales más innovadoras para acceder y liberar la carga emocional creada por las experiencias emocionales estresantes pasadas que te mantienen en sufrimiento.</p>
       </div>
     </div>
@@ -128,8 +128,8 @@ bodyClass: "page-home"
   <div class="container-sm pt-8 pb-4 px-3">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
-       <h4>Aprende de la mano de un doctor en comportamiento humano que ha batido al estrés</h4>
-       <p>¡y en un formato pensado para personas sin tiempo!</p>
+       <h4>Aprende con un doctor en comportamiento humano que ha batido al estrés</h4>
+       <p>¡dedicando menos de 30 minutos al día!</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver clase gratis ahora</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
@@ -161,7 +161,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Conoce que dicen los alumnos de David</h4>
+      <h4>Conoce que dicen los alumnos de David.</h4>
     </div>
   </div>
   <div class="container-sm pb-6 px-">
@@ -193,7 +193,7 @@ bodyClass: "page-home"
     <div class="row">
     <div class="col-12">
       <div class="feature-product-title pb-4">
-        <h4>Comienza a gestionar tus emociones ahora</h4>
+        <h4>Comienza a gestionar tus emociones ahora.</h4>
       </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pb-4">  
