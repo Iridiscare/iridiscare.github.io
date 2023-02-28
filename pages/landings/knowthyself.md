@@ -25,11 +25,11 @@ bodyClass: "page-home"
             <div class="row">
               <div class="col-6">
                 <p style="font-size: 15px; font-color:grey"><i data-feather='video' class="feature-icon-alt"></i> 4 horas</p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> 15 mins/día </p>
               </div>
               <div class="col-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> 30 mins/día </p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 30 días </p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Tutorías </p>
               </div>
             </div>
             <h4>99€</h4>
@@ -97,7 +97,7 @@ bodyClass: "page-home"
     <div class="pb-3 accordion-item">
       <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo II - Entender cómo el estrés afecta a nuestras emociones</button>
       <div class="panel pt-2">
-        <h5>2.1. El sufrimiento es una realidad y nos hace temblar</h5>
+        <h5>2.1. El sufrimiento es una realidad que nos hace temblar</h5>
         <p>Veremos tres nuevos conceptos básicos que debemos practicar si queremos liberarnos del sufrimiento interno generado por nuestras emociones.</p>
         <h5>2.2 Cómo nuestra emociones se quedan guardadas en nuestro cuerpo</h5>
         <p>Conocerás el funcionamiento básico del sustrato biológico de la emociones, como estás modifican nuestro ADN mediante la epigenética y se quedan guardadas en nuestro cuerpo.</p>
@@ -116,7 +116,7 @@ bodyClass: "page-home"
       <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> Módulo IV - Implementar un plan para liberar la carga emocional &emsp; </button>
       <div class="panel pt-2">
         <h5>4.1. El cuerpo es una base de datos con todas nuestras experiencias vividas</h5>
-        <p>Conocerás el modelo más innovador de la consciencia humana, el sistema de experiencias condensadas y a que tipo de contenidos emocionales se pueden acceder y liberarlos del holograma interno para morir en vida a través de la disolución del ego.</p>
+        <p>Conocerás el modelo más innovador de la consciencia humana, el sistema de experiencias condensadas, a que tipo de contenidos emocionales se pueden acceder para liberarlos del holograma interno para morir en vida a través de la disolución del ego.</p>
         <h5>4.2. Cómo moldear el cerebro y liberar experiencias pasadas emocionalmente estresantes</h5>
         <p>Aprenderás las técnicas regresivas experienciales más innovadoras para acceder y liberar la carga emocional creada por las experiencias emocionales estresantes pasadas que te mantienen en sufrimiento.</p>
       </div>
@@ -200,9 +200,10 @@ bodyClass: "page-home"
         <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/clase-gratis.png"  onclick="openForm()"/>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <p><i data-feather='check' class="feature-icon"></i> Lecciones de 15 minutos</p>  
+        <p><i data-feather='check' class="feature-icon"></i> Lecciones de 15 minutos</p>
+        <p><i data-feather='check' class="feature-icon"></i> Menos de 30 minutos al día</p>   
         <p><i data-feather='check' class="feature-icon"></i> Ejercicios prácticos</p>  
-        <p><i data-feather='check' class="feature-icon"></i> 30 minutos al día</p> 
+        <p><i data-feather='check' class="feature-icon"></i> Tutorías online</p> 
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver clase gratis ahora</a>
       </div>
     </div>
