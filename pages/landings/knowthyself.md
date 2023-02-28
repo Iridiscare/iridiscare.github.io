@@ -24,12 +24,12 @@ bodyClass: "page-home"
             <h5>KnowThyself</h5>
             <div class="row">
               <div class="col-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='video' class="feature-icon-alt"></i> 4 horas</p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> 15 mins/día </p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='video' class="feature-icon-alt"></i> 30 días</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> 15 mins/día</p>
               </div>
               <div class="col-6">
                 <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Tutorías </p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Tutorías</p>
               </div>
             </div>
             <div class="row px-1">
