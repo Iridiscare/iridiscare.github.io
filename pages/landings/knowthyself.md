@@ -10,7 +10,7 @@ bodyClass: "page-home"
 <div class="intro" style="margin-bottom: -100px">
   <div class="container px-3">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-6">
+      <div class="col-12 col-md-6 col-lg-6 pb-2">
         <h5>Curso KnowThyself</h5>
         <h1 style="font-size: 34px">El curso que te ayuda a observar y conocer tus emociones.</h1>
         <p>
@@ -32,7 +32,7 @@ bodyClass: "page-home"
                 <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Tutorías </p>
               </div>
             </div>
-            <h4>99€</h4>
+            <h4 style="color: #9B51E0; font-size: 34px">99€</h4>
             <p style="color: gray; font-size: 12px;">7 días de garantía de devolución</p>
             <div class="row px-1">
               <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="https://buy.stripe.com/4gw3fZ00hgFs9SE9AM" style=" text-align: center">Apuntarme</a>
