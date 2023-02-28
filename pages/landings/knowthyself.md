@@ -50,11 +50,11 @@ bodyClass: "page-home"
     <div class="row pt-2">
       <div class="col-12 col-md-6 col-lg-6">
         <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Descubrir <b>el modelo más innovador de la consciencia humana del que nadie habla</b> y ha llegado el momento de hablar de él.</p>
-        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Aprenderás a <b>observar e identificar los desencadenantes de tus emociones y comportamientos</b> aunque nunca te hayas mirado hacía adentro.</p>
-        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Adquirir los <b>conocimientos básicos para expandir tu consciencia.</b></p>
+        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Aprenderás a <b>observar los desencadenantes de tus emociones y comportamientos</b> aunque nunca te hayas mirado hacía adentro.</p>
+        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Adquirir los <b>conocimientos básicos para expandir tu consciencia y vivir de forma plena.</b></p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Desarrollar las <b>habilidades necesarias para poder observarte</b> internamente.</p>
+        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Desarrollar las <b>habilidades necesarias para poder observarte</b> internamente y hacer arqueología emocional.</p>
         <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Conocer <b>las herramientas básicas para liberar la carga emocional, conseguir el cambio interno y una paz interior</b> a prueba de bombas.</p>
       </div>
     </div>
