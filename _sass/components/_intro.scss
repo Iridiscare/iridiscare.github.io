@@ -84,10 +84,44 @@
   margin-top: 10px;
 }
 .dot-3 {
+  margin: 10px;
   height: 20px;
   width: 20px;
   background-color: #9946B4;
+
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+.blob {
+  height: 20px;
+  width: 20px;
+  background-color: #BE8CCE;
   border-radius: 50%;
   display: inline-block;
   margin-top: 10px;
+}
+
+.blob.purple {
+  background: rgba(142, 68, 173, 1);
+  box-shadow: 0 0 0 0 rgba(142, 68, 173, 1);
+  animation: pulse-purple 2s infinite;
+}
+
+@keyframes pulse-purple {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(142, 68, 173, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(142, 68, 173, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
+  }
 }
