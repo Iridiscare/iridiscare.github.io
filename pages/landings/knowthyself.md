@@ -201,7 +201,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <p><i data-feather='check' class="feature-icon"></i> Lecciones de 15 minutos</p>
-        <p><i data-feather='check' class="feature-icon"></i> Menos de 30 minutos al día</p>   
+        <p><i data-feather='check' class="feature-icon"></i> 30 minutos al día</p>   
         <p><i data-feather='check' class="feature-icon"></i> Ejercicios prácticos</p>  
         <p><i data-feather='check' class="feature-icon"></i> Tutorías online</p> 
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver clase gratis ahora</a>
