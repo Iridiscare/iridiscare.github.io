@@ -32,7 +32,13 @@ sitemap: false
                   <div class="row px-1">
                     <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="https://buy.stripe.com/4gw3fZ00hgFs9SE9AM" style=" text-align: center">Apuntarme y recibir mi primera clase</a>
                   </div>
+                {% else %}
+                  <div class="row px-1">
+                    <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" 
+                    href="https://tally.so/r/nW2zlv?lesson={{page.title}}" style=" text-align: center">Da tu opinión sobre la lección</a>
+                  </div>
                 {% endif %}
+                
               </div>
             </div>
         </div> 
