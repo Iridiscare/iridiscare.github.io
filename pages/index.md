@@ -1,6 +1,6 @@
 ---
-title: "Iridis Care - Primer centro de reducción de estrés con terapia de sonido"
-description: Ayudamos a personas estresadas mediante el autoconocimiento, la gestión emocional y terapia de sonido.
+title: "Iridis Care - Primero centro holístico de reducción de estrés"
+description: Ayudamos a personas estresadas mediante el autoconocimiento, la gestión emocional y terapia de sonido personalizada.
 permalink: /
 layout: default
 bodyClass: "page-home"
@@ -53,9 +53,9 @@ bodyClass: "page-home"
         <a href="/knowthyself" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
             <h5><span class="dot-2"></span>  KnowThyself</h5>
-            <p>Curso online para <b>aprender a observar las emociones</b>.</p>
+            <p>Curso online de <b>autoconocimiento y gestión de emociones</b>.</p>
             <a href="/knowthyself" style="font-size: 20px">
-              Saber más <i data-feather='chevron-right' class="feature-icon"></i>
+              Ver clase gratis <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
           </div>
         </a>
@@ -66,7 +66,7 @@ bodyClass: "page-home"
             <h5><span class="dot-3"></span>  SoundMind30</h5>
             <p>Programa para <b>calmar la mente y reducir el estrés</b> en 30 días.</p>
             <a href="/soundmind" style="font-size: 20px">
-              Saber más <i data-feather='chevron-right' class="feature-icon"></i>
+              Ver vídeo <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
           </div>
         </a>
