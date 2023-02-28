@@ -32,10 +32,8 @@ bodyClass: "page-home"
                 <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Tutorías </p>
               </div>
             </div>
-            <h4 style="color: #9B51E0; font-size: 34px">99€</h4>
-            <p style="color: gray; font-size: 12px;">7 días de garantía de devolución</p>
             <div class="row px-1">
-              <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="https://buy.stripe.com/4gw3fZ00hgFs9SE9AM" style=" text-align: center">Apuntarme</a>
+              <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" onclick="openForm()" style=" text-align: center">Ver clase gratis</a>
             </div>
           </div>
         </div>
@@ -147,7 +145,7 @@ bodyClass: "page-home"
     <div class="row pt-4">
       <div class="col-12 col-md-7 col-lg-7">
         <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> David Martín-Corral, fundador de Iridis, ingeniero, emprendedor y doctor, experto en comportamiento humano que <b>ha superado sus problemas de salud mental</b> como un proceso maniaco-depresivo, brotes psicóticos y depresiones profundas causados por altos niveles de estrés.</p>
-        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Tiene <b>experiencia dando clase a más de 20.000 alumnos</b> en la Universidad Complutense, Universidad Carlos III, Universidad de Alcalá, Instituto de Empresa y ThePowerBusiness School, ha publicado en revistas científicas de alto impacto y es autor del libro “Viviendo en una sociedad enferma”.</p>
+        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Tiene <b>experiencia dando clase a más de 20.000 alumnos</b> en la Universidad Complutense, Universidad Carlos III, Universidad de Alcalá, Instituto de Empresa y ThePower Business School, ha publicado en revistas científicas de alto impacto y es autor del libro “Viviendo en una sociedad enferma”.</p>
       </div>
       <div class="col-12 col-md-5 col-lg-5 pt-2">
         <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" 

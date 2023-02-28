@@ -1,21 +1,45 @@
 ---
 layout: landing
 bodyClass: "page-basic"
+sitemap: false
 ---
 
 <div class="intro">
   <div class="container-sm">
-    <div class="col-12">
-      <div class="row justify-content-center" style="text-align: center;">
-          {% if page.module %}
-            <p>Módulo {{page.module}}</p>
-          {% endif %}
-         <h1 class="pb-2">{{page.title}}</h1>
-          {{content}}
+      <div class="row">
+        <div class="col-12">
+            <div class="feature-product" style="background-color: white; overflow: hidden;">
+              {{content}}
+              <div class="m-2">
+                {% if page.module %}
+                  <p>Módulo {{page.module}}</p>
+                {% endif %}
+                <h5>{{page.title}}</h5>
+                <p>{{page.description}}</p>
+                {% if page.cta %}
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <p style="font-size: 18px; font-color:grey"><i data-feather='video' class="feature-icon-alt"></i> 4 horas de lecciones.</p>
+                      <p style="font-size: 18px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> Dedica solo 15 mins al día. </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <p style="font-size: 18px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Más de 20 ejercicios prácticos.</p>
+                      <p style="font-size: 18px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Tutorías via email. </p>
+                    </div>
+                  </div>
+                  <h4 style="color: #9B51E0; font-size: 34px">99€</h4>
+                  <p style="color: gray; font-size: 12px;">7 días de garantía de devolución (sin preguntas)</p>
+                  <div class="row px-1">
+                    <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="https://buy.stripe.com/4gw3fZ00hgFs9SE9AM" style=" text-align: center">Apuntarme y recibir mi primera clase</a>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+        </div> 
       </div>
       <!-- <div class="row justify-content-center pt-2 pb-2" style="text-align: center;">
         <a href="#" class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver vídeo Gratis para saber más</a>
       </div> -->
-    </div>
+
   </div>
 </div>

@@ -182,7 +182,7 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-1 col-lg-1"></div>
       <div class="col-12 col-md-10 col-lg-10">
-      <h4>¿Necesitas ayuda?</h4>
+      <h4>¿Quieres saber más?</h4>
         <iframe data-tally-src="https://tally.so/embed/meMrlx?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="648" frameborder="0" marginheight="0" marginwidth="0" title="null"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
       </div>
     </div>
