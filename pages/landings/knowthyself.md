@@ -200,10 +200,10 @@ bodyClass: "page-home"
         <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/clase-gratis.png"  onclick="openForm()"/>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <p><i data-feather='check' class="feature-icon"></i> Lecciones de 15 minutos</p>
-        <p><i data-feather='check' class="feature-icon"></i> 30 minutos al día</p>   
+        <p><i data-feather='check' class="feature-icon"></i> Lecciones de 15 minutos</p>  
         <p><i data-feather='check' class="feature-icon"></i> Ejercicios prácticos</p>  
         <p><i data-feather='check' class="feature-icon"></i> Tutorías online</p> 
+        <p><i data-feather='check' class="feature-icon"></i> Durante 30 días</p> 
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver clase gratis ahora</a>
       </div>
     </div>
