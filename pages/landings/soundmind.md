@@ -22,7 +22,7 @@ bodyClass: "page-home"
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Calma el vacío interior</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo gratis para saber más</a>
         <!-- <br>
         <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Sesión GRATIS con tu FLYER</a> -->
       </div>
@@ -67,7 +67,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo gratis para saber más</a>
     </div>
   </div>
 </div>
@@ -87,7 +87,7 @@ bodyClass: "page-home"
           <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
           <p><i data-feather='check' class="feature-icon"></i> Conocerte mejor</p>
           <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo gratis para saber más</a>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-2">
-       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
+       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo gratis para saber más</a>
     </div>
   </div>
 </div> 
@@ -126,7 +126,7 @@ bodyClass: "page-home"
         <div class="feature-product-title">
           <h4>Descubre cómo superó nuestro fundador sus problemas de salud mental.</h4>
           <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo gratis para saber más</a>
           </div>
         </div>
       </div>
@@ -158,24 +158,19 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4 pb-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind/registro">Ver vídeo gratis para saber más</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo gratis para saber más</a>
     </div>
   </div>
 </div>
 
-<!-- <div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-3">
-    <div class="feature-product-title pb-2">
-      <h4>Preguntas frecuentes</h4>
-    </div>
-    {% for data in site.data.faq %}
-    <div class="pb-3 accordion-item">
-      <button class="accordion"><i data-feather='plus' style="margin-bottom: 5px"></i> &emsp;{{data.question}}</button>
-      <div class="panel">
-        <p>{{data.answer}}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div> -->
+<div class="form-popup" id="myForm">
+  <div class="form-popup-button" onclick="closeForm()"><i data-feather='x' class="feature-icon"></i></div>
+  <h4 style="text-align: center;" class="pt-2">¡Introduce tu email y obtén acceso inmediato al vídeo!</h4>
+  <!-- <a href="https://iridis-care.notion.site/Privacy-policy-fc763c0497f745d1866bcf75b422ed70"> <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 5px">Lea la información detallada sobre protección y tratamiento de datos.</p></a> -->
+  <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 40px">Al inscribirte, de darás de alta en nuestra newsletter.</p>
+  {% include form.html 
+    cta='Inscribirme y ver vídeo gratis'
+    list='https://4267f462.sibforms.com/serve/MUIEANs2BrQvGn6O5XffhN46GGQaUZjKQAXQ5XgG6JGa29ZL3C4IuSfwCPBMRAb-_mkCvSYOqqA0f5ry5Z0lQl0AG3YFr26_SiHFtFW5NCFnZRztv5IgZM2zFV6jcKK-pzKhN5nGzgqWIpYrxx-WWvEopbLJ1Z7RapyC6HA_oStWAzhoUkFxW2Q2ixA4l4qkq2F0u9otapgCfT5b'
+  %}
+</div>
 
