@@ -110,7 +110,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip-white" id="plans">
+<div class="strip-white">
   <div class="container-sm pt-8 pb-6 px-3">
     <div class="feature-product-title">
       <h4>3 servicios para tu salud mental y física.</h4>
@@ -121,7 +121,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h5 class="align-middle"><span class="dot-1"></span> SoundBaths</h5>
+            <h5><span class="blob purple-1"></span> SoundBaths</h5>
             <p>Baños de sonido personalizados para <b>relajarte en minutos.</b> </p>
             <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="font-size: 20px">
               Reservar sesión <i data-feather='chevron-right' class="feature-icon"></i>
@@ -132,10 +132,10 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="/knowthyself" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h5><span class="dot-2"></span>  KnowThyself</h5>
-            <p>Curso online para <b>aprender a observar las emociones</b>.</p>
+            <h5><span class="blob purple-2"></span>  KnowThyself</h5>
+            <p>Curso online de <b>autoconocimiento y gestión de emociones</b>.</p>
             <a href="/knowthyself" style="font-size: 20px">
-              Saber más <i data-feather='chevron-right' class="feature-icon"></i>
+              Ver clase gratis <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
           </div>
         </a>
@@ -143,10 +143,10 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="/soundmind" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h5><span class="dot-3"></span>  SoundMind30</h5>
-            <p>Programa de 30 días para <b>calmar la mente y reducir el estrés</b>.</p>
+            <h5><span class="blob purple"></span>  SoundMind30</h5>
+            <p>Programa para <b>calmar la mente y reducir el estrés</b> en 30 días.</p>
             <a href="/soundmind" style="font-size: 20px">
-              Saber más <i data-feather='chevron-right' class="feature-icon"></i>
+              Ver vídeo <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
           </div>
         </a>
@@ -154,4 +154,3 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-
