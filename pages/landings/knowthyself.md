@@ -1,5 +1,5 @@
 ---
-title: "KnowThyself - El curso online de autoconocimiento y gestión de emociones pare reducir el estrés"
+title: "KnowThyself de Iridis - El curso online de autoconocimiento y gestión emocional"
 description: Aprenderás los conceptos y herramientas básicas para no ser esclavo del estrés y tus emociones.
 image: /assets/images/landings/knowthyself.png
 permalink: /knowthyself
