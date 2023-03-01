@@ -11,8 +11,8 @@ sitemap: false
   <div class="container-sm">
     <div class="col-12">
       <div class="row justify-content-center" style="text-align: center;">
-         <h1 class="animate__animated animate__pulse pb-1">Cómo reducir el estrés como mínimo un 32%, calmando la mente y liberando carga emocional durante 30 días</h1>
-        <p class="animate__animated animate__pulse">Con terapia de sonido personalizada para sincronizar tu cerebro y ejercicios de autoconocimiento para hacer fluir las emociones</p>
+         <h1 class="animate__animated animate__pulse pb-1">Reduce el estrés como mínimo un 32%, calmando la mente y liberando carga emocional durante 30 días.</h1>
+        <p class="animate__animated animate__pulse">Con terapia de sonido personalizada para sincronizar tu cerebro y ejercicios de autoconocimiento para hacer fluir las emociones.</p>
       </div>
       <div class="row justify-content-center pt-2 pb-2" style="text-align: center;">
         <a href="#" class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver vídeo Gratis para saber más</a>
