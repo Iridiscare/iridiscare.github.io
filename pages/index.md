@@ -41,7 +41,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h5 class="align-middle"><span class="dot-1"></span> SoundBaths</h5>
+            <h5><span class="blob purple-1"></span> SoundBaths</h5>
             <p>Baños de sonido personalizados para <b>relajarte en minutos.</b> </p>
             <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="font-size: 20px">
               Reservar sesión <i data-feather='chevron-right' class="feature-icon"></i>
@@ -52,7 +52,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="/knowthyself" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h5><span class="dot-2"></span>  KnowThyself</h5>
+            <h5><span class="blob purple-2"></span>  KnowThyself</h5>
             <p>Curso online de <b>autoconocimiento y gestión de emociones</b>.</p>
             <a href="/knowthyself" style="font-size: 20px">
               Ver clase gratis <i data-feather='chevron-right' class="feature-icon"></i>
