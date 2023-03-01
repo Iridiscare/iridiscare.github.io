@@ -62,7 +62,7 @@ bodyClass: "page-home"
     <div class="row flex-row-reverse justify-content-center">
       <div class="col-12 col-md-6 col-lg-6">
         <p>Niveles altos de glucorticoides sostenidos en el tiempo tienen múltiples efectos patológicos. Activando el sistema nervioso parasimpático, aumentando la inmunodepresión y atrofiando el cerebro.</p>
-        <p>Esto hace que reduzca la capacidad de memoria y concentración. Aumente la probabilidad de enfermedades mentales como depresión, ansiedad, PTSD o adicciones, y físicas como hipertensión, cardiopatías, obesidad y síndrome metabólico, diabetes de tipo II, artritis o problemas gastrointestinale.</p>
+        <p>Esto hace que reduzca la capacidad de memoria y concentración. Aumente la probabilidad de enfermedades mentales como depresión, ansiedad, trastorno de estrés postraumático o adicciones, y físicas como hipertensión, cardiopatías, obesidad y síndrome metabólico, diabetes de tipo II, artritis o problemas gastrointestinale.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature-image">
