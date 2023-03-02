@@ -198,7 +198,7 @@ bodyClass: "page-home"
         <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/clase-gratis.png"  onclick="openForm()"/>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <p><i data-feather='check' class="feature-icon"></i> Lecciones de 15 minutos</p>  
+        <p><i data-feather='check' class="feature-icon"></i> Clases de 15 minutos</p>  
         <p><i data-feather='check' class="feature-icon"></i> Ejercicios prácticos</p>  
         <p><i data-feather='check' class="feature-icon"></i> Tutorías online</p> 
         <p><i data-feather='check' class="feature-icon"></i> Durante 30 días</p> 
@@ -216,6 +216,6 @@ bodyClass: "page-home"
   <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 40px">Al inscribirte, de darás de alta en nuestra newsletter.</p>
   {% include 
     form.html cta='Inscribirme y ver clase gratis'
-    list='https://4267f462.sibforms.com/serve/MUIEAAuoPL-D7Gvugg_sUMmJG7_H60G08x-22ykJG_hZzpN0TlGS71pDiJ07k9EWC8E3YAg1qLjkCdo_8AggEaB80q--HZ7wLH0BEhiZAfK0Bll2xho1V7ZSAXKX_vT53YPGDwvOrDFS3wfIAOcgvgcnDulfGjFCkkVJOTgCjvFBKT5kN3gtYewfLzaa_duRQIOhHcvj-0HO2hIv'
+    list='https://4267f462.sibforms.com/serve/MUIEAKdkE3U02MGqiF0B7_OPoQT9TOXrbuHPPsWBOfxi1WYx_PedxJLeqC4HvWvh-ielgf9CMaBWm6oTOToYioPN5dJypslpYSANZg2aw5FyUpIA2qKoAqwNlnlCYwn7yPi3qhZAFAuacwp6Aj__tSwSKBwmoG0zFGQg5w-24wdgYFswtWmf8FUIauaIw3cDYXucyou9GJiSlFfp'
   %}
 </div>
