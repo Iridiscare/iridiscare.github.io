@@ -1,6 +1,6 @@
 ---
-title: "Cómo reducir el estrés al menos un 32%"
-description: Aprende como calmar la mente y liberar carga emocional durante 30 días
+title: "Reserva una sesión gratuita y prueba el programa SoundMind30"
+description: Calma la mente, liberar carga emocional y reduce el estrés durante 30 días
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -10,7 +10,47 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro">
+
+<div class="intro" style="margin-bottom: -100px">
+  <div class="container px-3">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 pb-2">
+        <h5>Programa SoundMind30</h5>
+        <h1 style="font-size: 34px">Cómo <b>calmar la mente y reducir el estrés</b> en 30 días.</h1>
+        <p>
+          Reduce el estrés como mínimo un 32%, calmando la mente y liberando carga emocional durante 30 días mediante la terapia de sonido personalizada.
+        </p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="feature-product" style="background-color: white; overflow: hidden;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video width="100%" controls> 
+              <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="m-2">
+            <h5>SoundMind30</h5>
+            <div class="row">
+              <div class="col-6">
+                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 30 días</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='volume-2' class="feature-icon-alt"></i> Sonido</p>
+              </div>
+              <div class="col-6">
+                <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Personalizado</p>
+              </div>
+            </div>
+            <div class="row px-1">
+              <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="#plans" style=" text-align: center">Reservar 1ª sesión gratis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="intro">
   <div class="container-sm px-2">
     <div class="row justify-content-center px-1">
       <h1 style="text-align: center;">
@@ -30,10 +70,10 @@ bodyClass: "page-home"
        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Quiero Reservar Mi 1ª sesión gratis</a>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="strip-white">
-  <div class="container-sm pt-4 pb-6 px-2">
+  <div class="container-sm pt-10 pb-6 px-3">
     <div class="feature-product-title">
       <h4>¿Por qué agendar una sesión con nosotros?</h4>
     </div>
@@ -67,13 +107,13 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Nos conoceremos y <b>evaluaremos tu caso personal.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> Te haremos una <b>prueba de estrés para saber tu estado actual.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Analizaremos tu voz para saber las frecuencias</b> que le faltan a tu sistema nervioso.</p>
-        <p><i data-feather='check' class="feature-icon"></i> <b>Crearemos un baño de sonido personalizado de 17 minutos</b> para que pruebes.</p>
+        <p><i data-feather='check' class="feature-icon"></i> <b>Crearemos un baño de sonido personalizado de 30 minutos</b> para que pruebes.</p>
         <p><i data-feather='check' class="feature-icon"></i> Si te podemos ayudar definiremos tu <b>plan personalizado antiestrés de 30 días</b>.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature">
           <h2 class="feature-title pt-2">Sesión Gratuita</h2>
-          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra tecnología de terapia de sonido, desestrésate en 17 minutos y decide si es para ti. Sin compromiso. 0€</p>
+          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra tecnología de terapia de sonido, desestrésate en 30 minutos y decide si es para ti. Sin compromiso. 0€</p>
           <div class="feature-content pb-2">
             <h4 class="mb-2">
               La sesión incluye
