@@ -48,7 +48,7 @@ bodyClass: "page-home"
     <div class="row pt-2">
       <div class="col-12 col-md-6 col-lg-6">
         <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Descubrir <b>el modelo más innovador de la consciencia humana del que nadie habla</b> y ha llegado el momento de hablar de él.</p>
-        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Aprender a <b>observar los desencadenantes de tus emociones y comportamientos</b> aunque nunca te hayas mirado hacía adentro.</p>
+        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Aprender a <b>observar los desencadenantes de tus emociones y comportamientos</b> aunque nunca te hayas mirado hacia adentro.</p>
         <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Adquirir los <b>conocimientos básicos para expandir tu consciencia y vivir de forma plena.</b></p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
@@ -126,8 +126,8 @@ bodyClass: "page-home"
   <div class="container-sm pt-8 pb-4 px-3">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
-       <h4>Aprende con un doctor en comportamiento humano que ha batido al estrés</h4>
-       <p>¡dedicando menos de 30 minutos al día!</p>
+       <h4>Aprende con un doctor en comportamiento humano que ha batido al estrés.</h4>
+       <p>¡Dedicando menos de 30 minutos al día!</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" onclick="openForm()">Ver clase gratis ahora</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
