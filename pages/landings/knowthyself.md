@@ -67,8 +67,8 @@ bodyClass: "page-home"
     <div class="row pt-4">
       <div class="col-12 col-md-1 col-lg-1"></div>
       <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Con pensamiento negativo</p>
-        <p><i data-feather='check' class="feature-icon"></i> Expuestas a mucho estrés</p>
+        <p><i data-feather='check' class="feature-icon"></i> Con mucho estrés</p>
+        <p><i data-feather='check' class="feature-icon"></i> Bloqueadas mentalmente</p>
         <p><i data-feather='check' class="feature-icon"></i> Con carga emocional</p> 
       </div>
       <div class="col-12 col-md-5 col-lg-5">
