@@ -116,7 +116,7 @@ bodyClass: "page-home"
         <h5>4.1. El cuerpo es una base de datos con todas nuestras experiencias vividas.</h5>
         <p>Conocerás el modelo más innovador de la consciencia humana, el sistema de experiencias condensadas, a que tipo de contenidos emocionales se pueden acceder para liberarlos del holograma interno para morir en vida a través de la disolución del ego.</p>
         <h5>4.2. Cómo moldear el cerebro y liberar experiencias pasadas emocionalmente estresantes.</h5>
-        <p>Aprenderás las técnicas regresivas experienciales más innovadoras para acceder y liberar la carga emocional creada por las experiencias emocionales estresantes pasadas que te mantienen en sufrimiento.</p>
+        <p>Aprenderás las técnicas para hacer fluir las emociones y las técnias regresivas experienciales más innovadoras para acceder y liberar la carga emocional creada por las experiencias emocionales pasadas que te mantienen en sufrimiento.</p>
       </div>
     </div>
   </div>

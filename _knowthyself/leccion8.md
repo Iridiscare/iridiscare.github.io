@@ -1,6 +1,6 @@
 ---
 title: Cómo moldear el cerebro y liberar experiencias pasadas emocionalmente estresantes
-description: Aprenderás las técnicas para hacer fluir las emociones y las técnias regresivas experienciales más innovadoras para acceder y liberar la carga emocional creada por las experiencias emocionales estresantes pasadas que te mantienen en sufrimiento.
+description: Aprenderás las técnicas para hacer fluir las emociones y las técnias regresivas experienciales más innovadoras para acceder y liberar la carga emocional creada por las experiencias emocionales pasadas que te mantienen en sufrimiento.
 layout: course
 module: IV - Implementar
 sitemap: false
