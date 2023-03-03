@@ -24,7 +24,7 @@ bodyClass: "page-home"
             <h5>KnowThyself</h5>
             <div class="row">
               <div class="col-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 30 días</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 24 días</p>
                 <p style="font-size: 15px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> 15 mins/día</p>
               </div>
               <div class="col-6">
