@@ -191,7 +191,7 @@ bodyClass: "page-home"
     <div class="row">
     <div class="col-12">
       <div class="feature-product-title pb-4">
-        <h4>Comienza a gestionar tus emociones ahora y consigue...</h4>
+        <h4>Aprende a gestionar tus emociones ahora y consigue...</h4>
       </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pb-4">  
