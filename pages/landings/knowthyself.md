@@ -211,9 +211,9 @@ bodyClass: "page-home"
 
 <div class="form-popup" id="myForm">
   <div class="form-popup-button" onclick="closeForm()"><i data-feather='x' class="feature-icon"></i></div>
-  <h4 style="text-align: center;" class="pt-2">¡Introduce tu email y obtén acceso inmediato a la clase gratis!</h4>
+  <h5 style="text-align: center;" class="pt-2">Escribe tu email, <b style="color: #9B51E0">accede inmediatamente a la clase</b> y recibe gratis nuestra <b style="color: #9B51E0">"Guía para controlar la ansiedad".</b></h5>
   <!-- <a href="https://iridis-care.notion.site/Privacy-policy-fc763c0497f745d1866bcf75b422ed70"> <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 5px">Lea la información detallada sobre protección y tratamiento de datos.</p></a> -->
-  <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 40px">Al inscribirte, de darás de alta en nuestra newsletter.</p>
+  <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 40px">Al inscribirte, de darás de alta en nuestra newsletter y  recibirás nuestra Guía para controlar la ansiedad.</p>
   {% include 
     form.html cta='Inscribirme y ver clase gratis'
     list='https://4267f462.sibforms.com/serve/MUIEAKdkE3U02MGqiF0B7_OPoQT9TOXrbuHPPsWBOfxi1WYx_PedxJLeqC4HvWvh-ielgf9CMaBWm6oTOToYioPN5dJypslpYSANZg2aw5FyUpIA2qKoAqwNlnlCYwn7yPi3qhZAFAuacwp6Aj__tSwSKBwmoG0zFGQg5w-24wdgYFswtWmf8FUIauaIw3cDYXucyou9GJiSlFfp'
