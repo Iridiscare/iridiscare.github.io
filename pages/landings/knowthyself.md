@@ -191,17 +191,17 @@ bodyClass: "page-home"
     <div class="row">
     <div class="col-12">
       <div class="feature-product-title pb-4">
-        <h4>Comienza a gestionar tus emociones ahora.</h4>
+        <h4>Comienza a gestionar tus emociones ahora y consigue...</h4>
       </div>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pb-4">  
         <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/clase-gratis.png"  onclick="openForm()"/>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <p><i data-feather='check' class="feature-icon"></i> Clases de 15 minutos</p>  
-        <p><i data-feather='check' class="feature-icon"></i> Ejercicios prácticos</p>  
-        <p><i data-feather='check' class="feature-icon"></i> Tutorías online</p> 
-        <p><i data-feather='check' class="feature-icon"></i> Durante 30 días</p> 
+        <p><i data-feather='check' class="feature-icon"></i> Conocerte mejor</p> 
+        <p><i data-feather='check' class="feature-icon"></i> Calmar la mente</p> 
+        <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p> 
+        <p><i data-feather='check' class="feature-icon"></i> Controlar las emociones</p> 
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver clase gratis ahora</a>
       </div>
     </div>
