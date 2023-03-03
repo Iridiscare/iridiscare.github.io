@@ -48,7 +48,7 @@ bodyClass: "page-home"
     <div class="row pt-2">
       <div class="col-12 col-md-6 col-lg-6">
         <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Descubrir <b>el modelo más innovador de la consciencia humana del que nadie habla</b> y ha llegado el momento de hablar de él.</p>
-        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Aprenderás a <b>observar los desencadenantes de tus emociones y comportamientos</b> aunque nunca te hayas mirado hacía adentro.</p>
+        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Aprender a <b>observar los desencadenantes de tus emociones y comportamientos</b> aunque nunca te hayas mirado hacía adentro.</p>
         <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Adquirir los <b>conocimientos básicos para expandir tu consciencia y vivir de forma plena.</b></p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
