@@ -1,10 +1,10 @@
 ---
 title: "¿Por qué es necesario conocerse?"
-description: Bienvenido al curso online KnowThyself de Iridis, donde aprenderás a conocerte mejor y gestionar tus emociones.
+description: En esta lección introductoria aprenderás porqué es importante conocerse para gestionar las emociones y reducir el estrés.
 layout: course
 video: https://streamable.com/5b0hk7
 sitemap: false
-module: Introducción
+module: "- Introducción"
 cta: true
 ---
 
