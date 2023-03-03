@@ -1,9 +1,10 @@
 ---
-title: "Introducción al curso KnowThyself"
+title: "¿Por qué es necesario conocerse?"
 description: Bienvenido al curso online KnowThyself de Iridis, donde aprenderás a conocerte mejor y gestionar tus emociones.
 layout: course
 video: https://streamable.com/5b0hk7
 sitemap: false
+module: Introducción
 cta: true
 ---
 
