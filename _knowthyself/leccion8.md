@@ -4,6 +4,7 @@ description: Aprenderás las técnicas para hacer fluir las emociones y las téc
 layout: course
 module: IV - Implementar
 sitemap: false
+pdf: https://drive.google.com/file/d/1okU51L6Hq5ZMLYZyU7YLR656LZWhjDLP/view?usp=share_link
 ---
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/ujb24u" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
