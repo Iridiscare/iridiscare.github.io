@@ -52,6 +52,7 @@ sitemap: false
   {% include form.html 
     cta='Inscribirme y ver vídeo gratis'
     list='https://4267f462.sibforms.com/serve/MUIEANs2BrQvGn6O5XffhN46GGQaUZjKQAXQ5XgG6JGa29ZL3C4IuSfwCPBMRAb-_mkCvSYOqqA0f5ry5Z0lQl0AG3YFr26_SiHFtFW5NCFnZRztv5IgZM2zFV6jcKK-pzKhN5nGzgqWIpYrxx-WWvEopbLJ1Z7RapyC6HA_oStWAzhoUkFxW2Q2ixA4l4qkq2F0u9otapgCfT5b'
+    event='register_newslettter_soundmind'
   %}
 </div>
 
