@@ -28,9 +28,9 @@ sitemap: false
         <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/video-gratis.png" onclick="openForm()" />
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> Crearemos un <b>plan personalizado</b> a tus necesidades para resincronizar tu sistema nervioso. <b>Sin medicaciones que nos dejan como un vegetal.</b></p>
+        <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <b>Plan personalizado</b> a tus necesidades para resincronizar tu sistema nervioso. <b>Sin medicaciones.</b></p>
         <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <b>Sin tener que hacer complicados ejercicios</b>, meditaciones, técnicas de relajación o leer libros de autoayuda que no te han servido de nada.</p>
-        <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <b>Verás resultados aunque hayas probado técnicas de mindfulness que no te han funcionado</b> o  dispongas de poco tiempo. Desde casa o nuestro centro. Tú decides.</p>
+        <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> <b>Verás resultados aunque hayas probado técnicas de mindfulness que no te han funcionado</b> o  dispongas de poco tiempo.</p>
       </div>
     </div>
     <div class="row justify-content-center">
