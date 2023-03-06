@@ -4,6 +4,7 @@ description: Entenderás cómo procesa la información nuestro cuerpo-mente al i
 layout: course
 module: I - Aceptar
 sitemap: false
+pdf: https://drive.google.com/file/d/183xNc8tnFiZWSksuN8dp0xDzxGnUFcaq/view?usp=share_link
 ---
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/y7inqp" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>

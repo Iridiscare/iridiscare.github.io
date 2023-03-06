@@ -97,7 +97,7 @@ bodyClass: "page-home"
       <div class="panel pt-2">
         <h5>2.1. El sufrimiento es una realidad que nos hace temblar.</h5>
         <p>Veremos tres nuevos conceptos básicos que debemos practicar si queremos liberarnos del sufrimiento interno generado por nuestras emociones.</p>
-        <h5>2.2 Cómo nuestra emociones se quedan guardadas en nuestro cuerpo.</h5>
+        <h5>2.2 Cómo nuestras emociones se quedan guardadas en nuestro cuerpo.</h5>
         <p>Conocerás el funcionamiento básico del sustrato biológico de la emociones, como estás modifican nuestro ADN mediante la epigenética y se quedan guardadas en nuestro cuerpo.</p>
       </div>
     </div>
@@ -116,7 +116,7 @@ bodyClass: "page-home"
         <h5>4.1. El cuerpo es una base de datos con todas nuestras experiencias vividas.</h5>
         <p>Conocerás el modelo más innovador de la consciencia humana, el sistema de experiencias condensadas, a que tipo de contenidos emocionales se pueden acceder para liberarlos del holograma interno para morir en vida a través de la disolución del ego.</p>
         <h5>4.2. Cómo moldear el cerebro y liberar experiencias pasadas emocionalmente estresantes.</h5>
-        <p>Aprenderás las técnicas para hacer fluir las emociones y las técnias regresivas experienciales más innovadoras para acceder y liberar la carga emocional creada por las experiencias emocionales pasadas que te mantienen en sufrimiento.</p>
+        <p>Aprenderás las técnicas para hacer fluir las emociones y las técnicas regresivas experienciales más innovadoras para acceder y liberar la carga emocional creada por las experiencias emocionales pasadas que te mantienen en sufrimiento.</p>
       </div>
     </div>
   </div>

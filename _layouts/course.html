@@ -16,8 +16,11 @@ sitemap: false
                 {% endif %}
                 <h5>{{page.title}}</h5>
                 <p>{{page.description}}</p>
+                {% if page.pdf %}
+                <a href="{{page.pdf}}" style="font-size: 16px;" ><i data-feather='download' class="feature-icon"></i> Descargar lección en PDF. </a>
+                {% endif %}
                 {% if page.cta %}
-                  <div class="row">
+                  <div class="row pt-4">
                     <div class="col-12 col-md-6">
                       <p style="font-size: 18px; font-color:grey"><i data-feather='video' class="feature-icon-alt"></i> 4 horas de lecciones.</p>
                       <p style="font-size: 18px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> Dedica solo 15 mins al día. </p>
@@ -33,7 +36,7 @@ sitemap: false
                     <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="https://buy.stripe.com/4gw3fZ00hgFs9SE9AM" style=" text-align: center">Apuntarme</a>
                   </div>
                 {% else %}
-                  <div class="row px-1">
+                  <div class="row px-1 pt-2">
                     <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" 
                     href="https://tally.so/r/nW2zlv?lesson={{page.title}}" style=" text-align: center">Da tu opinión sobre la lección</a>
                   </div>
