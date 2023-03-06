@@ -144,7 +144,7 @@ bodyClass: "page-home"
     <h4>Con quién vas a aprender...</h4>
     <div class="row pt-4">
       <div class="col-12 col-md-7 col-lg-7">
-        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> David Martín-Corral, fundador de Iridis, ingeniero, emprendedor y doctor, experto en comportamiento humano que <b>ha superado sus problemas de salud mental</b> como un proceso maniaco-depresivo, brotes psicóticos y depresiones profundas causados por altos niveles de estrés.</p>
+        <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> David Martín-Corral, fundador de Iridis, ingeniero, emprendedor y doctor, experto en comportamiento humano que <b>ha superado sus problemas de salud mental,</b> como un proceso maníaco-depresivo, brotes psicóticos y depresiones, causados por altos niveles de estrés.</p>
         <p style="font-size: 22px;"><i data-feather='check' class="feature-icon"></i> Tiene <b>experiencia dando clase a más de 20.000 alumnos</b> en la Universidad Complutense, Universidad Carlos III, Universidad de Alcalá, Instituto de Empresa y ThePower Business School, ha publicado en revistas científicas de alto impacto y es autor del libro “Viviendo en una sociedad enferma”.</p>
       </div>
       <div class="col-12 col-md-5 col-lg-5 pt-2">
