@@ -4,6 +4,7 @@ description: Conocerás el funcionamiento básico del sustrato biológico de la 
 layout: course
 module: II - Entender
 sitemap: false
+pdf: https://drive.google.com/file/d/1VStA6zEkpTOnit_A1pggT0GpoIk4qkOF/view?usp=share_link
 ---
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/zvfyle" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
