@@ -159,7 +159,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pt-6 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Conoce que dicen los alumnos de David.</h4>
+      <h4>Conoce la opinión de los alumnos del curso.</h4>
     </div>
   </div>
   <div class="container-sm pb-6 px-">
