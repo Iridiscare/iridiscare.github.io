@@ -165,7 +165,9 @@ bodyClass: "page-home"
   <div class="container-sm pb-6 px-">
     <div class="row">
       <div class="col-12">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" 
+          data-interval="8000"
+          data-bs-ride="carousel">
           <div class="carousel-inner">
             {% for item in site.data.testimonials-course %}
             {% if item.active %}
@@ -217,5 +219,6 @@ bodyClass: "page-home"
   {% include 
     form.html cta='Inscribirme y ver clase gratis'
     list='https://4267f462.sibforms.com/serve/MUIEAKdkE3U02MGqiF0B7_OPoQT9TOXrbuHPPsWBOfxi1WYx_PedxJLeqC4HvWvh-ielgf9CMaBWm6oTOToYioPN5dJypslpYSANZg2aw5FyUpIA2qKoAqwNlnlCYwn7yPi3qhZAFAuacwp6Aj__tSwSKBwmoG0zFGQg5w-24wdgYFswtWmf8FUIauaIw3cDYXucyou9GJiSlFfp'
+    event='register_newslettter_knowthyslef'
   %}
 </div>
