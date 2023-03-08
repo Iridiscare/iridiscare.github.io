@@ -210,6 +210,16 @@ bodyClass: "page-home"
   </div>
 </div> 
 
+<div>
+  <a 
+    href="#"
+    onclick="openForm()">
+    <div class="top-banner">
+      <p class="mt-1 mb-1"><b>VER CLASE GRATIS</b> <i data-feather='chevron-right' class="banner-icon"></i></p>
+    </div>
+  </a>
+</div>
+
 
 <div class="form-popup" id="myForm">
   <div class="form-popup-button" onclick="closeForm()"><i data-feather='x' class="feature-icon"></i></div>
