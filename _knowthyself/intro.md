@@ -1,6 +1,6 @@
 ---
 title: "¿Por qué es necesario conocerse?"
-description: En esta lección introductoria aprenderás porqué es importante conocerse para gestionar las emociones y reducir el estrés. Puedes descargar el programa y la bibliografía del curso en el siguiente enlace.
+description: En esta lección introductoria aprenderás porqué es importante conocerse para gestionar las emociones y reducir el estrés. Puedes descargar el programa y la bibliografía del curso en el siguiente enlace. Por cierto, revisa tu email que habrás recibido mi guía para controlar la ansiedad.
 layout: course
 video: https://streamable.com/5b0hk7
 sitemap: false
