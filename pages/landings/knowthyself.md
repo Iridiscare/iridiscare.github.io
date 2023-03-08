@@ -23,11 +23,11 @@ bodyClass: "page-home"
           <div class="m-2">
             <h5>KnowThyself</h5>
             <div class="row">
-              <div class="col-6">
+              <div class="col-12 col-md-6 col-lg-6">
                 <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 24 días</p>
                 <p style="font-size: 15px; font-color:grey"><i data-feather='clock' class="feature-icon-alt"></i> 15 mins/día</p>
               </div>
-              <div class="col-6">
+              <div class="col-12 col-md-6 col-lg-6">
                 <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
                 <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Tutorías</p>
               </div>

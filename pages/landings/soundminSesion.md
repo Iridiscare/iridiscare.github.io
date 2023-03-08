@@ -27,12 +27,12 @@ bodyClass: "page-home"
             <h5>SoundMind30</h5>
             <div class="row">
               <div class="col-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 30 días</p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='volume-2' class="feature-icon-alt"></i> Sonido</p>
+                <p style="font-size: 14px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 30 días</p>
+                <p style="font-size: 14px; font-color:grey"><i data-feather='volume-2' class="feature-icon-alt"></i> Sonido</p>
               </div>
               <div class="col-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Personalizado</p>
+                <p style="font-size: 14px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
+                <p style="font-size: 14px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Personalizado</p>
               </div>
             </div>
             <div class="row px-1">
