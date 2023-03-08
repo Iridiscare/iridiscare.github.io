@@ -10,7 +10,6 @@ layout: default
 bodyClass: "page-home"
 ---
 
-
 <div class="intro" style="margin-bottom: -100px">
   <div class="container px-3">
     <div class="row">
@@ -23,11 +22,7 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature-product" style="background-color: white; overflow: hidden;">
-          <div class="embed-responsive embed-responsive-16by9">
-            <video width="100%" controls> 
-              <source src="/assets/images/iridis-intro.mp4" type="video/mp4">
-            </video>
-          </div>
+          <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/jw2v0x" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
           <div class="m-2">
             <h5>SoundMind30</h5>
             <div class="row">
