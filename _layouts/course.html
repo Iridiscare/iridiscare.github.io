@@ -33,7 +33,10 @@ sitemap: false
                   <h4 style="color: #9B51E0; font-size: 34px">149€</h4>
                   <p style="color: gray; font-size: 12px;">7 días de garantía de devolución (sin preguntas)</p>
                   <div class="row px-1">
-                    <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="https://buy.stripe.com/4gw3fZ00hgFs9SE9AM" style=" text-align: center">Apuntarme</a>
+                    <a 
+                    class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" 
+                    onclick="gtag('event', 'go_to_stripe_knowthyself', { event_category: 'Go to stripe', event_action: 'Click to Stripe'})"
+                    href="https://buy.stripe.com/4gw3fZ00hgFs9SE9AM" style=" text-align: center">Apuntarme</a>
                   </div>
                 {% else %}
                   <div class="row px-1 pt-2">
