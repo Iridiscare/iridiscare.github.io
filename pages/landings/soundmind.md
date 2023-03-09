@@ -30,15 +30,6 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" style="background: #E9E9E9">
-  <div class="container-sm pt-2 pb-2 px-3">
-    <div class="row justify-content-center">
-      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="30" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
-      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="32" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
-    </div>
-  </div>
-</div>
-
 <div class="strip-white">
   <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
     <div class="feature-product-title">
@@ -63,12 +54,45 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
+  <div class="container-sm pt-6 pb-4 px-3">
+    <div class="feature-product-title">
+      <h4>Conoce a los humanos que ya han probado el método de Iridis.</h4>
+    </div>
+  </div>
+  <div class="container-sm pb-6 px-">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            {% for item in site.data.testimonials %}
+            {% if item.active %}
+              <div class="carousel-item active">
+            {% else %}
+              <div class="carousel-item">
+            {% endif %}
+                <div class="text-center">
+                  <p class="testimonial-quote">"{{item.quote}}"</p>
+                  <h3 class="testimonial-author">{{item.author}}</h3>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-4">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
   <div class="container pt-6 pb-6 px-2">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
         <div class="feature-product-title">
           <h4 class="pb-2">
-            El método de Iridis reduce el estrés...
+            Nuestro método reduce el estrés...
           </h4>
           <div class="row">
             <div class="col-12">
@@ -129,20 +153,20 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
         <div class="feature-content">
           <h4 class="feature-product-title">
-            Plan de seguimiento personalizado.
+            Terapia de sonido para sincronizar el cerebro.
           </h4>
           <div class="feature-image pt-4">
-            <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
+            <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath.webp" />
           </div>
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
         <div class="feature-content">
           <h4 class="feature-product-title">
-            Terapia de sonido para sincronizar el cerebro.
+            Plan de seguimiento personalizado.
           </h4>
           <div class="feature-image pt-4">
-            <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath.webp" />
+            <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
           </div>
         </div>
       </div>
@@ -151,38 +175,16 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-4 px-3">
+  <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>Conoce a los humanos que ya han probado el método de Iridis.</h4>
+      <h4>Han hablado sobre el método de Iridis.</h4>
     </div>
-  </div>
-  <div class="container-sm pb-6 px-">
-    <div class="row">
-      <div class="col-12">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            {% for item in site.data.testimonials %}
-            {% if item.active %}
-              <div class="carousel-item active">
-            {% else %}
-              <div class="carousel-item">
-            {% endif %}
-                <div class="text-center">
-                  <p class="testimonial-quote">"{{item.quote}}"</p>
-                  <h3 class="testimonial-author">{{item.author}}</h3>
-                </div>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center pt-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+    <div class="row justify-content-center pt-2">
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="40" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="42" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
     </div>
   </div>
 </div>
-
 
 <div class="strip-white">
   <div class="container pt-6 pb-6 px-2">
@@ -211,7 +213,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-4 pb-4 px-3">
     <div class="feature-product-title">
-      <h4>Experimenta el método de Iridis Care durante 4 semanas y consigue:</h4>
+      <h4>Experimenta el método de Iridis durante 4 semanas y consigue:</h4>
     </div>
   </div>
   <div class="container-sm pb-2 px-3">
@@ -239,7 +241,7 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-10 pb-6">
         <div class="feature-product-title">
-          <h4>Descubre cómo nuestro fundador, doctor en comportamiento humano, superó sus problemas de salud mental.</h4>
+          <h4>Descubre cómo nuestro fundador superó sus problemas de salud mental.</h4>
           <div class="pt-2">
             <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
           </div>
