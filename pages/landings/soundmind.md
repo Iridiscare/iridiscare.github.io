@@ -49,14 +49,14 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       <div class="col-12 col-md-1 col-lg-1"></div>
       <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Ansiedad</p>
-        <p><i data-feather='check' class="feature-icon"></i> Depresión</p>
         <p><i data-feather='check' class="feature-icon"></i> Estrés crónico</p>
+        <p><i data-feather='check' class="feature-icon"></i> Burnout</p>
+        <p><i data-feather='check' class="feature-icon"></i> Estrés postraumático</p>
       </div>
       <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Estrés postraumático</p>
-        <p><i data-feather='check' class="feature-icon"></i> Bipolaridad</p>
-        <p><i data-feather='check' class="feature-icon"></i> Burnout</p>
+        <p><i data-feather='check' class="feature-icon"></i> Miedo al cambio</p>
+        <p><i data-feather='check' class="feature-icon"></i> Pensamiento negativo</p>
+        <p><i data-feather='check' class="feature-icon"></i> Cambios emocionales</p> 
       </div>
     </div>
   </div>
