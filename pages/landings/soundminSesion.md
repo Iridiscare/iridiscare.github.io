@@ -17,7 +17,7 @@ bodyClass: "page-home"
         <h5>Programa SoundMind30</h5>
         <h1 style="font-size: 34px">Cómo <b>calmar la mente y reducir el estrés</b> en 30 días.</h1>
         <p>
-          Reduce el estrés como mínimo un 32%, calmando la mente y liberando carga emocional durante 30 días mediante la terapia de sonido personalizada.
+          Reduce un 56% tus niveles de estrés, calmando la mente y liberando carga emocional mediante la terapia de sonido personalizada.
         </p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
@@ -27,14 +27,15 @@ bodyClass: "page-home"
             <h5>SoundMind30</h5>
             <div class="row">
               <div class="col-12 col-md-6 col-lg-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 30 días</p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='volume-2' class="feature-icon-alt"></i> Sonido</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 4 semanas</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='volume-2' class="feature-icon-alt"></i> Terapia de sonido</p>
               </div>
               <div class="col-12 col-md-6 col-lg-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='edit-2' class="feature-icon-alt"></i> Ejercicios</p>
-                <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i> Personalizado</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='user' class="feature-icon-alt"></i>  Personalización</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='arrow-down-right' class="feature-icon-alt"></i> Reducción de estrés</p>
               </div>
             </div>
+             <p style="color: gray; font-size: 14px;">Garantizamos resultados</p>
             <div class="row px-1">
               <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="#plans" style=" text-align: center">Reservar 1ª sesión gratis</a>
             </div>
@@ -80,13 +81,13 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Evidencia científica</p>
       </div>
       <div class="col-12 col-md-5 col-lg-5">
+        <p><i data-feather='check' class="feature-icon"></i> Basado en datos</p>
         <p><i data-feather='check' class="feature-icon"></i> Sin medicación</p>
         <p><i data-feather='check' class="feature-icon"></i> Hemos sufrido estrés</p>
-        <p><i data-feather='check' class="feature-icon"></i> Más de 500 clientes</p>
       </div>
     </div>
     <div class="row justify-content-center pt-2">
-       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Si, quiero reservar la 1ª sesión gratis</a>
+       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar la 1ª sesión gratis</a>
     </div>
   </div>
 </div> 
@@ -103,12 +104,12 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Te haremos una <b>prueba de estrés para saber tu estado actual.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Analizaremos tu voz para saber las frecuencias</b> que le faltan a tu sistema nervioso.</p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Crearemos un baño de sonido personalizado de 30 minutos</b> para que pruebes.</p>
-        <p><i data-feather='check' class="feature-icon"></i> Si te podemos ayudar definiremos tu <b>plan personalizado antiestrés de 30 días</b>.</p>
+        <p><i data-feather='check' class="feature-icon"></i> Si te podemos ayudar definiremos tu <b>plan personalizado antiestrés de 4 semanas</b>.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature">
           <h2 class="feature-title pt-2">Sesión Gratuita</h2>
-          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra tecnología de terapia de sonido, desestrésate en 30 minutos y decide si es para ti. Sin compromiso. 0€</p>
+          <p class="feature-description">Conoce tu nivel de estrés, prueba nuestra tecnología de terapia de sonido durante 30 minutos y decide si es para ti. Sin compromiso. 0€</p>
           <div class="feature-content pb-2">
             <h4 class="mb-2">
               La sesión incluye
@@ -130,6 +131,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
+
 <div class="strip-white">
   <div class="container-sm px-3 pb-6 pt-6">
     <div class="feature-product-title pb-4">
@@ -147,15 +149,14 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
         <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
         <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
-        <p><i data-feather='check' class="feature-icon"></i> Equilibrar cuerpo y mente </p>
+        <p><i data-feather='check' class="feature-icon"></i> Equilibrar cuerpo-mente </p>
         <div class="row justify-content-center pt-2">
-          <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar 1ª sesión y sentirme mejor</a>
+          <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar 1ª sesión</a>
         </div>
       </div>
     </div>
   </div>
 </div>
-
 
 <div class="strip">
   <div class="container-sm px-3 pb-4 pt-6">
@@ -180,7 +181,7 @@ bodyClass: "page-home"
   <div class="container-sm pb-6 pt-6">
     <div class="col-12">
       <div class="feature-product-title pb-2">
-        <h4>Mira el vídeo y reserva cuando te gustaría tener tu sesión gratuita</h4>
+        <h4>Mira el vídeo y reserva cuando te gustaría tener tu sesión gratuita.</h4>
         <p style="color: red; font-size: 18px">¡IMPORTANTE! Solemos tener la agenda llena. Si no tienes tiempo, por favor, no reserves y deja hueco a personas que realmente lo necesiten.</p>
       </div>
       <div class="row justify-content-center pb-4" style="text-align: center;">

@@ -50,8 +50,13 @@
     "active": false
   },
   {
-    "quote": "Mi experiencia fue sorprendente, no me esperaba entrar en tal estado de meditación profunda.",
+    "quote": "Mi experiencia fue sorprendente, no me esperaba entrar en tal estado de relajación profunda.",
     "author": "Rosina - Artista",
+    "active": false
+  },
+  {
+    "quote": "Tengo estrés postraumático y estoy empenzado a verbalizar emociones que antes no podia.",
+    "author": "Ricardo - Profesor",
     "active": false
   }
 ]

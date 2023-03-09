@@ -16,13 +16,13 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>El método para calmar la mente y reducir el estrés en 30 días.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Conoce en este vídeo cómo conseguimos reducir el estrés en un 88% de los casos.</p>
+        <p>En el siguiente vídeo te explicamos cómo conseguimos reducir el estrés en un 88% de los casos.</p>
         <div class="animate__animated animate__git bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Relájate sin esfuerzo</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Mejora tu capacidad cognitiva</i></p>
           <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Calma el vacío interior</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar sesión gratis</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
         <!-- <br>
         <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Sesión GRATIS con tu FLYER</a> -->
       </div>
@@ -67,7 +67,29 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar sesión gratis</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+    <div class="feature-product-title">
+      <h4>La ciencia dice que te podemos ayudar si sufres</h4>
+    </div>
+  </div>
+  <div class="container-sm pb-6 pb-md-4 px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6">
+        <p><i data-feather='check' class="feature-icon"></i> Ansiedad</p>
+        <p><i data-feather='check' class="feature-icon"></i> Depresión</p>
+        <p><i data-feather='check' class="feature-icon"></i> Estrés crónico</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <p><i data-feather='check' class="feature-icon"></i> Estrés postraumático</p>
+        <p><i data-feather='check' class="feature-icon"></i> Problemas de sueño</p>
+        <p><i data-feather='check' class="feature-icon"></i> Neurodegeneración</p>
+      </div>
     </div>
   </div>
 </div>
@@ -87,7 +109,7 @@ bodyClass: "page-home"
           <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
           <p><i data-feather='check' class="feature-icon"></i> Conocerte mejor</p>
           <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reserva sesión gratis</a>
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
           </div>
         </div>
       </div>
@@ -96,7 +118,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-2">
+  <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
       <h4>El método para personas estresadas que...</h4>
     </div>
@@ -114,7 +136,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-2">
-       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reserva sesión gratis</a>
+       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
     </div>
   </div>
 </div> 
@@ -126,7 +148,7 @@ bodyClass: "page-home"
         <div class="feature-product-title">
           <h4>Descubre cómo superó nuestro fundador sus problemas de salud mental.</h4>
           <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo gratis para saber más</a>
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
           </div>
         </div>
       </div>
@@ -154,11 +176,11 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6">
         <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
         <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
-        <p><i data-feather='check' class="feature-icon"></i> Liberar las emociones</p>
+        <p><i data-feather='check' class="feature-icon"></i> Liberar emociones</p>
       </div>
     </div>
     <div class="row justify-content-center pt-4 pb-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reserva sesión gratis</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
     </div>
   </div>
 </div>
