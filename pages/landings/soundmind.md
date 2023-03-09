@@ -104,7 +104,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
         <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
-        <p><i data-feather='check' class="feature-icon"></i> Con carga emocional</p>
+        <p><i data-feather='check' class="feature-icon"></i> Tienen carga emocional</p>
       </div>
     </div>
     <div class="row justify-content-center pt-2">
