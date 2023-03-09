@@ -87,7 +87,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-2">
-       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar la 1ª sesión gratis</a>
+       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar 1ª sesión gratis</a>
     </div>
   </div>
 </div> 
@@ -151,7 +151,7 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
         <p><i data-feather='check' class="feature-icon"></i> Equilibrar cuerpo-mente </p>
         <div class="row justify-content-center pt-2">
-          <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar 1ª sesión</a>
+          <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar 1ª sesión gratis</a>
         </div>
       </div>
     </div>

@@ -75,17 +75,18 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
     <div class="feature-product-title">
-      <h4>La ciencia dice que te podemos ayudar si sufres</h4>
+      <h4>Un método basado en evidencia científica para personas con...</h4>
     </div>
   </div>
   <div class="container-sm pb-6 pb-md-4 px-3">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-6">
+      <div class="col-12 col-md-1 col-lg-1"></div>
+      <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> Ansiedad</p>
         <p><i data-feather='check' class="feature-icon"></i> Depresión</p>
         <p><i data-feather='check' class="feature-icon"></i> Estrés crónico</p>
       </div>
-      <div class="col-12 col-md-6 col-lg-6">
+      <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> Estrés postraumático</p>
         <p><i data-feather='check' class="feature-icon"></i> Problemas de sueño</p>
         <p><i data-feather='check' class="feature-icon"></i> Neurodegeneración</p>
@@ -120,7 +121,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>El método para personas estresadas que...</h4>
+      <h4>El método para personas con altos niveles de estrés que...</h4>
     </div>
     <div class="row pt-2">
       <div class="col-12 col-md-1 col-lg-1"></div>
@@ -132,7 +133,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
         <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
-        <p><i data-feather='check' class="feature-icon"></i> No consiguen relajarse</p>
+        <p><i data-feather='check' class="feature-icon"></i> Con carga emocional</p>
       </div>
     </div>
     <div class="row justify-content-center pt-2">
