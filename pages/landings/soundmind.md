@@ -68,7 +68,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
         <div class="feature-product-title">
           <h4 class="pb-2">
-            Nuestro método reduce el estrés...
+            El método de Iridis reduce el estrés...
           </h4>
           <div class="row">
             <div class="col-12">
