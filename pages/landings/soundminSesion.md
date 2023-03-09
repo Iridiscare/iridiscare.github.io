@@ -196,7 +196,7 @@ bodyClass: "page-home"
         </iframe>
       </div>
     </div>
-   <div class="row justify-content-center">
+    <div class="row justify-content-center pt-4">
       <div class="col-12 text-center">
         <p>¿Tienes dudas?</p>
         <div> <a class="button button-primary btn-lg animate__animated animate__pulse" style="background-color: #00a884" 
@@ -223,5 +223,15 @@ bodyClass: "page-home"
       </div>
     </div>
     {% endfor %}
+  </div>
+</div>
+
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-6 px-3">
+    <div class="feature-product-title pb-4">
+      <h4>Damos servicio online y físico en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12249.149997078619!2d-4.0236003!3d39.8677976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ed1e1af21569dac!2sIridis%20Care%20-%20Reduce%20tu%20estr%C3%A9s!5e0!3m2!1ses!2ses!4v1672861399929!5m2!1ses!2ses" width="100%" height="450" style="border: none; border-radius: 24px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
