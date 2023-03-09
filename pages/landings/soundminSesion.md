@@ -14,7 +14,7 @@ bodyClass: "page-home"
   <div class="container px-3">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-2">
-        <h5>Programa SoundMind30</h5>
+        <h5>Programa SoundMind</h5>
         <h1 style="font-size: 34px">Cómo <b>calmar la mente y reducir el estrés</b> en 30 días.</h1>
         <p>
           Reduce un 56% tus niveles de estrés, calmando la mente y liberando carga emocional mediante la terapia de sonido personalizada.
@@ -24,7 +24,7 @@ bodyClass: "page-home"
         <div class="feature-product" style="background-color: white; overflow: hidden;">
           <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/jw2v0x" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
           <div class="m-2">
-            <h5>SoundMind30</h5>
+            <h5>SoundMind</h5>
             <div class="row">
               <div class="col-12 col-md-6 col-lg-6">
                 <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 4 semanas</p>
@@ -35,7 +35,7 @@ bodyClass: "page-home"
                 <p style="font-size: 15px; font-color:grey"><i data-feather='arrow-down-right' class="feature-icon-alt"></i> Reducción de estrés</p>
               </div>
             </div>
-             <p style="color: gray; font-size: 14px;">Garantizamos resultados</p>
+             <p style="color: gray; font-size: 14px;">Garantizamos resultados.</p>
             <div class="row px-1">
               <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="#plans" style=" text-align: center">Reservar 1ª sesión gratis</a>
             </div>
@@ -77,7 +77,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-1 col-lg-1"></div>
       <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> Método antiestrés único</p>
-        <p><i data-feather='check' class="feature-icon"></i> Resultados garantizados</p>
+        <p><i data-feather='check' class="feature-icon"></i> Garantía con resultados</p>
         <p><i data-feather='check' class="feature-icon"></i> Evidencia científica</p>
       </div>
       <div class="col-12 col-md-5 col-lg-5">
@@ -138,18 +138,19 @@ bodyClass: "page-home"
       <h4>Conoce los beneficios de la terapia de sonido</h4>
     </div>
     <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-6 pb-4">
+      <div class="col-12 col-md-6 col-lg-6">
         <div class="feature-image">
           <img alt="Iridis pirámide de meditación y sonido" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-6">
-        <p>Un baño de sonido personalizado te permite:</p>
+      <div class="col-12 col-md-6 col-lg-6 pt-4">
+        <p>La terapia de sonido personalizada te permite:</p>
+        <p><i data-feather='check' class="feature-icon"></i> Equilibrar cuerpo-mente </p>
+        <p><i data-feather='check' class="feature-icon"></i> Liberar carga emocional</p>
         <p><i data-feather='check' class="feature-icon"></i> Calmar la mente</p>
         <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
-        <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
         <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
-        <p><i data-feather='check' class="feature-icon"></i> Equilibrar cuerpo-mente </p>
+        <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
         <div class="row justify-content-center pt-2">
           <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar 1ª sesión gratis</a>
         </div>
@@ -196,17 +197,6 @@ bodyClass: "page-home"
         </iframe>
       </div>
     </div>
-    <div class="row justify-content-center pt-4">
-      <div class="col-12 text-center">
-        <p>¿Tienes dudas?</p>
-        <div> <a class="button button-primary btn-lg animate__animated animate__pulse" style="background-color: #00a884" 
-        href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, te quería preguntar una cosa.">
-        <i class="fa fa-whatsapp "></i> Escribe a David via Whatsapp</a> </div>
-        <a href="mailto:david@iridis.care?subject=Pregunta via web" style="font-size: 20px" class="pt-2">
-          Escribe a david@iridis.care <i data-feather='chevron-right' class="feature-icon"></i>
-        </a>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -233,5 +223,33 @@ bodyClass: "page-home"
       <h4>Damos servicio online y físico en <a href="https://goo.gl/maps/F5Sj6BCUyF9wXQ3v9">Tr.ª Cobarrubias, 1, Toledo</a></h4>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12249.149997078619!2d-4.0236003!3d39.8677976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ed1e1af21569dac!2sIridis%20Care%20-%20Reduce%20tu%20estr%C3%A9s!5e0!3m2!1ses!2ses!4v1672861399929!5m2!1ses!2ses" width="100%" height="450" style="border: none; border-radius: 24px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<div class="strip-white" id="plans">
+  <div class="container-sm pb-6 pt-6">
+    <div class="col-12">
+      <div class="feature-product-title pb-2">
+        <h4>Reserva cuando te gustaría tener tu 1ª sesión gratuita.</h4>
+        <p style="color: red; font-size: 18px">¡IMPORTANTE! Solemos tener la agenda llena. Si no tienes tiempo, por favor, no reserves y deja hueco a personas que realmente lo necesiten.</p>
+      </div>
+      <div class="row justify-content-center pb-4 feature-produc">
+        <!-- Principio del widget integrado de Calendly -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/iridis-care/sesion-antiestres-gratuita-60mins?primary_color=9b51e0" style="min-width:100%;height:600px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Final del widget integrado de Calendly -->
+      </div>
+    </div>
+    <div class="row justify-content-center pt-4">
+      <div class="col-12 text-center">
+        <p>¿Tienes dudas?</p>
+        <div> <a class="button button-primary btn-lg animate__animated animate__pulse" style="background-color: #00a884" 
+        href="https://api.whatsapp.com/send?phone=34686322484&text=Hola David, te quería preguntar una cosa.">
+        <i class="fa fa-whatsapp "></i> Escribe a David via Whatsapp</a> </div>
+        <a href="mailto:david@iridis.care?subject=Pregunta via web" style="font-size: 20px" class="pt-2">
+          Escribe a david@iridis.care <i data-feather='chevron-right' class="feature-icon"></i>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
