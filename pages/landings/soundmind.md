@@ -56,7 +56,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> Estrés postraumático</p>
         <p><i data-feather='check' class="feature-icon"></i> Bipolaridad</p>
-        <p><i data-feather='check' class="feature-icon"></i> Neurodegeneración</p>
+        <p><i data-feather='check' class="feature-icon"></i> Burnout</p>
       </div>
     </div>
   </div>
