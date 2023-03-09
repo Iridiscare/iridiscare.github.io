@@ -63,7 +63,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 col-lg-4">
         <a href="/soundmind" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
-            <h5><span class="blob purple"></span>  SoundMind30</h5>
+            <h5><span class="blob purple"></span>  SoundMind</h5>
             <p>Programa para <b>calmar la mente y reducir el estrés</b> en 30 días.</p>
             <a href="/soundmind" style="font-size: 20px">
               Ver vídeo <i data-feather='chevron-right' class="feature-icon"></i>
