@@ -14,9 +14,9 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Cómo mejorar tu salud mental en 30 días.</h1>
+        <h1>Cómo mejorar tu salud mental y reducir el estrés en 30 días.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p><b>En el siguiente vídeo te explicamos cómo reservar tu sesión gratuita</b> y cómo funciona nuestro método.</p>
+        <p><b>El siguiente vídeo te explica cómo reservar tu sesión gratuita</b> y cómo funciona nuestro método.</p>
         <!-- <div class="animate__animated animate__git bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma la mente</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Reduce el estrés</i></p>
@@ -29,6 +29,30 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
+
+<div class="strip-white">
+  <div class="container-sm pt-4 pt-md-6 pt-lg-6 pb-6 px-3">
+    <div class="feature-product-title">
+      <h4>El método para personas que...</h4>
+    </div>
+    <div class="row pt-2">
+      <div class="col-12 col-md-1 col-lg-1"></div>
+      <div class="col-12 col-md-5 col-lg-5">
+        <p><i data-feather='check' class="feature-icon"></i> Se agobian sin motivo</p>
+        <p><i data-feather='check' class="feature-icon"></i> Sufren de ansiedad</p>
+        <p><i data-feather='check' class="feature-icon"></i> Se sienten deprimidas</p>
+      </div>
+      <div class="col-12 col-md-5 col-lg-5">
+        <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
+        <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
+        <p><i data-feather='check' class="feature-icon"></i> Con emociones sin control</p>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-2">
+       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
+    </div>
+  </div>
+</div> 
 
 <div class="strip-white">
   <div class="container pb-6 pt-md-4 pt-lg-6 px-3">
@@ -52,6 +76,70 @@ bodyClass: "page-home"
   </div>
   </div>
 </div>
+
+<div class="strip-white" id="tech">
+  <div class="container pt-6 pb-2 pt-md-6 pb-md-2 px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
+        <div class="feature-content">
+          <h4 class="feature-product-title">
+            Análisis de voz para cuantificar el estrés.
+          </h4>
+          <div class="feature-image pt-4">
+            <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/voice.webp" />
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
+        <div class="feature-content">
+          <h4 class="feature-product-title">
+            Terapia de sonido para sincronizar el cerebro.
+          </h4>
+          <div class="feature-image pt-4">
+            <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath.webp" />
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
+        <div class="feature-content">
+          <h4 class="feature-product-title">
+            Plan de seguimiento personalizado.
+          </h4>
+          <div class="feature-image pt-4">
+            <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-4 pb-4 px-3">
+    <div class="feature-product-title">
+      <h4>Con el método de 4 semanas de Iridis conseguirás:</h4>
+    </div>
+  </div>
+  <div class="container-sm pb-2 px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-1 col-lg-1"></div>
+      <div class="col-12 col-md-5 col-lg-5">
+        <p><i data-feather='check' class="feature-icon"></i> Parar la mente</p>
+        <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
+        <p><i data-feather='check' class="feature-icon"></i> Calmar la ansiedad</p>
+      </div>
+      <div class="col-12 col-md-5 col-lg-5">
+        <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
+        <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
+        <p><i data-feather='check' class="feature-icon"></i> Controlar las emociones</p>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-4 pb-4">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
+    </div>
+  </div>
+</div>
+
 
 <div class="strip-white">
   <div class="container-sm pt-6 pb-4 px-3">
@@ -140,93 +228,6 @@ bodyClass: "page-home"
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-3">
-    <div class="feature-product-title">
-      <h4>El método para personas que...</h4>
-    </div>
-    <div class="row pt-2">
-      <div class="col-12 col-md-1 col-lg-1"></div>
-      <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Se agobian sin motivo</p>
-        <p><i data-feather='check' class="feature-icon"></i> Sufren de ansiedad</p>
-        <p><i data-feather='check' class="feature-icon"></i> Quieren sentirse mejor</p>
-      </div>
-      <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
-        <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
-        <p><i data-feather='check' class="feature-icon"></i> Tienen carga emocional</p>
-      </div>
-    </div>
-    <div class="row justify-content-center pt-2">
-       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
-    </div>
-  </div>
-</div> 
-
-<div class="strip-white" id="tech">
-  <div class="container pt-6 pb-2 pt-md-6 pb-md-2 px-3">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
-        <div class="feature-content">
-          <h4 class="feature-product-title">
-            Análisis de voz para cuantificar el estrés.
-          </h4>
-          <div class="feature-image pt-4">
-            <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/voice.webp" />
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
-        <div class="feature-content">
-          <h4 class="feature-product-title">
-            Terapia de sonido para sincronizar el cerebro.
-          </h4>
-          <div class="feature-image pt-4">
-            <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath.webp" />
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-2 pb-3">
-        <div class="feature-content">
-          <h4 class="feature-product-title">
-            Plan de seguimiento personalizado.
-          </h4>
-          <div class="feature-image pt-4">
-            <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip-white">
-  <div class="container-sm pt-4 pb-4 px-3">
-    <div class="feature-product-title">
-      <h4>Experimenta el método de Iridis durante 4 semanas y consigue:</h4>
-    </div>
-  </div>
-  <div class="container-sm pb-2 px-3">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-1 col-lg-1"></div>
-      <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Parar la mente</p>
-        <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
-        <p><i data-feather='check' class="feature-icon"></i> Calmar la ansiedad</p>
-      </div>
-      <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
-        <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
-        <p><i data-feather='check' class="feature-icon"></i> Liberar emociones</p>
-      </div>
-    </div>
-    <div class="row justify-content-center pt-4 pb-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
     </div>
   </div>
 </div>
