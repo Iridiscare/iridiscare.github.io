@@ -25,7 +25,7 @@ sitemap: false
   <div class="container-sm px-3 pt-3 pb-6">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-2">
-        <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/video.png" onclick="openForm()" />
+        <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/landings/video.webp" onclick="openForm()" />
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> Sin medicaciones que te dejan como un vegetal y sin energía.</p>
