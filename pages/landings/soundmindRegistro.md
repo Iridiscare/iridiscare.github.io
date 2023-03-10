@@ -51,7 +51,7 @@ sitemap: false
   <!-- <a href="https://iridis-care.notion.site/Privacy-policy-fc763c0497f745d1866bcf75b422ed70"> <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 5px">Lea la información detallada sobre protección y tratamiento de datos.</p></a> -->
   <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 40px">Al inscribirte, de darás de alta en nuestra newsletter y recibirás nuestra "Guía para controlar la ansiedad".</p>
   {% include form.html 
-    cta='Inscribirme y ver vídeo gratis'
+    cta='Quiero verlo ahora'
     list='https://4267f462.sibforms.com/serve/MUIEANs2BrQvGn6O5XffhN46GGQaUZjKQAXQ5XgG6JGa29ZL3C4IuSfwCPBMRAb-_mkCvSYOqqA0f5ry5Z0lQl0AG3YFr26_SiHFtFW5NCFnZRztv5IgZM2zFV6jcKK-pzKhN5nGzgqWIpYrxx-WWvEopbLJ1Z7RapyC6HA_oStWAzhoUkFxW2Q2ixA4l4qkq2F0u9otapgCfT5b'
     event='register_newslettter_soundmind'
   %}
