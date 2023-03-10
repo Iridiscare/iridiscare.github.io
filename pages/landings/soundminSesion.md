@@ -13,10 +13,10 @@ bodyClass: "page-home"
 <div class="intro" style="margin-bottom: -100px">
   <div class="container px-3">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-6 pb-2">
+      <div class="col-12 col-md-6 col-lg-6 pb-1">
         <h1 style="font-size: 28px">Cómo reducir el estrés un 56% con el método que funciona en 9 de cada 10 personas.</h1>
         <p>
-          Mejora tu salud mental mediante la terapia de sonido.
+          Mejora tu salud mental mediante la terapia de sonido en solo 30 días.
         </p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
@@ -181,7 +181,7 @@ bodyClass: "page-home"
   <div class="container-sm pb-6 pt-6">
     <div class="col-12">
       <div class="feature-product-title pb-2">
-        <h4>Mira el vídeo y reserva cuando te gustaría tener tu sesión gratuita.</h4>
+        <h4>Mira el vídeo y agenda tu sesión gratuita.</h4>
         <p style="color: red; font-size: 18px">¡IMPORTANTE! Solemos tener la agenda llena. Si no tienes tiempo, por favor, no reserves y deja hueco a personas que realmente lo necesiten.</p>
       </div>
       <div class="row justify-content-center pb-4" style="text-align: center;">
@@ -229,7 +229,7 @@ bodyClass: "page-home"
   <div class="container-sm pb-6 pt-6">
     <div class="col-12">
       <div class="feature-product-title pb-2">
-        <h4>Reserva cuando te gustaría tener tu 1ª sesión gratuita.</h4>
+        <h4>Agenda tu sesión gratuita.</h4>
         <p style="color: red; font-size: 18px">¡IMPORTANTE! Solemos tener la agenda llena. Si no tienes tiempo, por favor, no reserves y deja hueco a personas que realmente lo necesiten.</p>
       </div>
       <div class="row justify-content-center pb-4 feature-produc">
