@@ -53,7 +53,7 @@ bodyClass: "page-home"
         <a href="/knowthyself" style="text-decoration: none;">
           <div class="feature-product p-3 mb-4">
             <h5><span class="blob purple-2"></span>  KnowThyself</h5>
-            <p>Curso online de <b>autoconocimiento y gestión de emociones</b>.</p>
+            <p>Curso online de <b>autoconocimiento y gestión emocional</b>.</p>
             <a href="/knowthyself" style="font-size: 20px">
               Ver clase gratis <i data-feather='chevron-right' class="feature-icon"></i>
             </a>
