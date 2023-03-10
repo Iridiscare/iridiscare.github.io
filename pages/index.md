@@ -1,5 +1,5 @@
 ---
-title: "Iridis Care - Terapia de sonido personalizada para mejorar la salud mental"
+title: "Iridis Care - Centro de reducción de estrés para mejorar la salud mental"
 description: Ayudamos a personas estresadas mediante el autoconocimiento, la gestión emocional y terapia de sonido personalizada.
 permalink: /
 layout: default
