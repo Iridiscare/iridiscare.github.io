@@ -1,5 +1,5 @@
 ---
-title: "SoundMind30 de Iridis"
+title: "SoundMind de Iridis"
 description: El método para calmar la mente y reducir el estrés en 30 días
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
@@ -14,7 +14,7 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Reserva tu sesión gratuita para mejorar tu salud en 30 días.</h1>
+        <h1>Reserva tu sesión gratuita para mejorar tu salud mental en 30 días.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p><b>Te explicamos en un vídeo cómo reservar tu sesión</b> y cómo funciona nuestro método.</p>
         <!-- <div class="animate__animated animate__git bounceInLeft">
@@ -45,7 +45,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-5 col-lg-5">
         <p><i data-feather='check' class="feature-icon"></i> No paran la mente</p>
         <p><i data-feather='check' class="feature-icon"></i> No quieren medicarse</p>
-        <p><i data-feather='check' class="feature-icon"></i> Con emociones sin control</p>
+        <p><i data-feather='check' class="feature-icon"></i> Quieren sentirse mejor</p>
       </div>
     </div>
     <div class="row justify-content-center pt-2">
@@ -60,7 +60,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
         <div class="feature-product-title">
           <h4 class="pb-2">
-            Nuestro método te ayuda a sincronizar el cerebro y reducir el estrés...
+            Nuestro método sincroniza el cerebro y reduce el estrés...
           </h4>
           <p><i data-feather='check' class="feature-icon"></i> En 4 semanas&nbsp;&nbsp;&nbsp;</p>
           <p><i data-feather='check' class="feature-icon"></i> Un 56% de media</p>
