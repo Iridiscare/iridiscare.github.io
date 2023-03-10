@@ -31,12 +31,12 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container pb-6 px-3">
+  <div class="container pb-6 pt-md-4 pt-lg-6 px-3">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
         <div class="feature-product-title">
           <h4 class="pb-2">
-            Nuestro método te ayuda a reducir el estrés...
+            Nuestro método te ayuda a sincronizar el cerebro y reducir el estrés...
           </h4>
           <p><i data-feather='check' class="feature-icon"></i> En 4 semanas&nbsp;&nbsp;&nbsp;</p>
           <p><i data-feather='check' class="feature-icon"></i> Un 56% de media</p>

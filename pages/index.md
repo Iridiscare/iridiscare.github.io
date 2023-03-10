@@ -12,9 +12,9 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Calma la mente y reduce el estrés para alcanzar la paz interior.</h1>
+        <h1>Mejora tu salud mental reduciendo el estrés para alcanzar la paz interior.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>Ayudamos a personas estresadas <b>mediante el autoconocimiento, la gestión emocional y la terapia de sonido personalizada.</b></p>
+        <p>Ayudamos a personas con problemas de salud mental <b>mediante el autoconocimiento, la gestión emocional y la terapia de sonido personalizada.</b></p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind">Conoce nuestro método</a>
       </div>
     </div>
@@ -33,7 +33,7 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pt-8 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>3 servicios para tu salud mental y física.</h4>
+      <h4>3 servicios para tu salud mental.</h4>
     </div>
   </div>
   <div class="container-sm pb-6 px-3">
