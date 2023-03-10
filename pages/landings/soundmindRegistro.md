@@ -47,7 +47,7 @@ sitemap: false
 
 <div class="form-popup" id="myForm">
   <div class="form-popup-button" onclick="closeForm()"><i data-feather='x' class="feature-icon"></i></div>
-  <h5 style="text-align: center;" class="pt-2">Escribe tu email, <b style="color: #9B51E0">accede inmediatamente al vídeo</b> y recibe gratis nuestra <b style="color: #9B51E0">"Guía para controlar la ansiedad".</b></h5>
+  <h5 style="text-align: center;" class="pt-2">Escribe tu email y accede inmediatamente al vídeo</h5>
   <!-- <a href="https://iridis-care.notion.site/Privacy-policy-fc763c0497f745d1866bcf75b422ed70"> <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 5px">Lea la información detallada sobre protección y tratamiento de datos.</p></a> -->
   <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 40px">Al inscribirte, de darás de alta en nuestra newsletter y recibirás nuestra "Guía para controlar la ansiedad".</p>
   {% include form.html 
