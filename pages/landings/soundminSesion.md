@@ -14,20 +14,19 @@ bodyClass: "page-home"
   <div class="container px-3">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-2">
-        <h5>Programa SoundMind</h5>
-        <h1 style="font-size: 34px">Cómo <b>mejorar tu salud mental</b> en 30 días.</h1>
+        <h1 style="font-size: 28px">Cómo reducir el estrés un 56% con el método que funciona en 9 de cada 10 personas.</h1>
         <p>
-          Reduce un 56% tus niveles de estrés, calmando la mente y gestionando las emociones mediante la terapia de sonido. <b>1ª sesión gratuita.</b>
+          Mejora tu salud mental mediante la terapia de sonido.
         </p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature-product" style="background-color: white; overflow: hidden;">
           <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/jw2v0x" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
           <div class="m-2">
-            <h5>SoundMind</h5>
+            <h5>Método SoundMind</h5>
             <div class="row">
               <div class="col-12 col-md-6 col-lg-6">
-                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 4 semanas</p>
+                <p style="font-size: 15px; font-color:grey"><i data-feather='calendar' class="feature-icon-alt"></i> 1ª sesión gratis</p>
                 <p style="font-size: 15px; font-color:grey"><i data-feather='volume-2' class="feature-icon-alt"></i> Terapia de sonido</p>
               </div>
               <div class="col-12 col-md-6 col-lg-6">
@@ -37,7 +36,7 @@ bodyClass: "page-home"
             </div>
              <p style="color: gray; font-size: 14px;">Garantizamos resultados.</p>
             <div class="row px-1">
-              <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="#plans" style=" text-align: center">Reservar 1ª sesión gratis</a>
+              <a class="feature-button button button-primary btn-lg col-12 animate__animated animate__pulse" href="#plans" style=" text-align: center">Agendar sesión gratis</a>
             </div>
           </div>
         </div>
@@ -104,7 +103,7 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Te haremos una <b>prueba de estrés para saber tu estado actual.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Analizaremos tu voz para saber las frecuencias</b> que le faltan a tu sistema nervioso.</p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Crearemos un baño de sonido personalizado de 30 minutos</b> para que pruebes.</p>
-        <p><i data-feather='check' class="feature-icon"></i> Si te podemos ayudar definiremos tu <b>plan personalizado antiestrés de 4 semanas</b>.</p>
+        <p><i data-feather='check' class="feature-icon"></i> Si te podemos ayudar definiremos tu <b>plan antiestrés de 4 semanas</b>.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <div class="feature">
@@ -152,7 +151,7 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Mejorar la memoria</p>
         <p><i data-feather='check' class="feature-icon"></i> Dormir mejor</p>
         <div class="row justify-content-center pt-2">
-          <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar 1ª sesión gratis</a>
+          <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Reservar sesión gratis</a>
         </div>
       </div>
     </div>
