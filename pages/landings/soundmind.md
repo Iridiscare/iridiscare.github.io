@@ -14,15 +14,15 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>El método para calmar la mente y reducir el estrés en 30 días.</h1>
+        <h1>Cómo mejorar tu salud mental en 30 días.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p>En el siguiente vídeo te explicamos cómo conseguimos reducir el estrés en un 88% de los casos y cómo reservar tu sesión gratuita.</p>
-        <div class="animate__animated animate__git bounceInLeft">
-          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Relájate sin esfuerzo</i></p>
-          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Equilibra tu cuerpo-mente</i></p>
-          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Calma tu vacío interior</i></p>
-        </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+        <p><b>En el siguiente vídeo te explicamos cómo reservar tu sesión gratuita</b> y cómo funciona nuestro método.</p>
+        <!-- <div class="animate__animated animate__git bounceInLeft">
+          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma la mente</i></p>
+          <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Reduce el estrés</i></p>
+          <p style="line-height: 0; "><i data-feather='check' class="feature-icon"></i> <i>Equilibra tu cuerpo-mente</i></p>
+        </div> -->
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
         <!-- <br>
         <a class="gift animate__pulse" href="/promo"><i data-feather='gift' class="feature-icon"></i>Sesión GRATIS con tu FLYER</a> -->
       </div>
@@ -31,25 +31,25 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
-    <div class="feature-product-title">
-      <h4>Un método basado en evidencia científica para personas con...</h4>
+  <div class="container pb-6 px-3">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
+        <div class="feature-product-title">
+          <h4 class="pb-2">
+            Nuestro método te ayuda a reducir el estrés...
+          </h4>
+          <p><i data-feather='check' class="feature-icon"></i> En 4 semanas&nbsp;&nbsp;&nbsp;</p>
+          <p><i data-feather='check' class="feature-icon"></i> Un 56% de media</p>
+          <p><i data-feather='check' class="feature-icon"></i> Funciona en 8 de cada 10</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
+        <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/product/analytics.webp" />
+      </div>
     </div>
+    <div class="row justify-content-center pt-2">
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
   </div>
-  <div class="container-sm pb-6 pb-md-4 px-3">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-1 col-lg-1"></div>
-      <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Estrés crónico</p>
-        <p><i data-feather='check' class="feature-icon"></i> Burnout</p>
-        <p><i data-feather='check' class="feature-icon"></i> Estrés postraumático</p>
-      </div>
-      <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Miedo al cambio</p>
-        <p><i data-feather='check' class="feature-icon"></i> Pensamiento negativo</p>
-        <p><i data-feather='check' class="feature-icon"></i> Cambios emocionales</p> 
-      </div>
-    </div>
   </div>
 </div>
 
@@ -81,7 +81,42 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-9 pb-6 px-3">
+    <div class="feature-product-title">
+      <h4>Han hablado sobre el método de Iridis.</h4>
+    </div>
+    <div class="row justify-content-center pt-2">
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="40" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="42" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
+    </div>
+  </div>
+</div>
+
+<div class="strip-white">
+  <div class="container-sm pt-6 pb-4 pt-md-6 pb-md-4 px-4">
+    <div class="feature-product-title">
+      <h4>Un método basado en evidencia científica para personas con...</h4>
+    </div>
+  </div>
+  <div class="container-sm pb-6 pb-md-4 px-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-1 col-lg-1"></div>
+      <div class="col-12 col-md-5 col-lg-5">
+        <p><i data-feather='check' class="feature-icon"></i> Estrés crónico</p>
+        <p><i data-feather='check' class="feature-icon"></i> Burnout</p>
+        <p><i data-feather='check' class="feature-icon"></i> Estrés postraumático</p>
+      </div>
+      <div class="col-12 col-md-5 col-lg-5">
+        <p><i data-feather='check' class="feature-icon"></i> Miedo al cambio</p>
+        <p><i data-feather='check' class="feature-icon"></i> Pensamiento negativo</p>
+        <p><i data-feather='check' class="feature-icon"></i> Cambios emocionales</p> 
+      </div>
     </div>
   </div>
 </div>
@@ -89,39 +124,35 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container pt-6 pb-6 px-2">
     <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
+        <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
+      </div>
       <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
         <div class="feature-product-title">
           <h4 class="pb-2">
-            Nuestro método reduce el estrés...
+            Aprende los tres factores más importantes para:
           </h4>
-          <div class="row">
-            <div class="col-12">
-              <p><i data-feather='check' class="feature-icon"></i> Mínimo un 32% &nbsp;&nbsp;</p>
-              <p><i data-feather='check' class="feature-icon"></i> Un 56% de media</p>
-              <p><i data-feather='check' class="feature-icon"></i> En 4 semanas&nbsp;&nbsp;&nbsp;</p>
-            </div>
+          <p><i data-feather='check' class="feature-icon"></i> Calmar la mente</p>
+          <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
+          <p><i data-feather='check' class="feature-icon"></i> Mejorar tu salud mental</p>
+          <div class="pt-2">
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
-        <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/product/analytics.webp" />
-      </div>
     </div>
-    <div class="row justify-content-center pt-2">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
-  </div>
   </div>
 </div>
 
 <div class="strip-white">
   <div class="container-sm pt-6 pb-6 px-3">
     <div class="feature-product-title">
-      <h4>El método para personas con altos niveles de estrés que...</h4>
+      <h4>El método para personas que...</h4>
     </div>
     <div class="row pt-2">
       <div class="col-12 col-md-1 col-lg-1"></div>
       <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Se agobian fácilmente</p>
+        <p><i data-feather='check' class="feature-icon"></i> Se agobian sin motivo</p>
         <p><i data-feather='check' class="feature-icon"></i> Sufren de ansiedad</p>
         <p><i data-feather='check' class="feature-icon"></i> Quieren sentirse mejor</p>
       </div>
@@ -132,7 +163,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-2">
-       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+       <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
     </div>
   </div>
 </div> 
@@ -175,42 +206,6 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-6 px-3">
-    <div class="feature-product-title">
-      <h4>Han hablado sobre el método de Iridis.</h4>
-    </div>
-    <div class="row justify-content-center pt-2">
-      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="40" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
-      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="42" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
-    </div>
-  </div>
-</div>
-
-<div class="strip-white">
-  <div class="container pt-6 pb-6 px-2">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
-        <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
-      </div>
-      <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
-        <div class="feature-product-title">
-          <h4 class="pb-2">
-            Aprende los tres factores más importantes para:
-          </h4>
-          <p><i data-feather='check' class="feature-icon"></i> Calmar la mente</p>
-          <p><i data-feather='check' class="feature-icon"></i> Reducir el estrés</p>
-          <p><i data-feather='check' class="feature-icon"></i> Conocerte mejor</p>
-          <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="strip-white">
   <div class="container-sm pt-4 pb-4 px-3">
     <div class="feature-product-title">
       <h4>Experimenta el método de Iridis durante 4 semanas y consigue:</h4>
@@ -231,7 +226,7 @@ bodyClass: "page-home"
       </div>
     </div>
     <div class="row justify-content-center pt-4 pb-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
     </div>
   </div>
 </div>
@@ -243,7 +238,7 @@ bodyClass: "page-home"
         <div class="feature-product-title">
           <h4>Descubre cómo nuestro fundador superó sus problemas de salud mental.</h4>
           <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
           </div>
         </div>
       </div>
@@ -262,7 +257,7 @@ bodyClass: "page-home"
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12249.149997078619!2d-4.0236003!3d39.8677976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ed1e1af21569dac!2sIridis%20Care%20-%20Reduce%20tu%20estr%C3%A9s!5e0!3m2!1ses!2ses!4v1672861399929!5m2!1ses!2ses" width="100%" height="450" style="border: none; border-radius: 24px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="row justify-content-center pt-4 pb-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para reservar gratis</a>
+      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Ver vídeo para saber más</a>
     </div>
   </div>
 </div>
@@ -273,10 +268,20 @@ bodyClass: "page-home"
   <!-- <a href="https://iridis-care.notion.site/Privacy-policy-fc763c0497f745d1866bcf75b422ed70"> <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 5px">Lea la información detallada sobre protección y tratamiento de datos.</p></a> -->
   <p style="font-size: 14px; color: gray; line-height: 20px; margin-bottom: 40px">Al inscribirte, de darás de alta en nuestra newsletter y recibirás nuestra Guía para controlar la ansiedad.</p>
   {% include form.html 
-    cta='Ver vídeo para reservar sesión'
+    cta='Ver vídeo para saber más'
     list='https://4267f462.sibforms.com/serve/MUIEANs2BrQvGn6O5XffhN46GGQaUZjKQAXQ5XgG6JGa29ZL3C4IuSfwCPBMRAb-_mkCvSYOqqA0f5ry5Z0lQl0AG3YFr26_SiHFtFW5NCFnZRztv5IgZM2zFV6jcKK-pzKhN5nGzgqWIpYrxx-WWvEopbLJ1Z7RapyC6HA_oStWAzhoUkFxW2Q2ixA4l4qkq2F0u9otapgCfT5b'
     event='register_newslettter_soundmind'
   %}
+</div>
+
+<div>
+  <a 
+    href="#"
+    onclick="openForm()">
+    <div class="top-banner">
+      <p class="mt-1 mb-1"><b>RESERVAR SESIÓN GRATIS</b> <i data-feather='chevron-right' class="banner-icon"></i></p>
+    </div>
+  </a>
 </div>
 
 

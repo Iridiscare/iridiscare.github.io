@@ -15,9 +15,9 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pb-2">
         <h5>Programa SoundMind</h5>
-        <h1 style="font-size: 34px">Cómo <b>calmar la mente y reducir el estrés</b> en 30 días.</h1>
+        <h1 style="font-size: 34px">Cómo <b>mejorar tu salud mental</b> en 30 días.</h1>
         <p>
-          Reduce un 56% tus niveles de estrés, calmando la mente y liberando carga emocional mediante la terapia de sonido personalizada.
+          Reduce un 56% tus niveles de estrés, calmando la mente y gestionando las emociones mediante la terapia de sonido. <b>1ª sesión gratuita.</b>
         </p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
