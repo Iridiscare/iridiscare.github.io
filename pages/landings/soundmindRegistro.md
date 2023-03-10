@@ -11,7 +11,7 @@ sitemap: false
   <div class="container-sm">
     <div class="col-12">
       <div class="row justify-content-center" style="text-align: center;">
-        <p>¡Vídeo de 8 min. para personas con estrés y las emociones descontroladas! </p>
+        <p>¡Vídeo de 8 min. para personas con estrés y ansiedad! </p>
         <h1 style="font-size: 28px">Cómo reducir el estrés un 56% con el método que funciona en 9 de cada 10 personas.</h1>
       </div>
       <div class="row justify-content-center" style="text-align: center;">
