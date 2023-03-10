@@ -16,7 +16,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
         <h1>El método para mejorar tu salud mental en 30 días.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
-        <p><b>Te explicamos en un vídeo cómo reservar tu sesión</b> y cómo funciona nuestro método.</p>
+        <p><b>Te explicamos en un vídeo cómo reservar tu sesión gratuita</b> y cómo funciona nuestro método.</p>
         <!-- <div class="animate__animated animate__git bounceInLeft">
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Calma la mente</i></p>
           <p class="copies"><i data-feather='check' class="feature-icon"></i> <i>Reduce el estrés</i></p>
