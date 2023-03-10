@@ -12,7 +12,7 @@ bodyClass: "page-home"
   <div class="container-sm pb-2">
     <div class="justify-content-center">
       <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Mejora tu salud mental reduciendo el estrés y calmar la mente.</h1>
+        <h1>Mejora tu salud mental reduciendo el estrés y calmando la mente.</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Ayudamos a personas con problemas de salud mental <b>mediante el autoconocimiento, la gestión emocional y la terapia de sonido personalizada.</b></p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/soundmind">Conoce nuestro método</a>
