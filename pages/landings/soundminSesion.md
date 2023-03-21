@@ -1,5 +1,5 @@
 ---
-title: "Reserva una sesión gratuita y prueba el programa SoundMind30"
+title: "Reserva una sesión gratuita y prueba el programa SoundMind"
 description: Calma la mente, liberar carga emocional y reduce el estrés durante 30 días
 intro_image: "images/illustrations/stress-levels.svg"
 intro_image_absolute: true
@@ -98,7 +98,7 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-4">
-        <p>Sesión gratuita valorada en 129€ donde:</p>
+        <p>Sesión gratuita donde:</p>
         <p><i data-feather='check' class="feature-icon"></i> Nos conoceremos y <b>evaluaremos tu caso personal.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> Te haremos una <b>prueba de estrés para saber tu estado actual.</b></p>
         <p><i data-feather='check' class="feature-icon"></i> <b>Analizaremos tu voz para saber las frecuencias</b> que le faltan a tu sistema nervioso.</p>
