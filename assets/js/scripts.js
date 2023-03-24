@@ -30,7 +30,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 $(document).scroll(function () {
   var y = $(this).scrollTop();
-  if (y > 800) {
+  if (y > 400) {
     $(".top-banner").slideDown();
   } else {
     $(".top-banner").slideUp();

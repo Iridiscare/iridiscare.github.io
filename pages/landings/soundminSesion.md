@@ -73,16 +73,20 @@ bodyClass: "page-home"
       <h4>¿Por qué agendar una sesión con nosotros?</h4>
     </div>
     <div class="row pt-4">
-      <div class="col-12 col-md-1 col-lg-1"></div>
-      <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Método antiestrés único</p>
-        <p><i data-feather='check' class="feature-icon"></i> Garantía con resultados</p>
-        <p><i data-feather='check' class="feature-icon"></i> Evidencia científica</p>
+       <div class="col-12 col-md-6 col-lg-6">
+        <div class="feature-product-title">
+          <h5 class="pb-2">
+            Nuestro método de 4 semanas reduce el estrés...
+          </h5>
+          <p><i data-feather='check' class="feature-icon"></i> Un 56% de media</p>
+          <p><i data-feather='check' class="feature-icon"></i> Funciona en 9 de cada 10</p>
+          <p><i data-feather='check' class="feature-icon"></i> Garantía con resultados</p>
+          <p><i data-feather='check' class="feature-icon"></i> Basado en datos</p>
+          <p><i data-feather='check' class="feature-icon"></i> Sin medicación</p>
+        </div>
       </div>
-      <div class="col-12 col-md-5 col-lg-5">
-        <p><i data-feather='check' class="feature-icon"></i> Basado en datos</p>
-        <p><i data-feather='check' class="feature-icon"></i> Sin medicación</p>
-        <p><i data-feather='check' class="feature-icon"></i> Hemos sufrido estrés</p>
+      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
+        <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/product/analytics.webp" />
       </div>
     </div>
     <div class="row justify-content-center pt-2">
