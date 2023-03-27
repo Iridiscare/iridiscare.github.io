@@ -17,7 +17,7 @@ bodyClass: "page-home"
         </div>
         <h4>Imagina reducir tus niveles de estrés.</h4>
         <h4>¿Cómo te sentirías?</h4>
-        <p>Ayudamos a calmar la mente y sistema nervioso através de la IA, las ciencias contemplativas y la terapia de sonido personalizada.</p>
+        <p>Ayudamos a calmar la mente y sistema nervioso a través de la IA, las ciencias contemplativas y la terapia de sonido personalizada.</p>
       </div>
       <div class="col-12 col-md-12 col-lg-8 pb-3 pt-4 pt-lg-10 pt-md-10">
         <div class="row justify-content-center">
