@@ -21,32 +21,32 @@ bodyClass: "page-home"
       </div>
       <div class="col-12 col-md-12 col-lg-8 pb-3 pt-4 pt-lg-10 pt-md-10">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-4 col-lg-4 mb-2 pb-3">
+          <div class="col-12 col-md-4 col-lg-4 pb-4">
             <div class="feature-content">
               <h5 class="feature-product-title">
                 Anzalizamos y cuantificamos tu estrés.
               </h5>
-              <div class="feature-image pt-4">
+              <div class="feature-image pt-3">
                 <img alt="Iridis te analiza la voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/voice.webp" />
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 col-lg-4 mb-2 pb-3">
+          <div class="col-12 col-md-4 col-lg-4 pb-4">
             <div class="feature-content">
               <h5 class="feature-product-title">
                 Diseñamos sonidos personalizados.
               </h5>
-              <div class="feature-image pt-4">
+              <div class="feature-image pt-3">
                 <img alt="Iridis extrae las frecuecnias de tu voz" class="feature-product img-fluid" width="100%" src="/assets/images/product/analysis.webp" />
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 col-lg-4 mb-2">
+          <div class="col-12 col-md-4 col-lg-4 pb-4">
             <div class="feature-content">
               <h5 class="feature-product-title">
                 Calma la mente con un baño de sonido.
               </h5>
-              <div class="feature-image pt-4">
+              <div class="feature-image pt-3">
                 <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
               </div>
             </div>
@@ -115,6 +115,11 @@ bodyClass: "page-home"
         </a>
       </div>
     </div>
+    <div class="row justify-content-center">
+      <a href="/corporate" style="font-size: 20px" class="pt-2">
+        Servicio para empresas <i data-feather='chevron-right' class="feature-icon"></i>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -171,9 +176,6 @@ bodyClass: "page-home"
         <p><i data-feather='check' class="feature-icon"></i> Controlar las emociones</p>
       </div>
     </div>
-    <div class="row justify-content-center pt-4 pb-4">
-      <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#" onclick="openForm()">Reservar sesión gratuita</a>
-    </div>
   </div>
 </div>
 
@@ -218,6 +220,11 @@ bodyClass: "page-home"
           </div>
         </a>
       </div>
+    </div>
+    <div class="row justify-content-center">
+      <a href="/corporate" style="font-size: 20px" class="pt-2">
+        Servicio para empresas <i data-feather='chevron-right' class="feature-icon"></i>
+      </a>
     </div>
   </div>
 </div>
