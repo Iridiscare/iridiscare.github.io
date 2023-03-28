@@ -1,10 +1,6 @@
 ---
 title: "SoundMind de Iridis"
 description: El método para calmar la mente y reducir el estrés en 30 días
-intro_image: "images/illustrations/stress-levels.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
-show_call_box: true
 permalink: /soundmind
 layout: default
 bodyClass: "page-home"

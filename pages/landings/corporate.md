@@ -4,6 +4,7 @@ description: Cuida del equilibrio mental y emocional de tus empleados.
 permalink: /corporate
 layout: default
 bodyClass: "page-home"
+image: /assets/images/landings/corporate.png
 ---
 
 <div class="intro">

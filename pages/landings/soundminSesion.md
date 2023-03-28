@@ -1,10 +1,6 @@
 ---
 title: "Reserva un baño de sonido personalizado antiestrés"
 description: Calma la mente, liberar carga emocional y reduce el estrés en minutos
-intro_image: "images/illustrations/stress-levels.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
-show_call_box: true
 permalink: /soundmind/sesion
 layout: default
 bodyClass: "page-home"
