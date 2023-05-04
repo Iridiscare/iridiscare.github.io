@@ -18,7 +18,7 @@ bodyClass: "page-home"
         <br>
       </div>
       <div class="col-12 col-md-6 col-lg-6 pb-4">
-        <img alt="Iridis app" class="img-fluid" width="100%" src="/assets/images/app-sm.png" />
+        <img alt="Iridis app" class="img-fluid" width="100%" src="/assets/images/app-sm.webp" />
       </div>
     </div>
   </div>
