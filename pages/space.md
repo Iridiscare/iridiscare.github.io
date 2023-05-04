@@ -24,7 +24,7 @@ bodyClass: "page-home"
           <p class="copies"><i data-feather='sunrise' class="feature-icon"></i> <i>Luz del amanecer</i></p>
           <p style="line-height: 0; "><i data-feather='wind' class="feature-icon"></i> <i>Aroma relajante</i></p>
         </div>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="#plans">Sí, quiero reducir mi estrés</a>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/">Sí, quiero reducir mi estrés</a>
         <br>
       </div>
     </div>
@@ -32,7 +32,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white">
-  <div class="container-sm pt-6 pb-2 px-3">
+  <div class="container-sm pt-6 pb-2 px-2">
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h4><i data-feather='triangle' class="feature-icon"></i> Pirámide sonora</h4>
@@ -54,7 +54,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip" id="pyramid">
-  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-2">
     <div class="feature-product-title pb-4">
       <h4><i data-feather='triangle' class="feature-icon"></i> Pirámide sonora</h4>
     </div>
@@ -73,7 +73,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip-white" id="pyramid">
-  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-2">
     <div class="feature-product-title pb-4">
       <h4><i data-feather='sunrise' class="feature-icon"></i> Luz del amanecer</h4>
     </div>
@@ -92,7 +92,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip" id="pyramid">
-  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-3">
+  <div class="container-sm pt-6 pb-6 pt-md-6 pb-md-6 px-2">
     <div class="feature-product-title pb-4">
       <h4><i data-feather='wind' class="feature-icon"></i> Aroma relajante</h4>
     </div>
@@ -105,51 +105,6 @@ bodyClass: "page-home"
         <div class="feature-image">
           <img alt="{{ page.title }}" class="feature-product  img-fluid" width="100%" src="/assets/images/product/pyramid-light.webp" />
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip-white">
-  <div class="container-sm pt-8 pb-6 px-3">
-    <div class="feature-product-title">
-      <h4>3 servicios para tu salud mental y física.</h4>
-    </div>
-  </div>
-  <div class="container-sm pb-6 px-3">
-    <div class="row">
-      <div class="col-12 col-md-4 col-lg-4">
-        <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="text-decoration: none;">
-          <div class="feature-product p-3 mb-4">
-            <h5><span class="blob purple-1"></span> SoundBaths</h5>
-            <p>Baños de sonido personalizados para <b>relajarte en minutos.</b> </p>
-            <a href="https://calendly.com/iridis-care/sesion-antiestres-30" style="font-size: 20px">
-              Reservar sesión <i data-feather='chevron-right' class="feature-icon"></i>
-            </a>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-4 col-lg-4">
-        <a href="/knowthyself" style="text-decoration: none;">
-          <div class="feature-product p-3 mb-4">
-            <h5><span class="blob purple-2"></span>  KnowThyself</h5>
-            <p>Curso online de <b>autoconocimiento y gestión de emociones</b>.</p>
-            <a href="/knowthyself" style="font-size: 20px">
-              Ver clase gratis <i data-feather='chevron-right' class="feature-icon"></i>
-            </a>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-4 col-lg-4">
-        <a href="/soundmind" style="text-decoration: none;">
-          <div class="feature-product p-3 mb-4">
-            <h5><span class="blob purple"></span>  SoundMind30</h5>
-            <p>Programa para <b>calmar la mente y reducir el estrés</b> en 30 días.</p>
-            <a href="/soundmind" style="font-size: 20px">
-              Ver vídeo <i data-feather='chevron-right' class="feature-icon"></i>
-            </a>
-          </div>
-        </a>
       </div>
     </div>
   </div>

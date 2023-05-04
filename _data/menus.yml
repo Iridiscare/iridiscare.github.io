@@ -1,7 +1,4 @@
 main:
-  - name: "El método"
-    url: "/soundmind"
-    weight: 1
   - name: "Ciencia"
     url: "/ciencia-estres-sonido"
     weight: 2

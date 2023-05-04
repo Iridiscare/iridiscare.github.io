@@ -1,62 +1,57 @@
 [
   {
     "quote": "Una hora después tengo la cabeza bastante descongestionada y hace tiempo que no sentía esto.",
-    "author": "Alberto - Empresario",
+    "author": "Alberto",
     "active": false
   },
   {
     "quote": "Tengo estrés postraumático y estoy empenzado a verbalizar emociones que antes no podia.",
-    "author": "Ricardo - Profesor",
+    "author": "Ricardo",
     "active": false
   },
   {
-    "quote": "Mi experiencia fue sorprendente, no me esperaba entrar en tal estado de relajación profunda.",
-    "author": "Rosina - Artista",
+    "quote": "No me esperaba entrar en tal estado de relajación profunda.",
+    "author": "Rosina",
     "active": false
   },
   {
     "quote": "Me siento tan relajada como si hubiera estado llorando horas.",
-    "author": "Ingrid - Camarera",
+    "author": "Ingrid",
     "active": true
   },
   {
     "quote": "Me he relajado sin yo quererlo. Sonido envolvente.",
-    "author": "Lucía - Gerente",
+    "author": "Lucía",
     "active": false
   },
   {
-    "quote": "Momento íntimo conmigo misma y mis pensamientos. Experiencia relajante.",
-    "author": "Celia - Empresaria",
+    "quote": "Momento íntimo conmigo misma. Experiencia relajante.",
+    "author": "Celia",
     "active": false
   },
   {
-    "quote": "Sorprendente y reconfortante. Tengo cosquilleos por la cabeza. Una vuelta a la calma.",
-    "author": "Alejandro - Profesor",
+    "quote": "Sorprendente y reconfortante. Una vuelta a la calma.",
+    "author": "Alejandro",
     "active": false
   },
   {
     "quote": "No he pensado en nada y me hecho consciente de lo estresado que estaba.",
-    "author": "Jose Miguel - Albañil",
+    "author": "Jose Miguel",
     "active": false
   },
   {
-    "quote": "Me llevo un momento de relajación. Me voy mejor de lo que he venido.",
-    "author": "Carlos - Autónomo",
-    "active": false
-  },
-  {
-    "quote": "Una experiencia que me ayuda a parar mentalmente y conocerme.",
-    "author": "Ricardo - Actor",
+    "quote": "Una experiencia que ayuda a parar mentalmente y conocerse.",
+    "author": "Ricardo",
     "active": false
   },
   {
     "quote": "Me he relajado sin esfuerzo y profundamente.",
-    "author": "Ana - Psicoterapeuta",
+    "author": "Ana",
     "active": false
   },
   {
-    "quote": "Según mi smartwatch mi corazón nunca baja de 70 pulsaciones, al terminar tenía 59.",
-    "author": "Inés - Policía",
+    "quote": "Me he sentido como conectada al útero materno.",
+    "author": "Flora",
     "active": false
   },
 ]
