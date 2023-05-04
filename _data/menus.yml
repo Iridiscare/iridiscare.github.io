@@ -1,8 +1,11 @@
 main:
+  - name: "Funcionalidades"
+    url: "/features"
+    weight: 2
   - name: "Ciencia"
     url: "/ciencia-estres-sonido"
     weight: 2
-  - name: "Espacio"
+  - name: "Pirámide"
     url: "/espacio-relajacion"
     weight: 2
   - name: "Blog"
