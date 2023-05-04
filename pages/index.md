@@ -12,8 +12,8 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1>Descubre si tienes estrés con tu voz</h1>
-        <p>Iridis te ayuda a cuidar de tu salud mental y reducir tus niveles de estrés con sonidos personalizados.</p>
+        <h1>Descubre si tienes estrés en segundos</h1>
+        <p>Iridis te ayuda a calmar tu mente y reducir tus niveles de estrés con sonidos personalizados a partir de tu voz.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK">Descargar la app de Iridis</a>
         <br>
       </div>
