@@ -13,7 +13,7 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
         <h1 class="rainbow" >Conoce tu nivel de estrés en segundos</h1>
-        <p>Te ayudamos a reducir el estrés, cuidar de tu salud mental y conectar con tu interior a partir del análisis de tu voz.</p>
+        <p>Te ayudamos a reducir el estrés, conectar con tu interior y cuidar de tu salud mental a partir del análisis de tu voz.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK">Descargar la app de Iridis</a>
         <br>
       </div>
