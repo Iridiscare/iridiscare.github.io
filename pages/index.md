@@ -25,7 +25,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip">
-  <div class="container-sm pb-6">
+  <div class="container-sm pb-6 px-2">
     <div class="row">
       <div class="col-12">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
