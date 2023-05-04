@@ -1,6 +1,6 @@
 main:
-  - name: "Funcionalidades"
-    url: "/features"
+  - name: "Sobre la app"
+    url: "/app"
     weight: 2
   - name: "Ciencia"
     url: "/ciencia-estres-sonido"
