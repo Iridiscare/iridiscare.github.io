@@ -12,7 +12,7 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1 class="rainbow" >Descubre si tienes estrés en segundos</h1>
+        <h1 class="rainbow" >Descubre si tienes estrés al instante</h1>
         <p>Te ayudamos a cuidar de tu salud mental, conectar con tu interior y controlar el estrés analizando tu voz.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK">Descargar la app de Iridis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
         <br>
