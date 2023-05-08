@@ -1,7 +1,7 @@
 ---
 title: "Iridis - Cómo funciona la app"
-description: Calma tu mente y reduce el estrés con sonidos personalizados a partir de las frecuencias de tu voz.
-permalink: /app
+description: La app de Iridis tiene todo lo que necesitas para controlar tu estrés
+permalink: /funcionalidades
 layout: default
 bodyClass: "page-home"
 ---
