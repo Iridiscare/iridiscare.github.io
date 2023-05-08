@@ -97,4 +97,19 @@ bodyClass: "page-home"
   </div>
 </div>
 
+<div class="strip">
+  <div class="container pt-6 pb-6 px-2">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
+        <p style="text-transform: uppercase; color: #262626">Pirámide de sonido</p>
+        <h4 style="font-size: 1.2em;">Meditaciones super profundas</h4>
+        <p style="color: #262626; font-size: 1.15rem;">Reserva desde la app nuestro pirámide de sonido, siente las vibraciones tu cuerpo y mente. Sonido envolvente.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/landings/features/pyramid.webp" />
+      </div>
+    </div>
+  </div>
+</div>
+
 
