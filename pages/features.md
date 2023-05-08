@@ -1,7 +1,7 @@
 ---
 title: "Iridis - Cómo funciona la app"
 description: La app de Iridis tiene todo lo que necesitas para controlar tu estrés
-permalink: /funcionalidades
+permalink: /app
 layout: default
 bodyClass: "page-home"
 ---

@@ -18,7 +18,7 @@ bodyClass: "page-home"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Descargar la app de Iridis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
         <br>
       </div>
-      <div class="col-12 col-md-6 col-lg-6 pb-4">
+      <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis app" class="img-fluid" width="100%" src="/assets/images/app-sm.webp" />
       </div>
     </div>
@@ -58,6 +58,11 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="40" src="/assets/images/logo/abc-logo.png" style="padding: 5px; margin-top: 3px" />
       <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="42" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
+    </div>
+     <div class="row justify-content-center">
+        <a href="/app" style="font-size: 18px" class="pt-4">
+          Conoce más sobre la app <i data-feather='chevron-right' class="feature-icon"></i>
+        </a>
     </div>
   </div>
 </div>
