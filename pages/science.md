@@ -15,8 +15,8 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container-sm">
     <div class="justify-content-center">
-      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>La ciencia que reduce el estrés a través de la voz y el sonido</h1>
+      <div class="col-12 col-md-10 col-lg-10">
+        <h1 class="rainbow">La ciencia que reduce el estrés a través de la voz y el sonido</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Análisis de voz para detectar el estrés, más sonidos que modifican el cerebro y ayudan a reducir el estrés. No es magia, es ciencia.</p>
         <div class="animate__animated animate__bounceInLeft">
@@ -45,7 +45,7 @@ bodyClass: "page-home"
         <a href="{{page.url}}#voice" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>
       <div class="col-12 col-md-4 col-lg-4 mb-4">
-        <h4><i data-feather='volume-2' class="feature-icon"></i> Diseño de Sonidos</h4>
+        <h4><i data-feather='volume-2' class="feature-icon"></i> Sonidos</h4>
         <p>Vibraciones y frecuencias para estimular y armonizar el cerebro.</p>
         <a href="{{page.url}}#sound" style="font-size: 20px">Saber más <i data-feather='chevron-right' class="feature-icon"></i></a>
       </div>

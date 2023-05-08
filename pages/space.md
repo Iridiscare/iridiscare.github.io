@@ -15,8 +15,8 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container-sm">
     <div class="justify-content-center">
-      <div class="col-12 col-md-10 col-lg-10 order-2 order-md-1">
-        <h1>Un espacio pensado para la relajación</h1>
+      <div class="col-12 col-md-10 col-lg-10">
+        <h1 class="rainbow">Un sistema de sonido pensado para la relajación</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
         <p>Un espacio donde tu cuerpo-mente se relaja gracias a nuestra pirámide de sonido envolvente, a la luz cálida del amanecer y suaves aromas.</p>
         <div class="animate__animated animate__bounceInLeft">
