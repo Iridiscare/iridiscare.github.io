@@ -29,8 +29,8 @@ bodyClass: "page-home"
   <div class="container-sm pb-4 px-2">
     <div class="feature-product-title">
       <p style="text-transform: uppercase; color: #262626">La app para ser más consciente.</p>
-      <h4 style="font-size: 1.2em;">Reduce tu nivel de estrés volviendo a tu interio con sonidos personalizados.</h4>
-      <p style="color: #262626; font-size: 1.15rem;">Conócete mejor, controla tus emociones y mantén a raya el estrés.</p>
+      <h4 style="font-size: 1.2em;">Reduce tu nivel de estrés volviendo a tu interior con sonidos personalizados.</h4>
+      <p style="color: #262626; font-size: 1.15rem;">Conócete mejor, controla tus emociones y mantén a raya el estrés. Ideal para personas con etrés, ansiedad, depresión, problemas de sueño, carga emocional o están trabajando su interior. </p>
     </div>
   </div>
 </div>
