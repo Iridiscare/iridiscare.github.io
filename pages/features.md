@@ -102,7 +102,7 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
         <p style="text-transform: uppercase; color: #262626">Pirámide de sonido</p>
-        <h4 style="font-size: 1.2em;">Relajáte profundamente</h4>
+        <h4 style="font-size: 1.2em;">Una experiencia envolvente</h4>
         <p style="color: #262626; font-size: 1.15rem;">Reserva desde la app nuestra pirámide de sonido y siente las vibraciones en tu cuerpo-mente. Sonido envolvente.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
