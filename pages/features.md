@@ -112,4 +112,4 @@ bodyClass: "page-home"
   </div>
 </div>
 
-
+{% include chat.html %}
