@@ -39,7 +39,7 @@ bodyClass: "page-home"
             {% endif %}
                 <div class="text-center">
                   <p class="testimonial-quote">"{{item.quote}}"</p>
-                  <h3 class="testimonial-author">{{item.author}}</h3>
+                  <h6 class="testimonial-author">{{item.author}}</h6>
                 </div>
               </div>
             {% endfor %}
