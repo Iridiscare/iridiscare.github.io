@@ -19,7 +19,7 @@ bodyClass: "page-home"
         <br>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <img alt="Iridis app" class="img-fluid" width="100%" src="/assets/images/app-sm.webp" />
+        <img alt="Iridis - App de meditación y terapia de sonido" class="img-fluid" width="100%" height="auto" src="/assets/images/app-sm.webp"/>
       </div>
     </div>
   </div>
@@ -56,8 +56,8 @@ bodyClass: "page-home"
       <h5>Han hablado sobre Iridis.</h5>
     </div>
     <div class="row justify-content-center">
-      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="40" src="/assets/images/logo/abc-logo.webp" style="padding: 5px; margin-top: 3px" />
-      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="42" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="40" width="auto" src="/assets/images/logo/abc-logo.webp" style="padding: 5px; margin-top: 3px" />
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="42" width="auto" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
     </div>
      <div class="row justify-content-center">
         <a href="/app" style="font-size: 18px" class="pt-4">
