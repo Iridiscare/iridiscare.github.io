@@ -28,9 +28,9 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pb-4 px-2">
     <div class="feature-product-title">
-      <p style="text-transform: uppercase; color: #262626">La app para ser más consciente.</p>
+      <p style="text-transform: uppercase; color: #262626">La app que te ayuda a quererte.</p>
       <h4 style="font-size: 1.2em;">Conócete mejor, controla tus emociones y mantén a raya el estrés.</h4>
-      <p style="color: #262626; font-size: 1.15rem;">Ideal para personas con estrés, ansiedad, depresión, carga emocional o están trabajando su interior. </p>
+      <p style="color: #262626; font-size: 1.15rem;">Ideal para personas con estrés, ansiedad, depresión, carga emocional o que están trabajando su interior. </p>
     </div>
   </div>
 </div>
