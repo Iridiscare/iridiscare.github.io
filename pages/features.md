@@ -39,9 +39,9 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 px-2">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
-          <p style="text-transform: uppercase; color: #262626">Conoce tu estrés</p>
-          <h4 style="font-size: 1.2em;">Analizando tu voz</h4>
-          <p style="color: #262626; font-size: 1.15rem;">Calcula en segundos tu nivel de estrés, autoestima, impotencia y las frecuencias de tu sistema nervioso.</p>
+          <p style="text-transform: uppercase; color: #262626">Análisis de voz</p>
+          <h4 style="font-size: 1.2em;">Conoce tu estrés</h4>
+          <p style="color: #262626; font-size: 1.15rem;">Calcula en segundos tu nivel de estrés, autoestima, impotencia y las frecuencias de tu sistema nervioso con nuestra tecnología de análisis de voz con IA.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/landings/features/stress.webp" />
