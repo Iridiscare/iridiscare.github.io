@@ -72,8 +72,8 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
         <p style="text-transform: uppercase; color: #262626">Diario de estrés</p>
-        <h4 style="font-size: 1.2em;">Monitoriza tu estrés</h4>
-        <p style="color: #262626; font-size: 1.15rem;">Te permitirá ver el impacto de tus baños de sonido y meditaciones sobre tu nivel de estrés.</p>
+        <h4 style="font-size: 1.2em;">Conócete mejor</h4>
+        <p style="color: #262626; font-size: 1.15rem;">Te permitirá saber si tienes que bajar las revoluciones y monitorizar el impacto de tus baños de sonido y meditaciones sobre tu nivel de estrés.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/landings/features/journal.webp" />
@@ -102,7 +102,7 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
         <p style="text-transform: uppercase; color: #262626">Pirámide de sonido</p>
-        <h4 style="font-size: 1.2em;">Relajación profunda</h4>
+        <h4 style="font-size: 1.2em;">Relajagd profundamente</h4>
         <p style="color: #262626; font-size: 1.15rem;">Reserva desde la app nuestra pirámide de sonido y siente las vibraciones en tu cuerpo-mente. Es como un masaje para cada una de las células de tu cuerpo.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
