@@ -13,7 +13,7 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
         <h1 class="rainbow">Es hora de cuidar de tu salud mental</h1>
-        <p>Iridis tiene todo lo que necesitas para no volverte tucu tucu por la sociedad estresada.</p>
+        <p>Iridis te ayuda a no volverte tucu tucu por el estrés diario que te enferma física y mentalmente.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Descargar la app de Iridis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
         <br>
@@ -40,8 +40,8 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
           <p style="text-transform: uppercase; color: #262626">Conoce tu estrés</p>
-          <h4 style="font-size: 1.2em;">Analizando tu voz en segundos</h4>
-          <p style="color: #262626; font-size: 1.15rem;">Calcula tu nivel de estrés, autoestima, impotencia y las frecuencias de tu sistema nervioso.</p>
+          <h4 style="font-size: 1.2em;">Analizando tu voz</h4>
+          <p style="color: #262626; font-size: 1.15rem;">Calcula en segundos tu nivel de estrés, autoestima, impotencia y las frecuencias de tu sistema nervioso.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/landings/features/stress.webp" />
@@ -59,8 +59,8 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-15">
         <div>
           <p style="text-transform: uppercase; color: #262626">Baños de sonido</p>
-          <h4 style="font-size: 1.2em;">Calma tu mente en minutos</h4>
-          <p style="color: #262626; font-size: 1.15rem;">Para tu mente con ondas theta y tu cuerpo con frecuencias emocionales de tu voz para reducir el estrés un 68% en 17 minutos.</p>
+          <h4 style="font-size: 1.2em;">Reduce el estrés</h4>
+          <p style="color: #262626; font-size: 1.15rem;">Sincroniza el cerebro con frecuencias personalizadas a partir de tu voz. Calmarás la mente en minutos con los últimos avances en neurociencia y sonido.</p>
         </div>
       </div>
     </div>
@@ -72,8 +72,8 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
         <p style="text-transform: uppercase; color: #262626">Diario de estrés</p>
-        <h4 style="font-size: 1.2em;">Monitoriza tu nivel de estrés</h4>
-        <p style="color: #262626; font-size: 1.15rem;">Te permitirá ver el impacto de tus baños de sonido y meditaciones sobre tu sistema nervioso.</p>
+        <h4 style="font-size: 1.2em;">Monitoriza tu estrés</h4>
+        <p style="color: #262626; font-size: 1.15rem;">Te permitirá ver el impacto de tus baños de sonido y meditaciones sobre tu nivel de estrés.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/landings/features/journal.webp" />
@@ -89,7 +89,7 @@ bodyClass: "page-home"
         <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/landings/features/courses.webp" />
       </div>
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
-        <p style="text-transform: uppercase; color: #262626">Cursos de autoconocimiento</p>
+        <p style="text-transform: uppercase; color: #262626">Cursos</p>
         <h4 style="font-size: 1.2em;">Vuelve a tu interior</h4>
         <p style="color: #262626; font-size: 1.15rem;">Aprende conceptos y técnicas de autoconocimiento, meditación y mucho más para controlar tu estrés. Basados en los últimos avances científicos.</p>
       </div>
@@ -102,8 +102,8 @@ bodyClass: "page-home"
     <div class="row">
       <div class="col-12 col-md-6 col-lg-6 pt-md-15 pt-lg-15">
         <p style="text-transform: uppercase; color: #262626">Pirámide de sonido</p>
-        <h4 style="font-size: 1.2em;">Una experiencia envolvente</h4>
-        <p style="color: #262626; font-size: 1.15rem;">Reserva desde la app nuestra pirámide de sonido y siente las vibraciones en tu cuerpo-mente. Sonido envolvente.</p>
+        <h4 style="font-size: 1.2em;">Relajación profunda</h4>
+        <p style="color: #262626; font-size: 1.15rem;">Reserva desde la app nuestra pirámide de sonido y siente las vibraciones en tu cuerpo-mente. Es como un masaje para cada una de las células de tu cuerpo.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="img-fluid" width="100%" src="/assets/images/landings/features/pyramid.webp" />
@@ -111,5 +111,3 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-
-{% include chat.html %}
