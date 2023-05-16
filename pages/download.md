@@ -21,13 +21,13 @@ sitemap: false
 <div class="strip-white">
   <div class="container-sm px-2 pb-6">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-6 pb-3">
+      <div class="col-12 col-md-6 col-lg-6 ">
         <img alt="Iridis te analiza la voz" class="img-fluid" width="100%" src="/assets/images/landings/features/app-all-sm.webp" onclick="openForm()" />
       </div>
-      <div class="col-12 col-md-6 col-lg-6">
-        <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> Redúce y monitoriza tu estrés.</p>
-        <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> Sonidos personalizados para relajarte.</p>
-        <p class="copy" style="font-size: 18px"><i data-feather='check' class="feature-icon"></i> Cursos para conocerte y quererte.</p>
+      <div class="col-12 col-md-6 col-lg-6 pt-3">
+        <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Redúce y monitoriza tu estrés.</p>
+        <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Sonidos personalizados para relajarte.</p>
+        <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Cursos para conocerte y quererte.</p>
         <div class="row justify-content-center pb-2 px-1">
           <div class="col-6">
             <a href="#" onclick="openForm()">
