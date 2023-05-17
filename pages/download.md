@@ -40,7 +40,7 @@ sitemap: false
             </a>
           </div>
         </div>
-        <p style="font-size: 16px; text-align: center;"><b>Con un sistema basado en datos con el que te garantizamos resultados.</b></p>
+        <p style="font-size: 16px; text-align: center;"><b>Pulsa en el logo de tu móvil para descargar la app.</b></p>
       </div>
     </div>    
   </div>
