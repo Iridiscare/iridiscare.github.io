@@ -12,7 +12,7 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1 class="rainbow">Es hora de cuidar tu salud mental</h1>
+        <h1 class="rainbow">Es hora de cuidar de tu salud mental</h1>
         <p>Reduce el estrés creando sonidos personalizados a partir de las frecuencias de tu voz para relajarte profundamente.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Descargar la app de Iridis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>

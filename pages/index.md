@@ -13,7 +13,7 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
         <h1 class="rainbow" >Libérate del sufrimiento mental</h1>
-        <p><b>Cal</b>ma <b>l</b>a <b>men</b>te <b>y</b> <b>contro</b>la <b>e</b>l <b>es</b>trés <b>crean</b>do <b>soni</b>dos <b>persona</b>lizados <b>a</b> <b>par</b>tir <b>d</b>el <b>aná</b>lisis <b>d</b>e <b>t</b>u <b>v</b>oz.</p>
+        <p><b>Cal</b>ma <b>l</b>a <b>men</b>te <b>y</b> <b>redu</b>ce <b>e</b>l <b>es</b>trés <b>crean</b>do <b>soni</b>dos <b>persona</b>lizados <b>a</b> <b>par</b>tir <b>d</b>e <b>l</b>as <b>frecuen</b>cias <b>d</b>e <b>t</b>u <b>v</b>oz.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})"><b>Descar</b>gar <b>l</b>a <b>a</b>pp <b>d</b>e <b>Iri</b>dis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
         <br>
@@ -26,7 +26,7 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip">
-  <div class="container-sm pb-6 px-2">
+  <div class="container-sm pt-6 pb-6 px-2">
     <div class="row">
       <div class="col-12">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -50,8 +50,32 @@ bodyClass: "page-home"
   </div>
 </div>
 
+<div class="strip-white">
+  <div class="container pt-6 pb-6 px-2">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 pt-1 pb-2">
+        <img alt="Iridis crea un baño de sonido para reducir tu estrés" class="feature-product img-fluid" width="100%" src="/assets/images/product/soundbath_2.webp" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
+        <div class="feature-product-title">
+          <h4 class="pb-2">
+            Reserva nuestra pirámide de sonido desde la app
+          </h4>
+          <p><i data-feather='check' class="feature-icon"></i> Experiencia envolvente</p>
+          <p><i data-feather='check' class="feature-icon"></i> Medita profundamente</p>
+          <p><i data-feather='check' class="feature-icon"></i> Mejora tu salud mental</p>
+          <div class="pt-2">
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK"
+              onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})"><b>Descar</b>gar <b>l</b>a <b>a</b>pp <b>d</b>e <b>Iri</b>dis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="strip">
-  <div class="container-sm pb-6 px-3">
+  <div class="container-sm pb-6 pt-6 px-3">
     <div class="feature-product-title pb-2">
       <h5>Han hablado sobre Iridis.</h5>
     </div>
