@@ -29,7 +29,7 @@ bodyClass: "page-home"
   <div class="container-sm pb-4 px-2">
     <div class="feature-product-title">
       <p style="text-transform: uppercase; color: #262626">La app que te ayuda a volver a tu esencia.</p>
-      <h4 style="font-size: 1.2em;">Mantén a raya el estrés creando sonidos personalizados para relajarte profundamente.</h4>
+      <h4 style="font-size: 1.2em;">Mantén a raya el estrés meditando profundamente sin esfuerzo.</h4>
       <p style="color: #262626; font-size: 1.15rem;">Ideal para personas con estrés, ansiedad, depresión, carga emocional o que están trabajando su interior. </p>
     </div>
   </div>
