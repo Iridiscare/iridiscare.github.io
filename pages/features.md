@@ -12,8 +12,8 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1 class="rainbow">Es hora de cuidar de tu salud mental</h1>
-        <p>Iridis te ayuda a no volverte tucu tucu por el estrés diario que te enferma física y mentalmente.</p>
+        <h1 class="rainbow">Es hora de cuidar tu salud mental</h1>
+        <p>Reduce el estrés creando sonidos personalizados a partir de las frecuencias de tu voz para relajarte profundamente.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Descargar la app de Iridis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
         <br>
@@ -28,8 +28,8 @@ bodyClass: "page-home"
 <div class="strip-white">
   <div class="container-sm pb-4 px-2">
     <div class="feature-product-title">
-      <p style="text-transform: uppercase; color: #262626">La app que te ayuda a quererte.</p>
-      <h4 style="font-size: 1.2em;">Conócete mejor, controla tus emociones y mantén a raya el estrés.</h4>
+      <p style="text-transform: uppercase; color: #262626">La app que te ayuda a volver a tu esencia.</p>
+      <h4 style="font-size: 1.2em;">Mantén a raya el estrés creando sonidos personalizados para relajarte profundamente.</h4>
       <p style="color: #262626; font-size: 1.15rem;">Ideal para personas con estrés, ansiedad, depresión, carga emocional o que están trabajando su interior. </p>
     </div>
   </div>
