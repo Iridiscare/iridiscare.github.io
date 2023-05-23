@@ -13,8 +13,8 @@ bodyClass: "page-home"
 {% include sticky-cta.html %}
 
 <div class="intro">
-  <div class="container-sm">
-    <div class="justify-content-center">
+  <div class="container-sm px-2">
+    <div class="row justify-content-center">
       <div class="col-12 col-md-10 col-lg-10">
         <h1 class="rainbow">Un sistema de sonido pensado para la relajación</h1>
         <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
