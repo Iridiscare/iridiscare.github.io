@@ -62,7 +62,7 @@ bodyClass: "page-home"
             Reserva nuestra pirámide de sonido desde la app
           </h4>
           <p><i data-feather='check' class="feature-icon"></i> Experiencia envolvente</p>
-          <p><i data-feather='check' class="feature-icon"></i> Medita profundamente</p>
+          <p><i data-feather='check' class="feature-icon"></i> Relajación profunda</p>
           <p><i data-feather='check' class="feature-icon"></i> Mejora tu salud mental</p>
           <div class="pt-2">
             <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK"
