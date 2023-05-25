@@ -30,12 +30,12 @@ sitemap: false
         <p class="copy" style="font-size: 16px"><i data-feather='check' class="feature-icon"></i> Cursos para conocerte y quererte.</p>
         <div class="row justify-content-center pb-2 px-1">
           <div class="col-6">
-            <a href="#" onclick="openForm()">
+            <a href="https://apps.apple.com/us/app/iridis/id6449083248" onclick="gtag('event', 'select_app_store', { event_category: 'Select App Store', event_action: 'Button Clicked to Store', event_label:'ios'})">
               <img alt="Iridis te analiza la voz" class="img-fluid" width="100%" src="/assets/images/stores/app-store.webp" onclick="openForm()" />
             </a>
           </div>
           <div class="col-6">
-            <a href="https://play.google.com/store/apps/details?id=com.iridiscare.stressjournal" onclick="openForm()">
+            <a href="https://play.google.com/store/apps/details?id=com.iridiscare.stressjournal" onclick="gtag('event', 'select_app_store', { event_category: 'Select App Store', event_action: 'Button Clicked to Store', event_label:'android'})">
               <img alt="Iridis te analiza la voz" class="img-fluid" width="100%" src="/assets/images/stores/google-play.webp" />
             </a>
           </div>
