@@ -81,6 +81,7 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
       <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="40" width="auto" src="/assets/images/logo/abc-logo.webp" style="padding: 5px; margin-top: 3px" />
       <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="42" width="auto" src="/assets/images/logo/espanol-logo.svg" style="padding: 5px;" />
+      <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="44" width="auto" src="/assets/images/logo/soundsinme-logo.png" style="padding: 5px;" />
     </div>
      <div class="row justify-content-center">
         <a href="/app" style="font-size: 18px" class="pt-4">
