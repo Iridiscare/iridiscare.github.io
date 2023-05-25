@@ -1,5 +1,5 @@
 ---
-title: "Iridis - Descubre si tienes estrés"
+title: "Iridis - Libérate del estrés sin esfuerzo"
 description: Calma tu mente y reduce el estrés con sonidos personalizados a partir de las frecuencias de tu voz.
 permalink: /
 layout: default
