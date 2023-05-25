@@ -62,7 +62,7 @@ bodyClass: "page-home"
           </h4>
           <p><i data-feather='check' class="feature-icon"></i> <b>Experien</b>cia <b>envol</b>vente</p>
           <p><i data-feather='check' class="feature-icon"></i> <b>Libe</b>ra <b>car</b>ga <b>emocio</b>nal</p>
-          <p><i data-feather='check' class="feature-icon"></i> <b>Medita <b>profunda</b>mente</p>
+          <p><i data-feather='check' class="feature-icon"></i> <b>Medi<b>ta <b>profunda</b>mente</p>
           <div class="pt-2">
             <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/download"
               onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})"><b>Descar</b>gar <b>l</b>a <b>a</b>pp <b>d</b>e <b>Iri</b>dis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
