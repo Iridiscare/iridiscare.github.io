@@ -12,7 +12,7 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1 class="rainbow" >Libérate del sufrimiento mental</h1>
+        <h1 class="rainbow" >Libérate del estrés sin esfuerzo</h1>
         <p><b>Cal</b>ma <b>l</b>a <b>men</b>te <b>y</b> <b>redu</b>ce <b>e</b>l <b>es</b>trés <b>crean</b>do <b>soni</b>dos <b>persona</b>lizados <b>a</b> <b>par</b>tir <b>d</b>e <b>l</b>as <b>frecuen</b>cias <b>d</b>e <b>t</b>u <b>v</b>oz.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/mOaRRK"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})"><b>Descar</b>gar <b>l</b>a <b>a</b>pp <b>d</b>e <b>Iri</b>dis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
