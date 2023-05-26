@@ -76,7 +76,7 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container-sm pb-6 pt-6 px-3">
     <div class="feature-product-title pb-2">
-      <h5>Han hablado sobre Iridis.</h5>
+      <h5>Han hablado sobre Iridis</h5>
     </div>
     <div class="row justify-content-center">
       <img alt="Iridis pirámide de meditación y sonido" class="img-fluid" height="40" width="auto" src="/assets/images/logo/abc-logo.webp" style="padding: 5px; margin-top: 3px" />
