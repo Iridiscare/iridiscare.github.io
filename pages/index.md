@@ -1,6 +1,6 @@
 ---
-title: "Iridis - Libérate del estrés sin esfuerzo"
-description: Calma tu mente y reduce el estrés con sonidos personalizados a partir de las frecuencias de tu voz.
+title: "Iridis by StressTech"
+description: Conoce tu salud emocional analizando tu voz.
 permalink: /
 layout: default
 bodyClass: "page-home"
