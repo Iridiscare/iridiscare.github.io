@@ -1,6 +1,6 @@
 ---
 title: "Iridis by StressTech"
-description: Conoce tu salud emocional analizando tu voz en segundos.
+description: Conoce el estado de tu salud emocional en segundos analizando tu voz.
 permalink: /
 layout: default
 bodyClass: "page-home"
