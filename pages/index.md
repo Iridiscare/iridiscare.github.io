@@ -6,16 +6,16 @@ layout: default
 bodyClass: "page-home"
 ---
 
-{% include sticky-cta.html %}
+<!-- {% include sticky-cta.html %} -->
 
 <div class="intro">
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1 class="rainbow" >Libérate del estrés sin esfuerzo</h1>
-        <p><b>Cal</b>ma <b>l</b>a <b>men</b>te <b>y</b> <b>redu</b>ce <b>e</b>l <b>es</b>trés <b>crean</b>do <b>soni</b>dos <b>persona</b>lizados <b>a</b> <b>par</b>tir <b>d</b>e <b>l</b>as <b>frecuen</b>cias <b>d</b>e <b>t</b>u <b>v</b>oz.</p>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/download"
-        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})"><b>Descar</b>gar <b>l</b>a <b>a</b>pp <b>d</b>e <b>Iri</b>dis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
+        <h1 class="rainbow" >Conoce tu salud emocional en segundos.</h1>
+        <p>Solo necesitas grabar 5 segundos de tu voz para descubrir cómo gestionar tu estrés, ansiedad y emociones.</p>
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/3XYY2e"
+        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Únete a la lista de espera</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis - App de meditación y terapia de sonido" class="img-fluid" width="100%" height="auto" src="/assets/images/app-sm.webp"/>
@@ -24,7 +24,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
+<!-- <div class="strip">
   <div class="container-sm pt-6 pb-6 px-2">
     <div class="row">
       <div class="col-12">
@@ -47,7 +47,7 @@ bodyClass: "page-home"
       </div>
     </div>
   </div>
-</div>
+</div> 
 
 <div class="strip-white">
   <div class="container pt-6 pb-6 px-2">
@@ -89,4 +89,4 @@ bodyClass: "page-home"
         </a>
     </div>
   </div>
-</div>
+</div>  -->
