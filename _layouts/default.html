@@ -35,7 +35,6 @@
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}">
   {% else %}
-  <meta property="og:image" content="{{ site.data.seo.meta_image_sm | absolute_url }}"/>
   <meta property="og:image" content="{{ site.data.seo.meta_image_big | absolute_url }}"/>
   <meta property="og:image:type" content="image/png" />
   {% endif %}
@@ -48,8 +47,6 @@
   <meta property="twitter:image" content="{{ page.image | absolute_url }}">
   {% else %}
   <meta property="twitter:image" content="{{ site.data.seo.meta_image_sm | absolute_url }}">
-  <meta property="twitter:image" content="{{ site.data.seo.meta_image_big | absolute_url }}">
-
   {% endif %}
   
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
