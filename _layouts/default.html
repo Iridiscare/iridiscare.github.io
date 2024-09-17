@@ -4,36 +4,6 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "App para monitorizar el estrés",
-        "item": "https://iridis.care/app"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Espacio de Relajación",
-        "item": "https://iridis.care/espacio-relajacion"
-      },{
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Ciencia del Estrés y Terapia de Sonido",
-        "item": "https://iridis.care/ciencia-estres-sonido"
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Artículos sobre Estrés",
-        "item": "https://iridis.care/blog"
-      }]
-    }
-  </script>
   {% if page.date %}
   <script type="application/ld+json">
   {
