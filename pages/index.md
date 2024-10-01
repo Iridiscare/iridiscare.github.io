@@ -1,6 +1,6 @@
 ---
-title: "Iridis by StressTech - Visibiliza lo invisible"
-description: Conoce el estado de tu salud emocional analizando tu voz en segundos.
+title: "Informe de salud emocional | Iridis by StressTech"
+description: Graba y analiza tu voz - Descubre como te sientes y haz visible lo invisible.
 permalink: /
 layout: default
 bodyClass: "page-home"
