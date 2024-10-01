@@ -12,10 +12,10 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1 class="rainbow" >¿Qué dice tu voz sobre tu salud emocional?</h1>
-        <p>Solo necesitas grabar un audio de 5 segundos para descubrir si tienes estrés, ansiedad o depresión.</p>
+        <h1 class="rainbow" >Desahógate y entiende tu salud emocional</h1>
+        <p>Habla sobre lo que más te preocupa ahora sin que te juzgen y descubre en segundos si tienes estrés, ansiedad o depresión.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/3XYY2e"
-        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Únete a la lista de espera</a>
+        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Graba tu voz y conócete</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis - App de meditación y terapia de sonido" class="img-fluid" width="100%" height="auto" src="/assets/images/app-sm.webp"/>
