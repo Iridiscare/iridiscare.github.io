@@ -1,5 +1,5 @@
 ---
-title: "Iridis - Análisis de voz para hacer visible lo invisible"
+title: "Iridis by StressTech - Visibiliza lo invisible"
 description: Conoce el estado de tu salud emocional analizando tu voz en segundos.
 permalink: /
 layout: default
