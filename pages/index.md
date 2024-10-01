@@ -15,7 +15,7 @@ bodyClass: "page-home"
         <h1 class="rainbow" >Analiza tu voz para saber cómo te sientes</h1>
         <p>Habla sin filtros sobre lo que te preocupa, conoce si sientes estrés, ansiedad o depresión y recibe recomendaciones.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/3XYY2e"
-        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Crea tu informe emocional ahora</a>
+        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Analiza tu voz y conócete</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis - App de meditación y terapia de sonido" class="img-fluid" width="100%" height="auto" src="/assets/images/app-sm.webp"/>
