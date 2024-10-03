@@ -18,7 +18,7 @@ bodyClass: "page-home"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Analiza tu voz y conócete</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
-        <img alt="Iridis - App de meditación y terapia de sonido" class="img-fluid" width="100%" height="auto" src="/assets/images/app-sm.webp"/>
+        <img alt="Iridis" class="img-fluid" width="100%" height="auto" src="/assets/images/app-sm.webp"/>
       </div>
     </div>
   </div>

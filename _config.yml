@@ -27,7 +27,6 @@ baseurl: ""
 
 permalink: /blog/:title
 
-
 logo:
   mobile: "/assets/images/logo/logo-mobile.svg"
   mobile_height: "50px"
@@ -42,11 +41,6 @@ logo:
 home: 
   limit_services: 6
 
-collections:
-  knowthyself:
-    output: true
-    permalink: /knowthyself/:name
-
 defaults:
   - scope:
       path: ""
@@ -58,6 +52,8 @@ defaults:
       type: "team"
     values:
       layout: "team"
+
+exclude: ['node_modules']
 
 sass:
   sass_dir: _sass
