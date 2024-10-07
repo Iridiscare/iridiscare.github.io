@@ -1,59 +1,27 @@
 [
   {
-    "quote": "Me ayuda a descongestionar la cabeza. Hace tiempo que no sentía esto.",
-    "author": "Alberto 💆‍♂️",
+    "quote": "Expresar mis emociones no era fácil, pero el análisis de Iridis me ayudó a entenderlas mejor. Ahora sé cuándo debo cuidar de mí mismo.",
+    "author": "😌 Luis, 34 años",
     "active": false
   },
   {
-    "quote": "Tengo estrés postraumático y me ayuda a verbalizar emociones que antes no podia.",
-    "author": "Ricardo 🤕",
+    "quote": "Nunca había notado cómo me sentía realmente hasta usar Iridis. Me ayudó a reconocer y reducir mi estrés diario.",
+    "author": "🌟 Clara, 29 años",
     "active": false
   },
   {
-    "quote": "No me esperaba entrar en tal estado de relajación profunda.",
-    "author": "Rosina 🧘🏻‍♀️",
-    "active": false
-  },
-  {
-    "quote": "Me hace sentir tan relajada como si hubiera estado llorando horas.",
-    "author": "Ingrid 😭",
+    "quote": "Iridis me mostró cómo mi voz reflejaba mi ansiedad. Aprendí a escucharme y a recuperar mi calma.",
+    "author": "🌿 Sofía, 25 años",
     "active": true
   },
   {
-    "quote": "Me relaja sin yo quererlo. Sonidos envolventes.",
-    "author": "Lucía 😌",
+    "quote": "Pensaba que mi irritabilidad era normal, pero era estrés. El informe de Iridis me dio una nueva perspectiva y comencé a manejarlo mejor.",
+    "author": "💪 Javier, 42 años",
     "active": false
   },
   {
-    "quote": "Momento íntimo conmigo misma. Experiencia súper relajante.",
-    "author": "Celia 😴",
+    "quote": "Creía que estaba bien, pero mi voz mostraba tristeza. Iridis me ayudó a ver que necesitaba apoyo emocional.",
+    "author": "💖 Ana, 31 años",
     "active": false
-  },
-  {
-    "quote": "Sorprendente y reconfortante. Una vuelta a la calma.",
-    "author": "Alejandro 😱",
-    "active": false
-  },
-  {
-    "quote": "No pienso en nada y me hago consciente de lo estresado que estoy.",
-    "author": "Jose Miguel 🤔",
-    "active": false
-  },
-  {
-    "quote": "Me ayuda a parar mentalmente y conocerme.",
-    "author": "Ricardo ✋",
-    "active": false
-  },
-  {
-    "quote": "Me relaja sin esfuerzo y profundamente.",
-    "author": "Ana 🤗",
-    "active": false
-  },
-  {
-    "quote": "Me hace sentirme de nuevo conectada al útero materno.",
-    "author": "Flora 🤰",
-    "active": false
-  },
+  }
 ]
-
-

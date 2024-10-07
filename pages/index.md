@@ -12,10 +12,10 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1 class="rainbow" >Analiza tu voz para saber cómo te sientes</h1>
-        <p>Desahógate sobre lo que te preocupa, conoce si sientes estrés, ansiedad o depresión y recibe consejos.</p>
+        <h1 class="rainbow" >Descubre tu estado emocional a través de tu voz</h1>
+        <p>Habla libremente y déjate guiar por tu voz para conocer tu estado emocional. Descubre cómo reducir el estrés, la ansiedad y aumentar tu bienestar.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/3XYY2e"
-        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Analiza tu voz y conócete</a>
+        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Analiza tu voz ahora</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">
         <img alt="Iridis" class="img-fluid" width="100%" height="auto" src="/assets/images/app-sm.webp"/>
@@ -24,7 +24,7 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<!-- <div class="strip">
+ <div class="strip">
   <div class="container-sm pt-6 pb-6 px-2">
     <div class="row">
       <div class="col-12">
@@ -48,7 +48,7 @@ bodyClass: "page-home"
     </div>
   </div>
 </div> 
-
+<!-- 
 <div class="strip-white">
   <div class="container pt-6 pb-6 px-2">
     <div class="row">
@@ -58,21 +58,21 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pt-md-5 pt-4">
         <div class="feature-product-title">
           <h4 class="pb-2">
-            Reserva nuestra pirámide de sonido desde la app
+            El análisis de tu voz te permitirá:
           </h4>
-          <p><i data-feather='check' class="feature-icon"></i> <b>Experien</b>cia <b>envol</b>vente</p>
-          <p><i data-feather='check' class="feature-icon"></i> <b>Relá</b>jate <b>profunda</b>mente</p>
-          <p><i data-feather='check' class="feature-icon"></i> <b>Libe</b>ra <b>car</b>ga <b>emocio</b>nal</p>
+          <p><i data-feather='check' class="feature-icon"></i> Conocer tus emociones</p>
+          <p><i data-feather='check' class="feature-icon"></i> Recibir recomendaciones</p>
+          <p><i data-feather='check' class="feature-icon"></i> Conectar con tu interior</p>
           <div class="pt-2">
-            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/download"
-              onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})"><b>Descar</b>gar <b>l</b>a <b>a</b>pp <b>d</b>e <b>Iri</b>dis <i data-feather='download' style="padding: 1px; margin-bottom: 3px; margin-left: 2px;"></i></a>
+            <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/3XYY2e"
+              onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Analiza tu voz ahora</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
+</div> -->
+<!-- 
 <div class="strip">
   <div class="container-sm pb-6 pt-6 px-3">
     <div class="feature-product-title pb-2">

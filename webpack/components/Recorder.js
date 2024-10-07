@@ -183,6 +183,7 @@ const Subtitle = styled.h6`
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-top: 50px;
 `;
 
@@ -197,10 +198,7 @@ const MicButton = styled.button`
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;
-
-  &:hover {
-    background: #ff4b4b;
-  }
+  justify-content: center;
 `;
 
 const SendButtonBlocked = styled.button`
@@ -214,6 +212,7 @@ const SendButtonBlocked = styled.button`
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;
+  justify-content: center;
 `;
 
 const SendButton = styled.button`
@@ -227,10 +226,7 @@ const SendButton = styled.button`
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;
-
-  &:hover {
-    background: #555;
-  }
+  justify-content: center;
 `;
 
 const Timer = styled.div`

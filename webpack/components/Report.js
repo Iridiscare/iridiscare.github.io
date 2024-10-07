@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
-// EmotionReport component that contains the list of emotions
+import { FiShare } from "react-icons/fi";
+
 const Report = () => {
-  // Mock data for emotions and their levels
   const emotions = [
     { name: '😨 Miedo', level: 'Alto', percentage: 78, description: 'Tu emoción más fuerte ahora mismo.', color: '#EB5757' },
     { name: '😱 Estrés', level: 'Medio', percentage: 68, description: 'Te sientes en alerta e irritable.', color: '#F2994A' },
@@ -25,29 +25,45 @@ const Report = () => {
       </AdviceSection>
       <Footer>Iridis puede cometer errores. Consulta con tu interior.</Footer>
       <ShareButton>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse"
-        onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">
-          <i data-feather="share"></i> Compartir </a>
+        <a className="feature-button button button-primary btn-lg animate__animated animate__pulse">
+        <FiShare />&nbsp;&nbsp;Compartir
+        </a>
       </ShareButton>
     </Container>
   );
 };
 
-// Component to render each emotion with its level and progress bar
 const EmotionItem = ({ emotion }) => {
   const [filled, setFilled] = useState(0);
+  const [percentage, setPercentage] = useState(0);
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setFilled(emotion.percentage);
-    }, 500); // Delay to start the progress bar animation
-    return () => clearTimeout(timeout);
-  }, [emotion.percentage]);
+    const timeout = setTimeout(() => setFilled(emotion.percentage), 2000);
+
+    // Animate the displayed percentage value
+    let incrementTimeout;
+    if (filled < emotion.percentage) {
+      incrementTimeout = setInterval(() => {
+        setPercentage((prev) => {
+          if (prev >= emotion.percentage) {
+            clearInterval(incrementTimeout);
+            return emotion.percentage;
+          }
+          return prev + 1;
+        });
+      }, 20);
+    }
+
+    return () => {
+      clearTimeout(timeout);
+      clearInterval(incrementTimeout);
+    };
+  }, [emotion.percentage, filled]);
 
   return (
     <EmotionContainer>
       <EmotionHeader>
-        <b>{emotion.name} </b> · <EmotionLevel pct={emotion.percentage}>{emotion.level}</EmotionLevel> · {emotion.percentage}%
+        <b>{emotion.name}</b>&nbsp;· <EmotionLevel pct={emotion.percentage}>{emotion.level}</EmotionLevel>&nbsp;·&nbsp;<Percentage>{percentage}%</Percentage>
       </EmotionHeader>
       <ProgressBar color={emotion.percentage} percentage={filled} />
       <EmotionDescription>{emotion.description}</EmotionDescription>
@@ -55,14 +71,16 @@ const EmotionItem = ({ emotion }) => {
   );
 };
 
-// Progress bar styled component
+const Percentage = styled.span`
+  color: #BDBDBD;
+`;
+
 const ProgressBar = ({ color, percentage }) => (
   <BarContainer>
     <Bar color={color} percentage={percentage} />
   </BarContainer>
 );
 
-// Styled components for layout and styling
 const Container = styled.div`
   justify-content: center;
   text-align: center;
