@@ -14,7 +14,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-6 pb-3">
         <h1 class="rainbow" >Descubre tu estado emocional a través de tu voz</h1>
         <p>Habla libremente y déjate guiar por tu voz para conocer tu estado emocional. Descubre cómo reducir el estrés, la ansiedad y aumentar tu bienestar.</p>
-        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="https://tally.so/r/3XYY2e"
+        <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/app"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Analiza tu voz ahora</a>
       </div>
       <div class="col-12 col-md-6 col-lg-6">

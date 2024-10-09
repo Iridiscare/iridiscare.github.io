@@ -3,12 +3,25 @@ import styled from 'styled-components';
 
 import { FiShare } from "react-icons/fi";
 
-const Report = () => {
+
+const Report = (data) => {
+  const emotion = {
+    "angry": "😠 Enfado",
+    "calm": "😌 Calma",
+    "disgust": "🤢 Asco",
+    "fearful": "😨 Temor",
+    "happy": "😊 Felicidad",
+    "neutral": "😐 Neutral",
+    "sad": "😢 Tristeza",
+    "surprised": "😲 Sorpresa"
+  }
+  
+  const key = getMaxKey(data.analysisData.vemotions)
   const emotions = [
-    { name: '😨 Miedo', level: 'Alto', percentage: 78, description: 'Tu emoción más fuerte ahora mismo.', color: '#EB5757' },
-    { name: '😱 Estrés', level: 'Medio', percentage: 68, description: 'Te sientes en alerta e irritable.', color: '#F2994A' },
-    { name: '😰 Ansiedad', level: 'Alta', percentage: 89, description: 'Sientes bastantes nervios o preocupación.', color: '#EB5757' },
-    { name: '😔 Depresión', level: 'Baja', percentage: 7, description: 'A penas te sientes triste o culpable.', color: '#27AE60' },
+    { name: emotion[key], level: 'Alto', percentage: Math.round(data.analysisData.vemotions[key]*100), description: 'Tu emoción más fuerte ahora mismo.', color: '#EB5757' },
+    { name: '😱 Estrés', level: 'Medio', percentage: Math.round(data.analysisData.stress.high*100), description: 'Te sientes en alerta e irritable.', color: '#F2994A' },
+    { name: '😰 Ansiedad', level: 'Alta', percentage: Math.round(data.analysisData.vemotions.fearful*100), description: 'Sientes bastantes nervios o preocupación.', color: '#EB5757' },
+    { name: '😔 Depresión', level: 'Baja', percentage: Math.round(data.analysisData.depression.high*100), description: 'A penas te sientes triste o culpable.', color: '#27AE60' },
   ];
 
   return (
@@ -38,7 +51,7 @@ const EmotionItem = ({ emotion }) => {
   const [percentage, setPercentage] = useState(0);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setFilled(emotion.percentage), 2000);
+    const timeout = setTimeout(() => setFilled(emotion.percentage), 1000);
 
     // Animate the displayed percentage value
     let incrementTimeout;
@@ -63,7 +76,7 @@ const EmotionItem = ({ emotion }) => {
   return (
     <EmotionContainer>
       <EmotionHeader>
-        <b>{emotion.name}</b>&nbsp;· <EmotionLevel pct={emotion.percentage}>{emotion.level}</EmotionLevel>&nbsp;·&nbsp;<Percentage>{percentage}%</Percentage>
+        <b>{emotion.name}</b>&nbsp;· <EmotionLevel pct={emotion.percentage}>{ProgressBarLabel(emotion.percentage)}</EmotionLevel>&nbsp;·&nbsp;<Percentage>{percentage}%</Percentage>
       </EmotionHeader>
       <ProgressBar color={emotion.percentage} percentage={filled} />
       <EmotionDescription>{emotion.description}</EmotionDescription>
@@ -71,15 +84,31 @@ const EmotionItem = ({ emotion }) => {
   );
 };
 
-const Percentage = styled.span`
-  color: #BDBDBD;
-`;
-
 const ProgressBar = ({ color, percentage }) => (
   <BarContainer>
     <Bar color={color} percentage={percentage} />
   </BarContainer>
 );
+
+const getMaxKey = (obj) => {
+  return Object.keys(obj).reduce((maxKey, currentKey) =>
+    obj[currentKey] > obj[maxKey] ? currentKey : maxKey
+  );
+};
+
+const ProgressBarLabel = ( percentage ) => {
+  if(percentage < 33) {
+    return 'Bajo'
+  }else if(percentage < 75){
+    return 'Medio'
+  } else{
+    return 'Alto'
+  }
+};
+ 
+const Percentage = styled.span`
+  color: #BDBDBD;
+`;
 
 const Container = styled.div`
   justify-content: center;

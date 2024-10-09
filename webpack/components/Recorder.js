@@ -6,7 +6,9 @@ import { MdDelete } from "react-icons/md";
 import Report from './Report';
 import axios from "axios";
 
-const STRESS_URL =  'https://stresstech-api-main-8287389.d2.zuplo.dev/v1/audio/upload';
+import Loading from './Loading';
+
+const STRESS_URL =  'https://stresstech-api-main-8287389.d2.zuplo.dev';
 const API_KEY = 'zpka_7cd573150cae48148f90cef1eb405148_58499c45';
 
 const Recorder = () => {
@@ -17,6 +19,7 @@ const Recorder = () => {
     isPlaying: false,
     timer: '00:00',
   });
+  const [analysisData, setAnalysisData] = useState(null); // New state to store analysis data
 
   const [recorder, setRecorder] = useState(null);
   const audioContext = useRef(null);
@@ -77,62 +80,62 @@ const Recorder = () => {
 
   // Convert audio blob to a valid WAV format
   const convertToValidWav = async (blob) => {
-    // Read blob as an array buffer
     const arrayBuffer = await blob.arrayBuffer();
     const dataView = new DataView(arrayBuffer);
-
-    // Modify the DataView if needed (e.g., change headers, formats)
-    // For now, we assume Recorder.js has created a valid WAV format, and we'll directly use it.
-    
-    // Convert back to a Blob of type 'audio/wav'
     return new Blob([dataView], { type: 'audio/wav' });
-  };
-
-  const handlePlayPauseClick = () => {
-    if (state.isPlaying) {
-      audioPlayer.current.pause();
-    } else {
-      audioPlayer.current.play();
-    }
-    setState((prev) => ({ ...prev, isPlaying: !state.isPlaying }));
-  };
-
-  const handleAudioEnded = () => {
-    setState((prev) => ({ ...prev, isPlaying: false }));
   };
 
   const sendAudio = async (blob) => {
     try {
-      // Step 1: Ensure the MIME type of the blob is set correctly
-      console.log("Audio Blob Type:", blob.type); // Should print "audio/wav"
-  
-      // Step 2: Create the FormData and append necessary fields
       const data = new FormData();
       data.append('text', "This is the transcription of the audio file");
       data.append('file', blob, "recording.wav");
       data.append('external_vars', JSON.stringify({}));
-  
-      // Log FormData content (for debugging purposes)
-      for (let [key, value] of data.entries()) {
-        console.log(key, value); // Prints out each key-value pair in the FormData
-      }
-  
-      // Step 3: Set the request headers, including Content-Type and Authorization
+
       const config = {
         headers: {
           'Content-Type': 'multipart/form-data',
           'Authorization': `Bearer ${API_KEY}`,
         }
       };
-  
-      // Step 4: Send the request to the server
-      const response = await axios.post(STRESS_URL, data, config);
-      console.log('Response:', response.data);
+
+      const response = await axios.post(STRESS_URL + '/v1/audio/upload', data, config);
+      const resultUrl = response.data?.response?.result_url;
+
+      if (resultUrl) {
+        const pollResultUrl = async () => {
+          try {
+            const resultResponse = await axios.get(STRESS_URL + resultUrl, {
+              headers: {
+                'Authorization': `Bearer ${API_KEY}`,
+              }
+            });
+
+            const status = resultResponse.data?.response?.status;
+            if (status?.STRESS_ANALYSED) {
+              console.log('Stress Analysis Completed:', resultResponse.data);
+              
+              // Store the relevant analysis data
+              const { stress, depression, vemotions } = resultResponse.data?.response?.data;
+              setAnalysisData({ stress, depression, vemotions });
+              
+              setState((prev) => ({ ...prev, audioSent: true }));
+              return resultResponse.data;
+            } else {
+              console.log('Stress Analysis In Progress...');
+              setTimeout(pollResultUrl, 5000); // Wait 5 seconds before checking again
+            }
+          } catch (error) {
+            console.error('Error polling the result URL:', error);
+          }
+        };
+        pollResultUrl();
+      } else {
+        console.error('Result URL not found in the response.');
+      }
     } catch (error) {
-      // Step 5: Capture and log the error message and response
       console.error("Error during the audio upload:", error);
       if (error.response) {
-        // If the server responded with an error code, print response details
         console.error("Server Error:", error.response.data);
         console.error("Status Code:", error.response.status);
         console.error("Headers:", error.response.headers);
@@ -167,8 +170,10 @@ const Recorder = () => {
 
   return (
     <div>
-      {state.audioSent ? (
-        <Report />
+      {state.audioSent ? (analysisData ?
+        // Pass analysis data to Report component
+        <Report analysisData={analysisData} /> :
+        <Loading /> 
       ) : (
         <RecorderContainer>
           <AnimatedCircle isRecording={state.isRecording} />
@@ -187,20 +192,9 @@ const Recorder = () => {
             <Timer>{state.timer}</Timer>
             {state.audioRecorded ? (
               <>
-                {/* <DownloadButton 
-                  href={audioBlob.current ? URL.createObjectURL(audioBlob.current) : "#"}
-                  download="recording.wav"
-                >
-                  <FaDownload />
-                </DownloadButton> */}
                 <SendButton onClick={handleSendClick}>
                   <IoSend />
                 </SendButton>
-                <audio
-                  ref={audioPlayer}
-                  src={audioBlob.current ? URL.createObjectURL(audioBlob.current) : ""}
-                  onEnded={handleAudioEnded}
-                />
               </>
             ) : (
               <SendButtonBlocked>
