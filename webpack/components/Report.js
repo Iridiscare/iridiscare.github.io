@@ -57,10 +57,10 @@ const Report = (data) => {
             <TitleModal>Comparte tu informe</TitleModal>
             <SubtitleModal>Elige dónde compartir o cópialo al portapapeles.</SubtitleModal>
             <SocialLinks>
-              <SocialLink href={shareLinks.whatsapp} target="_blank" rel="noopener noreferrer"><FaWhatsapp /></SocialLink>
-              <SocialLink href={shareLinks.twitter} target="_blank" rel="noopener noreferrer"><FaXTwitter /></SocialLink>
-              <SocialLink href={shareLinks.email} target="_blank" rel="noopener noreferrer"><MdOutlineMail /></SocialLink>
-              <SocialLink onClick={() => {navigator.clipboard.writeText(reportMessage)}} target="_blank" rel="noopener noreferrer"><FaRegCopy /></SocialLink>
+              <SocialLink href={shareLinks.whatsapp} target="_blank" rel="noopener noreferrer"><FaWhatsapp size={32} /></SocialLink>
+              <SocialLink href={shareLinks.twitter} target="_blank" rel="noopener noreferrer"><FaXTwitter size={32} /></SocialLink>
+              <SocialLink href={shareLinks.email} target="_blank" rel="noopener noreferrer"><MdOutlineMail size={32} /></SocialLink>
+              <SocialLink onClick={() => {navigator.clipboard.writeText(reportMessage)}} target="_blank" rel="noopener noreferrer"><FaRegCopy size={32} /></SocialLink>
             </SocialLinks>
           </ModalContent>
         </ModalOverlay>

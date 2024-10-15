@@ -257,7 +257,7 @@ const ButtonContainer = styled.div`
   margin-top: 50px;
 `;
 
-const MicButton = styled.button`
+const MicButton = styled.a`
   width: 60px;
   height: 60px;
   background: #fad5d5;
@@ -273,7 +273,7 @@ const MicButton = styled.button`
   justify-content: center;
 `;
 
-const SendButtonBlocked = styled.button`
+const SendButtonBlocked = styled.a`
   width: 60px;
   height: 60px;
   background: #D9D9D9;
@@ -287,7 +287,7 @@ const SendButtonBlocked = styled.button`
   justify-content: center; /* Center horizontally */
 `;
 
-const SendButton = styled.button`
+const SendButton = styled.a`
   width: 60px;
   height: 60px;
   background: #C7E5D4;
