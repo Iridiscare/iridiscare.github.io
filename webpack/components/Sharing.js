@@ -5,7 +5,7 @@ export const reportSharing = (object) => {
   text = `${report.title}\n\n`
   text = text + formatEmotions(object);
   text = text + formatBioMarkers(object);
-  text = text + `https://iridis.care by StressTech`;
+  text = text + `Crea tu informa emocional en https://iridis.care`;
   return text
 }
 
