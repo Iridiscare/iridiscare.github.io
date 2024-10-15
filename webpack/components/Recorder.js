@@ -264,7 +264,7 @@ const MicButton = styled.a`
   border: none;
   border-radius: 50%;
   color: #eb5757;
-  font-size: 28px;
+  font-size: 2rem;
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;
@@ -280,7 +280,7 @@ const SendButtonBlocked = styled.a`
   border: none;
   border-radius: 50%;
   color: #828282;
-  font-size: 30px;
+  font-size: 2rem;
   margin: 0 16px;
   display: flex; /* Centering content */
   align-items: center; /* Center vertically */
@@ -294,7 +294,7 @@ const SendButton = styled.a`
   border: none;
   border-radius: 50%;
   color: #219653;
-  font-size: 30px;
+  font-size: 2rem;
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;
