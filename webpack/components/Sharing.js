@@ -1,19 +1,20 @@
-import { report, pctToTextFirstPerson } from './Copies';
+import { report, pctToTextFirstPerson, ProgressBarLabel } from './Copies';
 
 export const reportSharing = (object) => {
   let text = ''
   text = `${report.title}\n\n`
+  text = `${report.subtitle}\n\n`
   text = text + formatEmotions(object);
   text = text + formatBioMarkers(object);
-  text = text + `Crea tu informa emocional en https://iridis.care`;
+  text = text + report.cta;
   return text
 }
 
 const formatBioMarkers = (item) => {
   let text = ''
-  text = text + `😱 Estrés\n${progressBar(item.stress.high, 1, 10)}\n${pctToTextFirstPerson("stress", item.stress.high)}\n\n`;
-  text = text + `😰 Ansiedad\n${progressBar(item.vemotions.fearful, 1, 10)}\n${pctToTextFirstPerson("anxiety", item.vemotions.fearful)}\n\n`;
-  text = text + `😔 Depresión\n${progressBar(item.depression.high, 1, 10)}\n${pctToTextFirstPerson("depression", item.depression.high)}\n\n`;
+  text = text + `😱 Estrés · ${ProgressBarLabel(item.stress.high*100)}\n${progressBar(item.stress.high, 1, 10)}\n${pctToTextFirstPerson("stress", item.stress.high)}\n\n`;
+  text = text + `😰 Ansiedad · ${ProgressBarLabel(item.stress.high*100)}\n${progressBar(item.vemotions.fearful, 1, 10)}\n${pctToTextFirstPerson("anxiety", item.vemotions.fearful)}\n\n`;
+  text = text + `😔 Depresión · ${ProgressBarLabel(item.stress.high*100)}\n${progressBar(item.depression.high, 1, 10)}\n${pctToTextFirstPerson("depression", item.depression.high)}\n\n`;
   return text;
 };
 
@@ -21,15 +22,13 @@ const formatEmotions = (item) => {
   let text = ''
   let max = 0;
   let maxKey = "";
-
   for(let emotion in item.vemotions){
     if(item.vemotions[emotion]> max){
       max = item.vemotions[emotion];
       maxKey= emotion
     }
   }
-  
-  text = text + `${report.emotions[maxKey]}\n${progressBar(item.vemotions[maxKey], 1, 10)}\n${report.emotion}\n\n`;
+  text = text + `${report.emotions[maxKey]} · ${ProgressBarLabel(item.vemotions[maxKey]*100)}\n${progressBar(item.vemotions[maxKey], 1, 10)}\n${report.emotion}\n\n`;
   return text;
 };
 

@@ -1,5 +1,7 @@
 export const report = {
-  "title": "Acabo de analizar mi voz y así es como me siento:",
+  "title": "¡Mira! Me ha parecido interesante esto.",
+  "subtitle": "Acabo de analizar mi voz y así es como me siento.",
+  "cta": "Tu también puedes analizar tu voz en https://iridis.care",
   "emotion": "Mi emoción más fuerte.",
   "stress": {
     "title": "Estrés",
@@ -78,3 +80,12 @@ export const pctToTextSecondPerson = (metric, level) => {
   }
 }
 
+export const ProgressBarLabel = ( percentage ) => {
+  if(percentage < 33) {
+    return 'Bajo'
+  }else if(percentage < 75){
+    return 'Medio'
+  } else{
+    return 'Alto'
+  }
+};

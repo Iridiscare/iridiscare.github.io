@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 import { FiShare } from "react-icons/fi";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaRegCopy } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoCloseSharp } from 'react-icons/io5';
 import { MdOutlineMail } from "react-icons/md";
 
 import { reportSharing } from './Sharing';
-import { report, pctToTextSecondPerson } from './Copies';
+import { report, pctToTextSecondPerson, ProgressBarLabel } from './Copies';
 
 const Report = (data) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -55,11 +55,12 @@ const Report = (data) => {
           <ModalContent>
             <CloseIcon onClick={toggleModal} />
             <TitleModal>Comparte tu informe</TitleModal>
-            <SubtitleModal>Elige la red social donde quieres compartirlo.</SubtitleModal>
+            <SubtitleModal>Elige dónde compartir o cópialo al portapapeles.</SubtitleModal>
             <SocialLinks>
               <SocialLink href={shareLinks.whatsapp} target="_blank" rel="noopener noreferrer"><FaWhatsapp /></SocialLink>
-              <SocialLink href={shareLinks.email} target="_blank" rel="noopener noreferrer"><MdOutlineMail /></SocialLink>
               <SocialLink href={shareLinks.twitter} target="_blank" rel="noopener noreferrer"><FaXTwitter /></SocialLink>
+              <SocialLink href={shareLinks.email} target="_blank" rel="noopener noreferrer"><MdOutlineMail /></SocialLink>
+              <SocialLink onClick={() => {navigator.clipboard.writeText(reportMessage)}} target="_blank" rel="noopener noreferrer"><FaRegCopy /></SocialLink>
             </SocialLinks>
           </ModalContent>
         </ModalOverlay>
@@ -116,16 +117,6 @@ const getMaxKey = (obj) => {
   return Object.keys(obj).reduce((maxKey, currentKey) =>
     obj[currentKey] > obj[maxKey] ? currentKey : maxKey
   );
-};
-
-const ProgressBarLabel = ( percentage ) => {
-  if(percentage < 33) {
-    return 'Bajo'
-  }else if(percentage < 75){
-    return 'Medio'
-  } else{
-    return 'Alto'
-  }
 };
  
 const Percentage = styled.span`
