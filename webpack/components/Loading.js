@@ -4,7 +4,7 @@ import styled, { keyframes } from 'styled-components';
 const Loading = () => (
   <LoaderContainer>
     <Spinner />
-    <Subtitle>Analizando tu voz...</Subtitle>
+    <Subtitle>Analizando tu voz</Subtitle>
   </LoaderContainer>
 );
 
@@ -23,10 +23,10 @@ const spin = keyframes`
 const LoaderContainer = styled.div`
   display: flex;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
   font-size: 20px;
   color: #555;
+  margin: 50px 0;
 `;
 
 // Estilo para el spinner
@@ -40,12 +40,13 @@ const Spinner = styled.div`
   margin-bottom: 10px
 `;
 
-const Subtitle = styled.h6`
-  color: #bdbdbd;
+const Subtitle = styled.p`
+  color: #333;
   margin-top: 8px;
   text-align: center !important;
   width: 100%;
   font-weight: normal;
+  font-size: 14px;
 `;
 
 export default Loading;

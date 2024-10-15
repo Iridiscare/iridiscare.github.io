@@ -182,7 +182,7 @@ const Recorder = () => {
             {state.isRecording
               ? "Grabando"
               : state.audioRecorded
-              ? "Pulsa para volver a grabar o reproducir"
+              ? "Pulsa para volver a grabar o enviar"
               : "Pulsa el micrófono para grabar"}
           </Subtitle>
           <ButtonContainer>
@@ -246,7 +246,7 @@ const Title = styled.h3`
 `;
 
 const Subtitle = styled.h6`
-  color: #bdbdbd;
+  color: #333;
   margin-top: 8px;
   text-align: center !important;
   width: 100%;
@@ -267,39 +267,7 @@ const MicButton = styled.button`
   border: none;
   border-radius: 50%;
   color: #eb5757;
-  font-size: 28px;
-  margin: 0 16px;
-  cursor: pointer;
-  transition: background 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const PlayPauseButton = styled.button`
-  width: 60px;
-  height: 60px;
-  background: #f5e1c7;
-  border: none;
-  border-radius: 50%;
-  color: #e69319;
-  font-size: 28px;
-  margin: 0 16px;
-  cursor: pointer;
-  transition: background 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const DownloadButton = styled.a`
-  width: 60px;
-  height: 60px;
-  background: #d1e7f3;
-  border: none;
-  border-radius: 50%;
-  color: #e69319;
-  font-size: 28px;
+  font-size: 30px;
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;
@@ -315,7 +283,7 @@ const SendButtonBlocked = styled.button`
   border: none;
   border-radius: 50%;
   color: #828282;
-  font-size: 28px;
+  font-size: 30px;
   margin: 0 16px;
   display: flex; /* Centering content */
   align-items: center; /* Center vertically */
@@ -329,7 +297,7 @@ const SendButton = styled.button`
   border: none;
   border-radius: 50%;
   color: #219653;
-  font-size: 28px;
+  font-size: 30px;
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;
