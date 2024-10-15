@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import { FaMicrophone, FaStop, FaPlay, FaPause, FaDownload } from 'react-icons/fa';
-import { IoSend } from "react-icons/io5";
+import { FaMicrophone, FaStop, FaArrowRight } from 'react-icons/fa';
 import { MdDelete } from "react-icons/md";
 import Report from './Report';
 import axios from "axios";
@@ -187,18 +186,16 @@ const Recorder = () => {
           </Subtitle>
           <ButtonContainer>
             <MicButton onClick={handleMicClick}>
-              {state.isRecording ? <FaStop /> : state.audioRecorded ? <MdDelete /> : <FaMicrophone />}
+              {state.isRecording ? <FaStop size={32} /> : state.audioRecorded ? <MdDelete size={38} /> : <FaMicrophone size={32} />}
             </MicButton>
             <Timer>{state.timer}</Timer>
             {state.audioRecorded ? (
-              <>
-                <SendButton onClick={handleSendClick}>
-                  <IoSend />
-                </SendButton>
-              </>
+              <SendButton onClick={handleSendClick}>
+                <FaArrowRight />
+              </SendButton>
             ) : (
               <SendButtonBlocked>
-                <IoSend />
+                <FaArrowRight />
               </SendButtonBlocked>
             )}
           </ButtonContainer>
@@ -267,7 +264,7 @@ const MicButton = styled.button`
   border: none;
   border-radius: 50%;
   color: #eb5757;
-  font-size: 30px;
+  font-size: 28px;
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;

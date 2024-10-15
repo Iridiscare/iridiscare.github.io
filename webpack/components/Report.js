@@ -45,7 +45,7 @@ const Report = (data) => {
       <Footer>Iridis puede cometer errores. Consulta con tu interior.</Footer>
       <ShareButton onClick={toggleModal}>
         <a className="feature-button button button-primary btn-lg animate__animated animate__pulse">
-          <FiShare />&nbsp;&nbsp;Compartir
+          <FiShare size={18}/>&nbsp;&nbsp;Compartir
         </a>
       </ShareButton>
 
