@@ -227,12 +227,15 @@ const SocialLinks = styled.div`
 `;
 
 const SocialLink = styled.a`
-  padding: 5px 15px;
-  font-size: 34px;
+  padding: 15px;
+  font-size: 30px;
   color: #555;
   text-decoration: none;
   border: 1px solid #ddd;
   border-radius: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &:hover {
     background-color: #f0f0f0;
   }
