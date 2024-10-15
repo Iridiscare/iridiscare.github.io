@@ -13,8 +13,8 @@ export const reportSharing = (object) => {
 const formatBioMarkers = (item) => {
   let text = ''
   text = text + `😱 Estrés · ${ProgressBarLabel(item.stress.high*100)}\n${progressBar(item.stress.high, 1, 10)}\n${pctToTextFirstPerson("stress", item.stress.high)}\n\n`;
-  text = text + `😰 Ansiedad · ${ProgressBarLabel(item.stress.high*100)}\n${progressBar(item.vemotions.fearful, 1, 10)}\n${pctToTextFirstPerson("anxiety", item.vemotions.fearful)}\n\n`;
-  text = text + `😔 Depresión · ${ProgressBarLabel(item.stress.high*100)}\n${progressBar(item.depression.high, 1, 10)}\n${pctToTextFirstPerson("depression", item.depression.high)}\n\n`;
+  text = text + `😰 Ansiedad · ${ProgressBarLabel(item.vemotions.fearful*100)}\n${progressBar(item.vemotions.fearful, 1, 10)}\n${pctToTextFirstPerson("anxiety", item.vemotions.fearful)}\n\n`;
+  text = text + `😔 Depresión · ${ProgressBarLabel(item.depression.high*100)}\n${progressBar(item.depression.high, 1, 10)}\n${pctToTextFirstPerson("depression", item.depression.high)}\n\n`;
   return text;
 };
 
