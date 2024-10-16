@@ -227,6 +227,7 @@ const AnimatedCircle = styled.div`
   height: 200px;
   margin: 0 auto;
   border-radius: 50%;
+  border: 8px solid #f3f3f3; /* Color del fondo */
   background: url('/assets/images/landings/space.png') center center/cover no-repeat;
   box-shadow: 0px 4px 10px 10px rgba(164, 96, 221, 0.3);
   margin-bottom: 30px;
@@ -268,7 +269,7 @@ const MicButton = styled.a`
   border: none;
   border-radius: 50%;
   color: #eb5757;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;
@@ -284,7 +285,7 @@ const SendButtonBlocked = styled.a`
   border: none;
   border-radius: 50%;
   color: #828282;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0 16px;
   display: flex; /* Centering content */
   align-items: center; /* Center vertically */
@@ -298,7 +299,7 @@ const SendButton = styled.a`
   border: none;
   border-radius: 50%;
   color: #219653;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0 16px;
   cursor: pointer;
   transition: background 0.3s;

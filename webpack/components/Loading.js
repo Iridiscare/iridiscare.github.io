@@ -9,7 +9,7 @@ const Loading = () => (
     </CircleWrapper>
     <TextContainer>
       <Title>Analizando tu voz</Title>
-      <Subtitle>En unos segundos tendrás tu informe</Subtitle>
+      <Subtitle>Espera unos segundos</Subtitle>
     </TextContainer>
   </LoaderContainer>
 );
@@ -47,6 +47,7 @@ const AnimatedCircle = styled.div`
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  border: 8px solid #f3f3f3; /* Color del fondo */
   background: url('/assets/images/landings/space.png') center center/cover no-repeat;
   box-shadow: 0px 4px 10px 10px rgba(164, 96, 221, 0.3);
   transition: box-shadow 0.5s ease;
@@ -73,8 +74,7 @@ const Spinner = styled.div`
 
 // Estilo para el contenedor de texto
 const TextContainer = styled.div`
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 34px;
 `;
 
 // Estilo para el título
@@ -87,9 +87,11 @@ const Title = styled.h3`
 // Estilo para el subtítulo
 const Subtitle = styled.p`
   color: #333;
-  width: 100%;
+  margin-top: 8px;
+  text-align: center !important;
   font-weight: normal;
-  font-size: 14px;
+  width: 100% !important;
+
 `;
 
 export default Loading;

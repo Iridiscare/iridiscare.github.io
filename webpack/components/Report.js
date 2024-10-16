@@ -42,7 +42,7 @@ const Report = (data) => {
         <AdviceItem>🥰 Haz actividades que disfrutes.</AdviceItem>
         <AdviceItem>🗣️ Habla sobre tus sentimientos.</AdviceItem>
       </AdviceSection>
-      <Footer>Iridis puede cometer errores. Consulta con tu interior.</Footer>
+      <Footer>Iridis puede cometer errores. Consulta los resultados con tu interior.</Footer>
       <ShareButton onClick={toggleModal}>
         <a className="feature-button button button-primary btn-lg animate__animated animate__pulse"
         onclick="gtag('event', 'share_report', { event_category: 'Share Report', event_action: 'Sharing Button Opened', event_label:'sharing'})">
@@ -190,7 +190,7 @@ const AdviceItem = styled.p`
 
 const Footer = styled.footer`
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 20px;
   color: #333;
 `;
