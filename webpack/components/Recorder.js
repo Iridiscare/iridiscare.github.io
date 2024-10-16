@@ -185,14 +185,18 @@ const Recorder = () => {
               : "Pulsa el micrófono para grabar"}
           </Subtitle>
           <ButtonContainer>
-            <MicButton onClick={handleMicClick}>
+            <MicButton 
+            onClick={handleMicClick}>
               {state.isRecording ? <FaStop size={32} /> : state.audioRecorded ? <MdDelete size={38} /> : <FaMicrophone size={32} />}
             </MicButton>
             <Timer>{state.timer}</Timer>
             {state.audioRecorded ? (
-              <SendButton onClick={handleSendClick}>
-                <FaArrowRight />
-              </SendButton>
+               <a
+               onclick="gtag('event', 'audio_sent', { event_category: 'Audio Sent', event_action: 'Audio Sent Button Clicked', event_label:'report'})">
+                <SendButton onClick={handleSendClick}>
+                  <FaArrowRight />
+                </SendButton>
+              </a>
             ) : (
               <SendButtonBlocked>
                 <FaArrowRight />

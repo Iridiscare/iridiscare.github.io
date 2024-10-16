@@ -44,7 +44,8 @@ const Report = (data) => {
       </AdviceSection>
       <Footer>Iridis puede cometer errores. Consulta con tu interior.</Footer>
       <ShareButton onClick={toggleModal}>
-        <a className="feature-button button button-primary btn-lg animate__animated animate__pulse">
+        <a className="feature-button button button-primary btn-lg animate__animated animate__pulse"
+        onclick="gtag('event', 'share_report', { event_category: 'Share Report', event_action: 'Sharing Button Opened', event_label:'sharing'})">
           <FiShare size={18}/>&nbsp;&nbsp;Compartir
         </a>
       </ShareButton>
