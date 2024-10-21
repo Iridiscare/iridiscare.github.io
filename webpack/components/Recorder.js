@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled, { keyframes, css } from 'styled-components';
 import { FaMicrophone, FaStop, FaArrowRight } from 'react-icons/fa';
 import { MdDelete } from "react-icons/md";
+import { IoSend } from "react-icons/io5";
+
 import Report from './Report';
 import axios from "axios";
 
@@ -181,27 +183,33 @@ const Recorder = () => {
             {state.isRecording
               ? "Grabando"
               : state.audioRecorded
-              ? "Pulsa para volver a grabar o enviar"
+              ? "Pulsa para enviar"
               : "Pulsa el micrófono para grabar"}
           </Subtitle>
+          <Timer>{state.timer}</Timer>
           <ButtonContainer>
-            <MicButton 
-            onClick={handleMicClick}>
-              {state.isRecording ? <FaStop size={32} /> : state.audioRecorded ? <MdDelete size={38} /> : <FaMicrophone size={32} />}
-            </MicButton>
-            <Timer>{state.timer}</Timer>
             {state.audioRecorded ? (
-               <a
+              <DeleteButton 
+              onClick={handleMicClick}>
+               <MdDelete size={28} /> 
+              </DeleteButton>
+            ) : <span></span>}
+              {state.isRecording ? 
+                <MicButton 
+                onClick={handleMicClick}>
+                  <FaStop size={32} />
+                </MicButton> : state.audioRecorded ? 
+                <a
                onclick="gtag('event', 'audio_sent', { event_category: 'Audio Sent', event_action: 'Audio Sent Button Clicked', event_label:'report'})">
                 <SendButton onClick={handleSendClick}>
-                  <FaArrowRight />
+                  <IoSend />
                 </SendButton>
-              </a>
-            ) : (
-              <SendButtonBlocked>
-                <FaArrowRight />
-              </SendButtonBlocked>
-            )}
+              </a>: 
+                <MicButton 
+                onClick={handleMicClick}>
+                <FaMicrophone size={32} />
+                </MicButton>
+              }
           </ButtonContainer>
         </RecorderContainer>
       )}
@@ -259,7 +267,7 @@ const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 25px;
 `;
 
 const MicButton = styled.a`
@@ -278,18 +286,18 @@ const MicButton = styled.a`
   justify-content: center;
 `;
 
-const SendButtonBlocked = styled.a`
-  width: 60px;
-  height: 60px;
-  background: #D9D9D9;
-  border: none;
-  border-radius: 50%;
-  color: #828282;
-  font-size: 1.8rem;
-  margin: 0 16px;
-  display: flex; /* Centering content */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
+const DeleteButton = styled.a`
+  color: #eb5757;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  margin-right: 150px;
+  margin-top: 15px;
+  position: fixed;
 `;
 
 const SendButton = styled.a`
@@ -306,12 +314,13 @@ const SendButton = styled.a`
   display: flex; /* Centering content */
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
+  
 `;
 
 const Timer = styled.div`
   font-size: 18px;
-  margin: 16px 30px;
   color: #BDBDBD;
+  margin-top: 25px;
 `;
 
 export default Recorder;
