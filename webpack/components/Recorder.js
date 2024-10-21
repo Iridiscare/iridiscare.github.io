@@ -221,7 +221,7 @@ const Recorder = () => {
 const RecorderContainer = styled.div`
   justify-content: center;
   text-align: center;
-  margin: 50px 0;
+  margin: 25px 0;
 `;
 
 const pulse = keyframes`
