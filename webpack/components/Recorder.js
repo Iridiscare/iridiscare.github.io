@@ -178,7 +178,7 @@ const Recorder = () => {
       ) : (
         <RecorderContainer>
           <AnimatedCircle isRecording={state.isRecording} />
-          <Title>{state.audioRecorded ? "Audio listo para analizar" : "¿Cómo te sientes?"}</Title>
+          <Title>{state.audioRecorded ? "Audio listo para analizar" : "Habla sobre cualquier cosa"}</Title>
           <Subtitle>
             {state.isRecording
               ? "Grabando"
@@ -202,7 +202,7 @@ const Recorder = () => {
                 <a
                onclick="gtag('event', 'audio_sent', { event_category: 'Audio Sent', event_action: 'Audio Sent Button Clicked', event_label:'report'})">
                 <SendButton onClick={handleSendClick}>
-                  <IoSend />
+                  <FaArrowRight />
                 </SendButton>
               </a>: 
                 <MicButton 
