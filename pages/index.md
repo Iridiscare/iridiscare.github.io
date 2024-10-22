@@ -12,8 +12,8 @@ bodyClass: "page-home"
   <div class="container-sm px-2">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-6 pb-3">
-        <h1 class="rainbow" >Descubre tu estado emocional a través de tu voz</h1>
-        <p>Habla libremente y déjate guiar por tu voz para conocer tu estado emocional. Descubre cómo reducir el estrés, la ansiedad y aumentar tu bienestar.</p>
+        <h1 class="rainbow" >Descubre tu estado emocional analizando tu voz</h1>
+        <p> Graba tu voz y descubre de forma sencilla cómo te sientes en este momento. Mejora tu bienestar emocional y toma el control de tus emociones.</p>
         <a class="feature-button button button-primary btn-lg animate__animated animate__pulse" href="/app"
         onclick="gtag('event', 'start_app_download', { event_category: 'Start App Download', event_action: 'Button Clicked to Store', event_label:'app'})">Analiza tu voz ahora</a>
       </div>
