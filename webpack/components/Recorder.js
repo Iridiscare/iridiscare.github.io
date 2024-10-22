@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled, { keyframes, css } from 'styled-components';
 import { FaMicrophone, FaStop, FaArrowRight } from 'react-icons/fa';
 import { MdDelete } from "react-icons/md";
-import { IoSend } from "react-icons/io5";
 
 import Report from './Report';
 import axios from "axios";
@@ -178,7 +177,7 @@ const Recorder = () => {
       ) : (
         <RecorderContainer>
           <AnimatedCircle isRecording={state.isRecording} />
-          <Title>{state.audioRecorded ? "Audio listo para analizar" : "Habla sobre cualquier cosa"}</Title>
+          {state.audioRecorded ? <Title>Audio listo para analizar</Title> : <Title>Habla sobre cualquier cosa</Title>}
           <Subtitle>
             {state.isRecording
               ? "Grabando"
@@ -186,7 +185,7 @@ const Recorder = () => {
               ? "Pulsa para enviar"
               : "Pulsa el micrófono para grabar"}
           </Subtitle>
-          <Timer>{state.timer}</Timer>
+          <Timer isRecording={state.isRecording}>{state.timer}</Timer>
           <ButtonContainer>
             {state.audioRecorded ? (
               <DeleteButton 
@@ -226,7 +225,13 @@ const RecorderContainer = styled.div`
 
 const pulse = keyframes`
   0% { transform: scale(1); }
-  50% { transform: scale(1.02); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+`;
+
+const hoverPulse = keyframes`
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
   100% { transform: scale(1); }
 `;
 
@@ -235,16 +240,18 @@ const AnimatedCircle = styled.div`
   height: 200px;
   margin: 0 auto;
   border-radius: 50%;
-  border: 8px solid #f3f3f3; /* Color del fondo */
+  border: 8px solid #f3f3f3;
   background: url('/assets/images/landings/space.png') center center/cover no-repeat;
   box-shadow: 0px 4px 10px 10px rgba(164, 96, 221, 0.3);
   margin-bottom: 30px;
-  transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease, transform 0.5s ease;
+  
   ${({ isRecording }) =>
     isRecording &&
     css`
       animation: ${pulse} 1.5s infinite;
-      box-shadow: 0px 4px 10px 10px rgba(164, 96, 221, 0.3);
+      transform: scale(1.01);
+      box-shadow: 0px 4px 12px 12px rgba(164, 96, 221, 0.3);
     `}
 `;
 
@@ -253,6 +260,8 @@ const Title = styled.h3`
   color: #333;
   margin-top: 34px;
   width: 100%;
+  opacity: 0;
+  animation: fadeIn 0.6s forwards;
 `;
 
 const Subtitle = styled.h6`
@@ -261,6 +270,8 @@ const Subtitle = styled.h6`
   text-align: center !important;
   width: 100%;
   font-weight: normal;
+  opacity: 0;
+  animation: fadeIn 0.8s forwards;
 `;
 
 const ButtonContainer = styled.div`
@@ -280,24 +291,42 @@ const MicButton = styled.a`
   font-size: 1.8rem;
   margin: 0 16px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.2s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  &:hover {
+    background: #eedeff;
+    transform: scale(1.1);
+    animation: ${hoverPulse} 0.5s ease-in-out;
+  }
+  
+  &:active {
+    transform: scale(0.9);
+  }
 `;
 
 const DeleteButton = styled.a`
   color: #eb5757;
   font-size: 18px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: transform 0.2s ease-in-out, color 0.3s;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
   margin-right: 150px;
   margin-top: 15px;
-  position: fixed;
+
+  &:hover {
+    color: #ff8b8b;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
 `;
 
 const SendButton = styled.a`
@@ -310,17 +339,38 @@ const SendButton = styled.a`
   font-size: 1.8rem;
   margin: 0 16px;
   cursor: pointer;
-  transition: background 0.3s;
-  display: flex; /* Centering content */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  
+  transition: background 0.3s, transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: #eedeff;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
 `;
 
 const Timer = styled.div`
   font-size: 18px;
   color: #BDBDBD;
   margin-top: 25px;
+  transition: color 0.3s, transform 0.2s;
+  
+  ${({ isRecording }) =>
+    isRecording &&
+    css`
+      color: #BDBDBD;
+      transform: scale(1.1);
+    `}
+`;
+
+const fadeIn = keyframes`
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 `;
 
 export default Recorder;

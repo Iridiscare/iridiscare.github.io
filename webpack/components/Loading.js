@@ -77,21 +77,28 @@ const TextContainer = styled.div`
   margin-top: 34px;
 `;
 
-// Estilo para el título
 const Title = styled.h3`
   font-size: 24px;
   color: #333;
+  margin-top: 34px;
   width: 100%;
+  opacity: 0;
+  animation: fadeIn 0.6s forwards;
 `;
 
-// Estilo para el subtítulo
-const Subtitle = styled.p`
+const Subtitle = styled.h6`
   color: #333;
   margin-top: 8px;
   text-align: center !important;
+  width: 100%;
   font-weight: normal;
-  width: 100% !important;
+  opacity: 0;
+  animation: fadeIn 0.8s forwards;
+`;
 
+const fadeIn = keyframes`
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 `;
 
 export default Loading;
