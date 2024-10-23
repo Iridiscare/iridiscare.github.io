@@ -185,7 +185,10 @@ const Recorder = () => {
               ? "Pulsa para enviar"
               : "Pulsa el micrófono para grabar"}
           </Subtitle>
-          <Timer isRecording={state.isRecording}>{state.timer}</Timer>
+          <TimerWrapper>
+            {state.isRecording && <RedDot />} {/* Red Dot when recording */}
+            <Timer isRecording={state.isRecording}>{state.timer}</Timer>
+          </TimerWrapper>
           <ButtonContainer>
             {state.audioRecorded ? (
               <DeleteButton 
@@ -249,7 +252,7 @@ const AnimatedCircle = styled.div`
   ${({ isRecording }) =>
     isRecording &&
     css`
-      animation: ${pulse} 1.5s infinite;
+      animation: ${pulse} 2s infinite;
       transform: scale(1.01);
       box-shadow: 0px 4px 12px 12px rgba(164, 96, 221, 0.3);
     `}
@@ -366,6 +369,30 @@ const Timer = styled.div`
       color: #BDBDBD;
       transform: scale(1.1);
     `}
+`;
+
+const TimerWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+`;
+
+const RedDot = styled.div`
+  width: 10px;
+  height: 10px;
+  background-color: #eb5757;
+  border-radius: 50%;
+  margin-right: 75px;
+  margin-top: 23px;
+  animation: ${flashyDot} 1s infinite alternate;
+  position: fixed;
+  animation: fadeIn 0.6s forwards;
+`;
+
+const flashyDot = keyframes`
+  0% { opacity: 1; }
+  100% { opacity: 0.5; }
 `;
 
 const fadeIn = keyframes`

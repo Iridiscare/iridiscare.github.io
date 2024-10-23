@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 
 import { FiShare } from "react-icons/fi";
 import { FaWhatsapp, FaRegCopy } from "react-icons/fa";
@@ -145,6 +145,7 @@ const EmotionHeader = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 8px;
+  animation: ${fadeIn} 0.5s ease-in-out;
 `;
 
 const EmotionLevel = styled.span`
@@ -164,7 +165,7 @@ const Bar = styled.div`
   border-radius: 10px;
   height: 100%;
   width: ${({ percentage }) => percentage}%;
-  transition: width 2s ease-in-out;
+  transition: width 1.5s ease-in-out;
 `;
 
 const EmotionDescription = styled.p`
@@ -209,6 +210,7 @@ const ModalOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: ${fadeIn} 0.5s ease-in-out;
 `;
 
 const ModalContent = styled.div`
@@ -219,6 +221,7 @@ const ModalContent = styled.div`
   width: 400px;
   max-width: 90%;
   position: relative;
+  animation: ${fadeIn} 0.5s ease-in-out;
 `;
 
 const SocialLinks = styled.div`
@@ -265,6 +268,16 @@ const SubtitleModal = styled.h6`
   text-align: center !important;
   width: 100%;
   font-weight: normal;
+`;
+
+const fadeIn = keyframes`
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+`;
+
+const fadeOut = keyframes`
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-10px); }
 `;
 
 export default Report;

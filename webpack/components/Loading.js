@@ -7,10 +7,8 @@ const Loading = () => (
       <AnimatedCircle isRecording={false} />
       <Spinner />
     </CircleWrapper>
-    <TextContainer>
-      <Title>Analizando tu voz</Title>
-      <Subtitle>Espera unos segundos</Subtitle>
-    </TextContainer>
+    <Title>Analizando tu voz</Title>
+    <Subtitle>Espera unos segundos</Subtitle>
   </LoaderContainer>
 );
 
@@ -29,10 +27,8 @@ const LoaderContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: 20px;
-  color: #555;
-  margin: 50px 0;
   justify-content: center;
+  margin: 25px 0;
 `;
 
 // Contenedor para la imagen y el spinner superpuestos
@@ -40,6 +36,9 @@ const CircleWrapper = styled.div`
   position: relative;
   width: 200px;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 // Estilo para la imagen
@@ -72,11 +71,6 @@ const Spinner = styled.div`
   animation: ${spin} 2s linear infinite; /* Animación */
 `;
 
-// Estilo para el contenedor de texto
-const TextContainer = styled.div`
-  margin-top: 34px;
-`;
-
 const Title = styled.h3`
   font-size: 24px;
   color: #333;
@@ -84,11 +78,11 @@ const Title = styled.h3`
   width: 100%;
   opacity: 0;
   animation: fadeIn 0.6s forwards;
+  text-align: center !important;
 `;
 
 const Subtitle = styled.h6`
   color: #333;
-  margin-top: 8px;
   text-align: center !important;
   width: 100%;
   font-weight: normal;
