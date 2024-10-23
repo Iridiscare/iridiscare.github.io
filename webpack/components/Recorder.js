@@ -179,6 +179,7 @@ const Recorder = () => {
           <AnimatedCircle isRecording={state.isRecording} />
           {state.audioRecorded ? <Title>Audio listo para analizar</Title> : <Title>Habla sobre cualquier cosa</Title>}
           <Subtitle>
+            {state.isRecording && <RedDot />}
             {state.isRecording
               ? "Grabando"
               : state.audioRecorded
@@ -186,7 +187,6 @@ const Recorder = () => {
               : "Pulsa el micrófono para grabar"}
           </Subtitle>
           <TimerWrapper>
-            {state.isRecording && <RedDot />} {/* Red Dot when recording */}
             <Timer isRecording={state.isRecording}>{state.timer}</Timer>
           </TimerWrapper>
           <ButtonContainer>
@@ -201,12 +201,10 @@ const Recorder = () => {
                 onClick={handleMicClick}>
                   <FaStop size={32} />
                 </MicButton> : state.audioRecorded ? 
-                <a
-               onclick="gtag('event', 'audio_sent', { event_category: 'Audio Sent', event_action: 'Audio Sent Button Clicked', event_label:'report'})">
-                <SendButton onClick={handleSendClick}>
+                <SendButton onClick={handleSendClick} onClick="gtag('event', 'audio_sent', { event_category: 'Audio Sent', event_action: 'Audio Sent Button Clicked', event_label:'report'})">
                   <FaArrowRight />
                 </SendButton>
-              </a>: 
+                : 
                 <MicButton 
                 onClick={handleMicClick}>
                 <FaMicrophone size={32} />
@@ -270,11 +268,14 @@ const Title = styled.h3`
 const Subtitle = styled.h6`
   color: #333;
   margin-top: 8px;
-  text-align: center !important;
   width: 100%;
   font-weight: normal;
   opacity: 0;
   animation: fadeIn 0.8s forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
 `;
 
 const ButtonContainer = styled.div`
@@ -318,9 +319,8 @@ const DeleteButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  margin-right: 150px;
-  margin-top: 15px;
+  position: relative;
+  margin-right: 10px;
 
   &:hover {
     color: #ff8b8b;
@@ -346,6 +346,7 @@ const SendButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 54px;
 
   &:hover {
     background: #eedeff;
@@ -379,20 +380,17 @@ const TimerWrapper = styled.div`
 `;
 
 const RedDot = styled.div`
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #eb5757;
   border-radius: 50%;
-  margin-right: 75px;
-  margin-top: 23px;
-  animation: ${flashyDot} 1s infinite alternate;
-  position: fixed;
-  animation: fadeIn 0.6s forwards;
+  animation: fadeIn 1s infinite alternate;
+  margin-right: 8px;
 `;
 
 const flashyDot = keyframes`
   0% { opacity: 1; }
-  100% { opacity: 0.5; }
+  100% { opacity: 0.1; }
 `;
 
 const fadeIn = keyframes`
