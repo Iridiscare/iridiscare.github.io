@@ -178,7 +178,7 @@ const Recorder = () => {
       ) : (
         <RecorderContainer>
           <AnimatedCircle isRecording={state.isRecording} />
-          {state.audioRecorded ? <Title>Audio listo para analizar</Title> : <Title>Habla sobre cualquier cosa</Title>}
+          {state.audioRecorded ? <Title>Audio listo para analizar</Title> : <Title>Habla sobre algo</Title>}
           <Subtitle>
             {state.isRecording && <RedDot />}
             {state.isRecording
