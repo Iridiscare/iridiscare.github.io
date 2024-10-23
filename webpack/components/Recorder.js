@@ -116,8 +116,8 @@ const Recorder = () => {
               console.log('Stress Analysis Completed:', resultResponse.data);
               
               // Store the relevant analysis data
-              const { stress, depression, vemotions } = resultResponse.data?.response?.data;
-              setAnalysisData({ stress, depression, vemotions });
+              const { stress, depression, vemotions, traits, self_efficacy } = resultResponse.data?.response?.data;
+              setAnalysisData({ stress, depression, vemotions, traits, self_efficacy });
               
               setState((prev) => ({ ...prev, audioSent: true }));
               return resultResponse.data;
@@ -154,6 +154,7 @@ const Recorder = () => {
   const handleSendClick = () => {
     if (audioBlob.current) sendAudio(audioBlob.current);
     setState({ isRecording: false, timer: '00:00', audioRecorded: false, audioSent: true });
+    // gtag('event', 'audio_sent', { event_category: 'Audio Sent', event_action: 'Audio Sent Button Clicked', event_label:'report'})
   };
 
   const startTimer = () => {
@@ -201,7 +202,7 @@ const Recorder = () => {
                 onClick={handleMicClick}>
                   <FaStop size={32} />
                 </MicButton> : state.audioRecorded ? 
-                <SendButton onClick={handleSendClick} onClick="gtag('event', 'audio_sent', { event_category: 'Audio Sent', event_action: 'Audio Sent Button Clicked', event_label:'report'})">
+                <SendButton onClick={handleSendClick}>
                   <FaArrowRight />
                 </SendButton>
                 : 

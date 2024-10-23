@@ -15,11 +15,14 @@ const Report = (data) => {
   const toggleModal = () => setIsModalOpen(!isModalOpen);
   
   const key = getMaxKey(data.analysisData.vemotions)
+
   const emotions = [
-    { name: report.emotions[key], percentage: Math.round(data.analysisData.vemotions[key]*100), description: 'Tu emoción más fuerte ahora mismo.'},
-    { name: '😱 Estrés', percentage: Math.round(data.analysisData.stress.high*100), description: pctToTextSecondPerson("stress", data.analysisData.stress.high)},
-    { name: '😰 Ansiedad', percentage: Math.round(data.analysisData.vemotions.fearful*100), description: pctToTextSecondPerson("anxiety", data.analysisData.vemotions.fearful)},
-    { name: '😔 Depresión', percentage: Math.round(data.analysisData.depression.high*100), description: pctToTextSecondPerson("depression", data.analysisData.depression.high)},
+    // { name: report.emotions[key], percentage: Math.round(data.analysisData.vemotions[key]*100), description: 'Tu emoción más fuerte ahora mismo.'},
+    {inverse: true, name: '🌱 Resiliencia', percentage: Math.round(data.analysisData.stress.low*100), description: pctToTextSecondPerson("resilience", data.analysisData.stress.low)},
+    {inverse: true, name: '💪 Autoeficacia', percentage: Math.round(data.analysisData.self_efficacy.high*100), description: pctToTextSecondPerson("self_efficacy", data.analysisData.self_efficacy.high)},
+    {inverse: true, name: '🪞 Autoestima', percentage: Math.round(data.analysisData.traits.self_esteem*100), description: pctToTextSecondPerson("self_esteem", data.analysisData.traits.self_esteem)},
+    {inverse: false, name: '😰 Ansiedad', percentage: Math.round(data.analysisData.vemotions.fearful*100), description: pctToTextSecondPerson("anxiety", data.analysisData.vemotions.fearful)},
+    {inverse: false, name: '😔 Depresión', percentage: Math.round(data.analysisData.depression.high*100), description: pctToTextSecondPerson("depression", data.analysisData.depression.high)},
   ];
 
   const reportMessage = `${reportSharing(data.analysisData)}`;
@@ -74,43 +77,75 @@ const EmotionItem = ({ emotion }) => {
   const [filled, setFilled] = useState(0);
   const [percentage, setPercentage] = useState(0);
 
+  // Animate progress bar
   useEffect(() => {
-    const timeout = setTimeout(() => setFilled(emotion.percentage), 1000);
+    const animateProgressBar = () => {
+      let start = filled;
+      const end = emotion.percentage;
 
-    // Animate the displayed percentage value
-    let incrementTimeout;
-    if (filled < emotion.percentage) {
-      incrementTimeout = setInterval(() => {
-        setPercentage((prev) => {
-          if (prev >= emotion.percentage) {
-            clearInterval(incrementTimeout);
-            return emotion.percentage;
-          }
-          return prev + 1;
-        });
-      }, 10);
-    }
+      const step = () => {
+        start += (end - start) * 0.05; // Adjust the speed of animation
+        if (Math.abs(end - start) < 0.5) {
+          setFilled(end);
+        } else {
+          setFilled(start);
+          requestAnimationFrame(step);
+        }
+      };
 
-    return () => {
-      clearTimeout(timeout);
-      clearInterval(incrementTimeout);
+      step();
     };
-  }, [emotion.percentage, filled]);
+
+    const timeout = setTimeout(animateProgressBar, 300); // delay to start the animation
+    return () => clearTimeout(timeout);
+  }, [emotion.percentage]);
+
+  // Animate percentage display
+  useEffect(() => {
+    const animatePercentage = () => {
+      let currentPercentage = 0;
+      const endPercentage = emotion.percentage;
+
+      const increment = setInterval(() => {
+        currentPercentage += 1;
+        if (currentPercentage >= endPercentage) {
+          clearInterval(increment);
+          setPercentage(endPercentage);
+        } else {
+          setPercentage(currentPercentage);
+        }
+      }, 10); // Adjust speed of percentage increment
+
+      return () => clearInterval(increment);
+    };
+
+    animatePercentage();
+  }, [emotion.percentage]);
 
   return (
     <EmotionContainer>
       <EmotionHeader>
-        <b>{emotion.name}</b>&nbsp;· <EmotionLevel pct={emotion.percentage}>{ProgressBarLabel(emotion.percentage)}</EmotionLevel>&nbsp;·&nbsp;<Percentage>{percentage}%</Percentage>
+        <b>{emotion.name}</b>&nbsp;·&nbsp;
+        {emotion.inverse ? (
+          <EmotionLevelInverse pct={emotion.percentage}>
+            {ProgressBarLabel(emotion.percentage)}
+          </EmotionLevelInverse>
+        ) : (
+          <EmotionLevel pct={emotion.percentage}>
+            {ProgressBarLabel(emotion.percentage)}
+          </EmotionLevel>
+        )}
+        &nbsp;·&nbsp;<Percentage>{percentage}%</Percentage>
       </EmotionHeader>
-      <ProgressBar color={emotion.percentage} percentage={filled} />
+      <ProgressBar color={emotion.percentage} percentage={filled} inverse={emotion.inverse} />
       <EmotionDescription>{emotion.description}</EmotionDescription>
     </EmotionContainer>
   );
 };
 
-const ProgressBar = ({ color, percentage }) => (
+const ProgressBar = ({ color, percentage, inverse }) => (
   <BarContainer>
-    <Bar color={color} percentage={percentage} />
+    {inverse ? <BarInverse color={color} percentage={percentage} />:<Bar color={color} percentage={percentage} />}
   </BarContainer>
 );
 
@@ -149,7 +184,13 @@ const EmotionHeader = styled.div`
 `;
 
 const EmotionLevel = styled.span`
-  color: ${({ pct }) => (pct < 33 ? '#27AE60' : pct < 75 ? '#F2994A' : '#EB5757')};
+  color: ${({ pct }) => {
+    if (pct < 20) return '#8BC34A';      // Muy Bajo (Green)
+    if (pct < 40) return '#CDDC39';      // Bajo (Yellow-green)
+    if (pct < 60) return '#FFEB3B';      // Medio (Yellow)
+    if (pct < 80) return '#FF9800';      // Alto (Orange)
+    return '#F44336';                           // Muy Alto (Red)
+  }};
   margin-left: 4px;
 `;
 
@@ -161,11 +202,42 @@ const BarContainer = styled.div`
 `;
 
 const Bar = styled.div`
-  background: ${({ color }) => (color < 33 ? '#27AE60' : color < 75 ? '#F2994A' : '#EB5757')};
+  background: ${({ percentage }) => {
+    if (percentage < 20) return '#8BC34A';      // Muy Bajo (Green)
+    if (percentage < 40) return '#CDDC39';      // Bajo (Yellow-green)
+    if (percentage < 60) return '#FFEB3B';      // Medio (Yellow)
+    if (percentage < 80) return '#FF9800';      // Alto (Orange)
+    return '#F44336';                           // Muy Alto (Red)
+  }};
   border-radius: 10px;
   height: 100%;
   width: ${({ percentage }) => percentage}%;
-  transition: width 1.5s ease-in-out;
+  transition: width 2s ease-in-out;
+`;
+
+const EmotionLevelInverse = styled.span`
+  color: ${({ pct }) => {
+    if (pct < 20) return '#F44336';      // Muy Bajo (Red)
+    if (pct < 40) return '#FF9800';      // Bajo (Orange)
+    if (pct < 60) return '#FFEB3B';      // Medio (Yellow)
+    if (pct < 80) return '#CDDC39';      // Alto (Yellow-green)
+    return '#8BC34A';                    // Muy Alto (Green)
+  }};
+  margin-left: 4px;
+`;
+
+const BarInverse = styled.div`
+  background: ${({ percentage }) => {
+    if (percentage < 20) return '#F44336';      // Muy Bajo (Red)
+    if (percentage < 40) return '#FF9800';      // Bajo (Orange)
+    if (percentage < 60) return '#FFEB3B';      // Medio (Yellow)
+    if (percentage < 80) return '#CDDC39';      // Alto (Yellow-green)
+    return '#8BC34A';                           // Muy Alto (Green)
+  }};
+  border-radius: 10px;
+  height: 100%;
+  width: ${({ percentage }) => percentage}%;
+  transition: width 2s ease-in-out;
 `;
 
 const EmotionDescription = styled.p`
